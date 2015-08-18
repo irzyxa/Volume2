@@ -1,0 +1,16 @@
+﻿License Agreement
+INSTALLATION OR USE OF THE ENCLOSED SOFTWARE INDICATES YOUR ASSENT TO THE FOLLOWING LICENSE AGREEMENT.
+
+LICENSE GRANT. You are granted a free non-exclusive and non-transferable right to use and distribute for personal or commercial purposes the enclosed software and any associated documentation ("Software"), for any legal purpose.
+
+RESTRICTIONS. Except as otherwise expressly permitted in this Agreement, you are not allowed to: (a) modify or create any derivative works of the Software; (b) reverse-engineer, decompile, disassemble or otherwise attempt to derive the source code for the Software except and only to the extent that such activity is expressly permitted by applicable law notwithstanding this limitation; (c) manipulate or alter the components that make up this Software in any way; (d) sell, rent, lease, sublicense, or otherwise transfer rights to the Software. 
+
+OWNERSHIP. This Software and its source code is owned and copyrighted by Alexandr Irza ("Author"). This Software is licensed and not sold. You acquire only the right to use the Software and do not acquire any rights, express or implied, in the Software other than those specified in this Agreement. The Author shall at all times retain all rights, title, interest, including intellectual property rights, in the Software. 
+
+LIMITED WARRANTY. The Author tries to keep the Software as bug-free as possible. But it's a general rule (Murphy's), that no software ever is error free, and the number of errors increases with the complexity of the software. That's why the Author cannot guarantee that this Software will run in every environment, on any Windows compatible machine, together with any other application, without producing errors.
+
+LIMITATION OF LIABILITY. In no event shall the Author or its suppliers be liable for any for any consequential, special, incidental or indirect damages of any kind arising out of the delivery, performance or use of the Software (including without limitation damages for loss of business profits, business interruption, loss of business information and the like), even if the Author has been advised of the possibility of such damages. The person using the Software bears all risk as to the quality and performance of the Software. Any description of bugs will be accepted, but the Author cannot guarantee that it will be able to correct them. 
+
+TERMINATION. This license is effective until terminated. Violation or non-acceptance of any of the above license agreement immediately and unconditionally terminates your license. Upon termination you must destroy the Software and all copies thereof. You may terminate this license at any time by destroying the Software and all copies thereof. 
+
+Copyright (c) Alexandr Irza. All Rights Reserved.
