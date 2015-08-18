@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMLskinSettings>
+  <Info>
+    <Author>Windows</Author>
+    <WebSite>http://www.microsoft.com/</WebSite>
+    <SkinVersion>1</SkinVersion>
+  </Info>
+  <OSD>
+    <!--Available values: BitMoveUp, BitMoveRight, BitStripBottom, BitStripRight, Horizontal, Vertical-->
+    <MeterOrientation>BitMoveRight</MeterOrientation>
+    <MeterMin>0</MeterMin>
+    <MeterMax>225</MeterMax>
+    <MeterPosition>
+      <X>63</X>
+      <Y>43</Y>
+    </MeterPosition>
+    <FadeSteps>28</FadeSteps>
+    <ShowSteps>40</ShowSteps>
+    <HideMeterOnMute>false</HideMeterOnMute>
+    <!--Available values: BitStripBottom-->
+    <DigitalMeterOrientation>BitStripBottom</DigitalMeterOrientation>
+    <DigitalMeterHideZeroUnits>false</DigitalMeterHideZeroUnits>
+    <DigitalMeterHideZeroTens>true</DigitalMeterHideZeroTens>
+    <DigitalMeterHideZeroHundreds>true</DigitalMeterHideZeroHundreds>
+    <DigitalMeterPositionHundreds>
+      <X>304</X>
+      <Y>46</Y>
+    </DigitalMeterPositionHundreds>
+    <DigitalMeterPositionTens>
+      <X>316</X>
+      <Y>46</Y>
+    </DigitalMeterPositionTens>
+    <DigitalMeterPositionUnits>
+      <X>330</X>
+      <Y>46</Y>
+    </DigitalMeterPositionUnits>
+    <DigitalMeterPositionTens1>
+      <X>-1</X>
+      <Y>-1</Y>
+    </DigitalMeterPositionTens1>
+    <DigitalMeterPositionUnits1>
+      <X>-1</X>
+      <Y>-1</Y>
+    </DigitalMeterPositionUnits1>
+    <DigitalMeterPositionUnits2>
+      <X>-1</X>
+      <Y>-1</Y>
+    </DigitalMeterPositionUnits2>
+  </OSD>
+  <MeterEffect>
+    <ShowMeterEffect>true</ShowMeterEffect>
+    <!--Available values: BitMoveUp, BitMoveRight, BitStripBottom, BitStripRight, Horizontal, Vertical-->
+    <MeterOrientation>BitStripBottom</MeterOrientation>
+    <MeterMin>0</MeterMin>
+    <MeterMax>3</MeterMax>
+    <!--Available values: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
+    <LayerIndex>0</LayerIndex>
+    <HideMeterEffectOnMute>true</HideMeterEffectOnMute>
+    <MeterPosition>
+      <X>16</X>
+      <Y>39</Y>
+    </MeterPosition>
+  </MeterEffect>
+  <PeakMeter>
+    <ShowPeakMeter>true</ShowPeakMeter>
+    <!--Available values: BitStripBottom, BitStripRight, Horizontal-->
+    <MeterOrientation>horizontal</MeterOrientation>
+    <MeterMax>100</MeterMax>
+    <MeterStyle>mono</MeterStyle>
+    <!--Available values: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
+    <LayerIndex>0</LayerIndex>
+    <MeterLeftInvert>false</MeterLeftInvert>
+    <MeterRightInvert>false</MeterRightInvert>
+    <MeterLeftPosition>
+      <X>64</X>
+      <Y>53</Y>
+    </MeterLeftPosition>
+    <MeterRightPosition>
+      <X>0</X>
+      <Y>0</Y>
+    </MeterRightPosition>
+  </PeakMeter>
+  <Text>
+    <ShowText>true</ShowText>
+    <TextPosition>
+      <X>10</X>
+      <Y>23</Y>
+    </TextPosition>
+    <Size>16</Size>
+    <!--Value format: #AARRGGBB-->
+    <Color>#FFFFFFFF</Color>
+    <Format>%DF</Format>
+    <!--Value format: #AARRGGBB-->
+    <ColorMute>#FFFFFFFF</ColorMute>
+    <FormatMute>%DF</FormatMute>
+    <!--Available values: 0 - taLeft, 1 - taCenter, 2 - taRight-->
+    <Alignment>0</Alignment>
+    <FontName>Segoe UI</FontName>
+    <FontBold>false</FontBold>
+    <FontItalic>false</FontItalic>
+    <HideTextOnMute>false</HideTextOnMute>
+    <!--Available values: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 4 - plAfterDigits, 5 - plAfterGlass, 6 - plOnMeterEffect-->
+    <LayerIndex>-1</LayerIndex>
+  </Text>
+  <NotificationText>
+    <Show>false</Show>
+    <Position>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Position>
+    <Size>0</Size>
+    <!--Value format: #AARRGGBB-->
+    <Color>#00000000</Color>
+    <!--Available values: 0 - taLeft, 1 - taCenter, 2 - taRight-->
+    <Alignment>0</Alignment>
+    <FontName></FontName>
+    <FontBold>false</FontBold>
+    <FontItalic>false</FontItalic>
+    <!--Available values: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 4 - plAfterDigits, 5 - plAfterGlass, 6 - plOnMeterEffect-->
+    <LayerIndex>0</LayerIndex>
+  </NotificationText>
+</XMLskinSettings>

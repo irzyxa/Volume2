@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMLskinSettings>
+  <Info>
+    <Author>mitraleks</Author>
+    <WebSite>-</WebSite>
+    <SkinVersion>1</SkinVersion>
+  </Info>
+  <OSD>
+    <!--Available values: BitMoveUp, BitMoveRight, BitStripBottom, BitStripRight, Horizontal, Vertical-->
+    <MeterOrientation>bitstrip</MeterOrientation>
+    <MeterMin>0</MeterMin>
+    <MeterMax>128</MeterMax>
+    <MeterPosition>
+      <X>216</X>
+      <Y>40</Y>
+    </MeterPosition>
+    <FadeSteps>0</FadeSteps>
+    <ShowSteps>0</ShowSteps>
+    <HideMeterOnMute>false</HideMeterOnMute>
+    <!--Available values: BitStripBottom-->
+    <DigitalMeterOrientation>bitstripbottom</DigitalMeterOrientation>
+    <DigitalMeterHideZeroUnits>false</DigitalMeterHideZeroUnits>
+    <DigitalMeterHideZeroTens>true</DigitalMeterHideZeroTens>
+    <DigitalMeterHideZeroHundreds>true</DigitalMeterHideZeroHundreds>
+    <DigitalMeterPositionHundreds>
+      <X>67</X>
+      <Y>20</Y>
+    </DigitalMeterPositionHundreds>
+    <DigitalMeterPositionTens>
+      <X>102</X>
+      <Y>20</Y>
+    </DigitalMeterPositionTens>
+    <DigitalMeterPositionUnits>
+      <X>136</X>
+      <Y>20</Y>
+    </DigitalMeterPositionUnits>
+    <DigitalMeterPositionTens1>
+      <X>-1</X>
+      <Y>-1</Y>
+    </DigitalMeterPositionTens1>
+    <DigitalMeterPositionUnits1>
+      <X>-1</X>
+      <Y>-1</Y>
+    </DigitalMeterPositionUnits1>
+    <DigitalMeterPositionUnits2>
+      <X>-1</X>
+      <Y>-1</Y>
+    </DigitalMeterPositionUnits2>
+  </OSD>
+  <MeterEffect>
+    <ShowMeterEffect>false</ShowMeterEffect>
+    <!--Available values: BitMoveUp, BitMoveRight, BitStripBottom, BitStripRight, Horizontal, Vertical-->
+    <MeterOrientation></MeterOrientation>
+    <MeterMin>0</MeterMin>
+    <MeterMax>0</MeterMax>
+    <!--Available values: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
+    <LayerIndex>0</LayerIndex>
+    <HideMeterEffectOnMute>false</HideMeterEffectOnMute>
+    <MeterPosition>
+      <X>0</X>
+      <Y>0</Y>
+    </MeterPosition>
+  </MeterEffect>
+  <PeakMeter>
+    <ShowPeakMeter>false</ShowPeakMeter>
+    <!--Available values: BitStripBottom, BitStripRight, Horizontal-->
+    <MeterOrientation>horizontal</MeterOrientation>
+    <MeterMax>-1</MeterMax>
+    <MeterStyle>mono</MeterStyle>
+    <!--Available values: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
+    <LayerIndex>-1</LayerIndex>
+    <MeterLeftInvert>false</MeterLeftInvert>
+    <MeterRightInvert>false</MeterRightInvert>
+    <MeterLeftPosition>
+      <X>0</X>
+      <Y>0</Y>
+    </MeterLeftPosition>
+    <MeterRightPosition>
+      <X>0</X>
+      <Y>0</Y>
+    </MeterRightPosition>
+  </PeakMeter>
+  <Text>
+    <ShowText>false</ShowText>
+    <TextPosition>
+      <X>0</X>
+      <Y>0</Y>
+    </TextPosition>
+    <Size>0</Size>
+    <!--Value format: #AARRGGBB-->
+    <Color>#FFFFFFFF</Color>
+    <Format>%d%%</Format>
+    <!--Value format: #AARRGGBB-->
+    <ColorMute>#FFFFFFFF</ColorMute>
+    <FormatMute>%d%%</FormatMute>
+    <!--Available values: 0 - taLeft, 1 - taCenter, 2 - taRight-->
+    <Alignment>1</Alignment>
+    <FontName></FontName>
+    <FontBold>false</FontBold>
+    <FontItalic>false</FontItalic>
+    <HideTextOnMute>false</HideTextOnMute>
+    <!--Available values: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 4 - plAfterDigits, 5 - plAfterGlass, 6 - plOnMeterEffect-->
+    <LayerIndex>-1</LayerIndex>
+  </Text>
+  <NotificationText>
+    <Show>false</Show>
+    <Position>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Position>
+    <Size>0</Size>
+    <!--Value format: #AARRGGBB-->
+    <Color>#00000000</Color>
+    <!--Available values: 0 - taLeft, 1 - taCenter, 2 - taRight-->
+    <Alignment>0</Alignment>
+    <FontName></FontName>
+    <FontBold>false</FontBold>
+    <FontItalic>false</FontItalic>
+    <!--Available values: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 4 - plAfterDigits, 5 - plAfterGlass, 6 - plOnMeterEffect-->
+    <LayerIndex>0</LayerIndex>
+  </NotificationText>
+</XMLskinSettings>
