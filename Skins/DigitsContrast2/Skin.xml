@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<XMLskinSettings>
+  <info>
+    <author>mitraleks</author>
+    <website></website>
+    <skinVersion>2</skinVersion>
+    <formatVersion>1</formatVersion>
+  </info>
+  <osd>
+    <meterPosition>
+      <X>0</X>
+      <Y>0</Y>
+    </meterPosition>
+    <meterMax>100</meterMax>
+
+    <digitalMeterHideZeroUnits>0</digitalMeterHideZeroUnits>
+    <digitalMeterHideZeroTens>1</digitalMeterHideZeroTens>
+    <digitalMeterHideZeroHundreds>1</digitalMeterHideZeroHundreds>
+
+    <digitalMeterPositionHundreds>
+      <X>0</X>
+      <Y>0</Y>
+    </digitalMeterPositionHundreds>
+    <digitalMeterPositionTens>
+      <X>5</X>
+      <Y>0</Y>
+    </digitalMeterPositionTens>
+    <digitalMeterPositionUnits>
+      <X>10</X>
+      <Y>0</Y>
+    </digitalMeterPositionUnits>
+    <digitalMeterPositionTens1>
+      <X>0</X>
+      <Y>0</Y>
+    </digitalMeterPositionTens1>
+    <digitalMeterPositionUnits1>
+      <X>8</X>
+      <Y>0</Y>
+    </digitalMeterPositionUnits1>
+    <digitalMeterPositionUnits2>
+      <X>4</X>
+      <Y>0</Y>
+    </digitalMeterPositionUnits2>
+
+    <digitalMeterPositionHundreds_24>
+      <X>0</X>
+      <Y>0</Y>
+    </digitalMeterPositionHundreds_24>
+    <digitalMeterPositionTens_24>
+      <X>0</X>
+      <Y>0</Y>
+    </digitalMeterPositionTens_24>
+    <digitalMeterPositionUnits_24>
+      <X>0</X>
+      <Y>0</Y>
+    </digitalMeterPositionUnits_24>
+    <digitalMeterPositionTens1_24>
+      <X>0</X>
+      <Y>0</Y>
+    </digitalMeterPositionTens1_24>
+    <digitalMeterPositionUnits1_24>
+      <X>12</X>
+      <Y>0</Y>
+    </digitalMeterPositionUnits1_24>
+    <digitalMeterPositionUnits2_24>
+      <X>5</X>
+      <Y>0</Y>
+    </digitalMeterPositionUnits2_24>
+
+    <digitalMeterPositionHundreds_32>
+      <X>0</X>
+      <Y>0</Y>
+    </digitalMeterPositionHundreds_32>
+    <digitalMeterPositionTens_32>
+      <X>0</X>
+      <Y>0</Y>
+    </digitalMeterPositionTens_32>
+    <digitalMeterPositionUnits_32>
+      <X>0</X>
+      <Y>0</Y>
+    </digitalMeterPositionUnits_32>
+    <digitalMeterPositionTens1_32>
+      <X>0</X>
+      <Y>0</Y>
+    </digitalMeterPositionTens1_32>
+    <digitalMeterPositionUnits1_32>
+      <X>16</X>
+      <Y>0</Y>
+    </digitalMeterPositionUnits1_32>
+    <digitalMeterPositionUnits2_32>
+      <X>8</X>
+      <Y>0</Y>
+    </digitalMeterPositionUnits2_32>
+
+
+  </osd>
+</XMLskinSettings>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMLskinSettings>
+
+  <info>
+    <author>Manni</author>
+    <website></website>
+  </info>
+
+  <osd>
+    <meterOrientation>bitstripright</meterOrientation>
+    <meterStyle>Stereo</meterStyle>
+
+    <meterLeftPosition>
+      <X>28</X>
+      <Y>12</Y>
+    </meterLeftPosition>
+
+    <meterRightPosition>
+      <X>50</X>
+      <Y>12</Y>
+    </meterRightPosition>
+
+    <meterMax>14</meterMax>
+  </osd>
+</XMLskinSettings>

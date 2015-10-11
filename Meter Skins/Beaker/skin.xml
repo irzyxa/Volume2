@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMLskinSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <info>
+    <author>Dmitry Taur</author>
+    <website></website>
+
+    <skinVersion>1</skinVersion>
+    <formatVersion>1</formatVersion>
+  </info>
+
+  <osd>
+    <meterOrientation>horizontal</meterOrientation>
+
+    <meterStyle>Stereo</meterStyle>
+
+    <meterLeftPosition>
+      <X>43</X>
+      <Y>6</Y>
+    </meterLeftPosition>
+
+    <meterRightPosition>
+      <X>43</X>
+      <Y>30</Y>
+    </meterRightPosition>
+
+    <meterMax>20</meterMax>
+  </osd>
+</XMLskinSettings>

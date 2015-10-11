@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<XMLskinSettings>
+  <info>
+    <author>Alexandr Irza</author>
+    <website>-</website>
+    <skinVersion>1</skinVersion>
+    <formatVersion>1</formatVersion>
+  </info>
+  <osd>
+    <meterPosition>
+      <X>0</X>
+      <Y>0</Y>
+    </meterPosition>
+    <meterMax>16</meterMax>
+  </osd>
+</XMLskinSettings>

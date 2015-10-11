@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMLskinSettings>
+
+  <info>
+    <author>-</author>
+    <website>-</website>
+  </info>
+
+  <osd>
+    <meterOrientation>bitstripright</meterOrientation>
+    <meterStyle>Mono</meterStyle>
+
+    <meterLeftPosition>
+      <X>0</X>
+      <Y>0</Y>
+    </meterLeftPosition>
+
+    <meterRightPosition>
+      <X>0</X>
+      <Y>0</Y>
+    </meterRightPosition>
+
+    <meterMax>11</meterMax>
+  </osd>
+</XMLskinSettings>

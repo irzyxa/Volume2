@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMLskinSettings>
+
+  <info>
+    <author>Evan Dinsmore</author>
+    <website></website>
+  </info>
+
+  <osd>
+    <meterOrientation>bitstrip</meterOrientation>
+    <meterStyle>Stereo</meterStyle>
+
+    <meterLeftPosition>
+      <X>6</X>
+      <Y>10</Y>
+    </meterLeftPosition>
+
+    <meterRightPosition>
+      <X>40</X>
+      <Y>10</Y>
+    </meterRightPosition>
+
+    <meterMax>16</meterMax>
+  </osd>
+</XMLskinSettings>

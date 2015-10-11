@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMLskinSettings>
+
+  <info>
+    <Author>Alexandr Irza</Author>
+    <WebSite>http://irzyxa.wordpress.com</WebSite>
+  </info>
+
+  <osd>
+    <meterOrientation>bitstrip</meterOrientation>
+    <meterStyle>Stereo</meterStyle>
+
+    <meterLeftPosition>
+      <X>11</X>
+      <Y>10</Y>
+    </meterLeftPosition>
+
+    <meterRightPosition>
+      <X>35</X>
+      <Y>10</Y>
+    </meterRightPosition>
+
+    <meterMax>16</meterMax>
+  </osd>
+</XMLskinSettings>

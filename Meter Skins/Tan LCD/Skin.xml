@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMLskinSettings>
+
+  <info>
+    <author>MacGadger</author>
+    <website>http://macgadger.deviantart.com/</website>
+    <comment>A Digital LCD Type Skin for MacG Meters </comment>
+  </info>
+
+  <osd>
+    <meterOrientation>bitstrip</meterOrientation>
+    <meterStyle>Stereo</meterStyle>
+
+    <meterLeftPosition>
+      <X>21</X>
+      <Y>3</Y>
+    </meterLeftPosition>
+
+    <meterRightPosition>
+      <X>53</X>
+      <Y>3</Y>
+    </meterRightPosition>
+
+    <meterMax>10</meterMax>
+  </osd>
+</XMLskinSettings>

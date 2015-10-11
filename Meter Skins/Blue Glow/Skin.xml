@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMLskinSettings>
+
+  <info>
+    <author>MacGadger</author>
+    <website>http://macgadger.deviantart.com/</website>
+  </info>
+
+  <osd>
+    <meterOrientation>bitstrip</meterOrientation>
+    <meterStyle>Stereo</meterStyle>
+
+    <meterLeftPosition>
+      <X>10</X>
+      <Y>7</Y>
+    </meterLeftPosition>
+
+    <meterRightPosition>
+      <X>61</X>
+      <Y>7</Y>
+    </meterRightPosition>
+
+    <meterMax>5</meterMax>
+  </osd>
+</XMLskinSettings>
