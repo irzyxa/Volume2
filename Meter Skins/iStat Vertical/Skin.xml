@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMLskinSettings>
+
+  <info>
+    <author>iSlayer</author>
+    <website>www.islayer.com</website>
+  </info>
+
+  <osd>
+    <meterOrientation>Vertical</meterOrientation>
+    <meterStyle>Stereo</meterStyle>
+
+    <meterLeftPosition>
+      <X>11</X>
+      <Y>10</Y>
+    </meterLeftPosition>
+    <MeterLeftInvert>true</MeterLeftInvert>
+    <MeterRightInvert>true</MeterRightInvert>
+
+    <meterRightPosition>
+      <X>39</X>
+      <Y>10</Y>
+    </meterRightPosition>
+
+    <meterMax>10</meterMax>
+  </osd>
+</XMLskinSettings>
