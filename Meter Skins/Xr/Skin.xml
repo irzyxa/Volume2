@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMLskinSettings><info><author>G-Li&#8224;ch</author></info>
+<osd><meterOrientation>bitstripright</meterOrientation><meterStyle>Stereo</meterStyle>
+<meterLeftPosition><X>10</X><Y>14</Y></meterLeftPosition>
+<meterRightPosition><X>26</X><Y>14</Y></meterRightPosition>
+<meterMax>26</meterMax></osd>
+</XMLskinSettings>

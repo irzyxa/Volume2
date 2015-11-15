@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMLskinSettings>
+
+  <info>
+    <author>Black_AVP</author>
+  </info>
+
+  <osd>
+    <meterOrientation>bitstripright</meterOrientation>
+    <meterStyle>Stereo</meterStyle>
+
+    <meterLeftPosition>
+      <X>68</X>
+      <Y>22</Y>
+    </meterLeftPosition>
+
+    <meterRightPosition>
+      <X>100</X>
+      <Y>22</Y>
+    </meterRightPosition>
+
+    <meterMax>25</meterMax>
+  </osd>
+</XMLskinSettings>
