@@ -4,3 +4,5 @@ Volume2
 ----
  
 Volume² - advanced Windows volume control. https://irzyxa.wordpress.com/
+
+This repository contains only a part of the program which is open source(Languages, OSD Skins, Tray Skins, Meter Skins)
