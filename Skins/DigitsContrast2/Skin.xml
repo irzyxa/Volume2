@@ -42,6 +42,31 @@
       <Y>0</Y>
     </digitalMeterPositionUnits2>
 
+    <digitalMeterPositionHundreds_20>
+      <X>0</X>
+      <Y>0</Y>
+    </digitalMeterPositionHundreds_20>
+    <digitalMeterPositionTens_20>
+      <X>0</X>
+      <Y>0</Y>
+    </digitalMeterPositionTens_20>
+    <digitalMeterPositionUnits_20>
+      <X>0</X>
+      <Y>0</Y>
+    </digitalMeterPositionUnits_20>
+    <digitalMeterPositionTens1_20>
+      <X>0</X>
+      <Y>0</Y>
+    </digitalMeterPositionTens1_20>
+    <digitalMeterPositionUnits1_20>
+      <X>10</X>
+      <Y>0</Y>
+    </digitalMeterPositionUnits1_20>
+    <digitalMeterPositionUnits2_20>
+      <X>4</X>
+      <Y>0</Y>
+    </digitalMeterPositionUnits2_20>
+
     <digitalMeterPositionHundreds_24>
       <X>0</X>
       <Y>0</Y>
