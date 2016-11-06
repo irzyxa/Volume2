@@ -17,6 +17,7 @@
     <digitalMeterHideZeroTens>1</digitalMeterHideZeroTens>
     <digitalMeterHideZeroHundreds>1</digitalMeterHideZeroHundreds>
 
+- <!-- Coordinates for ss16 --> 
     <digitalMeterPositionHundreds>
       <X>-5</X>
       <Y>3</Y>
@@ -41,55 +42,80 @@
       <X>8</X>
       <Y>3</Y>
     </digitalMeterPositionUnits2>
-
-    <digitalMeterPositionHundreds_24>
+- <!-- Coordinates for ss20 --> 
+    <digitalMeterPositionHundreds_20>
+      <X>-7</X>
+      <Y>3</Y>
+    </digitalMeterPositionHundreds_20>
+    <digitalMeterPositionTens_20>
+      <X>2</X>
+      <Y>3</Y>
+    </digitalMeterPositionTens_20>
+    <digitalMeterPositionUnits_20>
+      <X>11</X>
+      <Y>3</Y>
+    </digitalMeterPositionUnits_20>
+    <digitalMeterPositionTens1_20>
       <X>0</X>
-      <Y>1</Y>
+      <Y>3</Y>
+    </digitalMeterPositionTens1_20>
+    <digitalMeterPositionUnits1_20>
+      <X>10</X>
+      <Y>3</Y>
+    </digitalMeterPositionUnits1_20>
+    <digitalMeterPositionUnits2_20>
+      <X>10</X>
+      <Y>3</Y>
+    </digitalMeterPositionUnits2_20>
+- <!-- Coordinates for ss24 --> 
+    <digitalMeterPositionHundreds_24>
+      <X>-9</X>
+      <Y>4</Y>
     </digitalMeterPositionHundreds_24>
     <digitalMeterPositionTens_24>
-      <X>7</X>
-      <Y>1</Y>
+      <X>2</X>
+      <Y>4</Y>
     </digitalMeterPositionTens_24>
     <digitalMeterPositionUnits_24>
-      <X>15</X>
-      <Y>1</Y>
+      <X>13</X>
+      <Y>4</Y>
     </digitalMeterPositionUnits_24>
     <digitalMeterPositionTens1_24>
       <X>0</X>
-      <Y>1</Y>
+      <Y>4</Y>
     </digitalMeterPositionTens1_24>
     <digitalMeterPositionUnits1_24>
-      <X>8</X>
-      <Y>1</Y>
+      <X>12</X>
+      <Y>4</Y>
     </digitalMeterPositionUnits1_24>
     <digitalMeterPositionUnits2_24>
-      <X>0</X>
-      <Y>1</Y>
+      <X>12</X>
+      <Y>4</Y>
     </digitalMeterPositionUnits2_24>
-
+- <!-- Coordinates for ss32 --> 
     <digitalMeterPositionHundreds_32>
-      <X>0</X>
-      <Y>1</Y>
+      <X>-13</X>
+      <Y>4</Y>
     </digitalMeterPositionHundreds_32>
     <digitalMeterPositionTens_32>
-      <X>8</X>
-      <Y>1</Y>
+      <X>2</X>
+      <Y>4</Y>
     </digitalMeterPositionTens_32>
     <digitalMeterPositionUnits_32>
-      <X>18</X>
-      <Y>1</Y>
+      <X>17</X>
+      <Y>4</Y>
     </digitalMeterPositionUnits_32>
     <digitalMeterPositionTens1_32>
       <X>0</X>
-      <Y>1</Y>
+      <Y>4</Y>
     </digitalMeterPositionTens1_32>
     <digitalMeterPositionUnits1_32>
-      <X>11</X>
-      <Y>1</Y>
+      <X>16</X>
+      <Y>4</Y>
     </digitalMeterPositionUnits1_32>
     <digitalMeterPositionUnits2_32>
-      <X>0</X>
-      <Y>1</Y>
+      <X>16</X>
+      <Y>4</Y>
     </digitalMeterPositionUnits2_32>
   </osd>
 </XMLskinSettings>
