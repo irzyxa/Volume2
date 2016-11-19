@@ -72,6 +72,9 @@
     <HideTextOnMute>false</HideTextOnMute>
     <!--Available values: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 4 - plAfterDigits, 5 - plAfterGlass, 6 - plOnMeterEffect-->
     <LayerIndex>-1</LayerIndex>
+    <CDDriveLetter Enable="true" X="181" Y="23" FontName="Segoe UI" Size="18" Color="#FFBCBCBC" Bold="false" Italic="false" Alignment="0"/>
+    <USBDriveLetter Enable="true" X="181" Y="23" FontName="Segoe UI" Size="20" Color="#FFBCBCBC" Bold="false" Italic="false" Alignment="0"/>
+    <USBFriendlyName Enable="true" X="190" Y="62" FontName="Segoe UI" Size="12" Color="#FFBCBCBC" Bold="false" Italic="false" Alignment="1"/>
   </Text>
   <NotificationText>
     <Show>false</Show>

@@ -46,6 +46,9 @@
       <X>-1</X>
       <Y>-1</Y>
     </DigitalMeterPositionUnits2>
+    <Colorization>false</Colorization>
+    <!--Value format: #AARRGGBB. -1 - Use system color-->
+    <ColorizationColor>-1</ColorizationColor>
   </OSD>
   <MeterEffect>
     <ShowMeterEffect>false</ShowMeterEffect>
@@ -61,6 +64,16 @@
       <Y>0</Y>
     </MeterPosition>
   </MeterEffect>
+  <MuteEffect>
+    <ShowMuteEffect>false</ShowMuteEffect>
+    <!--Available values: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
+    <LayerIndex>0</LayerIndex>
+    <MutePosition>
+      <X>0</X>
+      <Y>0</Y>
+    </MutePosition>
+    <HideOnUnMute>true</HideOnUnMute>
+  </MuteEffect>
   <PeakMeter>
     <ShowPeakMeter>false</ShowPeakMeter>
     <!--Available values: BitStripBottom, BitStripRight, Horizontal-->

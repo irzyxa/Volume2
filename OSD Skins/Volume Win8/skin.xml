@@ -72,6 +72,7 @@
     <HideTextOnMute>false</HideTextOnMute>
     <!--Available values: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 4 - plAfterDigits, 5 - plAfterGlass, 6 - plOnMeterEffect-->
     <LayerIndex>-1</LayerIndex>
+    <USBDriveLetter Enable="true" X="10" Y="42" FontName="Tahoma" Size="12" Color="#FFFFFFFF" Bold="false" Italic="false" Alignment="0"/>
   </Text>
   <NotificationText>
     <Show>false</Show>
