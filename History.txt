@@ -1,4 +1,5 @@
-﻿#RU Версия 1.1.5.386 (06.11.2016)
+﻿#RU Версия 1.1.5.392 (19.11.2016)
++Добавлена информация о подключенном диске на OSD
 *Исправлена Github ошибка #26
 *Исправлена Github ошибка #28
 +Добавлена возможность устанавливать на горячие клавиши комбинации:MouseX1 + MouseMiddle, Mousex2 + MouseMiddle
@@ -26,7 +27,8 @@
 *Исправлено: Подсказка в трее для Windows 10
 +Добавлен Индонезийский язык
 
-#US Version 1.1.5.386 (06.11.2016)
+#US Version 1.1.5.392 (19.11.2016)
++Added information of drive on OSD
 *Fixed Github issue #26
 *Fixed Github issue #28
 +Added new hotkeys combinations: MouseX1 + MouseMiddle, MouseX2 + MouseMiddle
@@ -40,7 +42,7 @@
 *Fixed Tool tip info for Windows 10
 +Added Indonesian language
 
-#DE Version 1.1.5.386 (06.11.2016)
+#DE Version 1.1.5.392 (19.11.2016)
 *Behoben OSD-Kontextmenü
 +Hinzugefügt Indonesischen Sprache
 
