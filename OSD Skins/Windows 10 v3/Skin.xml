@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMLskinSettings>
+  <!--Orientation: BitMoveUp, BitMoveRight, BitStripBottom, BitStripRight, Horizontal, Vertical-->
+  <!--LayerIndex: -1 - plNone, 0 - plAfterBack, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
+  <!--Alignment: 0 - taLeft, 1 - taCenter, 2 - taRight-->
+  <!--Color: #AARRGGBB-->
+  <Info>
+    <Author>Windows</Author>
+    <WebSite>http://www.microsoft.com/</WebSite>
+    <SkinVersion>2.0</SkinVersion>
+  </Info>
+  <OSD>
+    <Meter X="27" Y="20" Orientation="Vertical" Min="0" Max="79" HideOnMute="false" Colorize="true"/>
+    <MeterMute X="27" Y="20" Orientation="Vertical" Min="0" Max="79" Colorize="true"/>
+    <MeterEffect Enable="true" Orientation="BitMoveUp" Min="0" Max="69" LayerIndex="5" HideOnMute="false" X="27" Y="88" Colorize="false"/>
+    <MeterMuteEffect Enable="true" LayerIndex="0" X="26" Y="109" Colorize="false"/>
+    <DigitalMeterOrientation>BitStripBottom</DigitalMeterOrientation>
+    <DigitalMeterHideZeroUnits>false</DigitalMeterHideZeroUnits>
+    <DigitalMeterHideZeroTens>true</DigitalMeterHideZeroTens>
+    <DigitalMeterHideZeroHundreds>true</DigitalMeterHideZeroHundreds>
+    <DigitalMeterPositionHundreds>
+      <X>304</X>
+      <Y>46</Y>
+    </DigitalMeterPositionHundreds>
+    <DigitalMeterPositionTens>
+      <X>316</X>
+      <Y>46</Y>
+    </DigitalMeterPositionTens>
+    <DigitalMeterPositionUnits>
+      <X>330</X>
+      <Y>46</Y>
+    </DigitalMeterPositionUnits>
+    <DigitalMeterPositionTens1>
+      <X>-1</X>
+      <Y>-1</Y>
+    </DigitalMeterPositionTens1>
+    <DigitalMeterPositionUnits1>
+      <X>-1</X>
+      <Y>-1</Y>
+    </DigitalMeterPositionUnits1>
+    <DigitalMeterPositionUnits2>
+      <X>-1</X>
+      <Y>-1</Y>
+    </DigitalMeterPositionUnits2>
+    <FadeSteps>0</FadeSteps>
+    <ShowSteps>0</ShowSteps>
+    <Colorization>true</Colorization>
+    <!--Value format: #AARRGGBB. -1 - Use system color-->
+    <ColorizationColor>-1</ColorizationColor>
+  </OSD>
+  <PeakMeter>
+    <ShowPeakMeter>true</ShowPeakMeter>
+    <MeterOrientation>horizontal</MeterOrientation>
+    <MeterMax>100</MeterMax>
+    <MeterStyle>mono</MeterStyle>
+    <LayerIndex>0</LayerIndex>
+    <MeterLeftInvert>false</MeterLeftInvert>
+    <MeterRightInvert>false</MeterRightInvert>
+    <MeterLeftPosition>
+      <X>64</X>
+      <Y>53</Y>
+    </MeterLeftPosition>
+    <MeterRightPosition>
+      <X>0</X>
+      <Y>0</Y>
+    </MeterRightPosition>
+  </PeakMeter>
+  <Text>
+    <ShowText>true</ShowText>
+    <TextPosition>
+      <X>32</X>
+      <Y>116</Y>
+    </TextPosition>
+    <Size>13</Size>
+    <Color>#FFFFFFFF</Color>
+    <Format>%V</Format>
+    <ColorMute>#FFFFFFFF</ColorMute>
+    <FormatMute>%V</FormatMute>
+    <Alignment>1</Alignment>
+    <FontName>Segoe UI</FontName>
+    <FontBold>false</FontBold>
+    <FontItalic>false</FontItalic>
+    <HideTextOnMute>true</HideTextOnMute>
+    <LayerIndex>-1</LayerIndex>
+  </Text>
+  <NotificationText>
+    <Show>false</Show>
+    <Position>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Position>
+    <Size>0</Size>
+    <Color>#00000000</Color>
+    <Alignment>0</Alignment>
+    <FontName></FontName>
+    <FontBold>false</FontBold>
+    <FontItalic>false</FontItalic>
+    <LayerIndex>0</LayerIndex>
+  </NotificationText>
+  <Layers>
+    <Layer Enable="true" Background="_Gloss.png" X="27" Y="20" LayerIndex="0" Colorize="true"/>
+  </Layers>
+</XMLskinSettings>
