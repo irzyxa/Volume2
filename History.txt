@@ -1,4 +1,7 @@
-﻿#RU Версия 1.1.5.392 (19.11.2016)
+﻿#RU Версия 1.1.5.397 (18.02.2017)
++Исправлена ошибка в расписаниях(не все задачи запускались по времени)
++Добавлена опция Отключать звук при нулевой громкости
++Добавлена опция альтернативной автозагрузки(пока что через Config.ini параметр ScheduleAutoRun=1 секция Main)
 +Добавлена информация о подключенном диске на OSD
 *Исправлена Github ошибка #26
 *Исправлена Github ошибка #28
@@ -27,8 +30,9 @@
 *Исправлено: Подсказка в трее для Windows 10
 +Добавлен Индонезийский язык
 
-#US Version 1.1.5.392 (19.11.2016)
-+Added information of drive on OSD
+#US Version 1.1.5.397 (18.02.2017)
++Added option Mute when volume is zero
++Added drive information on OSD
 *Fixed Github issue #26
 *Fixed Github issue #28
 +Added new hotkeys combinations: MouseX1 + MouseMiddle, MouseX2 + MouseMiddle
@@ -42,7 +46,7 @@
 *Fixed Tool tip info for Windows 10
 +Added Indonesian language
 
-#DE Version 1.1.5.392 (19.11.2016)
+#DE Version 1.1.5.397 (18.02.2017)
 *Behoben OSD-Kontextmenü
 +Hinzugefügt Indonesischen Sprache
 
