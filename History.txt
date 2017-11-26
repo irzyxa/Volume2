@@ -1,4 +1,5 @@
-﻿#RU Версия 1.1.5.399 (28.03.2017)
+﻿#RU Версия 1.1.5.400 (20.11.2017)
+*Исправлен синий экран на Windows 10 FCU
 *Исправлена ошибка с запуском программы при помощи Горячих клавиш
 *Исправлена ошибка в расписаниях(не все задачи запускались по времени)
 +Добавлена опция Отключать звук при нулевой громкости
@@ -31,7 +32,8 @@
 *Исправлено: Подсказка в трее для Windows 10
 +Добавлен Индонезийский язык
 
-#US Version 1.1.5.399 (28.03.2017)
+#US Version 1.1.5.400 (20.11.2017)
+*Fixed BSOD on Windows 10 FCU
 +Added option Mute when volume is zero
 +Added drive information on OSD
 *Fixed Github issue #26
@@ -47,7 +49,7 @@
 *Fixed Tool tip info for Windows 10
 +Added Indonesian language
 
-#DE Version 1.1.5.399 (28.03.2017)
+#DE Version 1.1.5.400 (20.11.2017)
 *Behoben OSD-Kontextmenü
 +Hinzugefügt Indonesischen Sprache
 
