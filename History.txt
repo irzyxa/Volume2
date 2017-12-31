@@ -1,4 +1,4 @@
-﻿#RU Версия 1.1.5.403 (23.12.2017)
+﻿#RU Версия 1.1.5.404 (31.12.2017)
 *Исправлена функция установки громкости для устройства с Расписания
 *Исправлена опция Сбросить баланс(50/50) в Горячих клавишах
 *Изменено количество шагов для регулирования баланса(было 36 стало 100)
@@ -35,7 +35,7 @@
 *Исправлено: Подсказка в трее для Windows 10
 +Добавлен Индонезийский язык
 
-#US Version 1.1.5.403 (23.12.2017)
+#US Version 1.1.5.404 (31.12.2017)
 *Fixed set volume for device from Task
 *Fixed Balanse Reset(50/50)
 *Changed count of steps when control balance to 100(was 36)
@@ -55,7 +55,7 @@
 *Fixed Tool tip info for Windows 10
 +Added Indonesian language
 
-#DE Version 1.1.5.403 (23.12.2017)
+#DE Version 1.1.5.404 (31.12.2017)
 *Behoben OSD-Kontextmenü
 +Hinzugefügt Indonesischen Sprache
 
