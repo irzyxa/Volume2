@@ -1,10 +1,14 @@
-﻿#RU Версия 1.1.6.409 (15.01.2018)
+﻿#RU Версия 1.1.6.411 (23.06.2018)
+*Изменен веб адрес блога
 *Исправлено управление балансом Windows 10
 *Исправлен сброс баланса в Windows XP
+*Исправлено управление громкостью выбранного приложения
 
-#US Version 1.1.6.409 (15.01.2018)
+#US Version 1.1.6.411 (23.06.2018)
+*Changed blog address
 *Fixed balance control Windows 10
 *Fixed reseting balance on Windows XP
+*Fixed control volume of selected application
 
 #RU Версия 1.1.5.404 (31.12.2017)
 *Исправлена функция установки громкости для устройства с Расписания
