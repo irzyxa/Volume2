@@ -1,10 +1,12 @@
-﻿#RU Версия 1.1.6.411 (23.06.2018)
+﻿#RU Версия 1.1.6.413 (19.07.2019)
+*Исправлена работа параметров командной строки
 *Изменен веб адрес блога
 *Исправлено управление балансом Windows 10
 *Исправлен сброс баланса в Windows XP
 *Исправлено управление громкостью выбранного приложения
 
-#US Version 1.1.6.411 (23.06.2018)
+#US Version 1.1.6.413 (19.07.2019)
+*Fixed command line parameters
 *Changed blog address
 *Fixed balance control Windows 10
 *Fixed reseting balance on Windows XP
