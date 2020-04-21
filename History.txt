@@ -1,11 +1,21 @@
-﻿#RU Версия 1.1.6.413 (19.07.2019)
+﻿#RU Версия 1.1.6.415 (21.04.2020)
++Добавлена опция Связать громкость устройств, при изменении основного устройства будет изменена громкость альтернативного и наоборот
+*Исправлена GitHub ошибка #69
++Добавлена опция DetectActiveMonitorMethod для определения активного монитора 0 - по активному окну, 1 - по позиции мыши (доступно в Config.ini)
+*Исправлена проблема с одинаковыми именами устройств, теперь сохраняются ИД
++Добавлена возможность задать позицию и размер Экранного индикатора для каждого экрана
 *Исправлена работа параметров командной строки
 *Изменен веб адрес блога
 *Исправлено управление балансом Windows 10
 *Исправлен сброс баланса в Windows XP
 *Исправлено управление громкостью выбранного приложения
 
-#US Version 1.1.6.413 (19.07.2019)
+#US Version 1.1.6.415 (21.04.2020)
++Added option Lock Devices Volume, when you change volume of main device also will be changed volume of alternative and vice versa
+*Fixed GitHub issue #69
++Added option how to detect active monitor DetectActiveMonitorMethod: 0 - by active window, 1 - by mouse position (available in Config.ini)
+*Fixed problem with the same devices' names, from this version will be stored ID
++Added possibility to set OSD position and size for each monitor
 *Fixed command line parameters
 *Changed blog address
 *Fixed balance control Windows 10
