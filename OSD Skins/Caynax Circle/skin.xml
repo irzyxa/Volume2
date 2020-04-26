@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMLskinSettings>
+  <Info>
+    <Author>Caynax</Author>
+    <WebSite>http://www.caynax.com</WebSite>
+    <SkinVersion>1</SkinVersion>
+  </Info>
+  <OSD>
+    <MeterOrientation>bitstrip</MeterOrientation>
+    <MeterMax>12</MeterMax>
+    <MeterPosition>
+      <X>0</X>
+      <Y>0</Y>
+    </MeterPosition>
+    <FadeSteps>16</FadeSteps>
+    <ShowSteps>20</ShowSteps>
+    <HideMeterOnMute>false</HideMeterOnMute>
+  </OSD>
+ <text>
+  <showtext>true</showtext> 
+  <textposition>
+  <X>125</X> 
+  <Y>132</Y> 
+  </textposition>
+  <size>22</size> 
+  <color>-9847814</color> 
+  <colormute>-437952</colormute> 
+  <FONTNAME>Tahoma</FONTNAME> 
+  <FONTBOLD>0</FONTBOLD> 
+  <FONTITALIC>0</FONTITALIC> 
+ </text>
+
+</XMLskinSettings>

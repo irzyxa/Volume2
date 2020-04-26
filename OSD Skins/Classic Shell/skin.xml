@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMLskinSettings>
+  <Info>
+    <Author>Matthew Jones</Author>
+    <WebSite>about:blank</WebSite>
+    <SkinVersion>2.1</SkinVersion>
+  </Info>
+  <OSD>
+    <!--Orientation: BitMoveUp, BitMoveRight, BitStripBottom, BitStripRight, Horizontal, Vertical-->
+    <!--LayerIndex: -1 - plNone, 0 - plAfterBack, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
+    <!--Color: #AARRGGBB-->
+    <!--Alignment: 0 - taLeft, 1 - taCenter, 2 - taRight-->
+    <FadeSteps>0</FadeSteps>
+    <ShowSteps>0</ShowSteps>
+    <Colorization>false</Colorization>
+    <!--Value format: #AARRGGBB. -1 - Use system color-->
+    <ColorizationColor>-1</ColorizationColor>
+    <Background Colorize="true"/>
+    <Meter X="41" Y="55" Orientation="horizontal" Min="0" Max="100" HideOnMute="false" Colorize="true"/>
+    <MeterMute X="41" Y="55" Orientation="horizontal" Min="0" Max="100" Colorize="true"/>
+    <MeterEffect Enable="false" Orientation="" Min="0" Max="0" LayerIndex="0" HideOnMute="false" X="0" Y="0" Colorize="true"/>
+    <MeterMuteEffect Enable="false" LayerIndex="0" X="0" Y="0" Colorize="true"/>
+    <PeakMeter Enable="false" LayerIndex="-1" Colorize="false" Style="mono" Orientation="horizontal" Max="-1">
+      <LeftChannel X="0" Y="0" Inverse="false"/>
+      <RightChannel X="0" Y="0" Inverse="false"/>
+    </PeakMeter>
+    <Text Enable="true" X="180" Y="27" Format="%d%%" FormatMute="%d%%" Alignment="0" HideOnMute="false" LayerIndex="0">
+      <Font Size="13" Color="#FF000000" ColorMute="#FF000000" Name="" Bold="true" Italic="false"/>
+    </Text>
+    <NotificationText Enable="false" X="0" Y="0" Width="0" Height="0" Alignment="0" LayerIndex="-1">
+      <Font Size="0" Color="#00000000" Name="" Bold="false" Italic="false"/>
+    </NotificationText>
+  </OSD>
+  <Layers/>
+</XMLskinSettings>

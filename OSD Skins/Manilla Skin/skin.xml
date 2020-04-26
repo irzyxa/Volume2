@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMLskinSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <info>
+    <author>mitraleks</author>
+    <website>http://google.com</website>
+    <skinVersion>1</skinVersion>
+    <formatVersion>2</formatVersion>
+  </info>
+
+  <osd>
+    <meterOrientation>bitstripright</meterOrientation>
+    <meterPosition>
+      <X>0</X>
+      <Y>0</Y>
+    </meterPosition>
+
+    <meterMax>5</meterMax>
+
+  </osd>
+</XMLskinSettings>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMLskinSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <info>
+    <author>Irza Alexandr</author>
+    <website>http://my.opera.com/irzyxa/blog/</website>
+    <skinVersion>1</skinVersion>
+    <formatVersion>1</formatVersion>
+  </info>
+
+  <osd>
+    <meterOrientation>horizontal</meterOrientation>
+
+    <meterPosition>
+      <X>18</X>
+      <Y>64</Y>
+    </meterPosition>
+
+    <meterMax>15</meterMax>
+  </osd>
+</XMLskinSettings>

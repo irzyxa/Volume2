@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMLskinSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <info>
+    <author>Alexandr Irza</author>
+    <website>http://irzyxa.blogspot.com</website>
+    <skinVersion>1</skinVersion>
+    <formatVersion>1</formatVersion>
+  </info>
+
+  <osd>
+    <meterOrientation>bitstrip</meterOrientation>
+
+    <meterPosition>
+      <X>20</X>
+      <Y>53</Y>
+    </meterPosition>
+
+    <meterMax>29</meterMax>
+  </osd>
+</XMLskinSettings>

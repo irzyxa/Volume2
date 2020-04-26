@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMLskinSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <info>
+    <author>Jeton Aliji</author>
+    <website></website>
+
+    <skinVersion>1</skinVersion>
+    <formatVersion>1</formatVersion>
+  </info>
+
+  <osd>
+    <meterOrientation>horizontal</meterOrientation>
+
+    <meterPosition>
+      <X>0</X>
+      <Y>0</Y>
+    </meterPosition>
+
+    <meterMax>20</meterMax>
+
+    <fadeSteps>45</fadeSteps>
+  </osd>
+</XMLskinSettings>

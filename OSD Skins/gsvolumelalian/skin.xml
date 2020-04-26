@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMLskinSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <info>
+    <author>GS</author>
+    <website>http://xwidget.com</website>
+
+    <skinVersion>1</skinVersion>
+    <formatVersion>1</formatVersion>
+  </info>
+
+  <osd>
+    <meterOrientation>BITMOVEUP</meterOrientation>
+
+    <meterPosition>
+      <X>21</X>
+      <Y>106</Y>
+    </meterPosition>
+
+    <meterMax>90</meterMax>
+
+  </osd>
+</XMLskinSettings>

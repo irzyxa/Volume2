@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XMLskinSettings>
   <Info>
-    <Author>Jake Lauer</Author>
-    <WebSite>http://bakerjake.deviantart.com</WebSite>
+    <Author>automizzer</Author>
+    <WebSite>automizzer@gmail.com</WebSite>
     <SkinVersion>1</SkinVersion>
   </Info>
   <OSD>
     <!--Available values: BitMoveUp, BitMoveRight, BitStripBottom, BitStripRight, Horizontal, Vertical-->
-    <MeterOrientation>horizontal</MeterOrientation>
+    <MeterOrientation>Horizontal</MeterOrientation>
     <MeterMin>0</MeterMin>
-    <MeterMax>164</MeterMax>
+    <MeterMax>75</MeterMax>
     <MeterPosition>
-      <X>45</X>
-      <Y>20</Y>
+      <X>74</X>
+      <Y>269</Y>
     </MeterPosition>
-    <FadeSteps>43</FadeSteps>
-    <ShowSteps>0</ShowSteps>
+    <FadeSteps>25</FadeSteps>
+    <ShowSteps>25</ShowSteps>
     <HideMeterOnMute>false</HideMeterOnMute>
   </OSD>
   <MeterEffect>
-    <ShowMeterEffect>false</ShowMeterEffect>
+    <ShowMeterEffect>true</ShowMeterEffect>
     <!--Available values: BitMoveUp, BitMoveRight, BitStripBottom, BitStripRight, Horizontal, Vertical-->
-    <MeterOrientation></MeterOrientation>
+    <MeterOrientation>BitStripBottom</MeterOrientation>
     <MeterMin>0</MeterMin>
-    <MeterMax>0</MeterMax>
+    <MeterMax>3</MeterMax>
     <!--Available values: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
-    <LayerIndex>0</LayerIndex>
-    <HideMeterEffectOnMute>false</HideMeterEffectOnMute>
+    <LayerIndex>2</LayerIndex>
+    <HideMeterEffectOnMute>true</HideMeterEffectOnMute>
     <MeterPosition>
-      <X>0</X>
-      <Y>0</Y>
+      <X>21</X>
+      <Y>13</Y>
     </MeterPosition>
   </MeterEffect>
   <PeakMeter>
     <ShowPeakMeter>true</ShowPeakMeter>
     <!--Available values: BitStripBottom, BitStripRight, Horizontal-->
     <MeterOrientation>horizontal</MeterOrientation>
-    <MeterMax>158</MeterMax>
-    <MeterStyle>Stereo</MeterStyle>
+    <MeterMax>22</MeterMax>
+    <MeterStyle>mono</MeterStyle>
     <!--Available values: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
     <LayerIndex>1</LayerIndex>
     <MeterLeftInvert>false</MeterLeftInvert>
     <MeterRightInvert>false</MeterRightInvert>
     <MeterLeftPosition>
-      <X>47</X>
-      <Y>20</Y>
+      <X>76</X>
+      <Y>25</Y>
     </MeterLeftPosition>
     <MeterRightPosition>
-      <X>47</X>
-      <Y>29</Y>
+      <X>0</X>
+      <Y>0</Y>
     </MeterRightPosition>
   </PeakMeter>
   <Text>
@@ -58,14 +58,8 @@
       <Y>0</Y>
     </TextPosition>
     <Size>0</Size>
-    <!--Value format: #AARRGGBB-->
-    <Color>#FFFFFFFF</Color>
-    <Format>%d%%</Format>
-    <!--Value format: #AARRGGBB-->
-    <ColorMute>#FFFFFFFF</ColorMute>
-    <FormatMute>%d%%</FormatMute>
-    <!--Available values: 0 - taLeft, 1 - taCenter, 2 - taRight-->
-    <Alignment>1</Alignment>
+    <Color>-1</Color>
+    <ColorMute>-1</ColorMute>
     <FontName></FontName>
     <FontBold>false</FontBold>
     <FontItalic>false</FontItalic>
@@ -73,23 +67,4 @@
     <!--Available values: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 4 - plAfterDigits, 5 - plAfterGlass, 6 - plOnMeterEffect-->
     <LayerIndex>-1</LayerIndex>
   </Text>
-  <NotificationText>
-    <Show>false</Show>
-    <Position>
-      <X>0</X>
-      <Y>0</Y>
-      <Width>0</Width>
-      <Height>0</Height>
-    </Position>
-    <Size>0</Size>
-    <!--Value format: #AARRGGBB-->
-    <Color>#00000000</Color>
-    <!--Available values: 0 - taLeft, 1 - taCenter, 2 - taRight-->
-    <Alignment>0</Alignment>
-    <FontName></FontName>
-    <FontBold>false</FontBold>
-    <FontItalic>false</FontItalic>
-    <!--Available values: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 4 - plAfterDigits, 5 - plAfterGlass, 6 - plOnMeterEffect-->
-    <LayerIndex>0</LayerIndex>
-  </NotificationText>
 </XMLskinSettings>
