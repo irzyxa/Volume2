@@ -1,4 +1,11 @@
-﻿#RU Версия 1.1.6.415 (21.04.2020)
+﻿#RU Версия 1.1.6.419 (01.05.2020)
++Добавлено события в Планировщике (на болкирование ПК и на разблокирование ПК)
+*исправлен eak Meter
++Добавлена поддержка нескольких мониторов с разными разрешениями для окна настроек
++Добавлены варианты автозагрузки: как программа или как задача
++Добавлена сортировка устройств
+*Исправлено дублирование в списке устройств
+*Исправлена загрузка имени автора скина в Peak Meter
 +Добавлена опция Связать громкость устройств, при изменении основного устройства будет изменена громкость альтернативного и наоборот
 *Исправлена GitHub ошибка #69
 +Добавлена опция DetectActiveMonitorMethod для определения активного монитора 0 - по активному окну, 1 - по позиции мыши (доступно в Config.ini)
@@ -10,7 +17,14 @@
 *Исправлен сброс баланса в Windows XP
 *Исправлено управление громкостью выбранного приложения
 
-#US Version 1.1.6.415 (21.04.2020)
+#US Version 1.1.6.419 (01.05.2020)
++Added new periods for Scheduler (On Lock PC and On Unlock PC)
+*Fixed PeakMeter
++Added support multiple monitors with different resolutions for Settings window
++Added Autorun types: As Task or As Program
++Added devices sorting
+*Fixed dublicating devices
+*Fixed loading Author name in Peak Meter
 +Added option Lock Devices Volume, when you change volume of main device also will be changed volume of alternative and vice versa
 *Fixed GitHub issue #69
 +Added option how to detect active monitor DetectActiveMonitorMethod: 0 - by active window, 1 - by mouse position (available in Config.ini)
