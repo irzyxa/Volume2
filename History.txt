@@ -1,4 +1,7 @@
-﻿#RU Версия 1.1.6.423 (16.06.2020)
+﻿#RU Версия 1.1.6.426 (02.08.2020)
+*Исправлены ошибки с GitHub #69, #88, #92, #93, #82, #98, #103
+*Исправлена плавная прокрутка (Logitech SetPoint)
++Добавлена возможность запуска приложения без доступных аудио устройств в системе
 +Добавлена сортировка в Расписание
 +Добавлено события в Планировщике (на болкирование ПК, на разблокирование ПК, после простоя ПК)
 *Исправлен Peak Meter
@@ -8,7 +11,6 @@
 *Исправлено дублирование в списке устройств
 *Исправлена загрузка имени автора скина в Peak Meter
 +Добавлена опция Связать громкость устройств, при изменении основного устройства будет изменена громкость альтернативного и наоборот
-*Исправлены ошибки с GitHub #69, #88, #92, #93, #82
 +Добавлена опция DetectActiveMonitorMethod для определения активного монитора 0 - по активному окну, 1 - по позиции мыши (доступно в Config.ini)
 *Исправлена проблема с одинаковыми именами устройств, теперь сохраняются ИД
 +Добавлена возможность задать позицию и размер Экранного индикатора для каждого экрана
@@ -18,7 +20,10 @@
 *Исправлен сброс баланса в Windows XP
 *Исправлено управление громкостью выбранного приложения
 
-#US Version 1.1.6.423 (16.06.2020)
+#US Version 1.1.6.426 (02.08.2020)
+*Fixed issues from GitHub #69, #88, #92, #93, #82, #98, #103
+*Fixed Smooth scrolling from Logitech SetPoint
++Added possibility to load programm without any audio devices(Windows 7 and higher
 +Added ordering to Scheduls
 +Added new periods for Scheduler (On Lock PC, On Unlock PC, After Idle Time)
 *Fixed PeakMeter
@@ -28,7 +33,6 @@
 *Fixed dublicating devices
 *Fixed loading Author name in Peak Meter
 +Added option Lock Devices Volume, when you change volume of main device also will be changed volume of alternative and vice versa
-*Fixed issues from GitHub #69, #88, #92, #93, #82
 +Added option how to detect active monitor DetectActiveMonitorMethod: 0 - by active window, 1 - by mouse position (available in Config.ini)
 *Fixed problem with the same devices' names, from this version will be stored ID
 +Added possibility to set OSD position and size for each monitor
