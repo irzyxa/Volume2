@@ -1,10 +1,14 @@
-﻿#RU Версия 1.1.7.432 (27.01.2021)
+﻿#RU Версия 1.1.7.435 (10.10.2021)
++Добавлено автоматическое определение языка основываясь на языке системы
++Добавлена возможность запуска задачи через POST запрос: /tasks/execute/id=taskId
 *Исправлены ошибки с GitHub #112, #119, #127, #129
 *Исправлено управление над панелью задач на 3 и более экранах
 +Добавлено Действие - Запустить задачу для Горячих клавиш
 +Добавлена новое состояние в задаче Включить/выключить звук - переключатель
 
-#US Version 1.1.7.432 (27.01.2021)
+#US Version 1.1.7.435 (10.10.2021)
++Language autodetection was implemented (Based on System language)
++Added support for POST request to execute task: /tasks/execute/id=taskId
 *Fixed issues from Github #112, #119, #127, #129
 *Fixed volume control under taskbar on 3 and more monitors
 +Added Action - Run task to Hotkeys
