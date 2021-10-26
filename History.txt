@@ -1,4 +1,6 @@
-﻿#RU Версия 1.1.7.435 (10.10.2021)
+﻿#RU Версия 1.1.7.437 (26.10.2021)
++Добавлена возможность управлять альтернативным устройством с коммандной строки (параметр ALTDEVICE)
+*Исправлено управление громкость основного устройства с командной строки
 +Добавлено автоматическое определение языка основываясь на языке системы
 +Добавлена возможность запуска задачи через POST запрос: /tasks/execute/id=taskId
 *Исправлены ошибки с GitHub #112, #119, #127, #129
@@ -6,7 +8,10 @@
 +Добавлено Действие - Запустить задачу для Горячих клавиш
 +Добавлена новое состояние в задаче Включить/выключить звук - переключатель
 
-#US Version 1.1.7.435 (10.10.2021)
+#US Version 1.1.7.437 (26.10.2021)
++Multiple alternative devices can be used in Hotkeys
++Added possibility to control alternate device from command line (parameter ALTDEVICE)
+*Fixed change volume for main audio device from command line
 +Language autodetection was implemented (Based on System language)
 +Added support for POST request to execute task: /tasks/execute/id=taskId
 *Fixed issues from Github #112, #119, #127, #129
