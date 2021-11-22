@@ -1,4 +1,7 @@
-﻿#RU Версия 1.1.7.437 (26.10.2021)
+﻿#RU Версия 1.1.7.438 (20.11.2021)
+*Обновлен Менеджер аудио устройств
+*Исправлено отображение Экранного индикатора на удаленном рабочем столе
++Добавлена загрузка Истории с сайта программы
 +Добавлена возможность управлять альтернативным устройством с коммандной строки (параметр ALTDEVICE)
 *Исправлено управление громкость основного устройства с командной строки
 +Добавлено автоматическое определение языка основываясь на языке системы
@@ -8,7 +11,10 @@
 +Добавлено Действие - Запустить задачу для Горячих клавиш
 +Добавлена новое состояние в задаче Включить/выключить звук - переключатель
 
-#US Version 1.1.7.437 (26.10.2021)
+#US Version 1.1.7.438 (20.11.2021)
+*Updated Audio Device Manager
+*Fixed show OSD on RDP and low color depth screens
++Added the ability to load History from the site
 +Multiple alternative devices can be used in Hotkeys
 +Added possibility to control alternate device from command line (parameter ALTDEVICE)
 *Fixed change volume for main audio device from command line
