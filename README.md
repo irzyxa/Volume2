@@ -10,6 +10,7 @@ This repository contains only a part of the program which is open source(Languag
 ## Install
 Install Volume²:
 * From the [Microsoft Store](https://www.microsoft.com/store/apps/9P53TWR6LCTX) 
+* From the [Steam](https://store.steampowered.com/app/1832750)
 * Via Chocolatey (`choco install volume2`)
 * Manually [Download](https://irzyxa.blogspot.com/p/downloads.html)
 
