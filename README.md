@@ -3,8 +3,7 @@
 Volume²
 ----
  
-Volume² - advanced Windows volume control. [Author Blog](https://irzyxa.blogspot.com/p/downloads.html)
-
+Volume² - advanced Windows volume control.  
 This repository contains only a part of the program which is open source(Languages, OSD Skins, Tray Skins, Meter Skins)
 
 ## Install
@@ -22,4 +21,8 @@ Install Volume²:
 - Windows 10
 - Windows 11
 
+## Contacts
+[Official page](https://irzyxa.blogspot.com/p/downloads.html)  
+[YouTube channel](https://www.youtube.com/channel/UCKFKoZscSdsdgiQlROOurPg)  
+[Facebook page](https://www.facebook.com/volumesqr)  
 
