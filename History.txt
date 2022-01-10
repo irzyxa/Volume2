@@ -1,9 +1,11 @@
-﻿#RU Версия 1.1.8.450 (08.01.2022)
+﻿#RU Версия 1.1.8.452 (10.01.2022)
+*Исправлена ошибка с подключением устройств (#168)
 *Исправлены ошибки связвнные с альтернативной иконкой в трее
 +Добавлена возможность скрыть нективные устройства в Диспетчере аудио устройств
 +Добавлена возможность установить устройство по умолчанию одиночным кликом в Диспетчере аудио устройств (включается в Пользовательских переменных - ADMApplyImmediately)
 
-#US Version 1.1.8.450 (08.01.2022)
+#US Version 1.1.8.452 (10.01.2022)
+*Fixed issue related to device connection (#168)
 *Fixed issues related to alternative tray icon
 +Added Show Inactive Devices option to Audio Device Manager
 +Added set default device on single mouse click in Audio Device Manager (available in User Variables - ADMApplyImmediately)
