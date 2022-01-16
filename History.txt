@@ -1,11 +1,15 @@
-﻿#RU Версия 1.1.8.453 (11.01.2022)
+﻿#RU Версия 1.1.8.454 (15.01.2022)
++Добавлено автоматическое определение цвета шрифта в зависимости от цвета фона
+*Исправлен цвет шрифта для переключателей
 *Исправлен крэш программы для некоторых языков из-за неправильного перевода
 *Исправлена ошибка с подключением устройств (#168)
 *Исправлены ошибки связвнные с альтернативной иконкой в трее
 +Добавлена возможность скрыть нективные устройства в Диспетчере аудио устройств
 +Добавлена возможность установить устройство по умолчанию одиночным кликом в Диспетчере аудио устройств (включается в Пользовательских переменных - ADMApplyImmediately)
 
-#US Version 1.1.8.453 (11.01.2022)
+#US Version 1.1.8.454 (15.01.2022)
++Added automatic font color detection depending on background color
+*Fixed font color for checkboxes/radiobuttons 
 *Fixed program crash for some languages because of incorrect translation
 *Fixed issue related to device connection (#168)
 *Fixed issues related to alternative tray icon
