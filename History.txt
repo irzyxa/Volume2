@@ -1,4 +1,7 @@
-﻿#RU Версия 1.1.8.454 (15.01.2022)
+﻿#RU Версия 1.1.8.456 (23.01.2022)
+*Исправлено некоректное поведение горячих клавиш (Win + RMB) при управлении альтернативным устройством (#183)
+*Исправлено управление громкостью над второй, третьей панелью задач (#181)
+*Исправлено автоопределение языка (#176)
 +Добавлено автоматическое определение цвета шрифта в зависимости от цвета фона
 *Исправлен цвет шрифта для переключателей
 *Исправлен крэш программы для некоторых языков из-за неправильного перевода
@@ -7,7 +10,10 @@
 +Добавлена возможность скрыть нективные устройства в Диспетчере аудио устройств
 +Добавлена возможность установить устройство по умолчанию одиночным кликом в Диспетчере аудио устройств (включается в Пользовательских переменных - ADMApplyImmediately)
 
-#US Version 1.1.8.454 (15.01.2022)
+#US Version 1.1.8.456 (23.01.2022)
+*Fixed behavior of hotkeys (Win + RMB) when controlling an alternative device (#183)
+*Fixed volume control over the second, third taskbar (#181)
+*Fixed autodetection System language (#176)
 +Added automatic font color detection depending on background color
 *Fixed font color for checkboxes/radiobuttons 
 *Fixed program crash for some languages because of incorrect translation
