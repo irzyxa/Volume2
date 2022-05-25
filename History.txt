@@ -1,4 +1,5 @@
-﻿#RU Версия 1.1.8.456 (23.01.2022)
+﻿#RU Версия 1.1.8.458 (25.05.2022)
+*Исправлена ошибка с воспроизведением звука после изменения громкости (#94)
 *Исправлено некоректное поведение горячих клавиш (Win + RMB) при управлении альтернативным устройством (#183)
 *Исправлено управление громкостью над второй, третьей панелью задач (#181)
 *Исправлено автоопределение языка (#176)
@@ -10,7 +11,12 @@
 +Добавлена возможность скрыть нективные устройства в Диспетчере аудио устройств
 +Добавлена возможность установить устройство по умолчанию одиночным кликом в Диспетчере аудио устройств (включается в Пользовательских переменных - ADMApplyImmediately)
 
-#US Version 1.1.8.456 (23.01.2022)
+#US Version 1.1.8.458 (25.05.2022)
+*Fixed an issue related to play sound after changing the volume (#94)
++Added per-device volume control method (#174)
++Added possibility to disable OSD for scheduler (#189)
++Added autoresize of Windows mixer (#182)
+*Improved Dark mode (#170)
 *Fixed behavior of hotkeys (Win + RMB) when controlling an alternative device (#183)
 *Fixed volume control over the second, third taskbar (#181)
 *Fixed autodetection System language (#176)
