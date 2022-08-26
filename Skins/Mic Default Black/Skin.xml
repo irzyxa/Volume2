@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<XMLskinSettings>
+  <info>
+    <author>Alexandr Irza</author>
+    <website></website>
+    <skinVersion></skinVersion>
+    <formatVersion>3</formatVersion>
+  </info>
+    <OSD>
+    <Meter X="0" Y="0" Orientation="" Min="0" Max="0"/>
+    <MeterMute X="0" Y="0" Orientation="" Min="0" Max="0"/>
+  </OSD>
+</XMLskinSettings>
