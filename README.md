@@ -6,6 +6,11 @@ Volume²
 Volume² - advanced Windows volume control.  
 This repository contains only a part of the program which is open source(Languages, OSD Skins, Tray Skins, Meter Skins)
 
+## Support
+If you find this project useful, please consider making a donation.
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=6VJ72L2WB4MXQ)
+
 ## Install
 Install Volume²:
 * From the [Microsoft Store](https://www.microsoft.com/store/apps/9P53TWR6LCTX) 
