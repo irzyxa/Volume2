@@ -9,6 +9,8 @@ This repository contains only a part of the program which is open source(Languag
 ## Support
 If you find this project useful, please consider making a donation.
 
+alexandr.irza@gmail.com
+
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=6VJ72L2WB4MXQ)
 
 ## Install
