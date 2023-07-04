@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMLskinSettings>
+  <Info>
+    <Author>Microsoft</Author>
+    <WebSite>http://microsoft.com</WebSite>
+    <SkinVersion>3.0</SkinVersion>
+  </Info>
+  <OSD>
+    <!--Orientation: BitMoveUp, BitMoveRight, BitStripBottom, BitStripRight, Horizontal, Vertical-->
+    <!--LayerIndex: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
+    <!--Color: #AARRGGBB-->
+    <!--Alignment: 0 - taLeft, 1 - taCenter, 2 - taRight-->
+    <FadeSteps>18</FadeSteps>
+    <ShowSteps>36</ShowSteps>
+    <Colorization>true</Colorization>
+    <!--Value format: #AARRGGBB. -1 - Use system color-->
+    <ColorizationColor>-1</ColorizationColor>
+    <Background Colorize="false"/>
+    <Meter X="43" Y="22" Orientation="HORIZONTAL" Min="0" Max="110" HideOnMute="false" Colorize="true"/>
+    <MeterMute X="0" Y="0" Orientation="HORIZONTAL" Min="0" Max="0" Colorize="true"/>
+    <MeterEffect Enable="true" Orientation="BitStripBottom" Min="0" Max="3" LayerIndex="0" HideOnMute="true" X="14" Y="14" Colorize="false" FileName=""/>
+    <MeterMuteEffect Enable="true" LayerIndex="0" X="14" Y="14" Colorize="false"/>
+    <PeakMeter Enable="true" LayerIndex="0" Colorize="false" Style="MONO" Orientation="HORIZONTAL" Max="100">
+      <LeftChannel X="64" Y="53" Inverse="false"/>
+      <RightChannel X="0" Y="0" Inverse="false"/>
+    </PeakMeter>
+    <Text Enable="true" X="172" Y="24" Format="%V" FormatMute="%V" Alignment="1" HideOnMute="false" LayerIndex="-1">
+      <Font Size="14" Color="#FFffffff" ColorMute="#FFffffff" Name="Segoe UI" Bold="false" Italic="false"/>
+    </Text>
+    <NotificationText Enable="false" X="0" Y="0" Width="0" Height="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="Tahoma" Bold="false" Italic="false"/>
+    </NotificationText>
+    <CDDriveLetter Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="Tahoma" Bold="false" Italic="false"/>
+    </CDDriveLetter>
+    <USBDriveLetter Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="Tahoma" Bold="false" Italic="false"/>
+    </USBDriveLetter>
+    <USBFriendlyName Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="Tahoma" Bold="false" Italic="false"/>
+    </USBFriendlyName>
+  </OSD>
+  <Layers/>
+</XMLskinSettings>
