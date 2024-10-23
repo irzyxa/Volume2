@@ -17,6 +17,9 @@
     <FadeSteps>28</FadeSteps>
     <ShowSteps>53</ShowSteps>
     <HideMeterOnMute>false</HideMeterOnMute>
+    <Colorization>false</Colorization>
+    <!--Value format: #AARRGGBB. -1 - Use system color-->
+    <ColorizationColor>-1</ColorizationColor>
   </OSD>
   <MeterEffect>
     <ShowMeterEffect>false</ShowMeterEffect>
@@ -32,6 +35,16 @@
       <Y>0</Y>
     </MeterPosition>
   </MeterEffect>
+  <MuteEffect>
+    <ShowMuteEffect>false</ShowMuteEffect>
+    <!--Available values: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
+    <LayerIndex>0</LayerIndex>
+    <MutePosition>
+      <X>0</X>
+      <Y>0</Y>
+    </MutePosition>
+    <HideOnUnMute>true</HideOnUnMute>
+  </MuteEffect>
   <PeakMeter>
     <ShowPeakMeter>false</ShowPeakMeter>
     <!--Available values: BitStripBottom, BitStripRight, Horizontal-->
@@ -54,16 +67,16 @@
   <Text>
     <ShowText>true</ShowText>
     <TextPosition>
-      <X>190</X>
-      <Y>148</Y>
+      <X>140</X>
+      <Y>147</Y>
     </TextPosition>
     <Size>25</Size>
     <!--Value format: #AARRGGBB-->
     <Color>#FFFFFFFF</Color>
-    <Format>%d%%</Format>
+    <Format>Volume %d%%</Format>
     <!--Value format: #AARRGGBB-->
     <ColorMute>#FFFFFFFF</ColorMute>
-    <FormatMute>%d%%</FormatMute>
+    <FormatMute>Mute</FormatMute>
     <!--Available values: 0 - taLeft, 1 - taCenter, 2 - taRight-->
     <Alignment>1</Alignment>
     <FontName>Arial</FontName>
