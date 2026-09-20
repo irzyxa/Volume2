@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMLskinSettings>
+  <Info>
+    <Author>Alexandr Irza</Author>
+    <WebSite>https://irzyxa.blogspot.com/</WebSite>
+    <SkinVersion>3.0</SkinVersion>
+  </Info>
+  <OSD>
+    <!--Orientation: BitMoveUp, BitMoveRight, BitStripBottom, BitStripRight, Horizontal, Vertical-->
+    <!--LayerIndex: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
+    <!--Color: #AARRGGBB-->
+    <!--Alignment: 0 - taLeft, 1 - taCenter, 2 - taRight-->
+    <!--Panel 240x84. Icon 24x24 at 20,18. Bar 200x6 at 20,56. Value centred at 186,18.-->
+    <!--Format tokens: %V volume, %D device, %DF sound card, %A absolute, %dB decibels, %S on/off, %ChN channel, %NL new line, %C(x,y) position, %% literal percent-->
+    <FadeSteps>18</FadeSteps>
+    <ShowSteps>36</ShowSteps>
+    <!--Set Colorization to true (and Colorize="true" on Meter/MeterEffect) to follow the Windows accent colour instead of the skin green-->
+    <Colorization>false</Colorization>
+    <!--Value format: #AARRGGBB. -1 - Use system color-->
+    <ColorizationColor>-1</ColorizationColor>
+    <Background Colorize="false"/>
+    <Meter X="20" Y="56" Orientation="HORIZONTAL" Min="0" Max="200" HideOnMute="false" Colorize="false"/>
+    <MeterMute X="0" Y="0" Orientation="HORIZONTAL" Min="0" Max="0" Colorize="false"/>
+    <MeterEffect Enable="true" Orientation="BitStripBottom" Min="0" Max="3" LayerIndex="0" HideOnMute="true" X="20" Y="15" Colorize="false" FileName=""/>
+    <MeterMuteEffect Enable="true" LayerIndex="0" X="20" Y="15" Colorize="false"/>
+    <PeakMeter Enable="false" LayerIndex="0" Colorize="false" Style="MONO" Orientation="HORIZONTAL" Max="100">
+      <LeftChannel X="0" Y="0" Inverse="false"/>
+      <RightChannel X="0" Y="0" Inverse="false"/>
+    </PeakMeter>
+    <Text Enable="true" X="50" Y="28" MaxWidth="150" Format="%D" FormatMute="%D" Alignment="0" HideOnMute="false" LayerIndex="-1">
+      <Font Size="16" Color="#E8EDF4" ColorMute="#FF7C8896" Name="Segoe UI" Bold="false" Italic="false"/>
+    </Text>
+    <Text Enable="true" X="223" Y="25" Format="%V%" FormatMute="%V%" Alignment="2" HideOnMute="false" LayerIndex="-1">
+      <Font Size="20" Color="#FF3FD3A2" ColorMute="#FF7C8896" Name="Segoe UI" Bold="true" Italic="false"/>
+    </Text>
+    <NotificationText Enable="false" X="0" Y="0" Width="0" Height="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FFE8EDF4" Name="Segoe UI" Bold="false" Italic="false"/>
+    </NotificationText>
+    <CDDriveLetter Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FFE8EDF4" Name="Segoe UI" Bold="false" Italic="false"/>
+    </CDDriveLetter>
+    <USBDriveLetter Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FFE8EDF4" Name="Segoe UI" Bold="false" Italic="false"/>
+    </USBDriveLetter>
+    <USBFriendlyName Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FFE8EDF4" Name="Segoe UI" Bold="false" Italic="false"/>
+    </USBFriendlyName>
+  </OSD>
+  <Layers/>
+</XMLskinSettings>
