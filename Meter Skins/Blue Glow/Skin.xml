@@ -21,5 +21,10 @@
     </meterRightPosition>
 
     <meterMax>5</meterMax>
+
+    <TrayIcon Style="Stereo" Orientation="vertical" Max="8">
+      <LeftChannel X="5" Y="4" Inverse="true"/>
+      <RightChannel X="17" Y="4" Inverse="true"/>
+    </TrayIcon>
   </osd>
 </XMLskinSettings>
