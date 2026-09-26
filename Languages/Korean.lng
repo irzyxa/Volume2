@@ -1,4 +1,4 @@
-﻿;Encoding must be UTF-8 with BOM
+;Encoding must be UTF-8 with BOM
 [FmMain]
 FmMain_Caption=Volume² - 옵션
 FmMain_FontName=Tahoma
@@ -114,7 +114,7 @@ CBScreenBorder_Items[3]=아래쪽
 CBUseMoveWatch_Caption=화면 가장자리를 따라 마우스를 이동할 때 볼륨 변경
 LScreenBorder_Caption=활성 가장자리:
 LStartMove_Caption=볼륨 변경 전 지연:
-LStartStep_Caption=1회 동작 간격:
+LStartStep_Caption=한 번 동작 간격:
 LCountSteps_Caption=단계
 CBUseDisableVolume_Caption=음소거 켜기/끄기
 CBDisableVolumeKey_Items[0]=Alt
@@ -492,14 +492,14 @@ FmKatMouseAppList_FontName=Tahoma
 FmKatMouseAppList_FontSize=8
 XiDevice_Caption=옵션
 CBAction_Items[0]=항상
-CBAction_Items[1]=활성화할 때
-CBAction_Items[2]=사용 안 함일 때
-CBAction_Items[3]=표시 안 함
+CBAction_Items[1]=활성화되었을 때
+CBAction_Items[2]=비활성화되었을 때
+CBAction_Items[3]=절대 안 함
 actnClose_Caption=닫기
 actnOk_Caption=적용
 actnAdd_Caption=추가
 actnDel_Caption=삭제
-LDrag_Caption=관심있는 창에서 이미지를 끌기
+LDrag_Caption=대상 창으로 이미지를 끌기
 actnAddFromFile_Caption=파일 선택
 actnAddFromProc_Caption=프로세스 선택
 LVApps_Columns[0]=동작
@@ -584,7 +584,7 @@ aOnLockPC_Caption=PC 잠금 시
 aOnUnlockPC_Caption=PC 잠금 해제 시
 aAfterIdleTime_Caption=유휴 시간 후
 aSetDefaultDevice_Caption=기본 장치 설정
-aAfterCloseProgram_Caption=After close application
+aAfterCloseProgram_Caption=프로그램을 닫은 후
 
 [FmProjectHelp]
 FmProjectHelp_Caption=기부
@@ -757,7 +757,7 @@ lblName_Caption=이름:
 aCancel_Caption=취소
 aOkay_Caption=확인
 lblParameter_Caption=매개변수:
-lblIndex_Caption=색인:
+lblIndex_Caption=인덱스:
 
 [Information]
 AuthorName=비너스걸 (VᴇɴᴜꜱGɪʀʟ)💋
