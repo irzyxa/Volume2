@@ -1,4 +1,4 @@
-﻿;Encoding must be UTF-8 with BOM
+;Encoding must be UTF-8
 [FmMain]
 FmMain_Caption=Volume² - Настройки
 FmMain_FontName=Tahoma
@@ -95,7 +95,7 @@ LSaite_Caption=Сайт:
 SBShowOSDExemle_Caption=Показать
 LLeftChanel_Caption=Л
 LRightChanel_Caption=П
-LShowOnScreenNumber_Caption=Выводить на монитор:
+LShowOnScreenNumber_Caption=Показывать OSD на:
 LCaptionTree_Caption=О программе
 actnHKVolumeUP_Caption=Увеличить громкость
 actnHKVolumeDOWN_Caption=Уменьшить громкость
@@ -404,7 +404,7 @@ Label_Buy=Купить
 Label_Setuped=Установлено
 Label_NoIcon=Без иконки
 Label_RestoreIcon=Для просмотра настроек запустите программу еще раз
-Label_ActiveWindow=Активное окно
+Label_ActiveWindow=Активный монитор
 Label_AvailableNewVersion=Доступно обновление до версии %s
 Label_DeleteSkin=Удалить скин с диска: 
 Label_Settings=Настройки
@@ -445,13 +445,14 @@ Label_AltDevice=Альтернативное устройство
 Label_WebSite=Веб сайт
 Label_RenameDevice=Переименование 
 Label_NewDeviceName=Введите новое имя устройства:
-Label_Schema=Schema #
-Label_SchemaName=Schema name
+Label_Schema=Схема №
+Label_SchemaName=Название схемы
 Label_AllMicsMuted=Все микрофоны отключены
 Label_AddDevice=Добавить устройство
 Label_EditDevice=Изменить устройство
 Label_Default=По умолчанию
 Label_DoNotChange=Не изменять
+Label_FullScreenListInverted=Приложения, в которых управление громкостью отключается
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Список приложений
@@ -626,9 +627,9 @@ LColorMouseMove_Caption=Цвет под курсором
 actnCancel_Caption=Отмена
 actnOk_Caption=Ок
 lblTransparency_Caption=Прозрачность,%:
-lblRed_Caption=Red:
-lblGreen_Caption=Green:
-blbBlue_Caption=Blue:
+lblRed_Caption=Красный:
+lblGreen_Caption=Зелёный:
+blbBlue_Caption=Синий:
 
 [FmEditKey]
 FmEditKey_FontName=Tahoma

@@ -1,4 +1,4 @@
-﻿;Encoding must be UTF-8 with BOM
+;Encoding must be UTF-8
 [FmMain]
 FmMain_Caption=Volume² - Επιλογές
 FmMain_FontName=Tahoma
@@ -95,7 +95,7 @@ LSaite_Caption=Blog:
 SBShowOSDExemle_Caption=Προεπισκόπιση
 LLeftChanel_Caption=Α
 LRightChanel_Caption=Δ
-LShowOnScreenNumber_Caption=Εμφάνιση:
+LShowOnScreenNumber_Caption=Εμφάνιση OSD σε:
 LCaptionTree_Caption=Περί
 actnHKVolumeUP_Caption=Αύξηση έντασης
 actnHKVolumeDOWN_Caption=Μείωση έντασης
@@ -155,14 +155,14 @@ actnEjectCDRom_Caption=Εξαγωγή CD/DVD-ROM
 LPercent1_Caption=%
 LPercent2_Caption=%
 LSec_Caption=δευτ
-LPixels1_Caption=pixels
-LPixels2_Caption=pixels
+LPixels1_Caption=εικονοστοιχεία
+LPixels2_Caption=εικονοστοιχεία
 CBUseLogSpeed_Caption=Λογαριθμική μεταβολή έντασης
 CBUseAutoUpdate_Caption=Έλεγχος για ενημερώσεις
 CBUseAlternativeMouseWheel_Caption=Κύλιση περιεχόμενου κάτω από τον δείκτη του ποντικιού χωρίς κλικ (KatMouse)
 XiScheduleSettings_Caption=Δημιουργία χρονοδιαγράμματος
 CBUseSchedule_Caption=Ενεργοποίηση χρονοδιαγράμματος
-LPixels3_Caption=pixels
+LPixels3_Caption=εικονοστοιχεία
 LEdgeWindowSize_Caption=Πλάτος περιοχής ευαισθησίας
 LEdgeAlphaValue_Caption=Διαφάνεια
 LPercent3_Caption=%
@@ -186,7 +186,7 @@ LColorBackOff_Caption=Ήχος Off
 CBOSDTextBorder_Caption=Περιθώριο OSD:
 CBOSDTextDelineate_Caption=Περίγραμμα κειμένου
 LOSDTrackBarHeight_Caption=Μέγεθος
-LPixels4_Caption=pixels
+LPixels4_Caption=εικονοστοιχεία
 CBUseLabelOSDTrackBar_Caption=Εμφάνιση ποσοστού έντασης
 LMethodControl_Caption=Μέθοδος ελέγχου:
 CBMethodControl_Items[0]=Γραμμική
@@ -291,13 +291,13 @@ actnSetVolumePercent_Caption=Ορισμός ποσοστού έντασης
 LShortKeyParameter_Caption=Παράμετρος:
 SBCopyEmail_Hint=Αντιγραφή
 btnCopySite_Hint=Αντιγραφή
-LEMail_Caption=EMail:
+LEMail_Caption=Email:
 actnSetDefaultAudioDevice_Caption=Ορισμός προεπιλεγμένης συσκευής ήχου
 actnRunApplication_Caption=Εκτέλεση εφαρμογής
 actnStayOnTop_Caption=Ανώτατο
 actnMuteAllExceptActiveApp_Caption=Σίγαση όλων εκτός της ενεργής εφαρμογή
 actnUnMuteAllApps_Caption=Κατάργηση σίγασης σε όλες τις εφαρμογές
-actnShowSetDefaultDeviceWindow_Caption=Audio device manager
+actnShowSetDefaultDeviceWindow_Caption=Διαχείριση συσκευών ήχου
 actnMovable_Caption=Κινούμενο
 actnBrightnessPercent_Caption=Ορισμός ποσοστού φωτεινότητας
 XiAdvanced_Caption=Για προχωρημένους
@@ -310,7 +310,7 @@ CBChangeVolumeOptions_Items[3]=Λίστα εφαρμογών
 actnRebootPC_Caption=Επανεκκίνηση PC
 actnShutdownPC_Caption=Τερματισμός PC
 actnTurnOffMonitor_Caption=Σβήσιμο οθόνης
-actnTurnOnMonitor_Caption=Turn On Monitor
+actnTurnOnMonitor_Caption=Ενεργοποίηση οθόνης
 actnDisableVolume2Mouse_Caption=Ενέργειες ποντικιού
 actnDisableVolume2Keyboard_Caption=Ενέργειες πληκτρολογίου
 actnDisableVolume2All_Caption=Όλα
@@ -334,7 +334,7 @@ actnActiveAppVolumeDown_Caption=Μείωση έντασης (ενεργή εφα
 actnActiveAppMute_Caption=Σίγαση On/Off (ενεργή εφαρμογή).
 actnResetAllAppsVolume_Caption=Επαναφορά έντασης όλων των εφαρμογών 
 actnDF_Caption=%DF - Συσκευή (κάρτα ήχου)
-chbUseBetaUpdate_Caption=Beta versions
+chbUseBetaUpdate_Caption=Εκδόσεις beta
 actnMediaKeys_Caption=Πλήκτρα πολυμέσων
 actnSetBalancePercent_Caption=Ορισμός ποσοστού μπαλανς
 actnVolumeOn_Caption=Ήχος On
@@ -351,12 +351,12 @@ rbRunAsProgram_Caption=Ως πρόγραμμα
 rbRunAsTask_Caption=Ως εργασία
 chbUnmuteOnIncreaseVolume_Caption=Μόνο σε αύξηση έντασης
 actnShowUserVariables_Hint=Μεταβλητές χρήστη
-actnExecuteTask_Caption=
+actnExecuteTask_Caption=Εκτέλεση εργασίας
 tsTraySkinHeader_Caption=Κύριες συσκευή
 tsAltTraySkinHeader_Caption=Εναλλακτική συσκευή
-actnSetMethodForDevice_Hint=Set Control Method For Device
-actnMuteAllMicrophones_Caption=Mute All Microphones
-actnDB_Caption=%dB - Decibels  
+actnSetMethodForDevice_Hint=Ορισμός μεθόδου ελέγχου για τη συσκευή
+actnMuteAllMicrophones_Caption=Σίγαση όλων των μικροφώνων
+actnDB_Caption=%dB - Ντεσιμπέλ  
 
 [AdvancedStrings]
 Label_No=Όχι
@@ -404,7 +404,7 @@ Label_Buy=Αγορά
 Label_Setuped=Ορισμός
 Label_NoIcon=Δεν εμφανίζεται εικονίδιο
 Label_RestoreIcon=Για τις ρυθμίσεις προβολής, εκτελέστε ξανά το πρόγραμμα
-Label_ActiveWindow=Ενεργό παράθυρο
+Label_ActiveWindow=Ενεργή οθόνη
 Label_AvailableNewVersion=Η έκδοση% s είναι διαθέσιμη
 Label_DeleteSkin=Διαγραφή πρόσοψης από το δίσκο: 
 Label_Settings=Ρυθμίσεις
@@ -423,7 +423,7 @@ Label_ResetAllAppsVolume=Επαναφορά έντασης όλων των εφ�
 Label_NetConnected=NET: Συνδεδεμένη
 Label_NetDisconnected=NET: Απουνδεδεμένη
 Label_Center=Στο κέντρο της οθόνης
-Label_Coordinates=Coordinates X: %.1f, Y: %.1f
+Label_Coordinates=Συντεταγμένες X: %.1f, Y: %.1f
 Label_Top_Left=Επάνω αριστερά
 Label_Top_Center=Επάνω κέντρο
 Label_Top_Right=Επάνω δεξιά
@@ -436,22 +436,23 @@ Label_Near_Mouse=Κοντά στο δείκτη
 Label_Size=Μέγεθος
 Label_Position and Size=Θέση και μέγεθος για
 Lanel_ApplicationsList=Πολλαπλές εφαρμογές
-Label_MuteToggle=Toggle
-Label_EnableDevice=Enable Device
-Label_DisableDevice=DisableDevice
+Label_MuteToggle=Εναλλαγή
+Label_EnableDevice=Ενεργοποίηση συσκευής
+Label_DisableDevice=Απενεργοποίηση συσκευής
 Label_CopyToClipboard=Αντιγραφή στο πρόχειρο
-Label_AllDisplays=All displays
+Label_AllDisplays=Όλες οι οθόνες
 Label_AltDevice=Εναλλακτική συσκευή ήχου
 Label_WebSite=Ιστοσελίδα
-Label_RenameDevice=Rename Device
-Label_NewDeviceName=Enter a new device name:
-Label_Schema=Schema #
-Label_SchemaName=Schema name
-Label_AllMicsMuted=All Microphones are muted
-Label_AddDevice=Add Device
-Label_EditDevice=Edit Device
-Label_Default=Default
-Label_DoNotChange=Do not change
+Label_RenameDevice=Μετονομασία συσκευής
+Label_NewDeviceName=Εισαγάγετε νέο όνομα συσκευής:
+Label_Schema=Σχήμα #
+Label_SchemaName=Όνομα σχήματος
+Label_AllMicsMuted=Όλα τα μικρόφωνα είναι σε σίγαση
+Label_AddDevice=Προσθήκη συσκευής
+Label_EditDevice=Επεξεργασία συσκευής
+Label_Default=Προεπιλογή
+Label_DoNotChange=Χωρίς αλλαγή
+Label_FullScreenListInverted=Εφαρμογές όπου ο έλεγχος της έντασης είναι απενεργοποιημένος
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Κατάλογος των προσαρτημάτων
@@ -584,7 +585,7 @@ aOnLockPC_Caption=Στο κλείδωμα PC
 aOnUnlockPC_Caption=Στο ξεκλείδωμα PC
 aAfterIdleTime_Caption=Μετά το χρόνο αδράνειας
 aSetDefaultDevice_Caption=Συσκευή αναπαραγωγής
-aAfterCloseProgram_Caption=After close application
+aAfterCloseProgram_Caption=Μετά το κλείσιμο της εφαρμογής
 
 [FmProjectHelp]
 FmProjectHelp_Caption=Δωρεές
@@ -592,7 +593,7 @@ FmProjectHelp_FontName=Tahoma
 FmProjectHelp_FontSize=8
 actnClose_Caption=Κλείσιμο
 actnSendMail_Caption=Αποστολή mail
-lblMoreDonate_Caption=More...
+lblMoreDonate_Caption=Περισσότερα...
 
 [FmMainPM]
 FmMainPM_FontName=Tahoma
@@ -626,9 +627,9 @@ LColorMouseMove_Caption=Χρώμα κάτω από το δρομέα
 actnCancel_Caption=Ακύρωση
 actnOk_Caption=ΟΚ
 lblTransparency_Caption=Διαφάνεια,%:
-lblRed_Caption=Red:
-lblGreen_Caption=Green:
-blbBlue_Caption=Blue:
+lblRed_Caption=Κόκκινο:
+lblGreen_Caption=Πράσινο:
+blbBlue_Caption=Μπλε:
 
 [FmEditKey]
 FmEditKey_FontName=Tahoma
@@ -671,14 +672,14 @@ actnClose_Caption=Κλείσιμο
 actnOk_Caption=Εφαρμογή
 actnAddColorScheme_Caption=Προσθήκη
 actnDelColorScheme_Caption=Κατάργηση
-lblDarkMode_Caption=Dark Mode
-lblDarkTraySkin_Caption=Main Tray Skin
-lblDarkAltTraySkin_Caption=Alternative Tray Skin
-lblDarkOSDSkin_Caption=OSD Skin
-lblDefault_Caption=Default
-lblTraySkin_Caption=Main Tray Skin
-lblAltTraySkin_Caption=Alternative Tray Skin
-lblODSSkin_Caption=OSD Skin
+lblDarkMode_Caption=Σκοτεινή λειτουργία
+lblDarkTraySkin_Caption=Κύρια πρόσοψη χώρου ειδοποιήσεων
+lblDarkAltTraySkin_Caption=Εναλλακτική πρόσοψη χώρου ειδοποιήσεων
+lblDarkOSDSkin_Caption=Πρόσοψη OSD
+lblDefault_Caption=Προεπιλογή
+lblTraySkin_Caption=Κύρια πρόσοψη χώρου ειδοποιήσεων
+lblAltTraySkin_Caption=Εναλλακτική πρόσοψη χώρου ειδοποιήσεων
+lblODSSkin_Caption=Πρόσοψη OSD
 
 [FmUSBDevicesList]
 FmUSBDevicesList_Caption=Ασφαλής κατάργηση συσκευών υλικού
@@ -688,17 +689,17 @@ actnClose_Caption=Κλείσιμο
 actnRemoveUsb_Caption=Εξαγωγή
 
 [FmDevicesList]
-FmDevicesList_Caption=Audio device manager
+FmDevicesList_Caption=Διαχείριση συσκευών ήχου
 FmDevicesList_FontName=Tahoma
 FmDevicesList_FontSize=8
-actnSetEnabled_Caption=Enable
-actnSetDisabled_Caption=Disable
-actnSetDefaultCommunicationDevice_Caption=Default Communication Device
-actnSetDefaultDevice_Caption=Default Device
-actnRenameDevice_Caption=Rename
-actnShowInactiveDevices_Caption=Show Inactive Devices
-actnSetFavorite_Caption=Favorite
-actnShowOnlyFavorites_Caption=Show Only Favorites
+actnSetEnabled_Caption=Ενεργοποίηση
+actnSetDisabled_Caption=Απενεργοποίηση
+actnSetDefaultCommunicationDevice_Caption=Προεπιλεγμένη συσκευή επικοινωνίας
+actnSetDefaultDevice_Caption=Προεπιλεγμένη συσκευή
+actnRenameDevice_Caption=Μετονομασία
+actnShowInactiveDevices_Caption=Εμφάνιση ανενεργών συσκευών
+actnSetFavorite_Caption=Αγαπημένο
+actnShowOnlyFavorites_Caption=Εμφάνιση μόνο αγαπημένων
 
 [FmChangeVolumeForAppList]
 FmChangeVolumeForAppList_Caption=Λίστα εφαρμογών
@@ -713,7 +714,7 @@ LDrag_Caption=Σύρετε την εικόνα στο παράθυρο ενδι�
 actnAddFromFile_Caption=Επιλέξτε αρχείο
 actnAddFromProc_Caption=Επιλέξτε διεργασία
 LVApps_Columns[0]=Εφαρμογή
-actnAddActiveApplications_Caption=Active applications
+actnAddActiveApplications_Caption=Ενεργές εφαρμογές
 
 [FmOSDPosition]
 FmOSDPosition_Caption=
@@ -727,26 +728,26 @@ aOkay_Caption=ΟΚ
 chbExcludeTaskbar_Caption=Εξαίρεση γραμμής εργασιών
 
 [FmDeviceManager]
-FmDeviceManager_Caption=Audio device manager
+FmDeviceManager_Caption=Διαχείριση συσκευών ήχου
 FmDeviceManager_FontName=Tahoma
 FmDeviceManager_FontSize=8
-lblListOfDevices_Caption=List of Devices
+lblListOfDevices_Caption=Λίστα συσκευών
 LVDevices_Columns[0]=Συσκευή
 actnClose_Caption=Κλείσιμο
-actnAddNetworkAudioDevice_Caption=Network Audio Device (OSC)
+actnAddNetworkAudioDevice_Caption=Συσκευή ήχου δικτύου (OSC)
 actnAdd_Caption=Προσθήκη
 actnDel_Caption=Διαγραφή
 actnEdit_Caption=Επεξεργασία
-LVDevices_Columns[1]=Favorite
-actnAddVoiceMeeterDevice_Caption=Voice Meeter Device
+LVDevices_Columns[1]=Αγαπημένο
+actnAddVoiceMeeterDevice_Caption=Συσκευή Voice Meeter
 
 [FmNetworkDeviceEdit]
 FmNetworkDeviceEdit_FontName=Tahoma
 FmNetworkDeviceEdit_FontSize=8
 lblName_Caption=Τίτλος:
 lblIP_Caption=IP:
-lblAddress_Caption=Address:
-lblPort_Caption=Port:
+lblAddress_Caption=Διεύθυνση:
+lblPort_Caption=Θύρα:
 aCancel_Caption=Ακύρωση
 aOkay_Caption=ΟΚ
 
@@ -756,8 +757,8 @@ FmVoiceMeeterDeviceEdit_FontSize=8
 lblName_Caption=Τίτλος:
 aCancel_Caption=Ακύρωση
 aOkay_Caption=ΟΚ
-lblParameter_Caption=Parameter:
-lblIndex_Caption=Index:
+lblParameter_Caption=Παράμετρος:
+lblIndex_Caption=Δείκτης:
 
 [Information]
 AuthorName=George Georgiou

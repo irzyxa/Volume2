@@ -1,4 +1,4 @@
-﻿;Encoding must be UTF-8 with BOM
+;Encoding must be UTF-8
 [FmMain]
 FmMain_Caption=Volume² - امکانات
 FmMain_FontName=Tahoma
@@ -54,7 +54,7 @@ XiScreenEdge_Caption=کناره اسکرین
 CBUseSound_Caption=پخش صدا با تغییر ولوم
 LOSDLeft_Caption=X:
 LOSDTop_Caption=Y:
-LOSDFont_Caption=Font:
+LOSDFont_Caption=قلم:
 XiSettings_Caption=OSD (روی صفحه نمایش)
 CBOSDUse_Caption=نمایش OSD
 XiScreenPosition_Caption=موقعیت
@@ -95,7 +95,7 @@ LSaite_Caption=بلاگ:
 SBShowOSDExemle_Caption=پیش نمایش
 LLeftChanel_Caption=L
 LRightChanel_Caption=R
-LShowOnScreenNumber_Caption=نمایش:
+LShowOnScreenNumber_Caption=نمایش OSD در:
 LCaptionTree_Caption=درباره
 actnHKVolumeUP_Caption=ولوم بالا
 actnHKVolumeDOWN_Caption=ولوم پائین
@@ -259,7 +259,7 @@ LOSDBlocks_Caption=بلوکها:
 LOSDSize_Caption=اندازه:
 SBSetDefaultDevice_Hint=تنظیم به عنوان پیشفرض
 actnSetNextDefaultDevice_Caption=تنظیم دستگاه پیش فرض بعدی
-actnSetPrevDefaultDevice_Caption=Set Prev Default Device
+actnSetPrevDefaultDevice_Caption=تنظیم دستگاه پیش‌فرض قبلی
 LTrackBarColorOn_Caption=با صدا.
 LTrackBarColorOff_Caption=بی صدا.
 LTrackBarColor_Caption=رنگ پشت:
@@ -297,7 +297,7 @@ actnRunApplication_Caption=اجرای برنامه
 actnStayOnTop_Caption=ماندن در بالا
 actnMuteAllExceptActiveApp_Caption=بیصدا  کردن همه به جز برنامه فعال
 actnUnMuteAllApps_Caption=باصدا کردن تمام برنامه های کاربردی
-actnShowSetDefaultDeviceWindow_Caption=Audio device manager
+actnShowSetDefaultDeviceWindow_Caption=مدیریت دستگاه‌های صوتی
 actnMovable_Caption=متحرک
 actnBrightnessPercent_Caption=تنظیم درصد روشنایی
 XiAdvanced_Caption=پیشرفته
@@ -310,7 +310,7 @@ CBChangeVolumeOptions_Items[3]=لیست برنامه
 actnRebootPC_Caption=راه اندازی مجدد کامپیوتر
 actnShutdownPC_Caption=خاموش کردن
 actnTurnOffMonitor_Caption=خاموش کردن مانیتور
-actnTurnOnMonitor_Caption=Turn On Monitor
+actnTurnOnMonitor_Caption=روشن کردن نمایشگر
 actnDisableVolume2Mouse_Caption=عملیات ماوس
 actnDisableVolume2Keyboard_Caption=عملیات کیبورد
 actnDisableVolume2All_Caption=همه
@@ -342,21 +342,21 @@ actnVolumeOff_Caption=بی صدا
 actnAltVolumeOn_Caption=با صدا (دستگاه جایگزین)
 actnAltVolumeOff_Caption=بی صدا (دستگاه جایگزین)
 lblProfileFolder_Caption=باز کردن پوشه پروفایل
-chbShowTrayHintOnVolumeChange_Caption=Show on volume change
-chbMuteOnZeroVolume_Caption=Mute when volume is zero
-btnLockDevicesVolume_Hint=Lock Devices Volume
-XiRemoteAccess_Caption=Remote Access
-chbEnableRemoteAccess_Caption=Enable remote access
-rbRunAsProgram_Caption=As Program
-rbRunAsTask_Caption=As Task
-chbUnmuteOnIncreaseVolume_Caption=Only on volume increase
-actnShowUserVariables_Hint=User Variables
-actnExecuteTask_Caption=Run Task
-tsTraySkinHeader_Caption=Main device
+chbShowTrayHintOnVolumeChange_Caption=نمایش هنگام تغییر ولوم
+chbMuteOnZeroVolume_Caption=بی‌صدا کردن هنگامی که ولوم صفر است
+btnLockDevicesVolume_Hint=قفل کردن ولوم دستگاه‌ها
+XiRemoteAccess_Caption=دسترسی از راه دور
+chbEnableRemoteAccess_Caption=فعال کردن دسترسی از راه دور
+rbRunAsProgram_Caption=به‌عنوان برنامه
+rbRunAsTask_Caption=به‌عنوان کار زمان‌بندی‌شده
+chbUnmuteOnIncreaseVolume_Caption=فقط هنگام افزایش ولوم
+actnShowUserVariables_Hint=متغیرهای کاربر
+actnExecuteTask_Caption=اجرای کار
+tsTraySkinHeader_Caption=دستگاه اصلی
 tsAltTraySkinHeader_Caption=وسیله جایگزین
-actnSetMethodForDevice_Hint=Set Control Method For Device
-actnMuteAllMicrophones_Caption=Mute All Microphones
-actnDB_Caption=%dB - Decibels  
+actnSetMethodForDevice_Hint=تنظیم روش کنترل برای دستگاه
+actnMuteAllMicrophones_Caption=بی‌صدا کردن همه میکروفون‌ها
+actnDB_Caption=%dB - دسی‌بل  
 
 [AdvancedStrings]
 Label_No=نه
@@ -420,38 +420,39 @@ Label_DeviceIcon=آیکن دستگاه
 Label_DeviceIconDescription=نمایش آیکون دستگاه را در سینی
 Label_MuteAllExceptActiveApp=بیصدا  کردن همه به جز برنامه فعال
 Label_ResetAllAppsVolume=تنظیم مجدد ولوم همه برنامه اولیه
-Label_NetConnected=NET: Connected
-Label_NetDisconnected=NET: Disconnected
+Label_NetConnected=شبکه: متصل
+Label_NetDisconnected=شبکه: قطع
 Label_Center=در مرکز
-Label_Coordinates=Coordinates X: %.1f, Y: %.1f
-Label_Top_Left=Top Left
-Label_Top_Center=Top Center
-Label_Top_Right=Top Right
-Label_Center_Left=Center Left
-Label_Center_Right=Center Right
-Label_Bottom_Left=Bottom Left
-Label_Bottom_Center=Bottom Center
-Label_Bottom_Right=Bottom Right
+Label_Coordinates=مختصات X: %.1f, Y: %.1f
+Label_Top_Left=بالا چپ
+Label_Top_Center=بالا وسط
+Label_Top_Right=بالا راست
+Label_Center_Left=وسط چپ
+Label_Center_Right=وسط راست
+Label_Bottom_Left=پایین چپ
+Label_Bottom_Center=پایین وسط
+Label_Bottom_Right=پایین راست
 Label_Near_Mouse=نزدیک به ماوس
 Label_Size=اندازه
-Label_Position and Size=Position and size for
-Lanel_ApplicationsList=Multiple applications
-Label_MuteToggle=Toggle
-Label_EnableDevice=Enable Device
-Label_DisableDevice=DisableDevice
+Label_Position and Size=موقعیت و اندازه برای
+Lanel_ApplicationsList=چند برنامه
+Label_MuteToggle=تغییر وضعیت
+Label_EnableDevice=فعال کردن دستگاه
+Label_DisableDevice=غیرفعال کردن دستگاه
 Label_CopyToClipboard=کپی در کلیپ بورد
-Label_AllDisplays=All displays
+Label_AllDisplays=همه نمایشگرها
 Label_AltDevice=دستگاه صوتی جایگزین
 Label_WebSite=وبسایت
-Label_RenameDevice=Rename Device
-Label_NewDeviceName=Enter a new device name:
-Label_Schema=Schema #
-Label_SchemaName=Schema name
-Label_AllMicsMuted=All Microphones are muted
-Label_AddDevice=Add Device
-Label_EditDevice=Edit Device
-Label_Default=Default
-Label_DoNotChange=Do not change
+Label_RenameDevice=تغییر نام دستگاه
+Label_NewDeviceName=نام جدید دستگاه را وارد کنید:
+Label_Schema=طرح #
+Label_SchemaName=نام طرح
+Label_AllMicsMuted=همه میکروفون‌ها بی‌صدا هستند
+Label_AddDevice=افزودن دستگاه
+Label_EditDevice=ویرایش دستگاه
+Label_Default=پیش‌فرض
+Label_DoNotChange=تغییر نده
+Label_FullScreenListInverted=برنامه هایی که در آنها کنترل ولوم غیرفعال می شود
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=فهرست برنامه ها
@@ -580,11 +581,11 @@ CBLimitRuns_Caption=تعداد اجراها:
 lblProgramName_Caption=نام برنامه:
 LSoundsList_Caption=پخش صدا:
 chbIfNotStarted_Caption=اگر شروع نکرد
-aOnLockPC_Caption=On lock PC
-aOnUnlockPC_Caption=On unlock PC
-aAfterIdleTime_Caption=After Idle Time
+aOnLockPC_Caption=هنگام قفل کردن رایانه
+aOnUnlockPC_Caption=هنگام باز کردن قفل رایانه
+aAfterIdleTime_Caption=پس از مدت بیکاری
 aSetDefaultDevice_Caption=تنظیم دستگاه پیش فرض
-aAfterCloseProgram_Caption=After close application
+aAfterCloseProgram_Caption=پس از بستن برنامه
 
 [FmProjectHelp]
 FmProjectHelp_Caption=همیاری
@@ -592,7 +593,7 @@ FmProjectHelp_FontName=Tahoma
 FmProjectHelp_FontSize=8
 actnClose_Caption=بستن
 actnSendMail_Caption=ارسال ایمیل
-lblMoreDonate_Caption=More...
+lblMoreDonate_Caption=بیشتر...
 
 [FmMainPM]
 FmMainPM_FontName=Tahoma
@@ -671,14 +672,14 @@ actnClose_Caption=بستن
 actnOk_Caption=اعمال کردن
 actnAddColorScheme_Caption=افزودن
 actnDelColorScheme_Caption=حذف کردن
-lblDarkMode_Caption=Dark Mode
-lblDarkTraySkin_Caption=Main Tray Skin
-lblDarkAltTraySkin_Caption=Alternative Tray Skin
-lblDarkOSDSkin_Caption=OSD Skin
-lblDefault_Caption=Default
-lblTraySkin_Caption=Main Tray Skin
-lblAltTraySkin_Caption=Alternative Tray Skin
-lblODSSkin_Caption=OSD Skin
+lblDarkMode_Caption=حالت تیره
+lblDarkTraySkin_Caption=پوسته اصلی سینی سیستم
+lblDarkAltTraySkin_Caption=پوسته جایگزین سینی سیستم
+lblDarkOSDSkin_Caption=پوسته OSD
+lblDefault_Caption=پیش‌فرض
+lblTraySkin_Caption=پوسته اصلی سینی سیستم
+lblAltTraySkin_Caption=پوسته جایگزین سینی سیستم
+lblODSSkin_Caption=پوسته OSD
 
 [FmUSBDevicesList]
 FmUSBDevicesList_Caption=جداسازی ایمن سخت افزار
@@ -688,17 +689,17 @@ actnClose_Caption=بستن
 actnRemoveUsb_Caption=استخراج کردن
 
 [FmDevicesList]
-FmDevicesList_Caption=Audio device manager
+FmDevicesList_Caption=مدیریت دستگاه‌های صوتی
 FmDevicesList_FontName=Tahoma
 FmDevicesList_FontSize=8
-actnSetEnabled_Caption=Enable
-actnSetDisabled_Caption=Disable
-actnSetDefaultCommunicationDevice_Caption=Default Communication Device
-actnSetDefaultDevice_Caption=Default Device
-actnRenameDevice_Caption=Rename
-actnShowInactiveDevices_Caption=Show Inactive Devices
-actnSetFavorite_Caption=Favorite
-actnShowOnlyFavorites_Caption=Show Only Favorites
+actnSetEnabled_Caption=فعال کردن
+actnSetDisabled_Caption=غیرفعال کردن
+actnSetDefaultCommunicationDevice_Caption=دستگاه ارتباطی پیش‌فرض
+actnSetDefaultDevice_Caption=دستگاه پیش‌فرض
+actnRenameDevice_Caption=تغییر نام
+actnShowInactiveDevices_Caption=نمایش دستگاه‌های غیرفعال
+actnSetFavorite_Caption=مورد علاقه
+actnShowOnlyFavorites_Caption=نمایش فقط موارد علاقه
 
 [FmChangeVolumeForAppList]
 FmChangeVolumeForAppList_Caption=فهرست برنامه ها
@@ -713,7 +714,7 @@ LDrag_Caption=کشیدن تصویر روی پنجره دلخواه
 actnAddFromFile_Caption=انتخاب فایل
 actnAddFromProc_Caption=انتخاب عملیات
 LVApps_Columns[0]=درخواست
-actnAddActiveApplications_Caption=Active applications
+actnAddActiveApplications_Caption=برنامه‌های فعال
 
 [FmOSDPosition]
 FmOSDPosition_Caption=
@@ -724,29 +725,29 @@ rbCoordinates_Caption=مختصات
 rbNearCursor_Caption=نزدیک به ماوس
 aCancel_Caption=لغو کردن
 aOkay_Caption=OK
-chbExcludeTaskbar_Caption=Exclude Taskbar
+chbExcludeTaskbar_Caption=بدون نوار وظیفه
 
 [FmDeviceManager]
-FmDeviceManager_Caption=Audio device manager
+FmDeviceManager_Caption=مدیریت دستگاه‌های صوتی
 FmDeviceManager_FontName=Tahoma
 FmDeviceManager_FontSize=8
-lblListOfDevices_Caption=List of Devices
+lblListOfDevices_Caption=فهرست دستگاه‌ها
 LVDevices_Columns[0]=دستگاه
 actnClose_Caption=بستن
-actnAddNetworkAudioDevice_Caption=Network Audio Device (OSC)
+actnAddNetworkAudioDevice_Caption=دستگاه صوتی شبکه (OSC)
 actnAdd_Caption=افزودن
 actnDel_Caption=حذف کردن
 actnEdit_Caption=ویرایش
-LVDevices_Columns[1]=Favorite
-actnAddVoiceMeeterDevice_Caption=Voice Meeter Device
+LVDevices_Columns[1]=مورد علاقه
+actnAddVoiceMeeterDevice_Caption=دستگاه Voice Meeter
 
 [FmNetworkDeviceEdit]
 FmNetworkDeviceEdit_FontName=Tahoma
 FmNetworkDeviceEdit_FontSize=8
 lblName_Caption=نام:
 lblIP_Caption=IP:
-lblAddress_Caption=Address:
-lblPort_Caption=Port:
+lblAddress_Caption=نشانی:
+lblPort_Caption=درگاه:
 aCancel_Caption=لغو کردن
 aOkay_Caption=OK
 
@@ -756,35 +757,11 @@ FmVoiceMeeterDeviceEdit_FontSize=8
 lblName_Caption=نام:
 aCancel_Caption=لغو کردن
 aOkay_Caption=OK
-lblParameter_Caption=Parameter:
-lblIndex_Caption=Index:
+lblParameter_Caption=پارامتر:
+lblIndex_Caption=شاخص:
 
 [Information]
 AuthorName=Mehrjat
 LangName=Persian (FA)
 LangId=1065
 Icon=89504E470D0A1A0A0000000D49484452000000100000000C08060000006BE73D81000000017352474200AECE1CE90000000467414D410000B18F0BFC6105000000097048597300000EC400000EC401952B0E1B0000012949444154384FA58F4D4EC2401CC5C77210091835C418AF20C5183FA227D00B1877D2DAA15C40AF0028B267E1A648630211089078816A2C563B6583262C08AE9ED35A36DAB2A82FF9E5FFF1FEF39221C9A2884431131111245ED844BC90C6A257839879E95FFB9F1D49957791E469EB9503244A19ACDDEC63E56A1BABD73B98791B95435E45CF5BE69E4BAABC87A5D216886E3EA066B6384D34AC2EF4410BFA6B078DB71E74D647DD7944DD9DAD3EF7DAB81F74D0B47AB8E3EFDC5B8239FA6A7731B9D5FC2958A101E39A86CF6A15A38B4B8CB5F090D080A96DC3C951BC1F1D636ABEF8DBBF9AFF85D1072686E14FC1228C2A6027A770540A26C95E75148A613ECF7B15EC5CF27AA6287028BF91650CD51C6CE90C76360B621082FF409E1704442706F224C4101D01DFE129156745431D7E0000000049454E44AE426082
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

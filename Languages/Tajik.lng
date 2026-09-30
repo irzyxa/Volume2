@@ -1,4 +1,4 @@
-﻿;Encoding must be UTF-8 with BOM
+;Encoding must be UTF-8
 [FmMain]
 FmMain_Caption= Volume²  - Танзимот
 FmMain_FontName=Tahoma
@@ -95,7 +95,7 @@ LSaite_Caption=Сомона:
 SBShowOSDExemle_Caption=Нишон
 LLeftChanel_Caption=Ч
 LRightChanel_Caption=Р
-LShowOnScreenNumber_Caption=Намоиш ба монитор
+LShowOnScreenNumber_Caption=Намоиши OSD дар:
 LCaptionTree_Caption=Дар бораи барнома
 actnHKVolumeUP_Caption=Баланд бардоштани садо
 actnHKVolumeDOWN_Caption=Кам кардани садо
@@ -259,7 +259,7 @@ LOSDBlocks_Caption=Блокҳо:
 LOSDSize_Caption=Андоза:
 SBSetDefaultDevice_Hint=Истифодаи пешфарз
 actnSetNextDefaultDevice_Caption=Насби дастгоҳи пешфарз
-actnSetPrevDefaultDevice_Caption=Set Prev Default Device
+actnSetPrevDefaultDevice_Caption=Дастгоҳи пешфарзи қаблӣ
 LTrackBarColorOn_Caption=Садо гирон.
 LTrackBarColorOff_Caption=Садо хомӯш.
 LTrackBarColor_Caption=Ранги замина:
@@ -297,7 +297,7 @@ actnRunApplication_Caption=Файлро иҷро кунед
 actnStayOnTop_Caption=Ҳамеша болои (окон)
 actnMuteAllExceptActiveApp_Caption=Хомӯши садои ҳамаи барномаҳо ғайр аз фаъол 
 actnUnMuteAllApps_Caption=Гирон. садои ҳамаи барномаҳо
-actnShowSetDefaultDeviceWindow_Caption=Audio device manager
+actnShowSetDefaultDeviceWindow_Caption=Мудири дастгоҳҳои аудиоӣ
 actnMovable_Caption=Бознашр
 actnBrightnessPercent_Caption=Танзими % ҳисси равшанӣ
 XiAdvanced_Caption=Тақвият
@@ -310,7 +310,7 @@ CBChangeVolumeOptions_Items[3]=Рӯйхати барномаҳо
 actnRebootPC_Caption=Бозгирии ПК
 actnShutdownPC_Caption=Хомӯши ПК
 actnTurnOffMonitor_Caption=Мониторро хомӯш кунед
-actnTurnOnMonitor_Caption=Turn On Monitor
+actnTurnOnMonitor_Caption=Фаъол кардани монитор
 actnDisableVolume2Mouse_Caption=Чорабиниҳои муш
 actnDisableVolume2Keyboard_Caption=Чорабиниҳои клавиатура
 actnDisableVolume2All_Caption=Ҳама
@@ -344,19 +344,19 @@ actnAltVolumeOff_Caption=Хомӯши садо (дастгоҳи алтерна�
 lblProfileFolder_Caption=Феҳристи маълумотҳо
 chbShowTrayHintOnVolumeChange_Caption=Нишон ҳангоми тағйир додани ҳаҷми садо
 chbMuteOnZeroVolume_Caption= Хомӯши садо дар ҳаҷми сифр
-btnLockDevicesVolume_Hint=Lock Devices Volume
-XiRemoteAccess_Caption=Remote Access
-chbEnableRemoteAccess_Caption=Enable remote access
-rbRunAsProgram_Caption=As Program
-rbRunAsTask_Caption=As Task
-chbUnmuteOnIncreaseVolume_Caption=Only on volume increase
-actnShowUserVariables_Hint=User Variables
-actnExecuteTask_Caption=Run Task
-tsTraySkinHeader_Caption=Main device
+btnLockDevicesVolume_Hint=Қулф кардани баландии дастгоҳҳо
+XiRemoteAccess_Caption=Дастрасии дурдаст
+chbEnableRemoteAccess_Caption=Фаъол кардани дастрасии дурдаст
+rbRunAsProgram_Caption=Ҳамчун барнома
+rbRunAsTask_Caption=Ҳамчун вазифа
+chbUnmuteOnIncreaseVolume_Caption=Танҳо ҳангоми баланд кардани овоз
+actnShowUserVariables_Hint=Тағйирёбандаҳои корбар
+actnExecuteTask_Caption=Иҷрои вазифа
+tsTraySkinHeader_Caption=Дастгоҳи асосӣ
 tsAltTraySkinHeader_Caption=Дастгоҳи алтернативӣ
-actnSetMethodForDevice_Hint=Set Control Method For Device
-actnMuteAllMicrophones_Caption=Mute All Microphones
-actnDB_Caption=%dB - Decibels  
+actnSetMethodForDevice_Hint=Танзими усули идоракунӣ барои дастгоҳ
+actnMuteAllMicrophones_Caption=Хомӯш кардани ҳамаи микрофонҳо
+actnDB_Caption=%dB - Детсибел  
 
 [AdvancedStrings]
 Label_No=Не
@@ -404,7 +404,7 @@ Label_Buy=Харидани
 Label_Setuped=Муқаррар
 Label_NoIcon=Бе нишонаҳо
 Label_RestoreIcon=Барои дидани танзимот, барномаро аз нав идора кунед.
-Label_ActiveWindow=Равзанаи фаъол
+Label_ActiveWindow=Монитори фаъол
 Label_AvailableNewVersion=Навсозӣ ба нусхаи %s дастрас аст.
 Label_DeleteSkin=Бартараф кардани пӯст аз диск: 
 Label_Settings=Танзимот
@@ -420,38 +420,39 @@ Label_DeviceIcon=Сурати  дастгоҳҳо
 Label_DeviceIconDescription=Намоиши сурат дар назди соат
 Label_MuteAllExceptActiveApp=Хомӯши садои ҳамаи барномаҳо ғайр аз фаъол 
 Label_ResetAllAppsVolume=Тағир додани ҳаҷми ҳамаи замимаҳо
-Label_NetConnected=NET: Connected
-Label_NetDisconnected=NET: Disconnected
+Label_NetConnected=ШАБАКА: Пайваст
+Label_NetDisconnected=ШАБАКА: Ҷудо
 Label_Center=Дар маркази экран
-Label_Coordinates=Coordinates X: %.1f, Y: %.1f
-Label_Top_Left=Top Left
-Label_Top_Center=Top Center
-Label_Top_Right=Top Right
-Label_Center_Left=Center Left
-Label_Center_Right=Center Right
-Label_Bottom_Left=Bottom Left
-Label_Bottom_Center=Bottom Center
-Label_Bottom_Right=Bottom Right
+Label_Coordinates=Координатаҳо X: %.1f, Y: %.1f
+Label_Top_Left=Боло аз чап
+Label_Top_Center=Боло дар марказ
+Label_Top_Right=Боло аз рост
+Label_Center_Left=Марказ аз чап
+Label_Center_Right=Марказ аз рост
+Label_Bottom_Left=Поён аз чап
+Label_Bottom_Center=Поён дар марказ
+Label_Bottom_Right=Поён аз рост
 Label_Near_Mouse=Дар наздикии нишондиҳандаи муш
 Label_Size=Андоза
-Label_Position and Size=Position and size for
-Lanel_ApplicationsList=Multiple applications
-Label_MuteToggle=Toggle
-Label_EnableDevice=Enable Device
-Label_DisableDevice=DisableDevice
+Label_Position and Size=Ҷойгиршавӣ ва андоза барои
+Lanel_ApplicationsList=Якчанд барнома
+Label_MuteToggle=Гузариш
+Label_EnableDevice=Фаъол кардани дастгоҳ
+Label_DisableDevice=Хомӯш кардани дастгоҳ
 Label_CopyToClipboard=Нусхабардорӣ ба силсила
-Label_AllDisplays=All displays
+Label_AllDisplays=Ҳамаи мониторҳо
 Label_AltDevice=Дастгоҳи алтернативӣ
 Label_WebSite=Сомона
-Label_RenameDevice=Rename Device
-Label_NewDeviceName=Enter a new device name:
-Label_Schema=Schema #
-Label_SchemaName=Schema name
-Label_AllMicsMuted=All Microphones are muted
-Label_AddDevice=Add Device
-Label_EditDevice=Edit Device
-Label_Default=Default
-Label_DoNotChange=Do not change
+Label_RenameDevice=Иваз кардани номи дастгоҳ
+Label_NewDeviceName=Номи нави дастгоҳро ворид кунед:
+Label_Schema=Нақша №
+Label_SchemaName=Номи нақша
+Label_AllMicsMuted=Ҳамаи микрофонҳо хомӯш карда шудаанд
+Label_AddDevice=Илова кардани дастгоҳ
+Label_EditDevice=Таҳрири дастгоҳ
+Label_Default=Пешфарз
+Label_DoNotChange=Тағйир надодан
+Label_FullScreenListInverted=Барномаҳо, ки дар онҳо назорати овоз хомӯш аст
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Рӯйхати барномаҳо
@@ -580,11 +581,11 @@ CBLimitRuns_Caption=Шумораи  оғоз:
 lblProgramName_Caption=Барнома:
 LSoundsList_Caption=Садо:
 chbIfNotStarted_Caption=Агар кор накунад
-aOnLockPC_Caption=On lock PC
-aOnUnlockPC_Caption=On unlock PC
-aAfterIdleTime_Caption=After Idle Time
+aOnLockPC_Caption=Ҳангоми қулфи компютер
+aOnUnlockPC_Caption=Ҳангоми кушодани қулфи компютер
+aAfterIdleTime_Caption=Пас аз бекорӣ
 aSetDefaultDevice_Caption=Дастгоҳи аслӣ
-aAfterCloseProgram_Caption=After close application
+aAfterCloseProgram_Caption=Пас аз пӯшидани барнома
 
 [FmProjectHelp]
 FmProjectHelp_Caption=Кӯмаки лоиҳа
@@ -592,7 +593,7 @@ FmProjectHelp_FontName=Tahoma
 FmProjectHelp_FontSize=8
 actnClose_Caption=Пӯшед
 actnSendMail_Caption=Паём
-lblMoreDonate_Caption=More...
+lblMoreDonate_Caption=Бештар...
 
 [FmMainPM]
 FmMainPM_FontName=Tahoma
@@ -671,14 +672,14 @@ actnClose_Caption=Пӯшед
 actnOk_Caption=Татбиқ кардан
 actnAddColorScheme_Caption=Илова
 actnDelColorScheme_Caption=Тоза кардан
-lblDarkMode_Caption=Dark Mode
-lblDarkTraySkin_Caption=Main Tray Skin
-lblDarkAltTraySkin_Caption=Alternative Tray Skin
-lblDarkOSDSkin_Caption=OSD Skin
-lblDefault_Caption=Default
-lblTraySkin_Caption=Main Tray Skin
-lblAltTraySkin_Caption=Alternative Tray Skin
-lblODSSkin_Caption=OSD Skin
+lblDarkMode_Caption=Реҷаи торик
+lblDarkTraySkin_Caption=Пӯсти асосии трей
+lblDarkAltTraySkin_Caption=Пӯсти алтернативии трей
+lblDarkOSDSkin_Caption=Пӯсти OSD
+lblDefault_Caption=Пешфарз
+lblTraySkin_Caption=Пӯсти асосии трей
+lblAltTraySkin_Caption=Пӯсти алтернативии трей
+lblODSSkin_Caption=Пӯсти OSD
 
 [FmUSBDevicesList]
 FmUSBDevicesList_Caption=Бастаҳо бехатар дур шуд
@@ -688,17 +689,17 @@ actnClose_Caption=Пӯшед
 actnRemoveUsb_Caption=Баровардан
 
 [FmDevicesList]
-FmDevicesList_Caption=Audio device manager
+FmDevicesList_Caption=Мудири дастгоҳҳои аудиоӣ
 FmDevicesList_FontName=Tahoma
 FmDevicesList_FontSize=8
-actnSetEnabled_Caption=Enable
-actnSetDisabled_Caption=Disable
-actnSetDefaultCommunicationDevice_Caption=Default Communication Device
-actnSetDefaultDevice_Caption=Default Device
-actnRenameDevice_Caption=Rename
-actnShowInactiveDevices_Caption=Show Inactive Devices
-actnSetFavorite_Caption=Favorite
-actnShowOnlyFavorites_Caption=Show Only Favorites
+actnSetEnabled_Caption=Фаъол кардан
+actnSetDisabled_Caption=Хомӯш кардан
+actnSetDefaultCommunicationDevice_Caption=Дастгоҳи алоқаи пешфарз
+actnSetDefaultDevice_Caption=Дастгоҳи пешфарз
+actnRenameDevice_Caption=Иваз кардани ном
+actnShowInactiveDevices_Caption=Намоиши дастгоҳҳои ғайрифаъол
+actnSetFavorite_Caption=Интихобшуда
+actnShowOnlyFavorites_Caption=Танҳо интихобшудаҳоро нишон додан
 
 [FmChangeVolumeForAppList]
 FmChangeVolumeForAppList_Caption=Рӯйхати барномаҳо
@@ -713,7 +714,7 @@ LDrag_Caption=Ин суратро ба равзанаи манфиат ҷалб 
 actnAddFromFile_Caption=Интихоби файл
 actnAddFromProc_Caption=Раванди интихоб
 LVApps_Columns[0]=Барнома
-actnAddActiveApplications_Caption=Active applications
+actnAddActiveApplications_Caption=Барномаҳои фаъол
 
 [FmOSDPosition]
 FmOSDPosition_Caption=
@@ -724,29 +725,29 @@ rbCoordinates_Caption=Координатаҳо
 rbNearCursor_Caption=Дар наздикии нишондиҳандаи муш
 aCancel_Caption=Бекор кардан
 aOkay_Caption=Ок
-chbExcludeTaskbar_Caption=Exclude Taskbar
+chbExcludeTaskbar_Caption=Бе панели вазифаҳо
 
 [FmDeviceManager]
-FmDeviceManager_Caption=Audio device manager
+FmDeviceManager_Caption=Мудири дастгоҳҳои аудиоӣ
 FmDeviceManager_FontName=Tahoma
 FmDeviceManager_FontSize=8
-lblListOfDevices_Caption=List of Devices
+lblListOfDevices_Caption=Рӯйхати дастгоҳҳо
 LVDevices_Columns[0]=Дастгоҳ
 actnClose_Caption=Пӯшед
-actnAddNetworkAudioDevice_Caption=Network Audio Device (OSC)
+actnAddNetworkAudioDevice_Caption=Дастгоҳи аудиоии шабакавӣ (OSC)
 actnAdd_Caption=Илова
 actnDel_Caption=Тоза кардан
 actnEdit_Caption=Тағйир додан
-LVDevices_Columns[1]=Favorite
-actnAddVoiceMeeterDevice_Caption=Voice Meeter Device
+LVDevices_Columns[1]=Интихобшуда
+actnAddVoiceMeeterDevice_Caption=Дастгоҳи Voice Meeter
 
 [FmNetworkDeviceEdit]
 FmNetworkDeviceEdit_FontName=Tahoma
 FmNetworkDeviceEdit_FontSize=8
 lblName_Caption=Ном:
 lblIP_Caption=IP:
-lblAddress_Caption=Address:
-lblPort_Caption=Port:
+lblAddress_Caption=Суроға:
+lblPort_Caption=Порт:
 aCancel_Caption=Бекор кардан
 aOkay_Caption=Ок
 
@@ -756,16 +757,11 @@ FmVoiceMeeterDeviceEdit_FontSize=8
 lblName_Caption=Ном:
 aCancel_Caption=Бекор кардан
 aOkay_Caption=Ок
-lblParameter_Caption=Parameter:
-lblIndex_Caption=Index:
+lblParameter_Caption=Параметр:
+lblIndex_Caption=Индекс:
 
 [Information]
 AuthorName=Фирдавс
 LangName=Тоҷикӣ (TJ)
 LangId=1064
 Icon=89504E470D0A1A0A0000000D49484452000000100000001008060000001FF3FF61000001644944415478DAA592BF4AC35014C6BF736F4CA52537229D84BA8A7D8480A38F202EBA3839B8B83838F93482CE4E9D5C9247B0E022549182557A13A8B6CD1F4F42A1B951A1B60742B87FCEEF7CDF3D87B06210A44548E2E5B2A5057A3E39BFAABB6E9B97E93FD3C568A81FE8E5F4C257CDA6872C3384CD63B64FBC57BEC3EBF06D1050EFE8CC57AE5B012C629E015A0734E8DCFB4A395E56004A95B394995FB95290B08B7F5915E580300A280C43DF711C0FC6718C74DA679E2C40608094CD8A35208AFE0024933E57B0914C5F21E406321210A20161B93F015A6BB6A0BC72FDE9E723272AA4E32E8BD82C3E160DABD632005C9C014306B8CAB410BF23D677C8928FC2825CDF8154FBECA06602342BE8746FFD86AA1B807C2492F113D7A4E23D4838106B5BF396CE5E230A47011DDEB47DCBC1AC0BC69C5466C13CCFBB104708E8E07AD7B795F4AA171618044CA224A0BDCBD6B1658B6D2C418827698FFE99F48B8E15E31BCDF691DD6D2975340000000049454E44AE426082
-
-
-
-
-

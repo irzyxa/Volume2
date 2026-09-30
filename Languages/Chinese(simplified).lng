@@ -1,4 +1,4 @@
-﻿;Encoding must be UTF-8 with BOM
+;Encoding must be UTF-8
 [FmMain]
 FmMain_Caption=Volume² - 设置
 FmMain_FontName=Tahoma
@@ -71,7 +71,7 @@ LBTreeParams_Items[6]=系统
 LBTreeParams_Items[7]=任务计划
 LBTreeParams_Items[8]=语言
 LBTreeParams_Items[9]=关于
-LBTreeParams_Items[10]=Plugins
+LBTreeParams_Items[10]=插件
 actnVolumeUp_Caption=音量+
 actnVolumeDown_Caption=音量-
 actnCloseSettings_Caption=关闭
@@ -95,7 +95,7 @@ LSaite_Caption=网址：
 SBShowOSDExemle_Caption=预览
 LLeftChanel_Caption=左
 LRightChanel_Caption=右
-LShowOnScreenNumber_Caption=在监视器上显示：
+LShowOnScreenNumber_Caption=OSD 显示于：
 LCaptionTree_Caption=关于
 actnHKVolumeUP_Caption=音量 +
 actnHKVolumeDOWN_Caption=音量 -
@@ -354,9 +354,9 @@ actnShowUserVariables_Hint=用户变量
 actnExecuteTask_Caption=运行任务
 tsTraySkinHeader_Caption=主设备
 tsAltTraySkinHeader_Caption=非默认音频设备
-actnSetMethodForDevice_Hint=Set Control Method For Device
-actnMuteAllMicrophones_Caption=Mute All Microphones
-actnDB_Caption=%dB - Decibels  
+actnSetMethodForDevice_Hint=设置设备的控制方式
+actnMuteAllMicrophones_Caption=静音所有麦克风
+actnDB_Caption=%dB - 分贝  
 
 [AdvancedStrings]
 Label_No=无
@@ -404,7 +404,7 @@ Label_Buy=现在购买
 Label_Setuped=正在设置中
 Label_NoIcon=没有图标
 Label_RestoreIcon=设置生效，请重启程序
-Label_ActiveWindow=激活显示
+Label_ActiveWindow=活动显示器
 Label_AvailableNewVersion=版本 %s 已经发布
 Label_DeleteSkin=删除硬盘上的皮肤: 
 Label_Settings=程序选项
@@ -440,18 +440,19 @@ Label_MuteToggle=切换
 Label_EnableDevice=启用设备
 Label_DisableDevice=禁用设备
 Label_CopyToClipboard=复制到剪贴板
-Label_AllDisplays=All displays
+Label_AllDisplays=所有显示器
 Label_AltDevice=备选设备
 Label_WebSite=网站
 Label_RenameDevice=重命名设备
 Label_NewDeviceName=输入一个新的设备名:
 Label_Schema=#
 Label_SchemaName=架构名称
-Label_AllMicsMuted=All Microphones are muted
-Label_AddDevice=Add Device
-Label_EditDevice=Edit Device
-Label_Default=Default
-Label_DoNotChange=Do not change
+Label_AllMicsMuted=所有麦克风均已静音
+Label_AddDevice=添加设备
+Label_EditDevice=编辑设备
+Label_Default=默认
+Label_DoNotChange=不更改
+Label_FullScreenListInverted=禁用音量控制的程序
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=应用程序列表
@@ -584,7 +585,7 @@ aOnLockPC_Caption=在锁定电脑
 aOnUnlockPC_Caption=在取消锁定电脑
 aAfterIdleTime_Caption=空闲时间之后
 aSetDefaultDevice_Caption=设置默认设备
-aAfterCloseProgram_Caption=After close application
+aAfterCloseProgram_Caption=应用程序关闭后
 
 [FmProjectHelp]
 FmProjectHelp_Caption=捐赠
@@ -671,14 +672,14 @@ actnClose_Caption=关闭
 actnOk_Caption=应用
 actnAddColorScheme_Caption=添加
 actnDelColorScheme_Caption=刪除
-lblDarkMode_Caption=Dark Mode
-lblDarkTraySkin_Caption=Main Tray Skin
-lblDarkAltTraySkin_Caption=Alternative Tray Skin
-lblDarkOSDSkin_Caption=OSD Skin
-lblDefault_Caption=Default
-lblTraySkin_Caption=Main Tray Skin
-lblAltTraySkin_Caption=Alternative Tray Skin
-lblODSSkin_Caption=OSD Skin
+lblDarkMode_Caption=深色模式
+lblDarkTraySkin_Caption=主托盘皮肤
+lblDarkAltTraySkin_Caption=备选托盘皮肤
+lblDarkOSDSkin_Caption=OSD 皮肤
+lblDefault_Caption=默认
+lblTraySkin_Caption=主托盘皮肤
+lblAltTraySkin_Caption=备选托盘皮肤
+lblODSSkin_Caption=OSD 皮肤
 
 [FmUSBDevicesList]
 FmUSBDevicesList_Caption=安全刪除硬件
@@ -696,9 +697,9 @@ actnSetDisabled_Caption=禁用
 actnSetDefaultCommunicationDevice_Caption=默认通讯设备
 actnSetDefaultDevice_Caption=默认设备
 actnRenameDevice_Caption=重命名
-actnShowInactiveDevices_Caption=Show Inactive Devices
-actnSetFavorite_Caption=Favorite
-actnShowOnlyFavorites_Caption=Show Only Favorites
+actnShowInactiveDevices_Caption=显示未激活的设备
+actnSetFavorite_Caption=收藏
+actnShowOnlyFavorites_Caption=仅显示收藏
 
 [FmChangeVolumeForAppList]
 FmChangeVolumeForAppList_Caption=应用程序列表
@@ -713,7 +714,7 @@ LDrag_Caption=拖动靶心到欲添加程序
 actnAddFromFile_Caption=选择文件
 actnAddFromProc_Caption=选择进程
 LVApps_Columns[0]=应用程序
-actnAddActiveApplications_Caption=Active applications
+actnAddActiveApplications_Caption=活动应用程序
 
 [FmOSDPosition]
 FmOSDPosition_Caption=
@@ -730,23 +731,23 @@ chbExcludeTaskbar_Caption=排除任务栏
 FmDeviceManager_Caption=音频设备管理器
 FmDeviceManager_FontName=Tahoma
 FmDeviceManager_FontSize=8
-lblListOfDevices_Caption=List of Devices
+lblListOfDevices_Caption=设备列表
 LVDevices_Columns[0]=设备
 actnClose_Caption=关闭
-actnAddNetworkAudioDevice_Caption=Network Audio Device (OSC)
+actnAddNetworkAudioDevice_Caption=网络音频设备 (OSC)
 actnAdd_Caption=添加
 actnDel_Caption=删除
 actnEdit_Caption=编辑
-LVDevices_Columns[1]=Favorite
-actnAddVoiceMeeterDevice_Caption=Voice Meeter Device
+LVDevices_Columns[1]=收藏
+actnAddVoiceMeeterDevice_Caption=Voice Meeter 设备
 
 [FmNetworkDeviceEdit]
 FmNetworkDeviceEdit_FontName=Tahoma
 FmNetworkDeviceEdit_FontSize=8
 lblName_Caption=名称:
 lblIP_Caption=IP:
-lblAddress_Caption=Address:
-lblPort_Caption=Port:
+lblAddress_Caption=地址：
+lblPort_Caption=端口：
 aCancel_Caption=取消
 aOkay_Caption=确认
 
@@ -756,8 +757,8 @@ FmVoiceMeeterDeviceEdit_FontSize=8
 lblName_Caption=名称:
 aCancel_Caption=取消
 aOkay_Caption=确认
-lblParameter_Caption=Parameter:
-lblIndex_Caption=Index:
+lblParameter_Caption=参数：
+lblIndex_Caption=索引：
 
 [Information]
 AuthorName=耿树东/大眼仔~旭（Anan）（wcxu21@126.com）/小恐龙工作室

@@ -1,4 +1,4 @@
-﻿;Encoding must be UTF-8 with BOM
+;Encoding must be UTF-8
 [FmMain]
 FmMain_Caption=Volume² - Options
 FmMain_FontName=Tahoma
@@ -95,7 +95,7 @@ LSaite_Caption=Blog:
 SBShowOSDExemle_Caption=Preview
 LLeftChanel_Caption=L
 LRightChanel_Caption=R
-LShowOnScreenNumber_Caption=Display:
+LShowOnScreenNumber_Caption=Show OSD on:
 LCaptionTree_Caption=About
 actnHKVolumeUP_Caption=Volume Up
 actnHKVolumeDOWN_Caption=Volume Down
@@ -452,6 +452,7 @@ Label_AddDevice=Add Device
 Label_EditDevice=Edit Device
 Label_Default=Default
 Label_DoNotChange=Do not change
+Label_FullScreenListInverted=Applications in which the volume control is disabled
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=List of applications

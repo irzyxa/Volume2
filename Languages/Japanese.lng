@@ -1,4 +1,4 @@
-﻿;Encoding must be UTF-8 with BOM
+;Encoding must be UTF-8
 [FmMain]
 FmMain_Caption=Volume² - 設定
 FmMain_FontName=Meiryo UI
@@ -95,7 +95,7 @@ LSaite_Caption=ブログ:
 SBShowOSDExemle_Caption=プレビュー
 LLeftChanel_Caption=L
 LRightChanel_Caption=R
-LShowOnScreenNumber_Caption=対象ディスプレイ:
+LShowOnScreenNumber_Caption=OSD の表示先:
 LCaptionTree_Caption=情報
 actnHKVolumeUP_Caption=音量アップ
 actnHKVolumeDOWN_Caption=音量ダウン
@@ -297,7 +297,7 @@ actnRunApplication_Caption=アプリケーションを起動
 actnStayOnTop_Caption=常に手前表示
 actnMuteAllExceptActiveApp_Caption=アクティブなアプリケーション以外をすべてミュート
 actnUnMuteAllApps_Caption=アプリケーションすべてのミュート解除
-actnShowSetDefaultDeviceWindow_Caption=Audio device manager
+actnShowSetDefaultDeviceWindow_Caption=オーディオ デバイス マネージャー
 actnMovable_Caption=可動
 actnBrightnessPercent_Caption=明るさの設定(パーセント)
 XiAdvanced_Caption=拡張
@@ -310,7 +310,7 @@ CBChangeVolumeOptions_Items[3]=アプリケーション一覧
 actnRebootPC_Caption=PC を再起動
 actnShutdownPC_Caption=電源を切る
 actnTurnOffMonitor_Caption=モニターを切る
-actnTurnOnMonitor_Caption=Turn On Monitor
+actnTurnOnMonitor_Caption=モニターの電源を入れる
 actnDisableVolume2Mouse_Caption=マウス動作
 actnDisableVolume2Keyboard_Caption=キーボード動作
 actnDisableVolume2All_Caption=すべて
@@ -352,11 +352,11 @@ rbRunAsTask_Caption=タスクとして
 chbUnmuteOnIncreaseVolume_Caption=音量増加時のみ
 actnShowUserVariables_Hint=ユーザ変数
 actnExecuteTask_Caption=タスを実行
-tsTraySkinHeader_Caption=Main device
+tsTraySkinHeader_Caption=メイン デバイス
 tsAltTraySkinHeader_Caption=代替デバイス
-actnSetMethodForDevice_Hint=Set Control Method For Device
-actnMuteAllMicrophones_Caption=Mute All Microphones
-actnDB_Caption=%dB - Decibels  
+actnSetMethodForDevice_Hint=デバイスの制御方法を設定
+actnMuteAllMicrophones_Caption=すべてのマイクをミュート
+actnDB_Caption=%dB - デシベル  
 
 [AdvancedStrings]
 Label_No=なし
@@ -440,18 +440,19 @@ Label_MuteToggle=切り替え
 Label_EnableDevice=デバイスを有効
 Label_DisableDevice=デバイスを無効
 Label_CopyToClipboard=クリップボードにコピー
-Label_AllDisplays=All displays
+Label_AllDisplays=すべてのディスプレイ
 Label_AltDevice=代替音声デバイス
 Label_WebSite=ウェブサイト
-Label_RenameDevice=Rename Device
-Label_NewDeviceName=Enter a new device name:
-Label_Schema=Schema #
-Label_SchemaName=Schema name
-Label_AllMicsMuted=All Microphones are muted
-Label_AddDevice=Add Device
-Label_EditDevice=Edit Device
-Label_Default=Default
-Label_DoNotChange=Do not change
+Label_RenameDevice=デバイス名の変更
+Label_NewDeviceName=新しいデバイス名を入力してください:
+Label_Schema=スキーマ #
+Label_SchemaName=スキーマ名
+Label_AllMicsMuted=すべてのマイクがミュートされています
+Label_AddDevice=デバイスの追加
+Label_EditDevice=デバイスの編集
+Label_Default=既定
+Label_DoNotChange=変更しない
+Label_FullScreenListInverted=音量調整を無効にするアプリケーション
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=アプリケーションの一覧
@@ -547,7 +548,7 @@ aSetMute_Caption=ミュート有効/無効
 aSetBalance_Caption=バランス設定
 aSetBrightness_Caption=明るさ設定
 aRunPprogram_Caption=プログラムの起動
-aShowMessage_Caption=
+aShowMessage_Caption=メッセージを表示
 aOnce_Caption=一回
 aOnStart_Caption=起動時
 aOnClose_Caption=閉じる時
@@ -584,7 +585,7 @@ aOnLockPC_Caption=PC をロックする
 aOnUnlockPC_Caption=PC のロック解除
 aAfterIdleTime_Caption=待機時間後
 aSetDefaultDevice_Caption=デフォルトデバイス
-aAfterCloseProgram_Caption=After close application
+aAfterCloseProgram_Caption=アプリケーション終了後
 
 [FmProjectHelp]
 FmProjectHelp_Caption=寄付
@@ -592,7 +593,7 @@ FmProjectHelp_FontName=Meiryo UI
 FmProjectHelp_FontSize=9
 actnClose_Caption=閉じる
 actnSendMail_Caption=E-メールを送信
-lblMoreDonate_Caption=More...
+lblMoreDonate_Caption=その他...
 
 [FmMainPM]
 FmMainPM_FontName=Meiryo UI
@@ -626,9 +627,9 @@ LColorMouseMove_Caption=カーソル下の色
 actnCancel_Caption=キャンセル
 actnOk_Caption=OK
 lblTransparency_Caption=不透明度,%:
-lblRed_Caption=Red:
-lblGreen_Caption=Green:
-blbBlue_Caption=Blue:
+lblRed_Caption=赤:
+lblGreen_Caption=緑:
+blbBlue_Caption=青:
 
 [FmEditKey]
 FmEditKey_FontName=Meiryo UI
@@ -671,14 +672,14 @@ actnClose_Caption=閉じる
 actnOk_Caption=適用
 actnAddColorScheme_Caption=追加
 actnDelColorScheme_Caption=削除
-lblDarkMode_Caption=Dark Mode
-lblDarkTraySkin_Caption=Main Tray Skin
-lblDarkAltTraySkin_Caption=Alternative Tray Skin
-lblDarkOSDSkin_Caption=OSD Skin
-lblDefault_Caption=Default
-lblTraySkin_Caption=Main Tray Skin
-lblAltTraySkin_Caption=Alternative Tray Skin
-lblODSSkin_Caption=OSD Skin
+lblDarkMode_Caption=ダーク モード
+lblDarkTraySkin_Caption=メイン トレイ スキン
+lblDarkAltTraySkin_Caption=代替トレイ スキン
+lblDarkOSDSkin_Caption=OSD スキン
+lblDefault_Caption=既定
+lblTraySkin_Caption=メイン トレイ スキン
+lblAltTraySkin_Caption=代替トレイ スキン
+lblODSSkin_Caption=OSD スキン
 
 [FmUSBDevicesList]
 FmUSBDevicesList_Caption=ハードウェアの安全な取り外し
@@ -688,17 +689,17 @@ actnClose_Caption=閉じる
 actnRemoveUsb_Caption=取り外す
 
 [FmDevicesList]
-FmDevicesList_Caption=Audio device manager
+FmDevicesList_Caption=オーディオ デバイス マネージャー
 FmDevicesList_FontName=Meiryo UI
 FmDevicesList_FontSize=9
-actnSetEnabled_Caption=Enable
-actnSetDisabled_Caption=Disable
-actnSetDefaultCommunicationDevice_Caption=Default Communication Device
-actnSetDefaultDevice_Caption=Default Device
-actnRenameDevice_Caption=Rename
-actnShowInactiveDevices_Caption=Show Inactive Devices
-actnSetFavorite_Caption=Favorite
-actnShowOnlyFavorites_Caption=Show Only Favorites
+actnSetEnabled_Caption=有効にする
+actnSetDisabled_Caption=無効にする
+actnSetDefaultCommunicationDevice_Caption=既定の通信デバイス
+actnSetDefaultDevice_Caption=既定のデバイス
+actnRenameDevice_Caption=名前の変更
+actnShowInactiveDevices_Caption=非アクティブなデバイスを表示
+actnSetFavorite_Caption=お気に入り
+actnShowOnlyFavorites_Caption=お気に入りのみ表示
 
 [FmChangeVolumeForAppList]
 FmChangeVolumeForAppList_Caption=アプリケーションの一覧
@@ -713,7 +714,7 @@ LDrag_Caption=関連するウィンドウにイメージをドラッグ
 actnAddFromFile_Caption=ファイルを選択
 actnAddFromProc_Caption=プロセスを選択
 LVApps_Columns[0]=アプリケーション
-actnAddActiveApplications_Caption=Active applications
+actnAddActiveApplications_Caption=アクティブなアプリケーション
 
 [FmOSDPosition]
 FmOSDPosition_Caption=
@@ -727,26 +728,26 @@ aOkay_Caption=OK
 chbExcludeTaskbar_Caption=タスクバーを除外
 
 [FmDeviceManager]
-FmDeviceManager_Caption=Audio device manager
+FmDeviceManager_Caption=オーディオ デバイス マネージャー
 FmDeviceManager_FontName=Meiryo UI
 FmDeviceManager_FontSize=8
-lblListOfDevices_Caption=List of Devices
+lblListOfDevices_Caption=デバイスの一覧
 LVDevices_Columns[0]=デバイス
 actnClose_Caption=閉じる
-actnAddNetworkAudioDevice_Caption=Network Audio Device (OSC)
+actnAddNetworkAudioDevice_Caption=ネットワーク オーディオ デバイス (OSC)
 actnAdd_Caption=追加
 actnDel_Caption=削除
 actnEdit_Caption=編集
-LVDevices_Columns[1]=Favorite
-actnAddVoiceMeeterDevice_Caption=Voice Meeter Device
+LVDevices_Columns[1]=お気に入り
+actnAddVoiceMeeterDevice_Caption=Voice Meeter デバイス
 
 [FmNetworkDeviceEdit]
 FmNetworkDeviceEdit_FontName=Tahoma
 FmNetworkDeviceEdit_FontSize=8
 lblName_Caption=名前:
 lblIP_Caption=IP:
-lblAddress_Caption=Address:
-lblPort_Caption=Port:
+lblAddress_Caption=アドレス:
+lblPort_Caption=ポート:
 aCancel_Caption=キャンセル
 aOkay_Caption=OK
 
@@ -756,8 +757,8 @@ FmVoiceMeeterDeviceEdit_FontSize=8
 lblName_Caption=名前:
 aCancel_Caption=キャンセル
 aOkay_Caption=OK
-lblParameter_Caption=Parameter:
-lblIndex_Caption=Index:
+lblParameter_Caption=パラメーター:
+lblIndex_Caption=インデックス:
 
 [Information]
 AuthorName=Tilt
