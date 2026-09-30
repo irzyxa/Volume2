@@ -316,6 +316,7 @@ actnDisableVolume2Keyboard_Caption=Akce klávesnice
 actnDisableVolume2All_Caption=Vše
 actnSettings_Caption=Možnosti programu
 CBDisableMouseScrollInFullScreen_Caption=Zakázat ovládání hlasitosti v režimu celé obrazovky
+CBTaskbarAppVolume_Caption=Nad tlačítkem na hlavním panelu měnit hlasitost této aplikace
 CBDisableEdgeControlInFullScreen_Caption=Zakázat ovládání hlasitosti v režimu celé obrazovky
 CBDisableHotKeysInFullScreen_Caption=Zakázat ovládání hlasitosti v režimu celé obrazovky
 CBEdgeUseDisableSoundMiddleButton_Caption=Ztlumit prostředním tlačítkem

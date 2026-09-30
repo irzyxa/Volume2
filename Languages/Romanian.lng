@@ -316,6 +316,7 @@ actnDisableVolume2Keyboard_Caption=Acţiuni tastatură
 actnDisableVolume2All_Caption=Toate
 actnSettings_Caption=Opţiuni program
 CBDisableMouseScrollInFullScreen_Caption=Dezactivează controlul volumului în modul ecran complet
+CBTaskbarAppVolume_Caption=Deasupra unui buton din bara de activități, schimbă volumul acelei aplicații
 CBDisableEdgeControlInFullScreen_Caption=Dezactivează controlul volumului în modul ecran complet
 CBDisableHotKeysInFullScreen_Caption=Dezactivează controlul volumului în modul ecran complet
 CBEdgeUseDisableSoundMiddleButton_Caption=Butonul mijlociu al mouse-ului mut

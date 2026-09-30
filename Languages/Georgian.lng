@@ -316,6 +316,7 @@ actnDisableVolume2Keyboard_Caption=კლავიატურის მოქ�
 actnDisableVolume2All_Caption=ყველა
 actnSettings_Caption=პროგრამის პარამეტრები
 CBDisableMouseScrollInFullScreen_Caption=გამორთვა სრული ეკრანის აპლიკაციებში
+CBTaskbarAppVolume_Caption=ამოცანების ზოლის ღილაკზე ამ აპლიკაციის ხმის შეცვლა
 CBDisableEdgeControlInFullScreen_Caption=გამორთვა სრული ეკრანის აპლიკაციებში
 CBDisableHotKeysInFullScreen_Caption=გამორთვა სრული ეკრანის აპლიკაციებში
 CBEdgeUseDisableSoundMiddleButton_Caption=დადუმება თაგვის შუა ღილაკით

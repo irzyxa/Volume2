@@ -316,6 +316,7 @@ actnDisableVolume2Keyboard_Caption=פעולות מקלדת
 actnDisableVolume2All_Caption=הכל
 actnSettings_Caption=אפשרויות התוכנית
 CBDisableMouseScrollInFullScreen_Caption=השבת ביישומים במסך מלא
+CBTaskbarAppVolume_Caption=מעל לחצן בשורת המשימות, שנה את עוצמת הקול של אותו יישום
 CBDisableEdgeControlInFullScreen_Caption=השבת ביישומים במסך מלא
 CBDisableHotKeysInFullScreen_Caption=השבת ביישומים במסך מלא
 CBEdgeUseDisableSoundMiddleButton_Caption=השתקה בלחצן העכבר האמצעי

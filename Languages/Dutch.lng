@@ -316,6 +316,7 @@ actnDisableVolume2Keyboard_Caption=Toetsenbordacties
 actnDisableVolume2All_Caption=Alles
 actnSettings_Caption=Programma-opties
 CBDisableMouseScrollInFullScreen_Caption=Schakel volumeregeling in de modus Volledig scherm
+CBTaskbarAppVolume_Caption=Boven een taakbalkknop het volume van die toepassing wijzigen
 CBDisableEdgeControlInFullScreen_Caption=Schakel volumeregeling in de modus Volledig scherm
 CBDisableHotKeysInFullScreen_Caption=Schakel volumeregeling in de modus Volledig scherm
 CBEdgeUseDisableSoundMiddleButton_Caption=Mute middelste muisknop

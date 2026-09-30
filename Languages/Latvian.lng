@@ -316,6 +316,7 @@ actnDisableVolume2Keyboard_Caption=Tastatūras darbības
 actnDisableVolume2All_Caption=Viss
 actnSettings_Caption=Iestatījumi
 CBDisableMouseScrollInFullScreen_Caption=Atspējot pilnekrāna programmās
+CBTaskbarAppVolume_Caption=Virs uzdevumjoslas pogas mainīt šīs lietotnes skaļumu
 CBDisableEdgeControlInFullScreen_Caption=Atspējot pilnekrāna programmās
 CBDisableHotKeysInFullScreen_Caption=Atspējot pilnekrāna programmās
 CBEdgeUseDisableSoundMiddleButton_Caption=Ieslēgt skaņu ar peles vidējo taustiņu

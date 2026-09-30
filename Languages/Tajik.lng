@@ -316,6 +316,7 @@ actnDisableVolume2Keyboard_Caption=Чорабиниҳои клавиатура
 actnDisableVolume2All_Caption=Ҳама
 actnSettings_Caption=Танзимот
 CBDisableMouseScrollInFullScreen_Caption=Хомӯш дар барномаҳои пуркардашуда
+CBTaskbarAppVolume_Caption=Болои тугмаи панели вазифаҳо баландии садои ҳамон барномаро тағйир диҳед
 CBDisableEdgeControlInFullScreen_Caption=Хомӯш дар барномаҳои пуркардашуда
 CBDisableHotKeysInFullScreen_Caption=Хомӯш дар барномаҳои пуркардашуда
 CBEdgeUseDisableSoundMiddleButton_Caption=Хомӯши садо бо тугмаи миёнаи муш

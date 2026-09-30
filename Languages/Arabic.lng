@@ -316,6 +316,7 @@ actnDisableVolume2Keyboard_Caption=إجراءات لوحة المفاتيح
 actnDisableVolume2All_Caption=الكل
 actnSettings_Caption=خيارات البرنامج
 CBDisableMouseScrollInFullScreen_Caption=تعطيل في تطبيقات ملء الشاشة
+CBTaskbarAppVolume_Caption=فوق زر في شريط المهام، تغيير مستوى صوت ذلك التطبيق
 CBDisableEdgeControlInFullScreen_Caption=تعطيل في تطبيقات ملء الشاشة
 CBDisableHotKeysInFullScreen_Caption=تعطيل في تطبيقات ملء الشاشة
 CBEdgeUseDisableSoundMiddleButton_Caption=كتم الزر الأوسط للفأرة

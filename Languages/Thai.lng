@@ -316,6 +316,7 @@ actnDisableVolume2Keyboard_Caption=การทำงานของแป้น
 actnDisableVolume2All_Caption=ทั้งหมด
 actnSettings_Caption=ตัวเลือกโปรแกรม
 CBDisableMouseScrollInFullScreen_Caption=ปิดใช้งานในแอปพลิเคชันเต็มหน้าจอ
+CBTaskbarAppVolume_Caption=เมื่ออยู่เหนือปุ่มบนแถบงาน ให้เปลี่ยนระดับเสียงของแอปพลิเคชันนั้น
 CBDisableEdgeControlInFullScreen_Caption=ปิดใช้งานในแอปพลิเคชันเต็มหน้าจอ
 CBDisableHotKeysInFullScreen_Caption=ปิดใช้งานในแอปพลิเคชันเต็มหน้าจอ
 CBEdgeUseDisableSoundMiddleButton_Caption=ปิดเสียงด้วยปุ่มกลางของเมาส์

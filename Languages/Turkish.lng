@@ -316,6 +316,7 @@ actnDisableVolume2Keyboard_Caption=Klavye hareketleri
 actnDisableVolume2All_Caption=Tümü
 actnSettings_Caption=Program ayarları
 CBDisableMouseScrollInFullScreen_Caption=Tam ekran uygulamalarında devre dışı
+CBTaskbarAppVolume_Caption=Görev çubuğu düğmesi üzerinde o uygulamanın ses düzeyini değiştir
 CBDisableEdgeControlInFullScreen_Caption=Tam ekran uygulamalarında devre dışı
 CBDisableHotKeysInFullScreen_Caption=Tam ekran uygulamalarında devre dışı
 CBEdgeUseDisableSoundMiddleButton_Caption=Orta fare tuşu ile sessize al

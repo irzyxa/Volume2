@@ -316,6 +316,7 @@ actnDisableVolume2Keyboard_Caption=Các hành động phím tắt
 actnDisableVolume2All_Caption=Tất cả
 actnSettings_Caption=Các tùy chọn chương trình
 CBDisableMouseScrollInFullScreen_Caption=Vô hiệu điều khiển âm lượng trong chế độ toàn màn hình
+CBTaskbarAppVolume_Caption=Trên nút thanh tác vụ, thay đổi âm lượng của ứng dụng đó
 CBDisableEdgeControlInFullScreen_Caption=Vô hiệu điều khiển âm lượng trong chế độ toàn màn hình
 CBDisableHotKeysInFullScreen_Caption=Vô hiệu điều khiển âm lượng trong chế độ toàn màn hình
 CBEdgeUseDisableSoundMiddleButton_Caption=Nút chuột giữa làm câm

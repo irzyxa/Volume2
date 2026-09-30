@@ -316,6 +316,7 @@ actnDisableVolume2Keyboard_Caption=Uniquement le clavier
 actnDisableVolume2All_Caption=Complètement
 actnSettings_Caption=Paramètres de Volume²
 CBDisableMouseScrollInFullScreen_Caption=Désactiver le contrôle du volume en plein écran
+CBTaskbarAppVolume_Caption=Sur un bouton de la barre des tâches, modifier le volume de cette application
 CBDisableEdgeControlInFullScreen_Caption=Désactiver le contrôle du volume en plein écran
 CBDisableHotKeysInFullScreen_Caption=Désactiver le contrôle du volume en plein écran
 CBEdgeUseDisableSoundMiddleButton_Caption=(Dés)Activer Silence avec le clic du milieu

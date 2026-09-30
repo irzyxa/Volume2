@@ -316,6 +316,7 @@ actnDisableVolume2Keyboard_Caption=Akcje klawiaturą
 actnDisableVolume2All_Caption=Wszystko
 actnSettings_Caption=Opcje programu
 CBDisableMouseScrollInFullScreen_Caption=Wyłącz kontrolę głośności w trybie pełnoekranowym
+CBTaskbarAppVolume_Caption=Nad przyciskiem paska zadań zmieniaj głośność tej aplikacji
 CBDisableEdgeControlInFullScreen_Caption=Wyłącz kontrolę głośności w trybie pełnoekranowym
 CBDisableHotKeysInFullScreen_Caption=Wyłącz kontrolę głośności w trybie pełnoekranowym
 CBEdgeUseDisableSoundMiddleButton_Caption=Wyłącz dźwięk środkowym przyciskiem myszy

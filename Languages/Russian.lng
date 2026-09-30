@@ -316,6 +316,7 @@ actnDisableVolume2Keyboard_Caption=События клавиатуры
 actnDisableVolume2All_Caption=Все
 actnSettings_Caption=Настройки
 CBDisableMouseScrollInFullScreen_Caption=Отключать в полноэкранных приложениях
+CBTaskbarAppVolume_Caption=Над кнопкой на панели задач менять громкость этого приложения
 CBDisableEdgeControlInFullScreen_Caption=Отключать в полноэкранных приложениях
 CBDisableHotKeysInFullScreen_Caption=Отключать в полноэкранных приложениях
 CBEdgeUseDisableSoundMiddleButton_Caption=Выключать звук средней кнопкой мыши

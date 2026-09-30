@@ -316,6 +316,7 @@ actnDisableVolume2Keyboard_Caption=키보드 동작
 actnDisableVolume2All_Caption=모두
 actnSettings_Caption=프로그램 옵션
 CBDisableMouseScrollInFullScreen_Caption=전체 화면 응용 프로그램에서는 사용 안 함
+CBTaskbarAppVolume_Caption=작업 표시줄 단추 위에서 해당 앱의 볼륨 변경
 CBDisableEdgeControlInFullScreen_Caption=전체 화면 응용 프로그램에서는 사용 안 함
 CBDisableHotKeysInFullScreen_Caption=전체 화면 응용 프로그램에서는 사용 안 함
 CBEdgeUseDisableSoundMiddleButton_Caption=가운데 마우스 버튼은 음소거

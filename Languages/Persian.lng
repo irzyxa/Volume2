@@ -316,6 +316,7 @@ actnDisableVolume2Keyboard_Caption=عملیات کیبورد
 actnDisableVolume2All_Caption=همه
 actnSettings_Caption=گزینه های برنامه
 CBDisableMouseScrollInFullScreen_Caption=غیر فعال کردن در حالت تمام صفحه برنامه ها
+CBTaskbarAppVolume_Caption=روی دکمه نوار وظیفه، تغییر حجم صدای همان برنامه
 CBDisableEdgeControlInFullScreen_Caption=غیر فعال کردن در حالت تمام صفحه برنامه ها
 CBDisableHotKeysInFullScreen_Caption=غیر فعال کردن در حالت تمام صفحه برنامه ها
 CBEdgeUseDisableSoundMiddleButton_Caption=بیصدا کردن با دکمه وسط ماوس

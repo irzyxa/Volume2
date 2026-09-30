@@ -316,6 +316,7 @@ actnDisableVolume2Keyboard_Caption=Dejanja tipkovnice
 actnDisableVolume2All_Caption=Vse
 actnSettings_Caption=Možnosti programa
 CBDisableMouseScrollInFullScreen_Caption=Onemogoči v celozaslonskih aplikacijah
+CBTaskbarAppVolume_Caption=Nad gumbom opravilne vrstice spreminjaj glasnost te aplikacije
 CBDisableEdgeControlInFullScreen_Caption=Onemogoči v celozaslonskih aplikacijah
 CBDisableHotKeysInFullScreen_Caption=Onemogoči v celozaslonskih aplikacijah
 CBEdgeUseDisableSoundMiddleButton_Caption=Izključi sredinsko tipko na miški

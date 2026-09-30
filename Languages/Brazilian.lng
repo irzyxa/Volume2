@@ -316,6 +316,7 @@ actnDisableVolume2Keyboard_Caption=Ações do teclado
 actnDisableVolume2All_Caption=Tudo
 actnSettings_Caption=Opções do programa
 CBDisableMouseScrollInFullScreen_Caption=Desabilitar em aplicações de tela cheia
+CBTaskbarAppVolume_Caption=Sobre um botão da barra de tarefas, alterar o volume desse aplicativo
 CBDisableEdgeControlInFullScreen_Caption=Desabilitar em aplicações de tela cheia
 CBDisableHotKeysInFullScreen_Caption=Desabilitar em aplicações de tela cheia
 CBEdgeUseDisableSoundMiddleButton_Caption=Botão do meio do mouse mudo

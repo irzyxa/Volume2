@@ -316,6 +316,7 @@ actnDisableVolume2Keyboard_Caption=Radnje tastature
 actnDisableVolume2All_Caption=Sve
 actnSettings_Caption=Podešavanja programa
 CBDisableMouseScrollInFullScreen_Caption=Onemogući u aplikacijama preko celog ekrana
+CBTaskbarAppVolume_Caption=Iznad dugmeta na traci zadataka menjaj jačinu zvuka te aplikacije
 CBDisableEdgeControlInFullScreen_Caption=Onemogući u aplikacijama preko celog ekrana
 CBDisableHotKeysInFullScreen_Caption=Onemogući u aplikacijama preko celog ekrana
 CBEdgeUseDisableSoundMiddleButton_Caption=Isključi srednje dugme miša

@@ -316,6 +316,7 @@ actnDisableVolume2Keyboard_Caption=Tindakan Keyboard
 actnDisableVolume2All_Caption=Semua
 actnSettings_Caption=Pilihan program
 CBDisableMouseScrollInFullScreen_Caption=Nonaktifkan saat aplikasi dilayar penuh
+CBTaskbarAppVolume_Caption=Di atas tombol taskbar, ubah volume aplikasi tersebut
 CBDisableEdgeControlInFullScreen_Caption=Nonaktifkan saat aplikasi dilayar penuh
 CBDisableHotKeysInFullScreen_Caption=Nonaktifkan saat aplikasi dilayar penuh
 CBEdgeUseDisableSoundMiddleButton_Caption=Tombol tengah mouse bisu

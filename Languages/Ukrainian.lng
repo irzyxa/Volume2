@@ -316,6 +316,7 @@ actnDisableVolume2Keyboard_Caption=Події клавіатури
 actnDisableVolume2All_Caption=Всі
 actnSettings_Caption=Налаштування
 CBDisableMouseScrollInFullScreen_Caption=Відключати в повноекранних додатках
+CBTaskbarAppVolume_Caption=Над кнопкою на панелі завдань змінювати гучність цієї програми
 CBDisableEdgeControlInFullScreen_Caption=Відключати в повноекранних додатках
 CBDisableHotKeysInFullScreen_Caption=Відключати в повноекранних додатках
 CBEdgeUseDisableSoundMiddleButton_Caption=Вимикати звук середньою кнопкою миші

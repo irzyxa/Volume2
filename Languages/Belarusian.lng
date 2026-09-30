@@ -316,6 +316,7 @@ actnDisableVolume2Keyboard_Caption=Клявіятура
 actnDisableVolume2All_Caption=Усе
 actnSettings_Caption=Налады
 CBDisableMouseScrollInFullScreen_Caption=Не паказваць у разгорнутых аплікацыях
+CBTaskbarAppVolume_Caption=Над кнопкай на панэлі задач змяняць гучнасць гэтай праграмы
 CBDisableEdgeControlInFullScreen_Caption=Паказваць у разгорнутых аплікацыях
 CBDisableHotKeysInFullScreen_Caption=Паказваць у разгорнутых аплікацыях
 CBEdgeUseDisableSoundMiddleButton_Caption=Адлучаць гук сярэдняй кнопкаю мышкі

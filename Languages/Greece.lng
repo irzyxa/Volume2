@@ -316,6 +316,7 @@ actnDisableVolume2Keyboard_Caption=Ενέργειες πληκτρολογίου
 actnDisableVolume2All_Caption=Όλα
 actnSettings_Caption=Ρυθμίσεις
 CBDisableMouseScrollInFullScreen_Caption=Απενεργοποίηση ελέγχου έντασης σε λειτουργία πλήρους οθόνης
+CBTaskbarAppVolume_Caption=Πάνω από κουμπί της γραμμής εργασιών, αλλαγή της έντασης αυτής της εφαρμογής
 CBDisableEdgeControlInFullScreen_Caption=Απενεργοποίηση ελέγχου έντασης σε λειτουργία πλήρους οθόνης
 CBDisableHotKeysInFullScreen_Caption=Απενεργοποίηση ελέγχου έντασης σε λειτουργία πλήρους οθόνης
 CBEdgeUseDisableSoundMiddleButton_Caption=Σίγαση με μεσαίο πλήκτρο του ποντικιού
