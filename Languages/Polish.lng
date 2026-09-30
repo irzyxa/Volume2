@@ -1,4 +1,4 @@
-﻿;Encoding must be UTF-8 with BOM
+;Encoding must be UTF-8
 [FmMain]
 FmMain_Caption=Volume² - Opcje
 FmMain_FontName=Tahoma
@@ -95,7 +95,7 @@ LSaite_Caption=Blog:
 SBShowOSDExemle_Caption=Podgląd
 LLeftChanel_Caption=L
 LRightChanel_Caption=P
-LShowOnScreenNumber_Caption=Wyświetl:
+LShowOnScreenNumber_Caption=Pokaż OSD na:
 LCaptionTree_Caption=O programie
 actnHKVolumeUP_Caption=Głośniej
 actnHKVolumeDOWN_Caption=Ciszej
@@ -128,12 +128,12 @@ LAltDevice_Caption=Alternatywne urządzenie audio:
 CBOSDStyle_Items[0]=Tekst
 CBOSDStyle_Items[1]=Skórka
 CBOSDStyle_Items[2]=Suwak
-LOSDStyle_Caption=Style:
+LOSDStyle_Caption=Styl:
 CBStyleHint_Items[0]=Balon
 CBStyleHint_Items[1]=Zwykły
 LRecommendedCountSteps_Caption=Zalecana wartość dla 'Szybkości zmiany głośności':
 LUpdate_Caption=Najnowsza wersja:
-LStyleHint_Caption=Style:
+LStyleHint_Caption=Styl:
 CBUseChangeCursorMoveWatch_Caption=Zmień kursor
 SBSetVolumeStep_Caption=Ustaw
 actnAddHotKey_Caption=Dodaj
@@ -356,7 +356,7 @@ tsTraySkinHeader_Caption=Główne urządzenie
 tsAltTraySkinHeader_Caption=Alternatywne urządzenie
 actnSetMethodForDevice_Hint=Ustaw metodę sterowania dla urządzenia
 actnMuteAllMicrophones_Caption=Wycisz wszystkie mikrofony
-actnDB_Caption=%dB - Decibels  
+actnDB_Caption=%dB - Decybele  
 
 [AdvancedStrings]
 Label_No=Brak
@@ -404,7 +404,7 @@ Label_Buy=Kup teraz
 Label_Setuped=Ustawione
 Label_NoIcon=Bez ikon
 Label_RestoreIcon=Aby zastosować kilka zmian zrestartuj program
-Label_ActiveWindow=Na wybranej pozycji poniżej
+Label_ActiveWindow=Aktywny ekran
 Label_AvailableNewVersion=Wersja %s jest dostępna
 Label_DeleteSkin=Usunąć skórkę z dysku: 
 Label_Settings=Opcje programu
@@ -448,10 +448,11 @@ Label_NewDeviceName=Wprowadź nową nazwę urządzenia:
 Label_Schema=Schemat #
 Label_SchemaName=Nazwa Schematu
 Label_AllMicsMuted=Wszystkie mikrofony są wyciszone
-Label_AddDevice=Add Device
-Label_EditDevice=Edit Device
-Label_Default=Default
-Label_DoNotChange=Do not change
+Label_AddDevice=Dodaj urządzenie
+Label_EditDevice=Edytuj urządzenie
+Label_Default=Domyślne
+Label_DoNotChange=Nie zmieniaj
+Label_FullScreenListInverted=Aplikacje, dla których kontrola dźwięku będzie wyłączona
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Lista aplikacji
@@ -584,7 +585,7 @@ aOnLockPC_Caption=Przy blokowaniu PC
 aOnUnlockPC_Caption=Przy odblokowywaniu PC
 aAfterIdleTime_Caption=Po czasie bezczynności
 aSetDefaultDevice_Caption=Ustaw urządzenie domyślne
-aAfterCloseProgram_Caption=After close application
+aAfterCloseProgram_Caption=Po zamknięciu aplikacji
 
 [FmProjectHelp]
 FmProjectHelp_Caption=Darowizna
@@ -671,14 +672,14 @@ actnClose_Caption=Zamknij
 actnOk_Caption=Zastosuj
 actnAddColorScheme_Caption=Dodaj
 actnDelColorScheme_Caption=Usuń
-lblDarkMode_Caption=Dark Mode
-lblDarkTraySkin_Caption=Main Tray Skin
-lblDarkAltTraySkin_Caption=Alternative Tray Skin
-lblDarkOSDSkin_Caption=OSD Skin
-lblDefault_Caption=Default
-lblTraySkin_Caption=Main Tray Skin
-lblAltTraySkin_Caption=Alternative Tray Skin
-lblODSSkin_Caption=OSD Skin
+lblDarkMode_Caption=Tryb ciemny
+lblDarkTraySkin_Caption=Główna skórka zasobnika
+lblDarkAltTraySkin_Caption=Alternatywna skórka zasobnika
+lblDarkOSDSkin_Caption=Skórka OSD
+lblDefault_Caption=Domyślne
+lblTraySkin_Caption=Główna skórka zasobnika
+lblAltTraySkin_Caption=Alternatywna skórka zasobnika
+lblODSSkin_Caption=Skórka OSD
 
 [FmUSBDevicesList]
 FmUSBDevicesList_Caption=Bezpieczne usuwanie sprzętu
@@ -697,8 +698,8 @@ actnSetDefaultCommunicationDevice_Caption=Domyślne urządzenie komunikacyjne
 actnSetDefaultDevice_Caption=Domyślne urządzenie
 actnRenameDevice_Caption=Zmień nazwę
 actnShowInactiveDevices_Caption=Pokaż nieaktywne urządzenia
-actnSetFavorite_Caption=Favorite
-actnShowOnlyFavorites_Caption=Show Only Favorites
+actnSetFavorite_Caption=Ulubione
+actnShowOnlyFavorites_Caption=Pokaż tylko ulubione
 
 [FmChangeVolumeForAppList]
 FmChangeVolumeForAppList_Caption=Lista aplikacji
@@ -713,7 +714,7 @@ LDrag_Caption=Przeciągnij celownik na okno wybranego obiektu
 actnAddFromFile_Caption=Wybierz plik
 actnAddFromProc_Caption=Wybierz proces
 LVApps_Columns[0]=Aplikacja
-actnAddActiveApplications_Caption=Active applications
+actnAddActiveApplications_Caption=Aktywne aplikacje
 
 [FmOSDPosition]
 FmOSDPosition_Caption=
@@ -737,15 +738,15 @@ actnAddNetworkAudioDevice_Caption=Sieciowe urządzenie audio (OSC)
 actnAdd_Caption=Dodaj
 actnDel_Caption=Usuń
 actnEdit_Caption=Edytuj
-LVDevices_Columns[1]=Favorite
-actnAddVoiceMeeterDevice_Caption=Voice Meeter Device
+LVDevices_Columns[1]=Ulubione
+actnAddVoiceMeeterDevice_Caption=Urządzenie Voice Meeter
 
 [FmNetworkDeviceEdit]
 FmNetworkDeviceEdit_FontName=Tahoma
 FmNetworkDeviceEdit_FontSize=8
 lblName_Caption=Nazwa:
 lblIP_Caption=IP:
-lblAddress_Caption=Address:
+lblAddress_Caption=Adres:
 lblPort_Caption=Port:
 aCancel_Caption=Anuluj
 aOkay_Caption=OK
@@ -756,8 +757,8 @@ FmVoiceMeeterDeviceEdit_FontSize=8
 lblName_Caption=Nazwa:
 aCancel_Caption=Anuluj
 aOkay_Caption=OK
-lblParameter_Caption=Parameter:
-lblIndex_Caption=Index:
+lblParameter_Caption=Parametr:
+lblIndex_Caption=Indeks:
 
 [Information]
 AuthorName=Andrzej Mazurkiewicz

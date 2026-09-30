@@ -1,4 +1,4 @@
-﻿;Encoding must be UTF-8 with BOM
+;Encoding must be UTF-8
 [FmMain]
 FmMain_Caption=Volume² - Налаштування
 FmMain_FontName=Tahoma
@@ -95,7 +95,7 @@ LSaite_Caption=Сайт:
 SBShowOSDExemle_Caption=Показати
 LLeftChanel_Caption=Л
 LRightChanel_Caption=П
-LShowOnScreenNumber_Caption=Виводити на монітор:
+LShowOnScreenNumber_Caption=Показувати OSD на:
 LCaptionTree_Caption=Про програму
 actnHKVolumeUP_Caption=Збільшити гучність
 actnHKVolumeDOWN_Caption=Зменшити гучність
@@ -404,7 +404,7 @@ Label_Buy=Купити
 Label_Setuped=Встановлено
 Label_NoIcon=Без іконки
 Label_RestoreIcon=Для перегляду налаштувань запустіть програму ще раз
-Label_ActiveWindow=Активне вікно
+Label_ActiveWindow=Активний монітор
 Label_AvailableNewVersion=Доступне оновлення до версії %s
 Label_DeleteSkin=Видалити скін:
 Label_Settings=Налаштування
@@ -440,18 +440,19 @@ Label_MuteToggle=Перемкнути
 Label_EnableDevice=Ввімкнути пристрій
 Label_DisableDevice=Вимкнути пристрій
 Label_CopyToClipboard=Копіювати в буфер
-Label_AllDisplays=Всі монитори
+Label_AllDisplays=Усі монітори
 Label_AltDevice=Альтернативний пристрій
 Label_WebSite=Веб сайт
 Label_RenameDevice=Перейменування
 Label_NewDeviceName=Задайте нове ім'я пристрою:
-Label_Schema=Schema #
-Label_SchemaName=Schema name
+Label_Schema=Схема №
+Label_SchemaName=Назва схеми
 Label_AllMicsMuted=Всі мікрофони вимкнено
 Label_AddDevice=Додати пристрій
 Label_EditDevice=Редагувати пристрій
 Label_Default=За замовчуванням
 Label_DoNotChange=Не змiнювати
+Label_FullScreenListInverted=Додатки, в яких управління гучністю відключається
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Список додатків
@@ -611,7 +612,7 @@ actnCancel_Caption=Закрити
 actnApply_Caption=Застосувати
 actnClose_Caption=Закрити
 LOSDTransparent_Caption=Прозорість:
-actnDeleteSkin_Caption=Delete selected skin
+actnDeleteSkin_Caption=Видалити вибраний скін
 actnMovable_Caption=Переміщуваний
 actnSnapToEdges_Caption=Липнути до краю
 RBOSDCoordinates_Caption=Координати
@@ -626,9 +627,9 @@ LColorMouseMove_Caption=Колір під курсором
 actnCancel_Caption=Скасувати
 actnOk_Caption=Ок
 lblTransparency_Caption=Прозорість,%:
-lblRed_Caption=Red:
-lblGreen_Caption=Green:
-blbBlue_Caption=Blue:
+lblRed_Caption=Червоний:
+lblGreen_Caption=Зелений:
+blbBlue_Caption=Синій:
 
 [FmEditKey]
 FmEditKey_FontName=Tahoma

@@ -1,4 +1,4 @@
-﻿;Encoding must be UTF-8 with BOM
+;Encoding must be UTF-8
 [FmMain]
 FmMain_Caption=Volume² - Налады
 FmMain_FontName=Tahoma
@@ -95,7 +95,7 @@ LSaite_Caption=Блёґ:
 SBShowOSDExemle_Caption=Паказаць
 LLeftChanel_Caption=<
 LRightChanel_Caption=>
-LShowOnScreenNumber_Caption=Выводзіць на дысплэй:
+LShowOnScreenNumber_Caption=Паказваць OSD на:
 LCaptionTree_Caption=Пра Volume²
 actnHKVolumeUP_Caption=Павялічыць гучнасьць
 actnHKVolumeDOWN_Caption=Зьменшыць гучнасьць
@@ -356,7 +356,7 @@ tsTraySkinHeader_Caption=Асноўныя прылада
 tsAltTraySkinHeader_Caption=Альтэрнатыўная прылада
 actnSetMethodForDevice_Hint=Мэтода кіраваньня прыладаю
 actnMuteAllMicrophones_Caption=Выцішыць усе Мікрафоны
-actnDB_Caption=%dB - Decibels  
+actnDB_Caption=%dB - Дэцыбэлы  
 
 [AdvancedStrings]
 Label_No=Няма
@@ -404,7 +404,7 @@ Label_Buy=Набыць
 Label_Setuped=Усталяваць
 Label_NoIcon=Без абразка
 Label_RestoreIcon=Каб налады набылі моц, адчыні Volume² наноў
-Label_ActiveWindow=Актыўнае вакно
+Label_ActiveWindow=Актыўны дысплэй
 Label_AvailableNewVersion=Зьявілася новая вэрсія: %s
 Label_DeleteSkin=Вадаліць скін з кружала: 
 Label_Settings=Налады
@@ -440,7 +440,7 @@ Label_MuteToggle=Пералучыць
 Label_EnableDevice=Улучыць прыладу
 Label_DisableDevice=Адлучыць прыладу
 Label_CopyToClipboard=Капіяваць у сховак
-Label_AllDisplays=Усе прылады
+Label_AllDisplays=Усе дысплэі
 Label_AltDevice=Альтэрнатыўная прылада
 Label_WebSite=Сайт
 Label_RenameDevice=Зьмяніць назоў прылады
@@ -452,6 +452,7 @@ Label_AddDevice=Дадаць прыладу
 Label_EditDevice=Зьмяніць прыладу
 Label_Default=Дапомна
 Label_DoNotChange=Не зьмяняць
+Label_FullScreenListInverted=Аплікацыі, у якіх адлучаецца кіраваньне гучнасьцю
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Сьпіс аплікацыяў
@@ -584,7 +585,7 @@ aOnLockPC_Caption=Заблякаваны ПК
 aOnUnlockPC_Caption=Разблякаваны ПК
 aAfterIdleTime_Caption=Пасьля бязьдзеяньня ПК
 aSetDefaultDevice_Caption=Дапомная прылада
-aAfterCloseProgram_Caption=After close application
+aAfterCloseProgram_Caption=Пасьля закрыцьця аплікацыі
 
 [FmProjectHelp]
 FmProjectHelp_Caption=Дапамога праекту
@@ -592,7 +593,7 @@ FmProjectHelp_FontName=Tahoma
 FmProjectHelp_FontSize=8
 actnClose_Caption=Зачыніць
 actnSendMail_Caption=Ліст
-lblMoreDonate_Caption=More...
+lblMoreDonate_Caption=Болей...
 
 [FmMainPM]
 FmMainPM_FontName=Tahoma
@@ -671,11 +672,11 @@ actnClose_Caption=Зачыніць
 actnOk_Caption=Ужыць
 actnAddColorScheme_Caption=Дадаць
 actnDelColorScheme_Caption=Выдаліць
-lblDarkMode_Caption=Dark Mode
-lblDarkTraySkin_Caption=Main Tray Skin
+lblDarkMode_Caption=Цёмны рэжым
+lblDarkTraySkin_Caption=Асноўны выгляд у трэі
 lblDarkAltTraySkin_Caption=Альтэрнатыўны вабразок у сподачы
 lblDarkOSDSkin_Caption=OSD скурка
-lblDefault_Caption=Default
+lblDefault_Caption=Дапомна
 lblTraySkin_Caption=Іконка ў сподачы
 lblAltTraySkin_Caption=Альтэрнатыўны вабразок у сподачы
 lblODSSkin_Caption=OSD скурка
@@ -713,7 +714,7 @@ LDrag_Caption=Перацягні абразок на патрэбнае вакн
 actnAddFromFile_Caption=Абраць файл
 actnAddFromProc_Caption=Абраць працэс
 LVApps_Columns[0]=Дадатак
-actnAddActiveApplications_Caption=Active applications
+actnAddActiveApplications_Caption=Актыўныя аплікацыі
 
 [FmOSDPosition]
 FmOSDPosition_Caption=
@@ -727,26 +728,26 @@ aOkay_Caption=OK
 chbExcludeTaskbar_Caption=Без панэлі прыладаў
 
 [FmDeviceManager]
-FmDeviceManager_Caption=Audio device manager
+FmDeviceManager_Caption=Кіраўнік аўдыяпрыладаў
 FmDeviceManager_FontName=Tahoma
 FmDeviceManager_FontSize=8
-lblListOfDevices_Caption=List of Devices
+lblListOfDevices_Caption=Сьпіс прыладаў
 LVDevices_Columns[0]=Прылада
 actnClose_Caption=Скасаваць
-actnAddNetworkAudioDevice_Caption=Network Audio Device (OSC)
+actnAddNetworkAudioDevice_Caption=Сеткавая аўдыяпрылада (OSC)
 actnAdd_Caption=Дадаць
 actnDel_Caption=Выдаліць
 actnEdit_Caption=Зьмяніць
-LVDevices_Columns[1]=Favorite
-actnAddVoiceMeeterDevice_Caption=Voice Meeter Device
+LVDevices_Columns[1]=Абранае
+actnAddVoiceMeeterDevice_Caption=Прылада Voice Meeter
 
 [FmNetworkDeviceEdit]
 FmNetworkDeviceEdit_FontName=Tahoma
 FmNetworkDeviceEdit_FontSize=8
 lblName_Caption=Назоў:
 lblIP_Caption=IP:
-lblAddress_Caption=Address:
-lblPort_Caption=Port:
+lblAddress_Caption=Адрас:
+lblPort_Caption=Порт:
 aCancel_Caption=Скасаваць
 aOkay_Caption=OK
 
@@ -756,8 +757,8 @@ FmVoiceMeeterDeviceEdit_FontSize=8
 lblName_Caption=Назоў:
 aCancel_Caption=Скасаваць
 aOkay_Caption=OK
-lblParameter_Caption=Parameter:
-lblIndex_Caption=Index:
+lblParameter_Caption=Парамэтар:
+lblIndex_Caption=Індэкс:
 
 [Information]
 AuthorName=Aleś vonDallwitz Vasileŭski

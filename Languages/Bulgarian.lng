@@ -1,4 +1,4 @@
-﻿;Encoding must be UTF-8 with BOM
+;Encoding must be UTF-8
 [FmMain]
 FmMain_Caption=Volume² - Настройки
 FmMain_FontName=Tahoma
@@ -95,7 +95,7 @@ LSaite_Caption=Блог:
 SBShowOSDExemle_Caption=Преглед
 LLeftChanel_Caption=Л
 LRightChanel_Caption=Д
-LShowOnScreenNumber_Caption=Дисплей:
+LShowOnScreenNumber_Caption=Показване на OSD на:
 LCaptionTree_Caption=Относно
 actnHKVolumeUP_Caption=Увеличаване на звука
 actnHKVolumeDOWN_Caption=Намаляване на звука
@@ -131,7 +131,7 @@ CBOSDStyle_Items[2]=Плъзгач
 LOSDStyle_Caption=Стил:
 CBStyleHint_Items[0]=Балон
 CBStyleHint_Items[1]=Опростено
-LRecommendedCountSteps_Caption=Препоръчителна стойност за Скорост на промяна:
+LRecommendedCountSteps_Caption=Препоръчителна стойност за "Скорост на промяна":
 LUpdate_Caption=Последна версия:
 LStyleHint_Caption=Подсказка:
 CBUseChangeCursorMoveWatch_Caption=Промяна на курсора
@@ -452,6 +452,7 @@ Label_AddDevice=Добавяне на устройство
 Label_EditDevice=Редактиране на устройство
 Label_Default=По подразбиране
 Label_DoNotChange=Без промяна
+Label_FullScreenListInverted=Приложения, в които управлението на звука е деактивирано
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Списък с приложения
@@ -584,7 +585,7 @@ aOnLockPC_Caption=При заключване на компютъра
 aOnUnlockPC_Caption=При отключване на компютъра
 aAfterIdleTime_Caption=След време на неактивност
 aSetDefaultDevice_Caption=Задаване на устройство по подразбиране
-aAfterCloseProgram_Caption=After close application
+aAfterCloseProgram_Caption=След затваряне на приложение
 
 [FmProjectHelp]
 FmProjectHelp_Caption=Дарения
@@ -713,7 +714,7 @@ LDrag_Caption=Плъзнете изображението върху желан�
 actnAddFromFile_Caption=Избор на файл
 actnAddFromProc_Caption=Избор на процес
 LVApps_Columns[0]=Приложение
-actnAddActiveApplications_Caption=Active applications
+actnAddActiveApplications_Caption=Активни приложения
 
 [FmOSDPosition]
 FmOSDPosition_Caption=

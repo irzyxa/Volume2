@@ -1,4 +1,4 @@
-﻿;Encoding must be UTF-8 with BOM
+;Encoding must be UTF-8
 [FmMain]
 FmMain_Caption=Volume² - 옵션
 FmMain_FontName=Tahoma
@@ -95,7 +95,7 @@ LSaite_Caption=블로그:
 SBShowOSDExemle_Caption=미리보기
 LLeftChanel_Caption=좌
 LRightChanel_Caption=우
-LShowOnScreenNumber_Caption=디스플레이:
+LShowOnScreenNumber_Caption=OSD 표시 위치:
 LCaptionTree_Caption=프로그램 정보
 actnHKVolumeUP_Caption=볼륨 높이기
 actnHKVolumeDOWN_Caption=볼륨 낮추기
@@ -452,6 +452,7 @@ Label_AddDevice=장치 추가
 Label_EditDevice=장치 편집
 Label_Default=기본값
 Label_DoNotChange=변경하지 않음
+Label_FullScreenListInverted=볼륨 제어가 비활성화된 응용 프로그램
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=응용 프로그램 목록
@@ -584,7 +585,7 @@ aOnLockPC_Caption=PC 잠금 시
 aOnUnlockPC_Caption=PC 잠금 해제 시
 aAfterIdleTime_Caption=유휴 시간 후
 aSetDefaultDevice_Caption=기본 장치 설정
-aAfterCloseProgram_Caption=After close application
+aAfterCloseProgram_Caption=응용 프로그램 종료 후
 
 [FmProjectHelp]
 FmProjectHelp_Caption=기부

@@ -1,4 +1,4 @@
-﻿;Encoding must be UTF-8 with BOM
+;Encoding must be UTF-8
 [FmMain]
 FmMain_Caption=Volume² - Các tùy chọn
 FmMain_FontName=Tahoma
@@ -71,7 +71,7 @@ LBTreeParams_Items[6]=Hệ thống
 LBTreeParams_Items[7]=Lịch
 LBTreeParams_Items[8]=Ngôn ngữ
 LBTreeParams_Items[9]=Thông tin
-LBTreeParams_Items[10]=Plugins
+LBTreeParams_Items[10]=Plugin
 actnVolumeUp_Caption=Tăng âm lượng
 actnVolumeDown_Caption=Giảm âm lượng
 actnCloseSettings_Caption=Đóng
@@ -95,7 +95,7 @@ LSaite_Caption=Trang cá nhân:
 SBShowOSDExemle_Caption=Xem trước
 LLeftChanel_Caption=L
 LRightChanel_Caption=R
-LShowOnScreenNumber_Caption=Màn hình:
+LShowOnScreenNumber_Caption=Hiển thị OSD trên:
 LCaptionTree_Caption=Thông tin
 actnHKVolumeUP_Caption=Tăng âm lượng
 actnHKVolumeDOWN_Caption=Giảm âm lượng
@@ -259,7 +259,7 @@ LOSDBlocks_Caption=Các khối:
 LOSDSize_Caption=Kích thước:
 SBSetDefaultDevice_Hint=Thiết lập mặc định
 actnSetNextDefaultDevice_Caption=Thiết lập thiết bị mặc định tiếp
-actnSetPrevDefaultDevice_Caption=Set Prev Default Device
+actnSetPrevDefaultDevice_Caption=Đặt thiết bị mặc định trước đó
 LTrackBarColorOn_Caption=Bật âm thanh.
 LTrackBarColorOff_Caption=Tắt âm thanh.
 LTrackBarColor_Caption=Màu sắc:
@@ -354,9 +354,9 @@ actnShowUserVariables_Hint=Biến người dùng
 actnExecuteTask_Caption=Chạy tác vụ
 tsTraySkinHeader_Caption=Thiết bị chính
 tsAltTraySkinHeader_Caption=Thiết bị dự phòng
-actnSetMethodForDevice_Hint=Set Control Method For Device
-actnMuteAllMicrophones_Caption=Mute All Microphones
-actnDB_Caption=%dB - Decibels  
+actnSetMethodForDevice_Hint=Đặt phương thức điều khiển cho thiết bị
+actnMuteAllMicrophones_Caption=Tắt tiếng tất cả micrô
+actnDB_Caption=%dB - Decibel  
 
 [AdvancedStrings]
 Label_No=Không
@@ -404,7 +404,7 @@ Label_Buy=Mua ngay
 Label_Setuped=Được thiết lập
 Label_NoIcon=Không biểu tượng
 Label_RestoreIcon=Để xem các thiết lập, khởi động lại ứng dụng
-Label_ActiveWindow=Màn hình hiển thị
+Label_ActiveWindow=Màn hình đang hoạt động
 Label_AvailableNewVersion=Phiên bản %s đã có
 Label_DeleteSkin=Xóa giao điện từ đĩa: 
 Label_Settings=Các tùy chọn chương trình
@@ -440,18 +440,19 @@ Label_MuteToggle=Chuyển đổi
 Label_EnableDevice=Kích hoạt thiết bị
 Label_DisableDevice=Vô hiệu hóa thiết bị
 Label_CopyToClipboard=Sao chép vào khay nhớ tạm
-Label_AllDisplays=Tất cả hiển thị
+Label_AllDisplays=Tất cả màn hình
 Label_AltDevice=Thiết bị âm thanh dự phòng
 Label_WebSite=Trang web
 Label_RenameDevice=Đổi tên thiết bị
 Label_NewDeviceName=Nhập tên thiết bị mới:
 Label_Schema=Lược đồ #
 Label_SchemaName=Tên lược đồ
-Label_AllMicsMuted=All Microphones are muted
-Label_AddDevice=Add Device
-Label_EditDevice=Edit Device
-Label_Default=Default
-Label_DoNotChange=Do not change
+Label_AllMicsMuted=Tất cả micrô đã bị tắt tiếng
+Label_AddDevice=Thêm thiết bị
+Label_EditDevice=Sửa thiết bị
+Label_Default=Mặc định
+Label_DoNotChange=Không thay đổi
+Label_FullScreenListInverted=Các ứng dụng có điều khiển âm lượng bị vô hiệu
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Danh sách các ứng dụng
@@ -584,7 +585,7 @@ aOnLockPC_Caption=Khi PC khóa
 aOnUnlockPC_Caption=Khi mở khóa PC
 aAfterIdleTime_Caption=Sau thời gian nhàn rỗi
 aSetDefaultDevice_Caption=Thiết lập thiết bị âm thanh mặc định
-aAfterCloseProgram_Caption=After close application
+aAfterCloseProgram_Caption=Sau khi đóng ứng dụng
 
 [FmProjectHelp]
 FmProjectHelp_Caption=Đóng góp
@@ -642,7 +643,7 @@ actnOk_Caption=OK
 FmOsdSettings_Caption=Các thiết lập giao điện
 FmOsdSettings_FontName=Tahoma
 FmOsdSettings_FontSize=8
-LHue_Caption=Hue:
+LHue_Caption=Sắc độ:
 LSaturation_Caption=Tông màu:
 LBrightness_Caption=Độ sáng:
 actnClose_Caption=Đóng
@@ -671,14 +672,14 @@ actnClose_Caption=Đóng
 actnOk_Caption=Áp dụng
 actnAddColorScheme_Caption=Thêm
 actnDelColorScheme_Caption=Xóa
-lblDarkMode_Caption=Dark Mode
-lblDarkTraySkin_Caption=Main Tray Skin
-lblDarkAltTraySkin_Caption=Alternative Tray Skin
-lblDarkOSDSkin_Caption=OSD Skin
-lblDefault_Caption=Default
-lblTraySkin_Caption=Main Tray Skin
-lblAltTraySkin_Caption=Alternative Tray Skin
-lblODSSkin_Caption=OSD Skin
+lblDarkMode_Caption=Chế độ tối
+lblDarkTraySkin_Caption=Giao diện khay chính
+lblDarkAltTraySkin_Caption=Giao diện khay dự phòng
+lblDarkOSDSkin_Caption=Giao diện OSD
+lblDefault_Caption=Mặc định
+lblTraySkin_Caption=Giao diện khay chính
+lblAltTraySkin_Caption=Giao diện khay dự phòng
+lblODSSkin_Caption=Giao diện OSD
 
 [FmUSBDevicesList]
 FmUSBDevicesList_Caption=Gỡ bỏ phần cứng an toàn
@@ -696,9 +697,9 @@ actnSetDisabled_Caption=Vô hiệu hóa
 actnSetDefaultCommunicationDevice_Caption=Thiết bị giao tiếp mặc định
 actnSetDefaultDevice_Caption=Thiết bị mặc định
 actnRenameDevice_Caption=Đổi tên
-actnShowInactiveDevices_Caption=Show Inactive Devices
-actnSetFavorite_Caption=Favorite
-actnShowOnlyFavorites_Caption=Show Only Favorites
+actnShowInactiveDevices_Caption=Hiện thiết bị không hoạt động
+actnSetFavorite_Caption=Yêu thích
+actnShowOnlyFavorites_Caption=Chỉ hiện mục yêu thích
 
 [FmChangeVolumeForAppList]
 FmChangeVolumeForAppList_Caption=Danh sách các ứng dụng
@@ -713,7 +714,7 @@ LDrag_Caption=Rê hình ảnh trên cửa sổ chèn
 actnAddFromFile_Caption=Chọn tập tin
 actnAddFromProc_Caption=Chọn tiến trình
 LVApps_Columns[0]=Ứng dụng
-actnAddActiveApplications_Caption=Active applications
+actnAddActiveApplications_Caption=Ứng dụng đang hoạt động
 
 [FmOSDPosition]
 FmOSDPosition_Caption=
@@ -727,26 +728,26 @@ aOkay_Caption=OK
 chbExcludeTaskbar_Caption=Loại trừ thanh tác vụ
 
 [FmDeviceManager]
-FmDeviceManager_Caption=Audio device manager
+FmDeviceManager_Caption=Trình quản lý thiết bị âm thanh
 FmDeviceManager_FontName=Tahoma
 FmDeviceManager_FontSize=8
-lblListOfDevices_Caption=List of Devices
+lblListOfDevices_Caption=Danh sách thiết bị
 LVDevices_Columns[0]=Thiết bị
 actnClose_Caption=Đóng
-actnAddNetworkAudioDevice_Caption=Network Audio Device (OSC)
+actnAddNetworkAudioDevice_Caption=Thiết bị âm thanh mạng (OSC)
 actnAdd_Caption=Thêm
 actnDel_Caption=Xóa
 actnEdit_Caption=Chỉnh
-LVDevices_Columns[1]=Favorite
-actnAddVoiceMeeterDevice_Caption=Voice Meeter Device
+LVDevices_Columns[1]=Yêu thích
+actnAddVoiceMeeterDevice_Caption=Thiết bị Voice Meeter
 
 [FmNetworkDeviceEdit]
 FmNetworkDeviceEdit_FontName=Tahoma
 FmNetworkDeviceEdit_FontSize=8
 lblName_Caption=Tên:
 lblIP_Caption=IP:
-lblAddress_Caption=Address:
-lblPort_Caption=Port:
+lblAddress_Caption=Địa chỉ:
+lblPort_Caption=Cổng:
 aCancel_Caption=Bỏ qua
 aOkay_Caption=OK
 
@@ -756,8 +757,8 @@ FmVoiceMeeterDeviceEdit_FontSize=8
 lblName_Caption=Tên:
 aCancel_Caption=Bỏ qua
 aOkay_Caption=OK
-lblParameter_Caption=Parameter:
-lblIndex_Caption=Index:
+lblParameter_Caption=Tham số:
+lblIndex_Caption=Chỉ mục:
 
 [Information]
 AuthorName=MienHanh (huunghia17564@gmail.com) v1.1

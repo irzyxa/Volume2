@@ -1,4 +1,4 @@
-﻿;Encoding must be UTF-8 with BOM
+;Encoding must be UTF-8
 [FmMain]
 FmMain_Caption=Volume² - Ayarlar
 FmMain_FontName=Tahoma
@@ -95,7 +95,7 @@ LSaite_Caption=Blog:
 SBShowOSDExemle_Caption=Önizleme
 LLeftChanel_Caption=Sol
 LRightChanel_Caption=Sağ
-LShowOnScreenNumber_Caption=Ekran:
+LShowOnScreenNumber_Caption=OSD'yi göster:
 LCaptionTree_Caption=Hakkında
 actnHKVolumeUP_Caption=Sesi Arttır
 actnHKVolumeDOWN_Caption=Sesi Azalt
@@ -356,7 +356,7 @@ tsTraySkinHeader_Caption=Ana Aygıt
 tsAltTraySkinHeader_Caption=Alternatif Aygıt
 actnSetMethodForDevice_Hint=Aygıt için kontrol yöntemi seçin
 actnMuteAllMicrophones_Caption=Tüm mikrofonları sessize al
-actnDB_Caption=%dB - Decibels  
+actnDB_Caption=%dB - Desibel  
 
 [AdvancedStrings]
 Label_No=Hiçbiri
@@ -452,6 +452,7 @@ Label_AddDevice=Aygıt ekle
 Label_EditDevice=Aygıt düzenle
 Label_Default=Varsayılan
 Label_DoNotChange=Değiştirme
+Label_FullScreenListInverted=Ses kontrolünün devre dışı olduğu uygulamalar
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Uygulama listesi
@@ -584,7 +585,7 @@ aOnLockPC_Caption=Bilgisayar Kitlendiğinde
 aOnUnlockPC_Caption=Bilgisayar Açıldığında
 aAfterIdleTime_Caption=Boşta kaldığında
 aSetDefaultDevice_Caption=Varsayılan aygıtı seç
-aAfterCloseProgram_Caption=After close application
+aAfterCloseProgram_Caption=Uygulama kapandıktan sonra
 
 [FmProjectHelp]
 FmProjectHelp_Caption=Destekler
@@ -697,8 +698,8 @@ actnSetDefaultCommunicationDevice_Caption=Varsayılan İletişim Aygıtı
 actnSetDefaultDevice_Caption=Varsayılan Aygıt
 actnRenameDevice_Caption=Yeniden Adlandır
 actnShowInactiveDevices_Caption=Pasif Aygıtları Göster
-actnSetFavorite_Caption=Favorite
-actnShowOnlyFavorites_Caption=Show Only Favorites
+actnSetFavorite_Caption=Sık kullanılan
+actnShowOnlyFavorites_Caption=Yalnızca sık kullanılanları göster
 
 [FmChangeVolumeForAppList]
 FmChangeVolumeForAppList_Caption=Uygulama Listesi
@@ -713,7 +714,7 @@ LDrag_Caption=Simgeyi ilgili pencereye sürükleyin
 actnAddFromFile_Caption=Dosya seç
 actnAddFromProc_Caption=İşlem seç
 LVApps_Columns[0]=Uygulama
-actnAddActiveApplications_Caption=Active applications
+actnAddActiveApplications_Caption=Etkin uygulamalar
 
 [FmOSDPosition]
 FmOSDPosition_Caption=
@@ -737,15 +738,15 @@ actnAddNetworkAudioDevice_Caption=Ağ Ses Aygıtı (OSC)
 actnAdd_Caption=Ekle
 actnDel_Caption=Sil
 actnEdit_Caption=Düzenle
-LVDevices_Columns[1]=Favorite
-actnAddVoiceMeeterDevice_Caption=Voice Meeter Device
+LVDevices_Columns[1]=Sık kullanılan
+actnAddVoiceMeeterDevice_Caption=Voice Meeter aygıtı
 
 [FmNetworkDeviceEdit]
 FmNetworkDeviceEdit_FontName=Tahoma
 FmNetworkDeviceEdit_FontSize=8
 lblName_Caption=İsim:
 lblIP_Caption=IP:
-lblAddress_Caption=Address:
+lblAddress_Caption=Adres:
 lblPort_Caption=Port:
 aCancel_Caption=İptal
 aOkay_Caption=Tamam
