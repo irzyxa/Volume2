@@ -521,6 +521,8 @@ actnOpen_Caption=دیدن
 actnSave_Caption=ذخیره
 LVTaper_Columns[0]=مرحله
 LVTaper_Columns[1]=مقدار
+CBTaperUnits_Items[0]=مقدار
+CBTaperUnits_Items[1]=درصد
 
 [FmRunedAppList]
 FmRunedAppList_Caption=فهرست عملیات

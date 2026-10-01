@@ -521,6 +521,8 @@ actnOpen_Caption=ხედი
 actnSave_Caption=შენახვა
 LVTaper_Columns[0]=ნაბიჯი
 LVTaper_Columns[1]=მნიშვნელობა
+CBTaperUnits_Items[0]=მნიშვნელობა
+CBTaperUnits_Items[1]=პროცენტი
 
 [FmRunedAppList]
 FmRunedAppList_Caption=პროცესების სია

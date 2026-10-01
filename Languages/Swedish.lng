@@ -521,6 +521,8 @@ actnOpen_Caption=Visa
 actnSave_Caption=Spara
 LVTaper_Columns[0]=Steg
 LVTaper_Columns[1]=Värde
+CBTaperUnits_Items[0]=Värde
+CBTaperUnits_Items[1]=Procent
 
 [FmRunedAppList]
 FmRunedAppList_Caption=Processlista

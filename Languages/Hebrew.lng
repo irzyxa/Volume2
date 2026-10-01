@@ -521,6 +521,8 @@ actnOpen_Caption=תצוגה
 actnSave_Caption=שמור
 LVTaper_Columns[0]=צעד
 LVTaper_Columns[1]=ערך
+CBTaperUnits_Items[0]=ערך
+CBTaperUnits_Items[1]=אחוזים
 
 [FmRunedAppList]
 FmRunedAppList_Caption=רשימת תהליכים

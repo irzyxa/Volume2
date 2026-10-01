@@ -521,6 +521,8 @@ actnOpen_Caption=Кушодан
 actnSave_Caption=Захира
 LVTaper_Columns[0]=Қадам
 LVTaper_Columns[1]=Мафҳум
+CBTaperUnits_Items[0]=Қимат
+CBTaperUnits_Items[1]=Фоиз
 
 [FmRunedAppList]
 FmRunedAppList_Caption=Рӯйхати равандҳо

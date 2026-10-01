@@ -521,6 +521,8 @@ actnOpen_Caption=Բացել
 actnSave_Caption=Պահպանել
 LVTaper_Columns[0]=Քայլ
 LVTaper_Columns[1]=Նշանակություն
+CBTaperUnits_Items[0]=Արժեք
+CBTaperUnits_Items[1]=Տոկոս
 
 [FmRunedAppList]
 FmRunedAppList_Caption=Պրոցեսների ցանկը

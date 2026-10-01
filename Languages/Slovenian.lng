@@ -521,6 +521,8 @@ actnOpen_Caption=Predogled
 actnSave_Caption=Shrani
 LVTaper_Columns[0]=Korak
 LVTaper_Columns[1]=Vrednost
+CBTaperUnits_Items[0]=Vrednost
+CBTaperUnits_Items[1]=Odstotek
 
 [FmRunedAppList]
 FmRunedAppList_Caption=Lista procesov

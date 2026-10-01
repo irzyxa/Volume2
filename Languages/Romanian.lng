@@ -521,6 +521,8 @@ actnOpen_Caption=Vezi
 actnSave_Caption=Salvează
 LVTaper_Columns[0]=Pas
 LVTaper_Columns[1]=Valoare
+CBTaperUnits_Items[0]=Valoare
+CBTaperUnits_Items[1]=Procent
 
 [FmRunedAppList]
 FmRunedAppList_Caption=Listă Procese

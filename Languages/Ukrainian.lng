@@ -521,6 +521,8 @@ actnOpen_Caption=Відкрити
 actnSave_Caption=Зберегти
 LVTaper_Columns[0]=Крок
 LVTaper_Columns[1]=Значення
+CBTaperUnits_Items[0]=Значення
+CBTaperUnits_Items[1]=Відсотки
 
 [FmRunedAppList]
 FmRunedAppList_Caption=Список процесів

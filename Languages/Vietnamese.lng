@@ -521,6 +521,8 @@ actnOpen_Caption=Xem
 actnSave_Caption=Lưu
 LVTaper_Columns[0]=Bước
 LVTaper_Columns[1]=Giá trị
+CBTaperUnits_Items[0]=Giá trị
+CBTaperUnits_Items[1]=Phần trăm
 
 [FmRunedAppList]
 FmRunedAppList_Caption=Danh sách tiến trình

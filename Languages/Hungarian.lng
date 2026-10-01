@@ -521,6 +521,8 @@ actnOpen_Caption=Mutat
 actnSave_Caption=Mentés
 LVTaper_Columns[0]=Lépés
 LVTaper_Columns[1]=Érték
+CBTaperUnits_Items[0]=Érték
+CBTaperUnits_Items[1]=Százalék
 
 [FmRunedAppList]
 FmRunedAppList_Caption=Alkalmazáslista

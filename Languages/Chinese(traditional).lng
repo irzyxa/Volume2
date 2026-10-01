@@ -521,6 +521,8 @@ actnOpen_Caption=查看
 actnSave_Caption=保存
 LVTaper_Columns[0]=步骤
 LVTaper_Columns[1]=數值
+CBTaperUnits_Items[0]=數值
+CBTaperUnits_Items[1]=百分比
 
 [FmRunedAppList]
 FmRunedAppList_Caption=程序列表

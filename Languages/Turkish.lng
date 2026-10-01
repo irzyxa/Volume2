@@ -521,6 +521,8 @@ actnOpen_Caption=Göster
 actnSave_Caption=Kaydet
 LVTaper_Columns[0]=Adım
 LVTaper_Columns[1]=Değer
+CBTaperUnits_Items[0]=Değer
+CBTaperUnits_Items[1]=Yüzde
 
 [FmRunedAppList]
 FmRunedAppList_Caption=İşlem listesi

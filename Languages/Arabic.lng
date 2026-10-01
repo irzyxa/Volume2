@@ -521,6 +521,8 @@ actnOpen_Caption=عرض
 actnSave_Caption=حفظ
 LVTaper_Columns[0]=خطوة
 LVTaper_Columns[1]=القيمة
+CBTaperUnits_Items[0]=القيمة
+CBTaperUnits_Items[1]=نسبة مئوية
 
 [FmRunedAppList]
 FmRunedAppList_Caption=قائمة العمليات

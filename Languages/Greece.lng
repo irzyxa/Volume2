@@ -521,6 +521,8 @@ actnOpen_Caption=Προβολή
 actnSave_Caption=Αποθήκευση
 LVTaper_Columns[0]=Βήμα
 LVTaper_Columns[1]=Τιμή
+CBTaperUnits_Items[0]=Τιμή
+CBTaperUnits_Items[1]=Ποσοστό
 
 [FmRunedAppList]
 FmRunedAppList_Caption=Λίστα διεργασιών

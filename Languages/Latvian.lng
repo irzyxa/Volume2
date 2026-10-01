@@ -521,6 +521,8 @@ actnOpen_Caption=Atvērt
 actnSave_Caption=Saglabāt
 LVTaper_Columns[0]=Solis
 LVTaper_Columns[1]=Nozīme
+CBTaperUnits_Items[0]=Vērtība
+CBTaperUnits_Items[1]=Procenti
 
 [FmRunedAppList]
 FmRunedAppList_Caption=Procesu saraksts

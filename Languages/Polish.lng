@@ -521,6 +521,8 @@ actnOpen_Caption=Widok
 actnSave_Caption=Zapisz
 LVTaper_Columns[0]=Krok
 LVTaper_Columns[1]=Wartość
+CBTaperUnits_Items[0]=Wartość
+CBTaperUnits_Items[1]=Procent
 
 [FmRunedAppList]
 FmRunedAppList_Caption=Lista procesów

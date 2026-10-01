@@ -521,6 +521,8 @@ actnOpen_Caption=Преглед
 actnSave_Caption=Запазване
 LVTaper_Columns[0]=Стъпка
 LVTaper_Columns[1]=Стойност
+CBTaperUnits_Items[0]=Стойност
+CBTaperUnits_Items[1]=Проценти
 
 [FmRunedAppList]
 FmRunedAppList_Caption=Списък с процеси

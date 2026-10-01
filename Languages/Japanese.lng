@@ -521,6 +521,8 @@ actnOpen_Caption=表示
 actnSave_Caption=保存
 LVTaper_Columns[0]=ステップ
 LVTaper_Columns[1]=値
+CBTaperUnits_Items[0]=値
+CBTaperUnits_Items[1]=パーセント
 
 [FmRunedAppList]
 FmRunedAppList_Caption=プロセス一覧

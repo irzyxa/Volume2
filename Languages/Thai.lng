@@ -521,6 +521,8 @@ actnOpen_Caption=มุมมอง
 actnSave_Caption=บันทึก
 LVTaper_Columns[0]=ขั้น
 LVTaper_Columns[1]=ค่า
+CBTaperUnits_Items[0]=ค่า
+CBTaperUnits_Items[1]=เปอร์เซ็นต์
 
 [FmRunedAppList]
 FmRunedAppList_Caption=รายการโปรเซส

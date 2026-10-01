@@ -521,6 +521,8 @@ actnOpen_Caption=Beeld
 actnSave_Caption=Opslaan
 LVTaper_Columns[0]=Stap
 LVTaper_Columns[1]=Waarde
+CBTaperUnits_Items[0]=Waarde
+CBTaperUnits_Items[1]=Percentage
 
 [FmRunedAppList]
 FmRunedAppList_Caption=Lijst met processen

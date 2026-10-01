@@ -521,6 +521,8 @@ actnOpen_Caption=Tampilkan
 actnSave_Caption=Simpan
 LVTaper_Columns[0]=Langkah
 LVTaper_Columns[1]=Nilai
+CBTaperUnits_Items[0]=Nilai
+CBTaperUnits_Items[1]=Persen
 
 [FmRunedAppList]
 FmRunedAppList_Caption=Daftar proses

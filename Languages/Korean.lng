@@ -521,6 +521,8 @@ actnOpen_Caption=보기
 actnSave_Caption=저장
 LVTaper_Columns[0]=단계
 LVTaper_Columns[1]=값
+CBTaperUnits_Items[0]=값
+CBTaperUnits_Items[1]=백분율
 
 [FmRunedAppList]
 FmRunedAppList_Caption=프로세스 목록

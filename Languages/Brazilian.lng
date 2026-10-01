@@ -521,6 +521,8 @@ actnOpen_Caption=Exibir
 actnSave_Caption=Salvar
 LVTaper_Columns[0]=Etapa
 LVTaper_Columns[1]=Valor
+CBTaperUnits_Items[0]=Valor
+CBTaperUnits_Items[1]=Porcentagem
 
 [FmRunedAppList]
 FmRunedAppList_Caption=Lista de processos

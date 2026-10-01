@@ -521,6 +521,8 @@ actnOpen_Caption=Zobrazit
 actnSave_Caption=Uložit
 LVTaper_Columns[0]=Krok
 LVTaper_Columns[1]=Hodnota
+CBTaperUnits_Items[0]=Hodnota
+CBTaperUnits_Items[1]=Procenta
 
 [FmRunedAppList]
 FmRunedAppList_Caption=Seznam procesů
