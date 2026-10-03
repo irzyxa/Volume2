@@ -454,6 +454,7 @@ Label_EditDevice=تحرير الجهاز
 Label_Default=افتراضي
 Label_DoNotChange=بدون تغيير
 Label_FullScreenListInverted=التطبيقات التي تم تعطيل التحكم بحجم الصوت بها
+Label_SizeAuto=تلقائي
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=قائمة التطبيقات
@@ -737,6 +738,7 @@ rbNearCursor_Caption=قرب الفأرة
 aCancel_Caption=إلغاء الأمر
 aOkay_Caption=موافق
 chbExcludeTaskbar_Caption=استثناء شريط المهام
+chbAutoSize_Caption=تلقائي
 
 [FmDeviceManager]
 FmDeviceManager_Caption=إدارة أجهزة الصوت

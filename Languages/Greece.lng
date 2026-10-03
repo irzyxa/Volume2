@@ -454,6 +454,7 @@ Label_EditDevice=Επεξεργασία συσκευής
 Label_Default=Προεπιλογή
 Label_DoNotChange=Χωρίς αλλαγή
 Label_FullScreenListInverted=Εφαρμογές όπου ο έλεγχος της έντασης είναι απενεργοποιημένος
+Label_SizeAuto=Αυτόματα
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Κατάλογος των προσαρτημάτων
@@ -737,6 +738,7 @@ rbNearCursor_Caption=Κοντά στο δείκτη
 aCancel_Caption=Ακύρωση
 aOkay_Caption=ΟΚ
 chbExcludeTaskbar_Caption=Εξαίρεση γραμμής εργασιών
+chbAutoSize_Caption=Αυτόματα
 
 [FmDeviceManager]
 FmDeviceManager_Caption=Διαχείριση συσκευών ήχου

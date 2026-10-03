@@ -454,6 +454,7 @@ Label_EditDevice=Apparaat bewerken
 Label_Default=Standaard
 Label_DoNotChange=Niet wijzigen
 Label_FullScreenListInverted=Toepassingen waarbij de volumeknop uitgeschakeld wordt
+Label_SizeAuto=Automatisch
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Lijst van toepassingen
@@ -737,6 +738,7 @@ rbNearCursor_Caption=Bij de muis
 aCancel_Caption=Annuleren
 aOkay_Caption=OK
 chbExcludeTaskbar_Caption=Taakbalk uitsluiten
+chbAutoSize_Caption=Automatisch
 
 [FmDeviceManager]
 FmDeviceManager_Caption=Beheer van audioapparaten

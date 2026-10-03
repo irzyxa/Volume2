@@ -454,6 +454,7 @@ Label_EditDevice=Modifier le périphérique
 Label_Default=Par défaut
 Label_DoNotChange=Ne pas modifier
 Label_FullScreenListInverted=Applications pour lesquelles le contrôle est désactivé
+Label_SizeAuto=Automatique
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Liste des exceptions
@@ -737,6 +738,7 @@ rbNearCursor_Caption=Proche du pointeur
 aCancel_Caption=Annuler
 aOkay_Caption=Ok
 chbExcludeTaskbar_Caption=Exclure la barre des tâches
+chbAutoSize_Caption=Automatique
 
 [FmDeviceManager]
 FmDeviceManager_Caption=Gestionnaire de périphériques audio

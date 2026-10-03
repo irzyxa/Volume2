@@ -454,6 +454,7 @@ Label_EditDevice=编辑设备
 Label_Default=默认
 Label_DoNotChange=不更改
 Label_FullScreenListInverted=禁用音量控制的程序
+Label_SizeAuto=自动
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=应用程序列表
@@ -737,6 +738,7 @@ rbNearCursor_Caption=跟随鼠标指针
 aCancel_Caption=取消
 aOkay_Caption=确认
 chbExcludeTaskbar_Caption=排除任务栏
+chbAutoSize_Caption=自动
 
 [FmDeviceManager]
 FmDeviceManager_Caption=音频设备管理器

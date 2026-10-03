@@ -454,6 +454,7 @@ Label_EditDevice=Зьмяніць прыладу
 Label_Default=Дапомна
 Label_DoNotChange=Не зьмяняць
 Label_FullScreenListInverted=Аплікацыі, у якіх адлучаецца кіраваньне гучнасьцю
+Label_SizeAuto=Аўта
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Сьпіс аплікацыяў
@@ -737,6 +738,7 @@ rbNearCursor_Caption=Каля курсору
 aCancel_Caption=Скасаваць
 aOkay_Caption=OK
 chbExcludeTaskbar_Caption=Без панэлі прыладаў
+chbAutoSize_Caption=Аўта
 
 [FmDeviceManager]
 FmDeviceManager_Caption=Кіраўнік аўдыяпрыладаў

@@ -454,6 +454,7 @@ Label_EditDevice=Aygıt düzenle
 Label_Default=Varsayılan
 Label_DoNotChange=Değiştirme
 Label_FullScreenListInverted=Ses kontrolünün devre dışı olduğu uygulamalar
+Label_SizeAuto=Otomatik
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Uygulama listesi
@@ -737,6 +738,7 @@ rbNearCursor_Caption=Fare yanında
 aCancel_Caption=İptal
 aOkay_Caption=Tamam
 chbExcludeTaskbar_Caption=Görev çubuğunu hariç tut
+chbAutoSize_Caption=Otomatik
 
 [FmDeviceManager]
 FmDeviceManager_Caption=Ses aygıt yöneticisi

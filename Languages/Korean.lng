@@ -454,6 +454,7 @@ Label_EditDevice=장치 편집
 Label_Default=기본값
 Label_DoNotChange=변경하지 않음
 Label_FullScreenListInverted=볼륨 제어가 비활성화된 응용 프로그램
+Label_SizeAuto=자동
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=응용 프로그램 목록
@@ -737,6 +738,7 @@ rbNearCursor_Caption=마우스 주변
 aCancel_Caption=취소
 aOkay_Caption=확인
 chbExcludeTaskbar_Caption=작업 표시줄 제외
+chbAutoSize_Caption=자동
 
 [FmDeviceManager]
 FmDeviceManager_Caption=오디오 장치 관리자

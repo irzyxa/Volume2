@@ -454,6 +454,7 @@ Label_EditDevice=მოწყობილობის რედაქტირ�
 Label_Default=ნაგულისხმევი
 Label_DoNotChange=არ შეიცვალოს
 Label_FullScreenListInverted=აპლიკაციები, რომლებშიც ხმის მართვა გამორთულია
+Label_SizeAuto=ავტომატური
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=აპლიკაციების სია
@@ -737,6 +738,7 @@ rbNearCursor_Caption=თაგვთან
 aCancel_Caption=გაუქმება
 aOkay_Caption=კარგი
 chbExcludeTaskbar_Caption=ამოცანების ზოლის გარეშე
+chbAutoSize_Caption=ავტომატური
 
 [FmDeviceManager]
 FmDeviceManager_Caption=აუდიო მოწყობილობების მენეჯერი

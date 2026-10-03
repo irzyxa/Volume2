@@ -454,6 +454,7 @@ Label_EditDevice=Uredi uređaj
 Label_Default=Podrazumevano
 Label_DoNotChange=Ne menjaj
 Label_FullScreenListInverted=Aplikacije u kojima je kontrola jačine zvuka onemogućena
+Label_SizeAuto=Automatski
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Lista aplikacija
@@ -737,6 +738,7 @@ rbNearCursor_Caption=Blizu miša
 aCancel_Caption=Otkaži
 aOkay_Caption=OK
 chbExcludeTaskbar_Caption=Bez trake zadataka
+chbAutoSize_Caption=Automatski
 
 [FmDeviceManager]
 FmDeviceManager_Caption=Upravljač audio uređajima

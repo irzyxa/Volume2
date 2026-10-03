@@ -454,6 +454,7 @@ Label_EditDevice=Rediģēt iekārtu
 Label_Default=Noklusējums
 Label_DoNotChange=Nemainīt
 Label_FullScreenListInverted=Programmas, kurās skaļuma regulēšana ir atslēgta
+Label_SizeAuto=Automātiski
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Programmu saraksts
@@ -737,6 +738,7 @@ rbNearCursor_Caption=Pie kursora
 aCancel_Caption=Atcelt
 aOkay_Caption=OK
 chbExcludeTaskbar_Caption=Bez uzdevumjoslas
+chbAutoSize_Caption=Automātiski
 
 [FmDeviceManager]
 FmDeviceManager_Caption=Audio iekārtu pārvaldnieks

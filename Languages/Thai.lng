@@ -454,6 +454,7 @@ Label_EditDevice=แก้ไขอุปกรณ์
 Label_Default=ค่าเริ่มต้น
 Label_DoNotChange=ไม่เปลี่ยนแปลง
 Label_FullScreenListInverted=แอปพลิเคชันที่ปิดการควบคุมระดับเสียง
+Label_SizeAuto=อัตโนมัติ
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=รายการแอปพลิเคชัน
@@ -737,6 +738,7 @@ rbNearCursor_Caption=ใกล้เมาส์
 aCancel_Caption=ยกเลิก
 aOkay_Caption=ตกลง
 chbExcludeTaskbar_Caption=ไม่รวมแถบงาน
+chbAutoSize_Caption=อัตโนมัติ
 
 [FmDeviceManager]
 FmDeviceManager_Caption=ตัวจัดการอุปกรณ์เสียง

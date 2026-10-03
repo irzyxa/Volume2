@@ -454,6 +454,7 @@ Label_EditDevice=Redigera enhet
 Label_Default=Standard
 Label_DoNotChange=Ändra inte
 Label_FullScreenListInverted=Applikationer där volymkontrollen är inaktiverad
+Label_SizeAuto=Automatisk
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Lista över applikationer
@@ -737,6 +738,7 @@ rbNearCursor_Caption=Nära musen
 aCancel_Caption=Avbryt
 aOkay_Caption=OK
 chbExcludeTaskbar_Caption=Uteslut aktivitetsfältet
+chbAutoSize_Caption=Automatisk
 
 [FmDeviceManager]
 FmDeviceManager_Caption=Hanterare för ljudenheter

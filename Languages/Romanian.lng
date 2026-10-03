@@ -454,6 +454,7 @@ Label_EditDevice=Editează dispozitivul
 Label_Default=Implicit
 Label_DoNotChange=Nu modifica
 Label_FullScreenListInverted=Aplicaţii în care controlul volumului este dezactivat
+Label_SizeAuto=Automat
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Listă de aplicaţii
@@ -737,6 +738,7 @@ rbNearCursor_Caption=Lângă mouse
 aCancel_Caption=Anulează
 aOkay_Caption=OK
 chbExcludeTaskbar_Caption=Exclude bara de activităţi
+chbAutoSize_Caption=Automat
 
 [FmDeviceManager]
 FmDeviceManager_Caption=Manager de dispozitive audio

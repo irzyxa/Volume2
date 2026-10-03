@@ -454,6 +454,7 @@ Label_EditDevice=Edit perangkat
 Label_Default=Bawaan
 Label_DoNotChange=Jangan ubah
 Label_FullScreenListInverted=Aplikasi dimana kontrol volume dinonaktifkan
+Label_SizeAuto=Otomatis
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Daftar aplikasi
@@ -737,6 +738,7 @@ rbNearCursor_Caption=Dekat mouse
 aCancel_Caption=Batal
 aOkay_Caption=OK
 chbExcludeTaskbar_Caption=Kecualikan taskbar
+chbAutoSize_Caption=Otomatis
 
 [FmDeviceManager]
 FmDeviceManager_Caption=Pengelola perangkat audio

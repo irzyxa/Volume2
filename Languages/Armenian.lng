@@ -454,6 +454,7 @@ Label_EditDevice=Խմբագրել սարքը
 Label_Default=Լռելյայն
 Label_DoNotChange=Չփոխել
 Label_FullScreenListInverted=Ծրագրեր, որտեղ ձայնի ղեկավարումն անջատվում է
+Label_SizeAuto=Ավտո
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Ծրագրերի ցուցակ
@@ -737,6 +738,7 @@ rbNearCursor_Caption=Մկնիկի կուրսորի մոտ
 aCancel_Caption=Չեղարկել
 aOkay_Caption=Կիրառել
 chbExcludeTaskbar_Caption=Առանց առաջադրանքների վահանակի
+chbAutoSize_Caption=Ավտո
 
 [FmDeviceManager]
 FmDeviceManager_Caption=Աուդիո սարքերի կառավարիչ

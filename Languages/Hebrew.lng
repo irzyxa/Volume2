@@ -454,6 +454,7 @@ Label_EditDevice=ערוך התקן
 Label_Default=ברירת מחדל
 Label_DoNotChange=אל תשנה
 Label_FullScreenListInverted=יישומים שבהם בקרת עוצמת הקול מושבתת
+Label_SizeAuto=אוטומטי
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=רשימת יישומים
@@ -737,6 +738,7 @@ rbNearCursor_Caption=ליד העכבר
 aCancel_Caption=ביטול
 aOkay_Caption=אישור
 chbExcludeTaskbar_Caption=ללא שורת המשימות
+chbAutoSize_Caption=אוטומטי
 
 [FmDeviceManager]
 FmDeviceManager_Caption=מנהל התקני שמע

@@ -454,6 +454,7 @@ Label_EditDevice=ویرایش دستگاه
 Label_Default=پیش‌فرض
 Label_DoNotChange=تغییر نده
 Label_FullScreenListInverted=برنامه هایی که در آنها کنترل ولوم غیرفعال می شود
+Label_SizeAuto=خودکار
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=فهرست برنامه ها
@@ -737,6 +738,7 @@ rbNearCursor_Caption=نزدیک به ماوس
 aCancel_Caption=لغو کردن
 aOkay_Caption=OK
 chbExcludeTaskbar_Caption=بدون نوار وظیفه
+chbAutoSize_Caption=خودکار
 
 [FmDeviceManager]
 FmDeviceManager_Caption=مدیریت دستگاه‌های صوتی

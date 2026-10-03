@@ -454,6 +454,7 @@ Label_EditDevice=Upraviť zariadenie
 Label_Default=Predvolené
 Label_DoNotChange=Nemeniť
 Label_FullScreenListInverted=Aplikácie, v ktorých je ovládanie hlasitosti zakázané
+Label_SizeAuto=Automaticky
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Zoznam aplikácií
@@ -737,6 +738,7 @@ rbNearCursor_Caption=Vedľa kurzora myši
 aCancel_Caption=Zrušiť
 aOkay_Caption=Ok
 chbExcludeTaskbar_Caption=Bez panela úloh
+chbAutoSize_Caption=Automaticky
 
 [FmDeviceManager]
 FmDeviceManager_Caption=Správca zvukových zariadení

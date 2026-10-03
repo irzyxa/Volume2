@@ -454,6 +454,7 @@ Label_EditDevice=Edytuj urządzenie
 Label_Default=Domyślne
 Label_DoNotChange=Nie zmieniaj
 Label_FullScreenListInverted=Aplikacje, dla których kontrola dźwięku będzie wyłączona
+Label_SizeAuto=Automatycznie
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Lista aplikacji
@@ -737,6 +738,7 @@ rbNearCursor_Caption=Blisko myszy
 aCancel_Caption=Anuluj
 aOkay_Caption=OK
 chbExcludeTaskbar_Caption=Wyklucz pasek zadań
+chbAutoSize_Caption=Automatycznie
 
 [FmDeviceManager]
 FmDeviceManager_Caption=Menedżer urządzeń audio

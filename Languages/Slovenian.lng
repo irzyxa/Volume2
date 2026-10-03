@@ -454,6 +454,7 @@ Label_EditDevice=Uredi napravo
 Label_Default=Privzeto
 Label_DoNotChange=Ne spreminjaj
 Label_FullScreenListInverted=Aplikacije, v katerih je kontrola zvoka onemogočena
+Label_SizeAuto=Samodejno
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Lista aplikacij
@@ -737,6 +738,7 @@ rbNearCursor_Caption=Blizu miške
 aCancel_Caption=Prekliči
 aOkay_Caption=OK
 chbExcludeTaskbar_Caption=Brez opravilne vrstice
+chbAutoSize_Caption=Samodejno
 
 [FmDeviceManager]
 FmDeviceManager_Caption=Upravitelj zvočnih naprav

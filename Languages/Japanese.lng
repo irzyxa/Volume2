@@ -454,6 +454,7 @@ Label_EditDevice=デバイスの編集
 Label_Default=既定
 Label_DoNotChange=変更しない
 Label_FullScreenListInverted=音量調整を無効にするアプリケーション
+Label_SizeAuto=自動
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=アプリケーションの一覧
@@ -737,6 +738,7 @@ rbNearCursor_Caption=マウスの近く
 aCancel_Caption=キャンセル
 aOkay_Caption=OK
 chbExcludeTaskbar_Caption=タスクバーを除外
+chbAutoSize_Caption=自動
 
 [FmDeviceManager]
 FmDeviceManager_Caption=オーディオ デバイス マネージャー

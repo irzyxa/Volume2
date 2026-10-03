@@ -454,6 +454,7 @@ Label_EditDevice=Eszköz szerkesztése
 Label_Default=Alapértelmezett
 Label_DoNotChange=Ne módosítsa
 Label_FullScreenListInverted=Alkalmazások, ahol a hangerőszabályzó tiltva van
+Label_SizeAuto=Automatikus
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Alkalmazások listája
@@ -737,6 +738,7 @@ rbNearCursor_Caption=Közeli egér
 aCancel_Caption=Mégsem
 aOkay_Caption=OK
 chbExcludeTaskbar_Caption=Tálca nélkül
+chbAutoSize_Caption=Automatikus
 
 [FmDeviceManager]
 FmDeviceManager_Caption=Hangeszköz-kezelő

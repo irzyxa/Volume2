@@ -454,6 +454,7 @@ Label_EditDevice=Sửa thiết bị
 Label_Default=Mặc định
 Label_DoNotChange=Không thay đổi
 Label_FullScreenListInverted=Các ứng dụng có điều khiển âm lượng bị vô hiệu
+Label_SizeAuto=Tự động
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Danh sách các ứng dụng
@@ -737,6 +738,7 @@ rbNearCursor_Caption=Gần chuột
 aCancel_Caption=Đóng
 aOkay_Caption=OK
 chbExcludeTaskbar_Caption=Loại trừ thanh tác vụ
+chbAutoSize_Caption=Tự động
 
 [FmDeviceManager]
 FmDeviceManager_Caption=Trình quản lý thiết bị âm thanh

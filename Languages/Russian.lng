@@ -454,6 +454,7 @@ Label_EditDevice=Изменить устройство
 Label_Default=По умолчанию
 Label_DoNotChange=Не изменять
 Label_FullScreenListInverted=Приложения, в которых управление громкостью отключается
+Label_SizeAuto=Авто
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Список приложений
@@ -737,6 +738,7 @@ rbNearCursor_Caption=Возле указателя мыши
 aCancel_Caption=Отмена
 aOkay_Caption=Ок
 chbExcludeTaskbar_Caption=Без Панели задач
+chbAutoSize_Caption=Авто
 
 [FmDeviceManager]
 FmDeviceManager_Caption=Диспетчер аудио устройств

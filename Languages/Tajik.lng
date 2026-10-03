@@ -454,6 +454,7 @@ Label_EditDevice=Таҳрири дастгоҳ
 Label_Default=Пешфарз
 Label_DoNotChange=Тағйир надодан
 Label_FullScreenListInverted=Барномаҳо, ки дар онҳо назорати овоз хомӯш аст
+Label_SizeAuto=Худкор
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Рӯйхати барномаҳо
@@ -737,6 +738,7 @@ rbNearCursor_Caption=Дар наздикии нишондиҳандаи муш
 aCancel_Caption=Бекор кардан
 aOkay_Caption=Ок
 chbExcludeTaskbar_Caption=Бе панели вазифаҳо
+chbAutoSize_Caption=Худкор
 
 [FmDeviceManager]
 FmDeviceManager_Caption=Мудири дастгоҳҳои аудиоӣ

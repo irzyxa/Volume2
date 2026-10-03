@@ -454,6 +454,7 @@ Label_EditDevice=Edit Device
 Label_Default=Default
 Label_DoNotChange=Do not change
 Label_FullScreenListInverted=Applications in which the volume control is disabled
+Label_SizeAuto=Auto
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=List of applications
@@ -737,6 +738,7 @@ rbNearCursor_Caption=Near mouse
 aCancel_Caption=Cancel
 aOkay_Caption=OK
 chbExcludeTaskbar_Caption=Exclude Taskbar
+chbAutoSize_Caption=Auto
 
 [FmDeviceManager]
 FmDeviceManager_Caption=Audio device manager

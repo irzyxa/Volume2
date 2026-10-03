@@ -454,6 +454,7 @@ Label_EditDevice=Gerät bearbeiten
 Label_Default=Standard
 Label_DoNotChange=Nicht ändern
 Label_FullScreenListInverted=Anwendungen, bei denen die Lautstärke-Steuerung deaktiviert ist
+Label_SizeAuto=Automatisch
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Liste der Anwendungen
@@ -737,6 +738,7 @@ rbNearCursor_Caption=An Maus
 aCancel_Caption=Abbrechen
 aOkay_Caption=OK
 chbExcludeTaskbar_Caption=Taskleiste ausschließen
+chbAutoSize_Caption=Automatisch
 
 [FmDeviceManager]
 FmDeviceManager_Caption=Audiogeräte-Manager
