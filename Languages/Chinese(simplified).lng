@@ -351,6 +351,7 @@ chbEnableRemoteAccess_Caption=启用远程访问
 rbRunAsProgram_Caption=为程序
 rbRunAsTask_Caption=为任务
 chbUnmuteOnIncreaseVolume_Caption=仅在音量增加时
+chbPlaySoundWhenSettled_Caption=仅在音量停止变化后
 actnShowUserVariables_Hint=用户变量
 actnExecuteTask_Caption=运行任务
 tsTraySkinHeader_Caption=主设备

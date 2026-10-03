@@ -351,6 +351,7 @@ chbEnableRemoteAccess_Caption=Միացնել հեռակա մուտքը
 rbRunAsProgram_Caption=Որպես ծրագիր
 rbRunAsTask_Caption=Որպես առաջադրանք
 chbUnmuteOnIncreaseVolume_Caption=Միայն ձայնը բարձրացնելիս
+chbPlaySoundWhenSettled_Caption=Միայն ձայնի փոփոխության ավարտից հետո
 actnShowUserVariables_Hint=Օգտատիրոջ փոփոխականներ
 actnExecuteTask_Caption=Կատարել առաջադրանքը
 tsTraySkinHeader_Caption=Հիմնական սարք

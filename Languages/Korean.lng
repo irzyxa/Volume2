@@ -351,6 +351,7 @@ chbEnableRemoteAccess_Caption=원격 접근 사용
 rbRunAsProgram_Caption=프로그램으로
 rbRunAsTask_Caption=작업으로
 chbUnmuteOnIncreaseVolume_Caption=볼륨 증가 시에만
+chbPlaySoundWhenSettled_Caption=볼륨 변경이 멈춘 후에만
 actnShowUserVariables_Hint=사용자 변수
 actnExecuteTask_Caption=작업 실행
 tsTraySkinHeader_Caption=기본 장치

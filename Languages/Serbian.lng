@@ -351,6 +351,7 @@ chbEnableRemoteAccess_Caption=Omogući daljinski pristup
 rbRunAsProgram_Caption=Kao program
 rbRunAsTask_Caption=Kao zadatak
 chbUnmuteOnIncreaseVolume_Caption=Samo pri pojačavanju
+chbPlaySoundWhenSettled_Caption=Tek kad jačina prestane da se menja
 actnShowUserVariables_Hint=Korisničke promenljive
 actnExecuteTask_Caption=Pokreni zadatak
 tsTraySkinHeader_Caption=Glavni uređaj

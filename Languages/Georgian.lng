@@ -351,6 +351,7 @@ chbEnableRemoteAccess_Caption=დისტანციური წვდომ�
 rbRunAsProgram_Caption=პროგრამის სახით
 rbRunAsTask_Caption=ამოცანის სახით
 chbUnmuteOnIncreaseVolume_Caption=მხოლოდ ხმის აწევისას
+chbPlaySoundWhenSettled_Caption=მხოლოდ ხმის ცვლილების დასრულებისას
 actnShowUserVariables_Hint=მომხმარებლის ცვლადები
 actnExecuteTask_Caption=ამოცანის გაშვება
 tsTraySkinHeader_Caption=მთავარი მოწყობილობა

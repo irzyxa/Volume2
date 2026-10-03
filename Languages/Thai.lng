@@ -351,6 +351,7 @@ chbEnableRemoteAccess_Caption=เปิดใช้การเข้าถึ�
 rbRunAsProgram_Caption=เป็นโปรแกรม
 rbRunAsTask_Caption=เป็นงานตามกำหนดการ
 chbUnmuteOnIncreaseVolume_Caption=เฉพาะเมื่อเพิ่มระดับเสียง
+chbPlaySoundWhenSettled_Caption=เฉพาะเมื่อระดับเสียงหยุดเปลี่ยน
 actnShowUserVariables_Hint=ตัวแปรผู้ใช้
 actnExecuteTask_Caption=เรียกใช้งาน
 tsTraySkinHeader_Caption=อุปกรณ์หลัก

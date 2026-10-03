@@ -351,6 +351,7 @@ chbEnableRemoteAccess_Caption=Povoliť vzdialený prístup
 rbRunAsProgram_Caption=Ako program
 rbRunAsTask_Caption=Ako úloha
 chbUnmuteOnIncreaseVolume_Caption=Iba pri zvýšení hlasitosti
+chbPlaySoundWhenSettled_Caption=Až po skončení zmeny hlasitosti
 actnShowUserVariables_Hint=Používateľské premenné
 actnExecuteTask_Caption=Spustiť úlohu
 tsTraySkinHeader_Caption=Hlavné zariadenie

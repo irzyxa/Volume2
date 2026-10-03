@@ -351,6 +351,7 @@ chbEnableRemoteAccess_Caption=Cho phép truy cập từ xa
 rbRunAsProgram_Caption=Như chương trình
 rbRunAsTask_Caption=Làm nhiệm vụ
 chbUnmuteOnIncreaseVolume_Caption=Chỉ khi tăng âm lượng
+chbPlaySoundWhenSettled_Caption=Chỉ khi âm lượng ngừng thay đổi
 actnShowUserVariables_Hint=Biến người dùng
 actnExecuteTask_Caption=Chạy tác vụ
 tsTraySkinHeader_Caption=Thiết bị chính

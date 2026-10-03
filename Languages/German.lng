@@ -351,6 +351,7 @@ chbEnableRemoteAccess_Caption=Remotezugriff aktivieren
 rbRunAsProgram_Caption=Als Programm
 rbRunAsTask_Caption=Als Aufgabe
 chbUnmuteOnIncreaseVolume_Caption=Nur beim Erhöhen der Lautstärke
+chbPlaySoundWhenSettled_Caption=Erst wenn sich die Lautstärke nicht mehr ändert
 actnShowUserVariables_Hint=Benutzervariablen
 actnExecuteTask_Caption=Aufgabe ausführen
 tsTraySkinHeader_Caption=Hauptgerät

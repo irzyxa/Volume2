@@ -351,6 +351,7 @@ chbEnableRemoteAccess_Caption=Фаъол кардани дастрасии ду�
 rbRunAsProgram_Caption=Ҳамчун барнома
 rbRunAsTask_Caption=Ҳамчун вазифа
 chbUnmuteOnIncreaseVolume_Caption=Танҳо ҳангоми баланд кардани овоз
+chbPlaySoundWhenSettled_Caption=Танҳо пас аз анҷоми тағйири баландии овоз
 actnShowUserVariables_Hint=Тағйирёбандаҳои корбар
 actnExecuteTask_Caption=Иҷрои вазифа
 tsTraySkinHeader_Caption=Дастгоҳи асосӣ

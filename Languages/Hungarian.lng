@@ -351,6 +351,7 @@ chbEnableRemoteAccess_Caption=Távoli hozzáférés engedélyezése
 rbRunAsProgram_Caption=Programként
 rbRunAsTask_Caption=Feladatként
 chbUnmuteOnIncreaseVolume_Caption=Csak hangerő növelésekor
+chbPlaySoundWhenSettled_Caption=Csak a hangerő változásának végén
 actnShowUserVariables_Hint=Felhasználói változók
 actnExecuteTask_Caption=Feladat futtatása
 tsTraySkinHeader_Caption=Fő eszköz

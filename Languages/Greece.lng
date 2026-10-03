@@ -351,6 +351,7 @@ chbEnableRemoteAccess_Caption=Ενεργοποίηση απομακρυσμέν�
 rbRunAsProgram_Caption=Ως πρόγραμμα
 rbRunAsTask_Caption=Ως εργασία
 chbUnmuteOnIncreaseVolume_Caption=Μόνο σε αύξηση έντασης
+chbPlaySoundWhenSettled_Caption=Μόνο όταν σταματήσει η αλλαγή έντασης
 actnShowUserVariables_Hint=Μεταβλητές χρήστη
 actnExecuteTask_Caption=Εκτέλεση εργασίας
 tsTraySkinHeader_Caption=Κύριες συσκευή

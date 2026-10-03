@@ -351,6 +351,7 @@ chbEnableRemoteAccess_Caption=Activează accesul la distanţă
 rbRunAsProgram_Caption=Ca program
 rbRunAsTask_Caption=Ca sarcină
 chbUnmuteOnIncreaseVolume_Caption=Doar la creşterea volumului
+chbPlaySoundWhenSettled_Caption=Doar după ce volumul nu se mai schimbă
 actnShowUserVariables_Hint=Variabile utilizator
 actnExecuteTask_Caption=Rulează sarcina
 tsTraySkinHeader_Caption=Dispozitiv principal

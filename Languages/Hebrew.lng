@@ -351,6 +351,7 @@ chbEnableRemoteAccess_Caption=הפעל גישה מרחוק
 rbRunAsProgram_Caption=כתוכנית
 rbRunAsTask_Caption=כמשימה
 chbUnmuteOnIncreaseVolume_Caption=רק בעת הגברת עוצמת הקול
+chbPlaySoundWhenSettled_Caption=רק כאשר עוצמת הקול מפסיקה להשתנות
 actnShowUserVariables_Hint=משתני משתמש
 actnExecuteTask_Caption=הפעל משימה
 tsTraySkinHeader_Caption=התקן ראשי

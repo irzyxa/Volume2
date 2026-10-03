@@ -351,6 +351,7 @@ chbEnableRemoteAccess_Caption=Uzaktan Erişimi Aktifleştir
 rbRunAsProgram_Caption=Uygulama olarak çalıştır
 rbRunAsTask_Caption=Görev olarak çalıştır
 chbUnmuteOnIncreaseVolume_Caption=Sadece ses artırıldığında
+chbPlaySoundWhenSettled_Caption=Yalnızca ses düzeyi değişmeyi bıraktığında
 actnShowUserVariables_Hint=Kullanıcı değişkenleri
 actnExecuteTask_Caption=Görev başlat
 tsTraySkinHeader_Caption=Ana Aygıt

@@ -351,6 +351,7 @@ chbEnableRemoteAccess_Caption=Aktivera fjärråtkomst
 rbRunAsProgram_Caption=Som program
 rbRunAsTask_Caption=Som schemalagd aktivitet
 chbUnmuteOnIncreaseVolume_Caption=Endast vid volymökning
+chbPlaySoundWhenSettled_Caption=Först när volymen slutat ändras
 actnShowUserVariables_Hint=Användarvariabler
 actnExecuteTask_Caption=Kör aktivitet
 tsTraySkinHeader_Caption=Huvudenhet

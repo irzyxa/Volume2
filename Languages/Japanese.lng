@@ -351,6 +351,7 @@ chbEnableRemoteAccess_Caption=リモートアクセスを有効化
 rbRunAsProgram_Caption=プログラムとして
 rbRunAsTask_Caption=タスクとして
 chbUnmuteOnIncreaseVolume_Caption=音量増加時のみ
+chbPlaySoundWhenSettled_Caption=音量の変更が止まってから
 actnShowUserVariables_Hint=ユーザ変数
 actnExecuteTask_Caption=タスを実行
 tsTraySkinHeader_Caption=メイン デバイス

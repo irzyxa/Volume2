@@ -351,6 +351,7 @@ chbEnableRemoteAccess_Caption=Iespējot attālo piekļuvi
 rbRunAsProgram_Caption=Kā programmu
 rbRunAsTask_Caption=Kā uzdevumu
 chbUnmuteOnIncreaseVolume_Caption=Tikai palielinot skaļumu
+chbPlaySoundWhenSettled_Caption=Tikai tad, kad skaļums vairs nemainās
 actnShowUserVariables_Hint=Lietotāja mainīgie
 actnExecuteTask_Caption=Palaist uzdevumu
 tsTraySkinHeader_Caption=Galvenā iekārta

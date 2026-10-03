@@ -351,6 +351,7 @@ chbEnableRemoteAccess_Caption=Externe toegang inschakelen
 rbRunAsProgram_Caption=Als programma
 rbRunAsTask_Caption=Als taak
 chbUnmuteOnIncreaseVolume_Caption=Alleen bij verhogen van het volume
+chbPlaySoundWhenSettled_Caption=Pas als het volume niet meer verandert
 actnShowUserVariables_Hint=Gebruikersvariabelen
 actnExecuteTask_Caption=Taak uitvoeren
 tsTraySkinHeader_Caption=Hoofdapparaat

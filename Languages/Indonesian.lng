@@ -351,6 +351,7 @@ chbEnableRemoteAccess_Caption=Aktifkan akses jarak jauh
 rbRunAsProgram_Caption=Sebagai program
 rbRunAsTask_Caption=Sebagai tugas
 chbUnmuteOnIncreaseVolume_Caption=Hanya saat volume dinaikkan
+chbPlaySoundWhenSettled_Caption=Hanya saat volume berhenti berubah
 actnShowUserVariables_Hint=Variabel pengguna
 actnExecuteTask_Caption=Jalankan tugas
 tsTraySkinHeader_Caption=Perangkat utama

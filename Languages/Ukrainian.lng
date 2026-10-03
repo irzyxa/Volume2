@@ -351,6 +351,7 @@ chbEnableRemoteAccess_Caption=Ввімкнути можливість відда
 rbRunAsProgram_Caption=Як програму
 rbRunAsTask_Caption=Як задачу
 chbUnmuteOnIncreaseVolume_Caption=Тільки при збільшенні гучності
+chbPlaySoundWhenSettled_Caption=Лише після закінчення зміни гучності
 actnShowUserVariables_Hint=Користувацькі значення
 actnExecuteTask_Caption=Виконати задачу
 tsTraySkinHeader_Caption=Основний пристрій

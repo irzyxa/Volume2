@@ -351,6 +351,7 @@ chbEnableRemoteAccess_Caption=فعال کردن دسترسی از راه دور
 rbRunAsProgram_Caption=به‌عنوان برنامه
 rbRunAsTask_Caption=به‌عنوان کار زمان‌بندی‌شده
 chbUnmuteOnIncreaseVolume_Caption=فقط هنگام افزایش ولوم
+chbPlaySoundWhenSettled_Caption=فقط پس از پایان تغییر ولوم
 actnShowUserVariables_Hint=متغیرهای کاربر
 actnExecuteTask_Caption=اجرای کار
 tsTraySkinHeader_Caption=دستگاه اصلی
