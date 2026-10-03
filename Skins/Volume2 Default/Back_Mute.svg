@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 32 32">
+<style>
+@media (prefers-color-scheme: light) { .ink { fill: #000000; } }
+@media (prefers-color-scheme: dark) { .ink { fill: #FFFFFF; } }
+</style>
+<rect x="31" y="14.5" width="1" height="16.5" fill="#000000" fill-opacity="0.12"/><path class="ink" d="M0.53,31L31,14.46V31Z"/>
+<g fill="none" stroke="#E53D21" stroke-width="3"><circle cx="8" cy="24" r="5.5"/><path d="M5.17,26.83L10.83,21.17"/></g>
+</svg>

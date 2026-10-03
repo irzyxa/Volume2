@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="272" viewBox="0 0 32 544">
+<defs><path id="d" d="M16,11.5A4.5,4.5 0 0 1 16,20.5Z" fill="#2DA5FF"/><path id="a0" d="M20.58,11.25A6.6,6.6 0 0 1 20.58,20.75" fill="none" stroke="#5DBCFE" stroke-width="1.5" stroke-linecap="round"/><path id="a1" d="M22.46,9.31A9.3,9.3 0 0 1 22.46,22.69" fill="none" stroke="#5DBCFE" stroke-width="1.5" stroke-linecap="round"/><path id="a2" d="M24.47,7.22A12.2,12.2 0 0 1 24.47,24.78" fill="none" stroke="#5DBCFE" stroke-width="1.5" stroke-linecap="round"/><path id="a3" d="M25.93,5.71A14.3,14.3 0 0 1 25.93,26.29" fill="none" stroke="#5DBCFE" stroke-width="1.5" stroke-linecap="round"/></defs>
+<g transform="translate(0,0)"></g>
+<g transform="translate(0,32)"></g>
+<g transform="translate(0,64)"><use xlink:href="#d" href="#d"/></g>
+<g transform="translate(0,96)"><use xlink:href="#d" href="#d"/></g>
+<g transform="translate(0,128)"><use xlink:href="#d" href="#d"/></g>
+<g transform="translate(0,160)"><use xlink:href="#d" href="#d"/><use xlink:href="#a0" href="#a0"/></g>
+<g transform="translate(0,192)"><use xlink:href="#d" href="#d"/><use xlink:href="#a0" href="#a0"/></g>
+<g transform="translate(0,224)"><use xlink:href="#d" href="#d"/><use xlink:href="#a0" href="#a0"/></g>
+<g transform="translate(0,256)"><use xlink:href="#d" href="#d"/><use xlink:href="#a0" href="#a0"/><use xlink:href="#a1" href="#a1"/></g>
+<g transform="translate(0,288)"><use xlink:href="#d" href="#d"/><use xlink:href="#a0" href="#a0"/><use xlink:href="#a1" href="#a1"/></g>
+<g transform="translate(0,320)"><use xlink:href="#d" href="#d"/><use xlink:href="#a0" href="#a0"/><use xlink:href="#a1" href="#a1"/></g>
+<g transform="translate(0,352)"><use xlink:href="#d" href="#d"/><use xlink:href="#a0" href="#a0"/><use xlink:href="#a1" href="#a1"/><use xlink:href="#a2" href="#a2"/></g>
+<g transform="translate(0,384)"><use xlink:href="#d" href="#d"/><use xlink:href="#a0" href="#a0"/><use xlink:href="#a1" href="#a1"/><use xlink:href="#a2" href="#a2"/></g>
+<g transform="translate(0,416)"><use xlink:href="#d" href="#d"/><use xlink:href="#a0" href="#a0"/><use xlink:href="#a1" href="#a1"/><use xlink:href="#a2" href="#a2"/></g>
+<g transform="translate(0,448)"><use xlink:href="#d" href="#d"/><use xlink:href="#a0" href="#a0"/><use xlink:href="#a1" href="#a1"/><use xlink:href="#a2" href="#a2"/></g>
+<g transform="translate(0,480)"><use xlink:href="#d" href="#d"/><use xlink:href="#a0" href="#a0"/><use xlink:href="#a1" href="#a1"/><use xlink:href="#a2" href="#a2"/><use xlink:href="#a3" href="#a3"/></g>
+<g transform="translate(0,512)"><use xlink:href="#d" href="#d"/><use xlink:href="#a0" href="#a0"/><use xlink:href="#a1" href="#a1"/><use xlink:href="#a2" href="#a2"/><use xlink:href="#a3" href="#a3"/></g>
+</svg>

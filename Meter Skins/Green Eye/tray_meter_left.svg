@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="416" viewBox="0 0 32 832">
+<defs><radialGradient id="gr" gradientUnits="userSpaceOnUse" cx="16" cy="16" r="9.8"><stop offset="0.45" stop-color="#00FF74"/><stop offset="0.6" stop-color="#00FF6C"/><stop offset="0.72" stop-color="#00EC63"/><stop offset="0.82" stop-color="#00D057"/><stop offset="0.9" stop-color="#00C151"/><stop offset="1" stop-color="#00A847"/></radialGradient></defs>
+<g transform="translate(0,0)"><path d="M6.81,15.68A9.2,9.2 0 0 0 6.81,16.32L11,16.17A5,5 0 0 1 11,15.83Z" fill="url(#gr)" opacity="0.5"/></g>
+<g transform="translate(0,32)"><path d="M6.45,15A9.6,9.6 0 0 0 6.45,17L11.62,16.46A4.4,4.4 0 0 1 11.62,15.54Z" fill="url(#gr)"/></g>
+<g transform="translate(0,64)"><path d="M6.47,14.83A9.6,9.6 0 0 0 6.47,17.17L11.63,16.54A4.4,4.4 0 0 1 11.63,15.46Z" fill="url(#gr)"/></g>
+<g transform="translate(0,96)"><path d="M6.58,14.17A9.6,9.6 0 0 0 6.58,17.83L11.68,16.84A4.4,4.4 0 0 1 11.68,15.16Z" fill="url(#gr)"/></g>
+<g transform="translate(0,128)"><path d="M6.69,13.68A9.6,9.6 0 0 0 6.69,18.32L11.73,17.06A4.4,4.4 0 0 1 11.73,14.94Z" fill="url(#gr)"/></g>
+<g transform="translate(0,160)"><path d="M6.87,13.03A9.6,9.6 0 0 0 6.87,18.97L11.82,17.36A4.4,4.4 0 0 1 11.82,14.64Z" fill="url(#gr)"/></g>
+<g transform="translate(0,192)"><path d="M7.1,12.4A9.6,9.6 0 0 0 7.1,19.6L11.92,17.65A4.4,4.4 0 0 1 11.92,14.35Z" fill="url(#gr)"/></g>
+<g transform="translate(0,224)"><path d="M7.3,11.94A9.6,9.6 0 0 0 7.3,20.06L12.01,17.86A4.4,4.4 0 0 1 12.01,14.14Z" fill="url(#gr)"/></g>
+<g transform="translate(0,256)"><path d="M7.6,11.35A9.6,9.6 0 0 0 7.6,20.65L12.15,18.13A4.4,4.4 0 0 1 12.15,13.87Z" fill="url(#gr)"/></g>
+<g transform="translate(0,288)"><path d="M7.86,10.91A9.6,9.6 0 0 0 7.86,21.09L12.27,18.33A4.4,4.4 0 0 1 12.27,13.67Z" fill="url(#gr)"/></g>
+<g transform="translate(0,320)"><path d="M8.23,10.36A9.6,9.6 0 0 0 8.23,21.64L12.44,18.59A4.4,4.4 0 0 1 12.44,13.41Z" fill="url(#gr)"/></g>
+<g transform="translate(0,352)"><path d="M8.65,9.83A9.6,9.6 0 0 0 8.65,22.17L12.63,18.83A4.4,4.4 0 0 1 12.63,13.17Z" fill="url(#gr)"/></g>
+<g transform="translate(0,384)"><path d="M8.98,9.45A9.6,9.6 0 0 0 8.98,22.55L12.78,19A4.4,4.4 0 0 1 12.78,13Z" fill="url(#gr)"/></g>
+<g transform="translate(0,416)"><path d="M9.45,8.98A9.6,9.6 0 0 0 9.45,23.02L13,19.22A4.4,4.4 0 0 1 13,12.78Z" fill="url(#gr)"/></g>
+<g transform="translate(0,448)"><path d="M9.83,8.65A9.6,9.6 0 0 0 9.83,23.35L13.17,19.37A4.4,4.4 0 0 1 13.17,12.63Z" fill="url(#gr)"/></g>
+<g transform="translate(0,480)"><path d="M10.36,8.23A9.6,9.6 0 0 0 10.36,23.77L13.41,19.56A4.4,4.4 0 0 1 13.41,12.44Z" fill="url(#gr)"/></g>
+<g transform="translate(0,512)"><path d="M10.91,7.86A9.6,9.6 0 0 0 10.91,24.14L13.67,19.73A4.4,4.4 0 0 1 13.67,12.27Z" fill="url(#gr)"/></g>
+<g transform="translate(0,544)"><path d="M11.35,7.6A9.6,9.6 0 0 0 11.35,24.4L13.87,19.85A4.4,4.4 0 0 1 13.87,12.15Z" fill="url(#gr)"/></g>
+<g transform="translate(0,576)"><path d="M11.94,7.3A9.6,9.6 0 0 0 11.94,24.7L14.14,19.99A4.4,4.4 0 0 1 14.14,12.01Z" fill="url(#gr)"/></g>
+<g transform="translate(0,608)"><path d="M12.4,7.1A9.6,9.6 0 0 0 12.4,24.9L14.35,20.08A4.4,4.4 0 0 1 14.35,11.92Z" fill="url(#gr)"/></g>
+<g transform="translate(0,640)"><path d="M13.03,6.87A9.6,9.6 0 0 0 13.03,25.13L14.64,20.18A4.4,4.4 0 0 1 14.64,11.82Z" fill="url(#gr)"/></g>
+<g transform="translate(0,672)"><path d="M13.68,6.69A9.6,9.6 0 0 0 13.68,25.31L14.94,20.27A4.4,4.4 0 0 1 14.94,11.73Z" fill="url(#gr)"/></g>
+<g transform="translate(0,704)"><path d="M14.17,6.58A9.6,9.6 0 0 0 14.17,25.42L15.16,20.32A4.4,4.4 0 0 1 15.16,11.68Z" fill="url(#gr)"/></g>
+<g transform="translate(0,736)"><path d="M14.83,6.47A9.6,9.6 0 0 0 14.83,25.53L15.46,20.37A4.4,4.4 0 0 1 15.46,11.63Z" fill="url(#gr)"/></g>
+<g transform="translate(0,768)"><path d="M15.33,6.42A9.6,9.6 0 0 0 15.33,25.58L15.69,20.39A4.4,4.4 0 0 1 15.69,11.61Z" fill="url(#gr)"/></g>
+<g transform="translate(0,800)"><path d="M16,6.4A9.6,9.6 0 0 0 16,25.6L16,20.4A4.4,4.4 0 0 1 16,11.6Z" fill="url(#gr)"/></g>
+</svg>

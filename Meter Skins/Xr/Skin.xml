@@ -3,5 +3,6 @@
 <osd><meterOrientation>bitstripright</meterOrientation><meterStyle>Stereo</meterStyle>
 <meterLeftPosition><X>10</X><Y>14</Y></meterLeftPosition>
 <meterRightPosition><X>26</X><Y>14</Y></meterRightPosition>
+    <TrayIcon Style="Stereo" Orientation="bitstripbottom" Max="16"/>
 <meterMax>26</meterMax></osd>
 </XMLskinSettings>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="416" viewBox="0 0 32 832">
+<defs><radialGradient id="gr" gradientUnits="userSpaceOnUse" cx="16" cy="16" r="9.8"><stop offset="0.45" stop-color="#00FF74"/><stop offset="0.6" stop-color="#00FF6C"/><stop offset="0.72" stop-color="#00EC63"/><stop offset="0.82" stop-color="#00D057"/><stop offset="0.9" stop-color="#00C151"/><stop offset="1" stop-color="#00A847"/></radialGradient></defs>
+<g transform="translate(0,0)"><path d="M25.19,16.32A9.2,9.2 0 0 0 25.19,15.68L21,15.83A5,5 0 0 1 21,16.17Z" fill="url(#gr)" opacity="0.5"/></g>
+<g transform="translate(0,32)"><path d="M25.55,17A9.6,9.6 0 0 0 25.55,15L20.38,15.54A4.4,4.4 0 0 1 20.38,16.46Z" fill="url(#gr)"/></g>
+<g transform="translate(0,64)"><path d="M25.53,17.17A9.6,9.6 0 0 0 25.53,14.83L20.37,15.46A4.4,4.4 0 0 1 20.37,16.54Z" fill="url(#gr)"/></g>
+<g transform="translate(0,96)"><path d="M25.42,17.83A9.6,9.6 0 0 0 25.42,14.17L20.32,15.16A4.4,4.4 0 0 1 20.32,16.84Z" fill="url(#gr)"/></g>
+<g transform="translate(0,128)"><path d="M25.31,18.32A9.6,9.6 0 0 0 25.31,13.68L20.27,14.94A4.4,4.4 0 0 1 20.27,17.06Z" fill="url(#gr)"/></g>
+<g transform="translate(0,160)"><path d="M25.13,18.97A9.6,9.6 0 0 0 25.13,13.03L20.18,14.64A4.4,4.4 0 0 1 20.18,17.36Z" fill="url(#gr)"/></g>
+<g transform="translate(0,192)"><path d="M24.9,19.6A9.6,9.6 0 0 0 24.9,12.4L20.08,14.35A4.4,4.4 0 0 1 20.08,17.65Z" fill="url(#gr)"/></g>
+<g transform="translate(0,224)"><path d="M24.7,20.06A9.6,9.6 0 0 0 24.7,11.94L19.99,14.14A4.4,4.4 0 0 1 19.99,17.86Z" fill="url(#gr)"/></g>
+<g transform="translate(0,256)"><path d="M24.4,20.65A9.6,9.6 0 0 0 24.4,11.35L19.85,13.87A4.4,4.4 0 0 1 19.85,18.13Z" fill="url(#gr)"/></g>
+<g transform="translate(0,288)"><path d="M24.14,21.09A9.6,9.6 0 0 0 24.14,10.91L19.73,13.67A4.4,4.4 0 0 1 19.73,18.33Z" fill="url(#gr)"/></g>
+<g transform="translate(0,320)"><path d="M23.77,21.64A9.6,9.6 0 0 0 23.77,10.36L19.56,13.41A4.4,4.4 0 0 1 19.56,18.59Z" fill="url(#gr)"/></g>
+<g transform="translate(0,352)"><path d="M23.35,22.17A9.6,9.6 0 0 0 23.35,9.83L19.37,13.17A4.4,4.4 0 0 1 19.37,18.83Z" fill="url(#gr)"/></g>
+<g transform="translate(0,384)"><path d="M23.02,22.55A9.6,9.6 0 0 0 23.02,9.45L19.22,13A4.4,4.4 0 0 1 19.22,19Z" fill="url(#gr)"/></g>
+<g transform="translate(0,416)"><path d="M22.55,23.02A9.6,9.6 0 0 0 22.55,8.98L19,12.78A4.4,4.4 0 0 1 19,19.22Z" fill="url(#gr)"/></g>
+<g transform="translate(0,448)"><path d="M22.17,23.35A9.6,9.6 0 0 0 22.17,8.65L18.83,12.63A4.4,4.4 0 0 1 18.83,19.37Z" fill="url(#gr)"/></g>
+<g transform="translate(0,480)"><path d="M21.64,23.77A9.6,9.6 0 0 0 21.64,8.23L18.59,12.44A4.4,4.4 0 0 1 18.59,19.56Z" fill="url(#gr)"/></g>
+<g transform="translate(0,512)"><path d="M21.09,24.14A9.6,9.6 0 0 0 21.09,7.86L18.33,12.27A4.4,4.4 0 0 1 18.33,19.73Z" fill="url(#gr)"/></g>
+<g transform="translate(0,544)"><path d="M20.65,24.4A9.6,9.6 0 0 0 20.65,7.6L18.13,12.15A4.4,4.4 0 0 1 18.13,19.85Z" fill="url(#gr)"/></g>
+<g transform="translate(0,576)"><path d="M20.06,24.7A9.6,9.6 0 0 0 20.06,7.3L17.86,12.01A4.4,4.4 0 0 1 17.86,19.99Z" fill="url(#gr)"/></g>
+<g transform="translate(0,608)"><path d="M19.6,24.9A9.6,9.6 0 0 0 19.6,7.1L17.65,11.92A4.4,4.4 0 0 1 17.65,20.08Z" fill="url(#gr)"/></g>
+<g transform="translate(0,640)"><path d="M18.97,25.13A9.6,9.6 0 0 0 18.97,6.87L17.36,11.82A4.4,4.4 0 0 1 17.36,20.18Z" fill="url(#gr)"/></g>
+<g transform="translate(0,672)"><path d="M18.32,25.31A9.6,9.6 0 0 0 18.32,6.69L17.06,11.73A4.4,4.4 0 0 1 17.06,20.27Z" fill="url(#gr)"/></g>
+<g transform="translate(0,704)"><path d="M17.83,25.42A9.6,9.6 0 0 0 17.83,6.58L16.84,11.68A4.4,4.4 0 0 1 16.84,20.32Z" fill="url(#gr)"/></g>
+<g transform="translate(0,736)"><path d="M17.17,25.53A9.6,9.6 0 0 0 17.17,6.47L16.54,11.63A4.4,4.4 0 0 1 16.54,20.37Z" fill="url(#gr)"/></g>
+<g transform="translate(0,768)"><path d="M16.67,25.58A9.6,9.6 0 0 0 16.67,6.42L16.31,11.61A4.4,4.4 0 0 1 16.31,20.39Z" fill="url(#gr)"/></g>
+<g transform="translate(0,800)"><path d="M16,25.6A9.6,9.6 0 0 0 16,6.4L16,11.6A4.4,4.4 0 0 1 16,20.4Z" fill="url(#gr)"/></g>
+</svg>

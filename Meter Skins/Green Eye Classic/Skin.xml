@@ -20,5 +20,6 @@
     </meterRightPosition>
 
     <meterMax>25</meterMax>
+    <TrayIcon Style="Mono" Orientation="bitstripbottom" Max="25"/>
   </osd>
 </XMLskinSettings>
