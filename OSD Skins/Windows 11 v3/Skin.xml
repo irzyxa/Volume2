@@ -12,6 +12,7 @@
     <!--Alignment: 0 - taLeft, 1 - taCenter, 2 - taRight-->
     <FadeSteps>18</FadeSteps>
     <ShowSteps>36</ShowSteps>
+    <MotionSteps>26</MotionSteps>
     <Colorization>true</Colorization>
     <!--Value format: #AARRGGBB. -1 - Use system color. System - accent shade of the Windows 11 flyout (AccentDark1, AccentLight2 in a dark color scheme). AccentLight3..AccentLight1, Accent, AccentDark1..AccentDark3 - Windows accent palette shade-->
     <ColorizationColor>System</ColorizationColor>
