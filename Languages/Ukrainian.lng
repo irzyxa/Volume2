@@ -674,6 +674,9 @@ CBFadeSpeed_Caption=Сховати
 lblSelectColor_Caption=Вибрати колiр
 chbColorization_Caption=Використовувати колiр
 chbUseSystemColorScheme_Caption=Використовувати системный колiр
+CBMotion_Caption=Рух
+LMotionSlow_Caption=Повільно
+LMotionFast_Caption=Швидко
 
 [FmInterfaceSettings]
 FmInterfaceSettings_Caption=Налаштування інтерфейсу

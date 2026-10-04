@@ -674,6 +674,9 @@ CBFadeSpeed_Caption=Σβήσιμο ταχύτητας
 lblSelectColor_Caption=Επιλογή χρώματος
 chbColorization_Caption=Χρήση χρωματισμού
 chbUseSystemColorScheme_Caption=Χρήση συνδυασμού χρωμάτων συστήματος
+CBMotion_Caption=Κίνηση
+LMotionSlow_Caption=Αργά
+LMotionFast_Caption=Γρήγορα
 
 [FmInterfaceSettings]
 FmInterfaceSettings_Caption=Ρυθμίσεις περιβάλλοντος

@@ -674,6 +674,9 @@ CBFadeSpeed_Caption=Pudarkan kecepatan
 lblSelectColor_Caption=Pilih warna
 chbColorization_Caption=Gunakan pewarnaan
 chbUseSystemColorScheme_Caption=Gunakan skema warna sistem
+CBMotion_Caption=Gerakan
+LMotionSlow_Caption=Lambat
+LMotionFast_Caption=Cepat
 
 [FmInterfaceSettings]
 FmInterfaceSettings_Caption=Tampilan pengaturan

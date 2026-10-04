@@ -674,6 +674,9 @@ CBFadeSpeed_Caption=מהירות דעיכה
 lblSelectColor_Caption=בחר צבע
 chbColorization_Caption=השתמש בצביעה
 chbUseSystemColorScheme_Caption=השתמש בערכת הצבעים של המערכת
+CBMotion_Caption=תנועה
+LMotionSlow_Caption=איטי
+LMotionFast_Caption=מהיר
 
 [FmInterfaceSettings]
 FmInterfaceSettings_Caption=הגדרות ממשק

@@ -674,6 +674,9 @@ CBFadeSpeed_Caption=Fade Tempo
 lblSelectColor_Caption=Wähle Farbe
 chbColorization_Caption=Benutze Farbe
 chbUseSystemColorScheme_Caption=Nutze System Farbschema
+CBMotion_Caption=Bewegung
+LMotionSlow_Caption=Langsam
+LMotionFast_Caption=Schnell
 
 [FmInterfaceSettings]
 FmInterfaceSettings_Caption=Schnittstelleneinstellungen

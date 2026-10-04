@@ -674,6 +674,9 @@ CBFadeSpeed_Caption=سرعة التلاشي
 lblSelectColor_Caption=اختيار اللون
 chbColorization_Caption=استخدام التلوين
 chbUseSystemColorScheme_Caption=استخدام نظام ألوان النظام
+CBMotion_Caption=الحركة
+LMotionSlow_Caption=بطيء
+LMotionFast_Caption=سريع
 
 [FmInterfaceSettings]
 FmInterfaceSettings_Caption=إعدادات الواجهة

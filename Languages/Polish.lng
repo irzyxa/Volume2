@@ -674,6 +674,9 @@ CBFadeSpeed_Caption=Szybkość zanikania
 lblSelectColor_Caption=Wybierz kolor
 chbColorization_Caption=Użyj koloryzacji
 chbUseSystemColorScheme_Caption=Użyj systemowego schematu kolorów
+CBMotion_Caption=Ruch
+LMotionSlow_Caption=Wolno
+LMotionFast_Caption=Szybko
 
 [FmInterfaceSettings]
 FmInterfaceSettings_Caption=Ustawienia interfejsu

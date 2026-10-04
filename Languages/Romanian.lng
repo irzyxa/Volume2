@@ -674,6 +674,9 @@ CBFadeSpeed_Caption=Viteza Estompării
 lblSelectColor_Caption=Selectează culoarea
 chbColorization_Caption=Foloseşte colorarea
 chbUseSystemColorScheme_Caption=Foloseşte schema de culori a sistemului
+CBMotion_Caption=Mişcare
+LMotionSlow_Caption=Încet
+LMotionFast_Caption=Rapid
 
 [FmInterfaceSettings]
 FmInterfaceSettings_Caption=Setări Interfaţă

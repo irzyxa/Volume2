@@ -674,6 +674,9 @@ CBFadeSpeed_Caption=淡出速度
 lblSelectColor_Caption=选择颜色
 chbColorization_Caption=使用着色
 chbUseSystemColorScheme_Caption=使用系统配色方案
+CBMotion_Caption=动态
+LMotionSlow_Caption=慢
+LMotionFast_Caption=快
 
 [FmInterfaceSettings]
 FmInterfaceSettings_Caption=接口设置

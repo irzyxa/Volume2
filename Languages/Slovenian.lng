@@ -674,6 +674,9 @@ CBFadeSpeed_Caption=Hitrost pojemanja
 lblSelectColor_Caption=Izberi barvo
 chbColorization_Caption=Uporabi obarvanje
 chbUseSystemColorScheme_Caption=Uporabi sistemsko barvno shemo
+CBMotion_Caption=Gibanje
+LMotionSlow_Caption=Počasi
+LMotionFast_Caption=Hitro
 
 [FmInterfaceSettings]
 FmInterfaceSettings_Caption=Interface settinfs

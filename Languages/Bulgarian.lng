@@ -674,6 +674,9 @@ CBFadeSpeed_Caption=Скорост на избледняване
 lblSelectColor_Caption=Избор на цвят
 chbColorization_Caption=Използване на оцветяване
 chbUseSystemColorScheme_Caption=Използване на системната цветова схема
+CBMotion_Caption=Движение
+LMotionSlow_Caption=Бавно
+LMotionFast_Caption=Бързо
 
 [FmInterfaceSettings]
 FmInterfaceSettings_Caption=Настройки на интерфейса

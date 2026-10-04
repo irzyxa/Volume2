@@ -674,6 +674,9 @@ CBFadeSpeed_Caption=Izzušanas ātrums
 lblSelectColor_Caption=Izvēlēties krāsu
 chbColorization_Caption=Izmantot iekrāsošanu
 chbUseSystemColorScheme_Caption=Izmantot sistēmas krāsu shēmu
+CBMotion_Caption=Kustība
+LMotionSlow_Caption=Lēni
+LMotionFast_Caption=Ātri
 
 [FmInterfaceSettings]
 FmInterfaceSettings_Caption=Saskarsnes iestatījumi

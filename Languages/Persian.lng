@@ -674,6 +674,9 @@ CBFadeSpeed_Caption=سرعت محو شدن
 lblSelectColor_Caption=انتخاب رنگ
 chbColorization_Caption=استفاده از حالت رنگی کردن
 chbUseSystemColorScheme_Caption=استفاده از سیستم رنگ بندی
+CBMotion_Caption=حرکت
+LMotionSlow_Caption=آهسته
+LMotionFast_Caption=سریع
 
 [FmInterfaceSettings]
 FmInterfaceSettings_Caption=تنظیمات رابط

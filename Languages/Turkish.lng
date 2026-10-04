@@ -674,6 +674,9 @@ CBFadeSpeed_Caption=Hızı değiştir
 lblSelectColor_Caption=Renk seç
 chbColorization_Caption=Renklendirme kullan
 chbUseSystemColorScheme_Caption=Sistem renk şemasını kullan
+CBMotion_Caption=Hareket
+LMotionSlow_Caption=Yavaş
+LMotionFast_Caption=Hızlı
 
 [FmInterfaceSettings]
 FmInterfaceSettings_Caption=Arayüz ayarları

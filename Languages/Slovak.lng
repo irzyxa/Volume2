@@ -674,6 +674,9 @@ CBFadeSpeed_Caption=Skryť rýchlosť
 lblSelectColor_Caption=Vybrať farbu
 chbColorization_Caption=Použiť farbenie
 chbUseSystemColorScheme_Caption=Použiť farebnú schému systému
+CBMotion_Caption=Pohyb
+LMotionSlow_Caption=Pomaly
+LMotionFast_Caption=Rýchlo
 
 [FmInterfaceSettings]
 FmInterfaceSettings_Caption=Nastavenia rozhrania 

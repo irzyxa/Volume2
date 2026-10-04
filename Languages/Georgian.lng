@@ -674,6 +674,9 @@ CBFadeSpeed_Caption=გაქრობის სიჩქარე
 lblSelectColor_Caption=ფერის არჩევა
 chbColorization_Caption=გაფერადების გამოყენება
 chbUseSystemColorScheme_Caption=სისტემის ფერთა სქემის გამოყენება
+CBMotion_Caption=მოძრაობა
+LMotionSlow_Caption=ნელი
+LMotionFast_Caption=სწრაფი
 
 [FmInterfaceSettings]
 FmInterfaceSettings_Caption=ინტერფეისის პარამეტრები

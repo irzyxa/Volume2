@@ -674,6 +674,9 @@ CBFadeSpeed_Caption=Elhalványulás sebessége
 lblSelectColor_Caption=Szín kiválasztása
 chbColorization_Caption=Színezés használata
 chbUseSystemColorScheme_Caption=A rendszer színsémájának használata
+CBMotion_Caption=Mozgás
+LMotionSlow_Caption=Lassú
+LMotionFast_Caption=Gyors
 
 [FmInterfaceSettings]
 FmInterfaceSettings_Caption=Felület beállítások

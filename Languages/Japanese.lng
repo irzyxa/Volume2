@@ -674,6 +674,9 @@ CBFadeSpeed_Caption=フェード速度
 lblSelectColor_Caption=色を選択
 chbColorization_Caption=カラー調整を使用
 chbUseSystemColorScheme_Caption=システムのカラースキームを使用
+CBMotion_Caption=動き
+LMotionSlow_Caption=低速
+LMotionFast_Caption=高速
 
 [FmInterfaceSettings]
 FmInterfaceSettings_Caption=インタフェースの設定

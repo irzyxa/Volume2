@@ -674,6 +674,9 @@ CBFadeSpeed_Caption=Vervaag snelheid
 lblSelectColor_Caption=Kleur selecteren
 chbColorization_Caption=Kleuring gebruiken
 chbUseSystemColorScheme_Caption=Kleurenschema van het systeem gebruiken
+CBMotion_Caption=Beweging
+LMotionSlow_Caption=Langzaam
+LMotionFast_Caption=Snel
 
 [FmInterfaceSettings]
 FmInterfaceSettings_Caption=Interface settinfs

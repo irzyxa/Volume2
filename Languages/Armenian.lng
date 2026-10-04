@@ -674,6 +674,9 @@ CBFadeSpeed_Caption=Մարման արագություն
 lblSelectColor_Caption=Ընտրել գույնը
 chbColorization_Caption=Օգտագործել գունավորումը
 chbUseSystemColorScheme_Caption=Օգտագործել համակարգի գունային սխեման
+CBMotion_Caption=Շարժում
+LMotionSlow_Caption=Դանդաղ
+LMotionFast_Caption=Արագ
 
 [FmInterfaceSettings]
 FmInterfaceSettings_Caption=Միջերեսի կարգավորումներ

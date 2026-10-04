@@ -674,6 +674,9 @@ CBFadeSpeed_Caption=ความเร็วในการจางหาย
 lblSelectColor_Caption=เลือกสี
 chbColorization_Caption=ใช้การปรับสี
 chbUseSystemColorScheme_Caption=ใช้ชุดสีของระบบ
+CBMotion_Caption=การเคลื่อนไหว
+LMotionSlow_Caption=ช้า
+LMotionFast_Caption=เร็ว
 
 [FmInterfaceSettings]
 FmInterfaceSettings_Caption=การตั้งค่าอินเทอร์เฟซ

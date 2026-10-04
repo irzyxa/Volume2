@@ -674,6 +674,9 @@ CBFadeSpeed_Caption=Пинҳон
 lblSelectColor_Caption=Интихоби ранг
 chbColorization_Caption=Рангро истифода кунед
 chbUseSystemColorScheme_Caption=Рангҳои системаро истифода баред
+CBMotion_Caption=Ҳаракат
+LMotionSlow_Caption=Миёна
+LMotionFast_Caption=Зуд
 
 [FmInterfaceSettings]
 FmInterfaceSettings_Caption=Танзимоти интерфейс

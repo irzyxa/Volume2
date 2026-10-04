@@ -674,6 +674,9 @@ CBFadeSpeed_Caption=Toningshastighet
 lblSelectColor_Caption=Välj färg
 chbColorization_Caption=Använd färgläggning
 chbUseSystemColorScheme_Caption=Använd systemets färgschema
+CBMotion_Caption=Rörelse
+LMotionSlow_Caption=Långsam
+LMotionFast_Caption=Snabb
 
 [FmInterfaceSettings]
 FmInterfaceSettings_Caption=Utseendeinställningar

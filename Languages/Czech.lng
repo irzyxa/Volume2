@@ -674,6 +674,9 @@ CBFadeSpeed_Caption=Fade rychlost
 lblSelectColor_Caption=Vybrat barvu
 chbColorization_Caption=Použít obarvení
 chbUseSystemColorScheme_Caption=Použít barevné schéma systému
+CBMotion_Caption=Pohyb
+LMotionSlow_Caption=Pomalu
+LMotionFast_Caption=Rychle
 
 [FmInterfaceSettings]
 FmInterfaceSettings_Caption=Nastavení rozhraní 

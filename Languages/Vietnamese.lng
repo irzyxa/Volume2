@@ -674,6 +674,9 @@ CBFadeSpeed_Caption=Làm mờ tốc độ
 lblSelectColor_Caption=Chọn màu
 chbColorization_Caption=Sử dụng Màu hóa
 chbUseSystemColorScheme_Caption=Sử dụng bảng màu hệ thống
+CBMotion_Caption=Chuyển động
+LMotionSlow_Caption=Chậm
+LMotionFast_Caption=Nhanh
 
 [FmInterfaceSettings]
 FmInterfaceSettings_Caption=Các thiết lập giao diện

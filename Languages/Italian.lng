@@ -674,6 +674,9 @@ CBFadeSpeed_Caption=Velocità sfumatura
 lblSelectColor_Caption=Seleziona colore
 chbColorization_Caption=Usa colorazione
 chbUseSystemColorScheme_Caption=Usa schema colore di sistema
+CBMotion_Caption=Movimento
+LMotionSlow_Caption=Lento
+LMotionFast_Caption=Veloce
 
 [FmInterfaceSettings]
 FmInterfaceSettings_Caption=Impostazioni Interfaccia

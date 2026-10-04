@@ -674,6 +674,9 @@ CBFadeSpeed_Caption=속도 감추기
 lblSelectColor_Caption=색상 선택
 chbColorization_Caption=색상화 사용
 chbUseSystemColorScheme_Caption=시스템 색 구성표 사용
+CBMotion_Caption=움직임
+LMotionSlow_Caption=느림
+LMotionFast_Caption=빠름
 
 [FmInterfaceSettings]
 FmInterfaceSettings_Caption=인터페이스 설정
