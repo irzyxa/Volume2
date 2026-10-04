@@ -293,6 +293,7 @@ SBCopyEmail_Hint=Kopie
 btnCopySite_Hint=Kopie
 LEMail_Caption=E-Mail:
 actnSetDefaultAudioDevice_Caption=Setze Standard Audio Gerät
+actnAudioEnhancementsToggle_Caption=Audioverbesserungen Ein/Aus
 actnRunApplication_Caption=Starte Anwendung
 actnStayOnTop_Caption=Immer Oben
 actnMuteAllExceptActiveApp_Caption=Alle außer Aktive Anwendung Stummschalten
@@ -456,6 +457,8 @@ Label_Default=Standard
 Label_DoNotChange=Nicht ändern
 Label_FullScreenListInverted=Anwendungen, bei denen die Lautstärke-Steuerung deaktiviert ist
 Label_SizeAuto=Automatisch
+Label_AudioEnhancementsOn=Audioverbesserungen: Ein
+Label_AudioEnhancementsOff=Audioverbesserungen: Aus
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Liste der Anwendungen

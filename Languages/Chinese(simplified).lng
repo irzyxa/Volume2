@@ -293,6 +293,7 @@ SBCopyEmail_Hint=复制
 btnCopySite_Hint=复制
 LEMail_Caption=E-mail:
 actnSetDefaultAudioDevice_Caption=设置为默认音频设备
+actnAudioEnhancementsToggle_Caption=音频增强 开/关
 actnRunApplication_Caption=运行应用程序
 actnStayOnTop_Caption=置顶
 actnMuteAllExceptActiveApp_Caption=完全静音，除非激活应用程序
@@ -456,6 +457,8 @@ Label_Default=默认
 Label_DoNotChange=不更改
 Label_FullScreenListInverted=禁用音量控制的程序
 Label_SizeAuto=自动
+Label_AudioEnhancementsOn=音频增强：开
+Label_AudioEnhancementsOff=音频增强：关
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=应用程序列表

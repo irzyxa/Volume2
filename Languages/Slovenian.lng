@@ -293,6 +293,7 @@ SBCopyEmail_Hint=Kopiraj
 btnCopySite_Hint=Kopiraj
 LEMail_Caption=E-pošta:
 actnSetDefaultAudioDevice_Caption=Nastavi privzeto zvočno napravo
+actnAudioEnhancementsToggle_Caption=Izboljšave zvoka Vklop/Izklop
 actnRunApplication_Caption=Zaženi aplikacijo
 actnStayOnTop_Caption=Vedno na vrhu
 actnMuteAllExceptActiveApp_Caption=Utišaj vse razen aktivne aplikacije
@@ -456,6 +457,8 @@ Label_Default=Privzeto
 Label_DoNotChange=Ne spreminjaj
 Label_FullScreenListInverted=Aplikacije, v katerih je kontrola zvoka onemogočena
 Label_SizeAuto=Samodejno
+Label_AudioEnhancementsOn=Izboljšave zvoka: vklopljene
+Label_AudioEnhancementsOff=Izboljšave zvoka: izklopljene
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Lista aplikacij

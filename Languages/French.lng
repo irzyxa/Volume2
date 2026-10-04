@@ -293,6 +293,7 @@ SBCopyEmail_Hint=Copier
 btnCopySite_Hint=Copier
 LEMail_Caption=EMail :
 actnSetDefaultAudioDevice_Caption=Configurer le périphérique audio par défaut
+actnAudioEnhancementsToggle_Caption=Améliorations audio Act./Désact.
 actnRunApplication_Caption=Lancer une application
 actnStayOnTop_Caption=Toujours au-dessus
 actnMuteAllExceptActiveApp_Caption=Tous silencieux sauf l'application active
@@ -456,6 +457,8 @@ Label_Default=Par défaut
 Label_DoNotChange=Ne pas modifier
 Label_FullScreenListInverted=Applications pour lesquelles le contrôle est désactivé
 Label_SizeAuto=Automatique
+Label_AudioEnhancementsOn=Améliorations audio : activées
+Label_AudioEnhancementsOff=Améliorations audio : désactivées
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Liste des exceptions

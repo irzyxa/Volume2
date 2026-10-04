@@ -293,6 +293,7 @@ SBCopyEmail_Hint=Sao chép
 btnCopySite_Hint=Sao chép
 LEMail_Caption=Thư điện tử:
 actnSetDefaultAudioDevice_Caption=Thiết lập thiết bị âm thanh mặc định
+actnAudioEnhancementsToggle_Caption=Cải thiện âm thanh Bật/Tắt
 actnRunApplication_Caption=Chạy chương trình
 actnStayOnTop_Caption=Luôn ở trên cùng
 actnMuteAllExceptActiveApp_Caption=Làm câm tất cả trừ ứng dụng hoạt động
@@ -456,6 +457,8 @@ Label_Default=Mặc định
 Label_DoNotChange=Không thay đổi
 Label_FullScreenListInverted=Các ứng dụng có điều khiển âm lượng bị vô hiệu
 Label_SizeAuto=Tự động
+Label_AudioEnhancementsOn=Cải thiện âm thanh: Bật
+Label_AudioEnhancementsOff=Cải thiện âm thanh: Tắt
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Danh sách các ứng dụng

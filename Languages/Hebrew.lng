@@ -293,6 +293,7 @@ SBCopyEmail_Hint=העתק
 btnCopySite_Hint=העתק
 LEMail_Caption=דואר אלקטרוני:
 actnSetDefaultAudioDevice_Caption=הגדר התקן שמע ברירת מחדל
+actnAudioEnhancementsToggle_Caption=שיפורי שמע הפעלה/כיבוי
 actnRunApplication_Caption=הפעל יישום
 actnStayOnTop_Caption=תמיד למעלה
 actnMuteAllExceptActiveApp_Caption=השתק הכל פרט ליישום הפעיל
@@ -456,6 +457,8 @@ Label_Default=ברירת מחדל
 Label_DoNotChange=אל תשנה
 Label_FullScreenListInverted=יישומים שבהם בקרת עוצמת הקול מושבתת
 Label_SizeAuto=אוטומטי
+Label_AudioEnhancementsOn=שיפורי שמע: מופעלים
+Label_AudioEnhancementsOff=שיפורי שמע: כבויים
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=רשימת יישומים

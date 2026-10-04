@@ -293,6 +293,7 @@ SBCopyEmail_Hint=Kopieer
 btnCopySite_Hint=Kopieer
 LEMail_Caption=E-mail:
 actnSetDefaultAudioDevice_Caption=Instellen standaard audio apparaat
+actnAudioEnhancementsToggle_Caption=Audioverbeteringen Aan/Uit
 actnRunApplication_Caption=Programma uitvoeren
 actnStayOnTop_Caption=Altijd op voorgrond
 actnMuteAllExceptActiveApp_Caption=Alle dempen behalve actieve toepassing
@@ -456,6 +457,8 @@ Label_Default=Standaard
 Label_DoNotChange=Niet wijzigen
 Label_FullScreenListInverted=Toepassingen waarbij de volumeknop uitgeschakeld wordt
 Label_SizeAuto=Automatisch
+Label_AudioEnhancementsOn=Audioverbeteringen: Aan
+Label_AudioEnhancementsOff=Audioverbeteringen: Uit
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Lijst van toepassingen

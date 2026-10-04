@@ -293,6 +293,7 @@ SBCopyEmail_Hint=Нусхабардорӣ
 btnCopySite_Hint=Нусхабардорӣ
 LEMail_Caption=Почтаи электронӣ:
 actnSetDefaultAudioDevice_Caption=Дастгоҳи аслӣ
+actnAudioEnhancementsToggle_Caption=Беҳбудиҳои садо фаъол/ғайрифаъол
 actnRunApplication_Caption=Файлро иҷро кунед
 actnStayOnTop_Caption=Ҳамеша болои (окон)
 actnMuteAllExceptActiveApp_Caption=Хомӯши садои ҳамаи барномаҳо ғайр аз фаъол 
@@ -456,6 +457,8 @@ Label_Default=Пешфарз
 Label_DoNotChange=Тағйир надодан
 Label_FullScreenListInverted=Барномаҳо, ки дар онҳо назорати овоз хомӯш аст
 Label_SizeAuto=Худкор
+Label_AudioEnhancementsOn=Беҳбудиҳои садо: фаъол
+Label_AudioEnhancementsOff=Беҳбудиҳои садо: ғайрифаъол
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Рӯйхати барномаҳо

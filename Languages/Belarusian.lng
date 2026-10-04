@@ -293,6 +293,7 @@ SBCopyEmail_Hint=Зкапіяываць
 btnCopySite_Hint=Зкапіяываць
 LEMail_Caption=Пошта:
 actnSetDefaultAudioDevice_Caption=Дапомная прылада
+actnAudioEnhancementsToggle_Caption=Паляпшэньні гуку ўкл./выкл.
 actnRunApplication_Caption=Чын аплікачыі
 actnStayOnTop_Caption=Паўзьверх
 actnMuteAllExceptActiveApp_Caption=Адлучыць гук усіх аплікацыяў, апроч актыўнае
@@ -456,6 +457,8 @@ Label_Default=Дапомна
 Label_DoNotChange=Не зьмяняць
 Label_FullScreenListInverted=Аплікацыі, у якіх адлучаецца кіраваньне гучнасьцю
 Label_SizeAuto=Аўта
+Label_AudioEnhancementsOn=Паляпшэньні гуку: укл.
+Label_AudioEnhancementsOff=Паляпшэньні гуку: выкл.
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Сьпіс аплікацыяў

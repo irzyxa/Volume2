@@ -293,6 +293,7 @@ SBCopyEmail_Hint=คัดลอก
 btnCopySite_Hint=คัดลอก
 LEMail_Caption=อีเมล:
 actnSetDefaultAudioDevice_Caption=ตั้งอุปกรณ์เสียงเริ่มต้น
+actnAudioEnhancementsToggle_Caption=การปรับปรุงเสียง เปิด/ปิด
 actnRunApplication_Caption=เรียกใช้แอปพลิเคชัน
 actnStayOnTop_Caption=อยู่บนสุดเสมอ
 actnMuteAllExceptActiveApp_Caption=ปิดเสียงทั้งหมดยกเว้นแอปพลิเคชันที่ใช้งานอยู่
@@ -456,6 +457,8 @@ Label_Default=ค่าเริ่มต้น
 Label_DoNotChange=ไม่เปลี่ยนแปลง
 Label_FullScreenListInverted=แอปพลิเคชันที่ปิดการควบคุมระดับเสียง
 Label_SizeAuto=อัตโนมัติ
+Label_AudioEnhancementsOn=การปรับปรุงเสียง: เปิด
+Label_AudioEnhancementsOff=การปรับปรุงเสียง: ปิด
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=รายการแอปพลิเคชัน

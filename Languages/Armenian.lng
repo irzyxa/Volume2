@@ -293,6 +293,7 @@ SBCopyEmail_Hint=Պատճենել
 btnCopySite_Hint=Պատճենել
 LEMail_Caption=Էլփոստ՝
 actnSetDefaultAudioDevice_Caption=Սահմանել լռելյայն աուդիո սարքը
+actnAudioEnhancementsToggle_Caption=Ձայնի բարելավումներ միաց./անջատ.
 actnRunApplication_Caption=Գործարկել ծրագիրը
 actnStayOnTop_Caption=Միշտ վերևում
 actnMuteAllExceptActiveApp_Caption=Անջատել բոլորի ձայնը, բացի ակտիվ ծրագրից
@@ -456,6 +457,8 @@ Label_Default=Լռելյայն
 Label_DoNotChange=Չփոխել
 Label_FullScreenListInverted=Ծրագրեր, որտեղ ձայնի ղեկավարումն անջատվում է
 Label_SizeAuto=Ավտո
+Label_AudioEnhancementsOn=Ձայնի բարելավումներ՝ միացված
+Label_AudioEnhancementsOff=Ձայնի բարելավումներ՝ անջատված
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Ծրագրերի ցուցակ

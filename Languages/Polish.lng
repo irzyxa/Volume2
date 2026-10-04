@@ -293,6 +293,7 @@ SBCopyEmail_Hint=Kopiuj
 btnCopySite_Hint=Kopiuj
 LEMail_Caption=E mail:
 actnSetDefaultAudioDevice_Caption=Ustaw domyślne urządzenie audio 
+actnAudioEnhancementsToggle_Caption=Ulepszenia dźwięku Wł./Wył.
 actnRunApplication_Caption=Uruchom aplikacje
 actnStayOnTop_Caption=Zawsze na wierzchu
 actnMuteAllExceptActiveApp_Caption=Wycisz wszystkie oprócz aktywnej aplikacji
@@ -456,6 +457,8 @@ Label_Default=Domyślne
 Label_DoNotChange=Nie zmieniaj
 Label_FullScreenListInverted=Aplikacje, dla których kontrola dźwięku będzie wyłączona
 Label_SizeAuto=Automatycznie
+Label_AudioEnhancementsOn=Ulepszenia dźwięku: włączone
+Label_AudioEnhancementsOff=Ulepszenia dźwięku: wyłączone
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Lista aplikacji

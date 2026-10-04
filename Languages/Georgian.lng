@@ -293,6 +293,7 @@ SBCopyEmail_Hint=კოპირება
 btnCopySite_Hint=კოპირება
 LEMail_Caption=ელფოსტა:
 actnSetDefaultAudioDevice_Caption=ნაგულისხმევი აუდიო მოწყობილობის დაყენება
+actnAudioEnhancementsToggle_Caption=აუდიოს გაუმჯობესება ჩართ./გამორთ.
 actnRunApplication_Caption=აპლიკაციის გაშვება
 actnStayOnTop_Caption=ყოველთვის ზემოთ
 actnMuteAllExceptActiveApp_Caption=ყველას დადუმება აქტიური აპლიკაციის გარდა
@@ -456,6 +457,8 @@ Label_Default=ნაგულისხმევი
 Label_DoNotChange=არ შეიცვალოს
 Label_FullScreenListInverted=აპლიკაციები, რომლებშიც ხმის მართვა გამორთულია
 Label_SizeAuto=ავტომატური
+Label_AudioEnhancementsOn=აუდიოს გაუმჯობესება: ჩართულია
+Label_AudioEnhancementsOff=აუდიოს გაუმჯობესება: გამორთულია
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=აპლიკაციების სია

@@ -293,6 +293,7 @@ SBCopyEmail_Hint=Másolás
 btnCopySite_Hint=Másolás
 LEMail_Caption=E-mail:
 actnSetDefaultAudioDevice_Caption=Alapértelmezett hangeszköz beállítása
+actnAudioEnhancementsToggle_Caption=Hangjavítások Be/Ki
 actnRunApplication_Caption=Alkalmazás futtatása
 actnStayOnTop_Caption=Mindig felül
 actnMuteAllExceptActiveApp_Caption=Minden némítása az aktív alkalmazás kivételével
@@ -456,6 +457,8 @@ Label_Default=Alapértelmezett
 Label_DoNotChange=Ne módosítsa
 Label_FullScreenListInverted=Alkalmazások, ahol a hangerőszabályzó tiltva van
 Label_SizeAuto=Automatikus
+Label_AudioEnhancementsOn=Hangjavítások: Be
+Label_AudioEnhancementsOff=Hangjavítások: Ki
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Alkalmazások listája

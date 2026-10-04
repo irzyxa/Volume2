@@ -293,6 +293,7 @@ SBCopyEmail_Hint=Kopírovat
 btnCopySite_Hint=Kopírovat
 LEMail_Caption=E-mail:
 actnSetDefaultAudioDevice_Caption=Nastavit výchozí zvukové zařízení
+actnAudioEnhancementsToggle_Caption=Vylepšení zvuku Zap./Vyp.
 actnRunApplication_Caption=Spustit aplikaci
 actnStayOnTop_Caption=Zůstat na vrchu
 actnMuteAllExceptActiveApp_Caption=Ztlumit vše kromě aktivní aplikace
@@ -456,6 +457,8 @@ Label_Default=Výchozí
 Label_DoNotChange=Neměnit
 Label_FullScreenListInverted=Aplikace, ve kterých je ovládání hlasitosti zakázáno
 Label_SizeAuto=Automaticky
+Label_AudioEnhancementsOn=Vylepšení zvuku: zapnuto
+Label_AudioEnhancementsOff=Vylepšení zvuku: vypnuto
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Seznam aplikací

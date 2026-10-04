@@ -293,6 +293,7 @@ SBCopyEmail_Hint=نسخ
 btnCopySite_Hint=نسخ
 LEMail_Caption=البريد الإلكتروني:
 actnSetDefaultAudioDevice_Caption=تعيين جهاز الصوت الافتراضي
+actnAudioEnhancementsToggle_Caption=تحسينات الصوت تشغيل/إيقاف
 actnRunApplication_Caption=تشغيل تطبيق
 actnStayOnTop_Caption=دائمًا في المقدمة
 actnMuteAllExceptActiveApp_Caption=كتم الكل باستثناء التطبيق النشط
@@ -456,6 +457,8 @@ Label_Default=افتراضي
 Label_DoNotChange=بدون تغيير
 Label_FullScreenListInverted=التطبيقات التي تم تعطيل التحكم بحجم الصوت بها
 Label_SizeAuto=تلقائي
+Label_AudioEnhancementsOn=تحسينات الصوت: تشغيل
+Label_AudioEnhancementsOff=تحسينات الصوت: إيقاف
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=قائمة التطبيقات

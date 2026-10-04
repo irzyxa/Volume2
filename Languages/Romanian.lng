@@ -293,6 +293,7 @@ SBCopyEmail_Hint=Copiază
 btnCopySite_Hint=Copiază
 LEMail_Caption=E-Mail:
 actnSetDefaultAudioDevice_Caption=Setează dispozitiv audio implicit
+actnAudioEnhancementsToggle_Caption=Îmbunătăţiri audio Pornit/Oprit
 actnRunApplication_Caption=Execută aplicaţie
 actnStayOnTop_Caption=Păstrează deasupra
 actnMuteAllExceptActiveApp_Caption=Mut toate cu excepţia aplicaţiei active
@@ -456,6 +457,8 @@ Label_Default=Implicit
 Label_DoNotChange=Nu modifica
 Label_FullScreenListInverted=Aplicaţii în care controlul volumului este dezactivat
 Label_SizeAuto=Automat
+Label_AudioEnhancementsOn=Îmbunătăţiri audio: pornite
+Label_AudioEnhancementsOff=Îmbunătăţiri audio: oprite
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Listă de aplicaţii

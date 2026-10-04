@@ -293,6 +293,7 @@ SBCopyEmail_Hint=Salin
 btnCopySite_Hint=Salin
 LEMail_Caption=Email:
 actnSetDefaultAudioDevice_Caption=Mengatur Perangkat Audio bawaan
+actnAudioEnhancementsToggle_Caption=Penyempurnaan audio Aktif/Nonaktif
 actnRunApplication_Caption=Jalankan aplikasi
 actnStayOnTop_Caption=Tetap diatas
 actnMuteAllExceptActiveApp_Caption=Bisukan semua kecuali aplikasi yang aktif
@@ -456,6 +457,8 @@ Label_Default=Bawaan
 Label_DoNotChange=Jangan ubah
 Label_FullScreenListInverted=Aplikasi dimana kontrol volume dinonaktifkan
 Label_SizeAuto=Otomatis
+Label_AudioEnhancementsOn=Penyempurnaan audio: Aktif
+Label_AudioEnhancementsOff=Penyempurnaan audio: Nonaktif
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Daftar aplikasi

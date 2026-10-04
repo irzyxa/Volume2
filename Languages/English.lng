@@ -293,6 +293,7 @@ SBCopyEmail_Hint=Copy
 btnCopySite_Hint=Copy
 LEMail_Caption=EMail:
 actnSetDefaultAudioDevice_Caption=Set Default Audio Device
+actnAudioEnhancementsToggle_Caption=Audio Enhancements On/Off
 actnRunApplication_Caption=Run Application
 actnStayOnTop_Caption=Stay on top
 actnMuteAllExceptActiveApp_Caption=Mute All Except Active Application
@@ -456,6 +457,8 @@ Label_Default=Default
 Label_DoNotChange=Do not change
 Label_FullScreenListInverted=Applications in which the volume control is disabled
 Label_SizeAuto=Auto
+Label_AudioEnhancementsOn=Audio enhancements: On
+Label_AudioEnhancementsOff=Audio enhancements: Off
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=List of applications

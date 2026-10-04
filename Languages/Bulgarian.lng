@@ -293,6 +293,7 @@ SBCopyEmail_Hint=Копиране
 btnCopySite_Hint=Копиране
 LEMail_Caption=Имейл:
 actnSetDefaultAudioDevice_Caption=Задаване на аудио устройство по подразбиране
+actnAudioEnhancementsToggle_Caption=Подобрения на звука вкл./изкл.
 actnRunApplication_Caption=Стартиране на приложение
 actnStayOnTop_Caption=Оставане най-отгоре
 actnMuteAllExceptActiveApp_Caption=Заглушаване на всички освен активното приложение
@@ -456,6 +457,8 @@ Label_Default=По подразбиране
 Label_DoNotChange=Без промяна
 Label_FullScreenListInverted=Приложения, в които управлението на звука е деактивирано
 Label_SizeAuto=Авто
+Label_AudioEnhancementsOn=Подобрения на звука: вкл.
+Label_AudioEnhancementsOff=Подобрения на звука: изкл.
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Списък с приложения

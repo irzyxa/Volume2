@@ -293,6 +293,7 @@ SBCopyEmail_Hint=복사
 btnCopySite_Hint=복사
 LEMail_Caption=이메일:
 actnSetDefaultAudioDevice_Caption=기본 오디오 장치로 설정
+actnAudioEnhancementsToggle_Caption=오디오 향상 켜기/끄기
 actnRunApplication_Caption=응용 프로그램 실행
 actnStayOnTop_Caption=맨 위에 유지
 actnMuteAllExceptActiveApp_Caption=활성 응용 프로그램을 제외하고 모두 음소거
@@ -456,6 +457,8 @@ Label_Default=기본값
 Label_DoNotChange=변경하지 않음
 Label_FullScreenListInverted=볼륨 제어가 비활성화된 응용 프로그램
 Label_SizeAuto=자동
+Label_AudioEnhancementsOn=오디오 향상: 켜짐
+Label_AudioEnhancementsOff=오디오 향상: 꺼짐
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=응용 프로그램 목록

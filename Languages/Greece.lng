@@ -293,6 +293,7 @@ SBCopyEmail_Hint=Αντιγραφή
 btnCopySite_Hint=Αντιγραφή
 LEMail_Caption=Email:
 actnSetDefaultAudioDevice_Caption=Ορισμός προεπιλεγμένης συσκευής ήχου
+actnAudioEnhancementsToggle_Caption=Βελτιώσεις ήχου Ενεργ./Απενεργ.
 actnRunApplication_Caption=Εκτέλεση εφαρμογής
 actnStayOnTop_Caption=Ανώτατο
 actnMuteAllExceptActiveApp_Caption=Σίγαση όλων εκτός της ενεργής εφαρμογή
@@ -456,6 +457,8 @@ Label_Default=Προεπιλογή
 Label_DoNotChange=Χωρίς αλλαγή
 Label_FullScreenListInverted=Εφαρμογές όπου ο έλεγχος της έντασης είναι απενεργοποιημένος
 Label_SizeAuto=Αυτόματα
+Label_AudioEnhancementsOn=Βελτιώσεις ήχου: Ενεργές
+Label_AudioEnhancementsOff=Βελτιώσεις ήχου: Ανενεργές
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Κατάλογος των προσαρτημάτων

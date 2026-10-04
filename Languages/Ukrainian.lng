@@ -293,6 +293,7 @@ SBCopyEmail_Hint=Копіювати
 btnCopySite_Hint=Копіювати
 LEMail_Caption=Електронна пошта:
 actnSetDefaultAudioDevice_Caption=Пристрій за замовчуванням
+actnAudioEnhancementsToggle_Caption=Покращення звуку увімк./вимк.
 actnRunApplication_Caption=Запустити файл
 actnStayOnTop_Caption=Поверх всіх вікон
 actnMuteAllExceptActiveApp_Caption=Вимк. звук всіх, крім активного додатку
@@ -456,6 +457,8 @@ Label_Default=За замовчуванням
 Label_DoNotChange=Не змiнювати
 Label_FullScreenListInverted=Додатки, в яких управління гучністю відключається
 Label_SizeAuto=Авто
+Label_AudioEnhancementsOn=Покращення звуку: увімк.
+Label_AudioEnhancementsOff=Покращення звуку: вимк.
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Список додатків

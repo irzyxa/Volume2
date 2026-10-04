@@ -293,6 +293,7 @@ SBCopyEmail_Hint=Kopiera
 btnCopySite_Hint=Kopiera
 LEMail_Caption=E-post:
 actnSetDefaultAudioDevice_Caption=Ange standardljudenhet
+actnAudioEnhancementsToggle_Caption=Ljudförbättringar På/Av
 actnRunApplication_Caption=Kör program
 actnStayOnTop_Caption=Alltid överst
 actnMuteAllExceptActiveApp_Caption=Tysta alla utom det aktiva programmet
@@ -456,6 +457,8 @@ Label_Default=Standard
 Label_DoNotChange=Ändra inte
 Label_FullScreenListInverted=Applikationer där volymkontrollen är inaktiverad
 Label_SizeAuto=Automatisk
+Label_AudioEnhancementsOn=Ljudförbättringar: På
+Label_AudioEnhancementsOff=Ljudförbättringar: Av
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Lista över applikationer

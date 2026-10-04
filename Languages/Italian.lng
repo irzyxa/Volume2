@@ -293,6 +293,7 @@ SBCopyEmail_Hint=Copia
 btnCopySite_Hint=Copia
 LEMail_Caption=E-mail:
 actnSetDefaultAudioDevice_Caption=Imposta dispositivo audio predefinito
+actnAudioEnhancementsToggle_Caption=Miglioramenti audio Att./Disatt.
 actnRunApplication_Caption=Esegui applicazione
 actnStayOnTop_Caption=Rimani davanti
 actnMuteAllExceptActiveApp_Caption=Disattiva tutto tranne l'applicazione attiva
@@ -456,6 +457,8 @@ Label_Default=Predefinito
 Label_DoNotChange=Non modificare
 Label_FullScreenListInverted=Applicazioni in cui il controllo del volume è disabilitato
 Label_SizeAuto=Automatico
+Label_AudioEnhancementsOn=Miglioramenti audio: attivati
+Label_AudioEnhancementsOff=Miglioramenti audio: disattivati
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Elenco delle applicazioni

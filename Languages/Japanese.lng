@@ -293,6 +293,7 @@ SBCopyEmail_Hint=コピー
 btnCopySite_Hint=コピー
 LEMail_Caption=E-メール:
 actnSetDefaultAudioDevice_Caption=デフォルト音声デバイス
+actnAudioEnhancementsToggle_Caption=オーディオの機能強化 オン/オフ
 actnRunApplication_Caption=アプリケーションを起動
 actnStayOnTop_Caption=常に手前表示
 actnMuteAllExceptActiveApp_Caption=アクティブなアプリケーション以外をすべてミュート
@@ -456,6 +457,8 @@ Label_Default=既定
 Label_DoNotChange=変更しない
 Label_FullScreenListInverted=音量調整を無効にするアプリケーション
 Label_SizeAuto=自動
+Label_AudioEnhancementsOn=オーディオの機能強化: オン
+Label_AudioEnhancementsOff=オーディオの機能強化: オフ
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=アプリケーションの一覧

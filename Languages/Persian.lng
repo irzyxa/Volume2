@@ -293,6 +293,7 @@ SBCopyEmail_Hint=کپی
 btnCopySite_Hint=کپی
 LEMail_Caption=ایمیل:
 actnSetDefaultAudioDevice_Caption=تنظیم دستگاه صوتی پیش فرض
+actnAudioEnhancementsToggle_Caption=بهبودهای صوتی روشن/خاموش
 actnRunApplication_Caption=اجرای برنامه
 actnStayOnTop_Caption=ماندن در بالا
 actnMuteAllExceptActiveApp_Caption=بیصدا  کردن همه به جز برنامه فعال
@@ -456,6 +457,8 @@ Label_Default=پیش‌فرض
 Label_DoNotChange=تغییر نده
 Label_FullScreenListInverted=برنامه هایی که در آنها کنترل ولوم غیرفعال می شود
 Label_SizeAuto=خودکار
+Label_AudioEnhancementsOn=بهبودهای صوتی: روشن
+Label_AudioEnhancementsOff=بهبودهای صوتی: خاموش
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=فهرست برنامه ها

@@ -293,6 +293,7 @@ SBCopyEmail_Hint=Kopēt
 btnCopySite_Hint=Kopēt
 LEMail_Caption=E-pasts:
 actnSetDefaultAudioDevice_Caption=Iestatīt noklusējuma audio iekārtu
+actnAudioEnhancementsToggle_Caption=Audio uzlabojumi Iesl./Izsl.
 actnRunApplication_Caption=Palaist programmu
 actnStayOnTop_Caption=Vienmēr virspusē
 actnMuteAllExceptActiveApp_Caption=Izslēgt skaņu visām, izņemot aktīvo programmu
@@ -456,6 +457,8 @@ Label_Default=Noklusējums
 Label_DoNotChange=Nemainīt
 Label_FullScreenListInverted=Programmas, kurās skaļuma regulēšana ir atslēgta
 Label_SizeAuto=Automātiski
+Label_AudioEnhancementsOn=Audio uzlabojumi: ieslēgti
+Label_AudioEnhancementsOff=Audio uzlabojumi: izslēgti
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Programmu saraksts

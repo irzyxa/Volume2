@@ -293,6 +293,7 @@ SBCopyEmail_Hint=Kopyala
 btnCopySite_Hint=Kopyala
 LEMail_Caption=EPosta:
 actnSetDefaultAudioDevice_Caption=Varsayılan ses aygıtı seç
+actnAudioEnhancementsToggle_Caption=Ses geliştirmeleri Açık/Kapalı
 actnRunApplication_Caption=Uygulama çalıştır
 actnStayOnTop_Caption=Üstte Kal
 actnMuteAllExceptActiveApp_Caption=Aktif uygulama haricindekileri sessize al
@@ -456,6 +457,8 @@ Label_Default=Varsayılan
 Label_DoNotChange=Değiştirme
 Label_FullScreenListInverted=Ses kontrolünün devre dışı olduğu uygulamalar
 Label_SizeAuto=Otomatik
+Label_AudioEnhancementsOn=Ses geliştirmeleri: Açık
+Label_AudioEnhancementsOff=Ses geliştirmeleri: Kapalı
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=Uygulama listesi
