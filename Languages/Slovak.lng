@@ -752,6 +752,10 @@ FmDeviceManager_Caption=Správca zvukových zariadení
 FmDeviceManager_FontName=Tahoma
 FmDeviceManager_FontSize=8
 lblListOfDevices_Caption=Zoznam zariadení
+cbControlMethod_Items[0]=Lineárne
+cbControlMethod_Items[1]=Logaritmicky
+cbControlMethod_Items[2]=Podľa tabuľky
+cbControlMethod_Items[3]=Predvolené
 LVDevices_Columns[0]=Zariadenie
 actnClose_Caption=Zavrieť
 actnAddNetworkAudioDevice_Caption=Sieťové zvukové zariadenie (OSC)
@@ -759,6 +763,7 @@ actnAdd_Caption=Pridať
 actnDel_Caption=Odstrániť
 actnEdit_Caption=Upraviť
 LVDevices_Columns[1]=Obľúbené
+LVDevices_Columns[2]=Spôsob ovládania
 actnAddVoiceMeeterDevice_Caption=Zariadenie Voice Meeter
 
 [FmNetworkDeviceEdit]

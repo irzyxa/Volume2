@@ -752,6 +752,10 @@ FmDeviceManager_Caption=오디오 장치 관리자
 FmDeviceManager_FontName=Tahoma
 FmDeviceManager_FontSize=8
 lblListOfDevices_Caption=장치 목록
+cbControlMethod_Items[0]=선형
+cbControlMethod_Items[1]=로그
+cbControlMethod_Items[2]=표
+cbControlMethod_Items[3]=기본값
 LVDevices_Columns[0]=장치
 actnClose_Caption=취소
 actnAddNetworkAudioDevice_Caption=네트워크 오디오 장치 (OSC)
@@ -759,6 +763,7 @@ actnAdd_Caption=추가
 actnDel_Caption=삭제
 actnEdit_Caption=편집
 LVDevices_Columns[1]=즐겨찾기
+LVDevices_Columns[2]=제어 방식
 actnAddVoiceMeeterDevice_Caption=음성 측정 장치
 
 [FmNetworkDeviceEdit]

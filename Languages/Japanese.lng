@@ -752,6 +752,10 @@ FmDeviceManager_Caption=オーディオ デバイス マネージャー
 FmDeviceManager_FontName=Meiryo UI
 FmDeviceManager_FontSize=8
 lblListOfDevices_Caption=デバイスの一覧
+cbControlMethod_Items[0]=リニア
+cbControlMethod_Items[1]=対数
+cbControlMethod_Items[2]=カスタム
+cbControlMethod_Items[3]=既定
 LVDevices_Columns[0]=デバイス
 actnClose_Caption=閉じる
 actnAddNetworkAudioDevice_Caption=ネットワーク オーディオ デバイス (OSC)
@@ -759,6 +763,7 @@ actnAdd_Caption=追加
 actnDel_Caption=削除
 actnEdit_Caption=編集
 LVDevices_Columns[1]=お気に入り
+LVDevices_Columns[2]=制御メソッド
 actnAddVoiceMeeterDevice_Caption=Voice Meeter デバイス
 
 [FmNetworkDeviceEdit]

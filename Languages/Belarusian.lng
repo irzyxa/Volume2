@@ -752,6 +752,10 @@ FmDeviceManager_Caption=Кіраўнік аўдыяпрыладаў
 FmDeviceManager_FontName=Tahoma
 FmDeviceManager_FontSize=8
 lblListOfDevices_Caption=Сьпіс прыладаў
+cbControlMethod_Items[0]=Лінейная
+cbControlMethod_Items[1]=Лягарыфмічная
+cbControlMethod_Items[2]=Табліца
+cbControlMethod_Items[3]=Дапомна
 LVDevices_Columns[0]=Прылада
 actnClose_Caption=Скасаваць
 actnAddNetworkAudioDevice_Caption=Сеткавая аўдыяпрылада (OSC)
@@ -759,6 +763,7 @@ actnAdd_Caption=Дадаць
 actnDel_Caption=Выдаліць
 actnEdit_Caption=Зьмяніць
 LVDevices_Columns[1]=Абранае
+LVDevices_Columns[2]=Мэтода кіраваньня
 actnAddVoiceMeeterDevice_Caption=Прылада Voice Meeter
 
 [FmNetworkDeviceEdit]

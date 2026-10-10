@@ -752,6 +752,10 @@ FmDeviceManager_Caption=Audio iekārtu pārvaldnieks
 FmDeviceManager_FontName=Tahoma
 FmDeviceManager_FontSize=8
 lblListOfDevices_Caption=Iekārtu saraksts
+cbControlMethod_Items[0]=Lineārā
+cbControlMethod_Items[1]=Logoritmiskā
+cbControlMethod_Items[2]=Tabulārā
+cbControlMethod_Items[3]=Noklusējums
 LVDevices_Columns[0]=Iekārta
 actnClose_Caption=Aizvērt
 actnAddNetworkAudioDevice_Caption=Tīkla audio iekārta (OSC)
@@ -759,6 +763,7 @@ actnAdd_Caption=Pievienot
 actnDel_Caption=Aizvākt
 actnEdit_Caption=Izmainīt
 LVDevices_Columns[1]=Izlase
+LVDevices_Columns[2]=Pārvaldes metode
 actnAddVoiceMeeterDevice_Caption=Voice Meeter iekārta
 
 [FmNetworkDeviceEdit]

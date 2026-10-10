@@ -752,6 +752,10 @@ FmDeviceManager_Caption=აუდიო მოწყობილობები�
 FmDeviceManager_FontName=Segoe UI
 FmDeviceManager_FontSize=8
 lblListOfDevices_Caption=მოწყობილობების სია
+cbControlMethod_Items[0]=წრფივი
+cbControlMethod_Items[1]=ლოგარითმული
+cbControlMethod_Items[2]=ცხრილი
+cbControlMethod_Items[3]=ნაგულისხმევი
 LVDevices_Columns[0]=მოწყობილობა
 actnClose_Caption=დახურვა
 actnAddNetworkAudioDevice_Caption=ქსელური აუდიო მოწყობილობა (OSC)
@@ -759,6 +763,7 @@ actnAdd_Caption=დამატება
 actnDel_Caption=წაშლა
 actnEdit_Caption=რედაქტირება
 LVDevices_Columns[1]=რჩეული
+LVDevices_Columns[2]=მართვის მეთოდი
 actnAddVoiceMeeterDevice_Caption=Voice Meeter მოწყობილობა
 
 [FmNetworkDeviceEdit]

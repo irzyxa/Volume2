@@ -752,6 +752,10 @@ FmDeviceManager_Caption=Beheer van audioapparaten
 FmDeviceManager_FontName=Tahoma
 FmDeviceManager_FontSize=8
 lblListOfDevices_Caption=Lijst met apparaten
+cbControlMethod_Items[0]=Lineair
+cbControlMethod_Items[1]=Logaritmisch
+cbControlMethod_Items[2]=Tabel
+cbControlMethod_Items[3]=Standaard
 LVDevices_Columns[0]=Apparaat
 actnClose_Caption=Sluiten
 actnAddNetworkAudioDevice_Caption=Netwerkaudioapparaat (OSC)
@@ -759,6 +763,7 @@ actnAdd_Caption=Toevoegen
 actnDel_Caption=Verwijder
 actnEdit_Caption=Bewerken
 LVDevices_Columns[1]=Favoriet
+LVDevices_Columns[2]=Controle methode
 actnAddVoiceMeeterDevice_Caption=Voice Meeter-apparaat
 
 [FmNetworkDeviceEdit]

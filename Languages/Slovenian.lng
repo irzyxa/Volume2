@@ -752,6 +752,10 @@ FmDeviceManager_Caption=Upravitelj zvočnih naprav
 FmDeviceManager_FontName=Tahoma
 FmDeviceManager_FontSize=8
 lblListOfDevices_Caption=Seznam naprav
+cbControlMethod_Items[0]=Linearno
+cbControlMethod_Items[1]=Logaritamski
+cbControlMethod_Items[2]=Tablično
+cbControlMethod_Items[3]=Privzeto
 LVDevices_Columns[0]=Naprava
 actnClose_Caption=Zapri
 actnAddNetworkAudioDevice_Caption=Omrežna zvočna naprava (OSC)
@@ -759,6 +763,7 @@ actnAdd_Caption=Dodaj
 actnDel_Caption=Izbriši
 actnEdit_Caption=Spremeni
 LVDevices_Columns[1]=Priljubljeno
+LVDevices_Columns[2]=Metoda kontrole
 actnAddVoiceMeeterDevice_Caption=Naprava Voice Meeter
 
 [FmNetworkDeviceEdit]

@@ -752,6 +752,10 @@ FmDeviceManager_Caption=音频设备管理器
 FmDeviceManager_FontName=Tahoma
 FmDeviceManager_FontSize=8
 lblListOfDevices_Caption=设备列表
+cbControlMethod_Items[0]=线性
+cbControlMethod_Items[1]=对数
+cbControlMethod_Items[2]=平面
+cbControlMethod_Items[3]=默认
 LVDevices_Columns[0]=设备
 actnClose_Caption=关闭
 actnAddNetworkAudioDevice_Caption=网络音频设备 (OSC)
@@ -759,6 +763,7 @@ actnAdd_Caption=添加
 actnDel_Caption=删除
 actnEdit_Caption=编辑
 LVDevices_Columns[1]=收藏
+LVDevices_Columns[2]=控制方式
 actnAddVoiceMeeterDevice_Caption=Voice Meeter 设备
 
 [FmNetworkDeviceEdit]

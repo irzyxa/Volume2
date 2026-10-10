@@ -752,6 +752,10 @@ FmDeviceManager_Caption=音訊裝置管理員
 FmDeviceManager_FontName=Tahoma
 FmDeviceManager_FontSize=8
 lblListOfDevices_Caption=裝置清單
+cbControlMethod_Items[0]=線性
+cbControlMethod_Items[1]=對數
+cbControlMethod_Items[2]=平面
+cbControlMethod_Items[3]=預設
 LVDevices_Columns[0]=裝置
 actnClose_Caption=關閉
 actnAddNetworkAudioDevice_Caption=網路音訊裝置 (OSC)
@@ -759,6 +763,7 @@ actnAdd_Caption=增加
 actnDel_Caption=刪除
 actnEdit_Caption=編輯
 LVDevices_Columns[1]=我的最愛
+LVDevices_Columns[2]=控制方式
 actnAddVoiceMeeterDevice_Caption=Voice Meeter 裝置
 
 [FmNetworkDeviceEdit]

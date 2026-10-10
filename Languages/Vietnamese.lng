@@ -752,6 +752,10 @@ FmDeviceManager_Caption=Trình quản lý thiết bị âm thanh
 FmDeviceManager_FontName=Tahoma
 FmDeviceManager_FontSize=8
 lblListOfDevices_Caption=Danh sách thiết bị
+cbControlMethod_Items[0]=Đường thẳng
+cbControlMethod_Items[1]=Lô ga rít
+cbControlMethod_Items[2]=Bảng
+cbControlMethod_Items[3]=Mặc định
 LVDevices_Columns[0]=Thiết bị
 actnClose_Caption=Đóng
 actnAddNetworkAudioDevice_Caption=Thiết bị âm thanh mạng (OSC)
@@ -759,6 +763,7 @@ actnAdd_Caption=Thêm
 actnDel_Caption=Xóa
 actnEdit_Caption=Chỉnh
 LVDevices_Columns[1]=Yêu thích
+LVDevices_Columns[2]=Phương thức điểu khiển
 actnAddVoiceMeeterDevice_Caption=Thiết bị Voice Meeter
 
 [FmNetworkDeviceEdit]

@@ -752,6 +752,10 @@ FmDeviceManager_Caption=إدارة أجهزة الصوت
 FmDeviceManager_FontName=Tahoma
 FmDeviceManager_FontSize=8
 lblListOfDevices_Caption=قائمة الأجهزة
+cbControlMethod_Items[0]=خطي
+cbControlMethod_Items[1]=لوغاريتمي
+cbControlMethod_Items[2]=جدول
+cbControlMethod_Items[3]=افتراضي
 LVDevices_Columns[0]=الجهاز
 actnClose_Caption=إغلاق
 actnAddNetworkAudioDevice_Caption=جهاز صوت شبكي (OSC)
@@ -759,6 +763,7 @@ actnAdd_Caption=إضافة
 actnDel_Caption=حذف
 actnEdit_Caption=تحرير
 LVDevices_Columns[1]=مفضل
+LVDevices_Columns[2]=أسلوب التحكم
 actnAddVoiceMeeterDevice_Caption=جهاز Voice Meeter
 
 [FmNetworkDeviceEdit]

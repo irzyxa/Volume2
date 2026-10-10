@@ -752,6 +752,10 @@ FmDeviceManager_Caption=Manager de dispozitive audio
 FmDeviceManager_FontName=Tahoma
 FmDeviceManager_FontSize=8
 lblListOfDevices_Caption=Lista dispozitivelor
+cbControlMethod_Items[0]=Lineară
+cbControlMethod_Items[1]=Logaritmică
+cbControlMethod_Items[2]=Tabel
+cbControlMethod_Items[3]=Implicit
 LVDevices_Columns[0]=Dispozitiv
 actnClose_Caption=Închide
 actnAddNetworkAudioDevice_Caption=Dispozitiv audio de reţea (OSC)
@@ -759,6 +763,7 @@ actnAdd_Caption=Adaugă
 actnDel_Caption=Şterge
 actnEdit_Caption=Editează
 LVDevices_Columns[1]=Favorit
+LVDevices_Columns[2]=Metodă de control
 actnAddVoiceMeeterDevice_Caption=Dispozitiv Voice Meeter
 
 [FmNetworkDeviceEdit]

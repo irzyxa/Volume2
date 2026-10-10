@@ -752,6 +752,10 @@ FmDeviceManager_Caption=Աուդիո սարքերի կառավարիչ
 FmDeviceManager_FontName=Tahoma
 FmDeviceManager_FontSize=8
 lblListOfDevices_Caption=Սարքերի ցանկ
+cbControlMethod_Items[0]=Գծային
+cbControlMethod_Items[1]=Լոգարիթմական
+cbControlMethod_Items[2]=Աղյուսակ
+cbControlMethod_Items[3]=Լռելյայն
 LVDevices_Columns[0]=Սարքավորում
 actnClose_Caption=Փակել
 actnAddNetworkAudioDevice_Caption=Ցանցային աուդիո սարք (OSC)
@@ -759,6 +763,7 @@ actnAdd_Caption=Ավելացնել
 actnDel_Caption=Ջնջել
 actnEdit_Caption=Փոփոխել
 LVDevices_Columns[1]=Ընտրյալ
+LVDevices_Columns[2]=Ղեկավարման ձևը
 actnAddVoiceMeeterDevice_Caption=Voice Meeter սարք
 
 [FmNetworkDeviceEdit]

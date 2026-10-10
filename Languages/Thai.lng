@@ -752,6 +752,10 @@ FmDeviceManager_Caption=ตัวจัดการอุปกรณ์เส�
 FmDeviceManager_FontName=Tahoma
 FmDeviceManager_FontSize=10
 lblListOfDevices_Caption=รายการอุปกรณ์
+cbControlMethod_Items[0]=เชิงเส้น
+cbControlMethod_Items[1]=ลอการิทึม
+cbControlMethod_Items[2]=ตาราง
+cbControlMethod_Items[3]=ค่าเริ่มต้น
 LVDevices_Columns[0]=อุปกรณ์
 actnClose_Caption=ปิด
 actnAddNetworkAudioDevice_Caption=อุปกรณ์เสียงเครือข่าย (OSC)
@@ -759,6 +763,7 @@ actnAdd_Caption=เพิ่ม
 actnDel_Caption=ลบ
 actnEdit_Caption=แก้ไข
 LVDevices_Columns[1]=รายการโปรด
+LVDevices_Columns[2]=วิธีควบคุม
 actnAddVoiceMeeterDevice_Caption=อุปกรณ์ Voice Meeter
 
 [FmNetworkDeviceEdit]

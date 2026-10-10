@@ -752,6 +752,10 @@ FmDeviceManager_Caption=Pengelola perangkat audio
 FmDeviceManager_FontName=Tahoma
 FmDeviceManager_FontSize=8
 lblListOfDevices_Caption=Daftar perangkat
+cbControlMethod_Items[0]=Garis
+cbControlMethod_Items[1]=Logaritmatik
+cbControlMethod_Items[2]=Tabel
+cbControlMethod_Items[3]=Bawaan
 LVDevices_Columns[0]=Perangkat
 actnClose_Caption=Tutup
 actnAddNetworkAudioDevice_Caption=Perangkat audio jaringan (OSC)
@@ -759,6 +763,7 @@ actnAdd_Caption=Tambah
 actnDel_Caption=Hapus
 actnEdit_Caption=Ubah
 LVDevices_Columns[1]=Favorit
+LVDevices_Columns[2]=Cara untuk mengatur
 actnAddVoiceMeeterDevice_Caption=Perangkat Voice Meeter
 
 [FmNetworkDeviceEdit]

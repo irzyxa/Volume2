@@ -752,6 +752,10 @@ FmDeviceManager_Caption=מנהל התקני שמע
 FmDeviceManager_FontName=Tahoma
 FmDeviceManager_FontSize=8
 lblListOfDevices_Caption=רשימת התקנים
+cbControlMethod_Items[0]=ליניארי
+cbControlMethod_Items[1]=לוגריתמי
+cbControlMethod_Items[2]=טבלה
+cbControlMethod_Items[3]=ברירת מחדל
 LVDevices_Columns[0]=התקן
 actnClose_Caption=סגור
 actnAddNetworkAudioDevice_Caption=התקן שמע ברשת (OSC)
@@ -759,6 +763,7 @@ actnAdd_Caption=הוסף
 actnDel_Caption=מחק
 actnEdit_Caption=ערוך
 LVDevices_Columns[1]=מועדף
+LVDevices_Columns[2]=שיטת בקרה
 actnAddVoiceMeeterDevice_Caption=התקן Voice Meeter
 
 [FmNetworkDeviceEdit]

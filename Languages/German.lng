@@ -752,6 +752,10 @@ FmDeviceManager_Caption=Audiogeräte-Manager
 FmDeviceManager_FontName=Tahoma
 FmDeviceManager_FontSize=8
 lblListOfDevices_Caption=Geräteliste
+cbControlMethod_Items[0]=Linear
+cbControlMethod_Items[1]=Logarithmisch
+cbControlMethod_Items[2]=Tabelle
+cbControlMethod_Items[3]=Standard
 LVDevices_Columns[0]=Gerät
 actnClose_Caption=Schließen
 actnAddNetworkAudioDevice_Caption=Netzwerk-Audiogerät (OSC)
@@ -759,6 +763,7 @@ actnAdd_Caption=Hinzu.
 actnDel_Caption=Löschen
 actnEdit_Caption=Bearbeiten
 LVDevices_Columns[1]=Favorit
+LVDevices_Columns[2]=Kontrollmethode
 actnAddVoiceMeeterDevice_Caption=Voice-Meeter-Gerät
 
 [FmNetworkDeviceEdit]

@@ -752,6 +752,10 @@ FmDeviceManager_Caption=Gestor de dispositivos de áudio
 FmDeviceManager_FontName=Tahoma
 FmDeviceManager_FontSize=8
 lblListOfDevices_Caption=Lista de dispositivos
+cbControlMethod_Items[0]=linear
+cbControlMethod_Items[1]=logarítmica
+cbControlMethod_Items[2]=tabela
+cbControlMethod_Items[3]=Predefinido
 LVDevices_Columns[0]=dispositivo
 actnClose_Caption=fechar
 actnAddNetworkAudioDevice_Caption=Dispositivo de áudio de rede (OSC)
@@ -759,6 +763,7 @@ actnAdd_Caption=adicionar
 actnDel_Caption=remover
 actnEdit_Caption=editar
 LVDevices_Columns[1]=Favorito
+LVDevices_Columns[2]=Método de controle
 actnAddVoiceMeeterDevice_Caption=Dispositivo Voice Meeter
 
 [FmNetworkDeviceEdit]

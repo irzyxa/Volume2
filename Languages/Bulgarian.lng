@@ -752,6 +752,10 @@ FmDeviceManager_Caption=Управление на аудио устройств�
 FmDeviceManager_FontName=Tahoma
 FmDeviceManager_FontSize=8
 lblListOfDevices_Caption=Списък с устройства
+cbControlMethod_Items[0]=Линеен
+cbControlMethod_Items[1]=Логаритмичен
+cbControlMethod_Items[2]=Таблица
+cbControlMethod_Items[3]=По подразбиране
 LVDevices_Columns[0]=Устройство
 actnClose_Caption=Затваряне
 actnAddNetworkAudioDevice_Caption=Мрежово аудио устройство (OSC)
@@ -759,6 +763,7 @@ actnAdd_Caption=Добавяне
 actnDel_Caption=Изтриване
 actnEdit_Caption=Редактиране
 LVDevices_Columns[1]=Предпочитано
+LVDevices_Columns[2]=Метод на управление
 actnAddVoiceMeeterDevice_Caption=Устройство Voice Meter
 
 [FmNetworkDeviceEdit]

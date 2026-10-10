@@ -752,6 +752,10 @@ FmDeviceManager_Caption=Hanterare för ljudenheter
 FmDeviceManager_FontName=Tahoma
 FmDeviceManager_FontSize=8
 lblListOfDevices_Caption=Enhetslista
+cbControlMethod_Items[0]=Linjär
+cbControlMethod_Items[1]=Logaritmisk
+cbControlMethod_Items[2]=Tabell
+cbControlMethod_Items[3]=Standard
 LVDevices_Columns[0]=Enhet
 actnClose_Caption=Stäng
 actnAddNetworkAudioDevice_Caption=Nätverksljudenhet (OSC)
@@ -759,6 +763,7 @@ actnAdd_Caption=Lägg till
 actnDel_Caption=Ta bort
 actnEdit_Caption=Redigera
 LVDevices_Columns[1]=Favorit
+LVDevices_Columns[2]=Kontrollmetod
 actnAddVoiceMeeterDevice_Caption=Voice Meeter-enhet
 
 [FmNetworkDeviceEdit]
