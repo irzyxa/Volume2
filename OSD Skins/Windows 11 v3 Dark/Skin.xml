@@ -18,7 +18,7 @@
     <Background Colorize="false"/>
     <Meter X="43" Y="22" Orientation="HORIZONTAL" Min="0" Max="110" HideOnMute="false" Colorize="true"/>
     <MeterMute X="0" Y="0" Orientation="HORIZONTAL" Min="0" Max="0" Colorize="true"/>
-    <MeterEffect Enable="true" Orientation="BitStripBottom" Min="0" Max="3" LayerIndex="0" HideOnMute="true" X="14" Y="14" Colorize="false" FileName=""/>
+    <MeterEffect Enable="true" Orientation="BitStripBottom" Min="0" Max="3" LayerIndex="0" HideOnMute="true" X="14" Y="14" Colorize="false" FileName="" AppIcon="true"/>
     <MeterMuteEffect Enable="true" LayerIndex="0" X="14" Y="14" Colorize="false"/>
     <PeakMeter Enable="true" LayerIndex="0" Colorize="false" Style="MONO" Orientation="HORIZONTAL" Max="100">
       <LeftChannel X="64" Y="53" Inverse="false"/>

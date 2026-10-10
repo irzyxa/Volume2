@@ -20,7 +20,7 @@
     <Meter X="54" Y="34" Orientation="HORIZONTAL" Min="0" Max="110" HideOnMute="false" Colorize="true"/>
     <MeterMute X="0" Y="0" Orientation="HORIZONTAL" Min="0" Max="0" Colorize="true"/>
     <!--101 frames: the frame is the volume percent, with the Windows 11 icon thresholds-->
-    <MeterEffect Enable="true" Orientation="BitStripBottom" Min="0" Max="100" LayerIndex="0" HideOnMute="true" X="25" Y="28" Colorize="false" FileName=""/>
+    <MeterEffect Enable="true" Orientation="BitStripBottom" Min="0" Max="100" LayerIndex="0" HideOnMute="true" X="25" Y="28" Colorize="false" FileName="" AppIcon="true"/>
     <MeterMuteEffect Enable="true" LayerIndex="0" X="25" Y="28" Colorize="false"/>
     <PeakMeter Enable="false" LayerIndex="0" Colorize="false" Style="MONO" Orientation="HORIZONTAL" Max="100">
       <LeftChannel X="0" Y="0" Inverse="false"/>
