@@ -19,10 +19,16 @@
     <!--Value format: #AARRGGBB. -1 - Use system color-->
     <ColorizationColor>-1</ColorizationColor>
     <Background Colorize="false"/>
-    <Meter X="20" Y="56" Orientation="HORIZONTAL" Min="0" Max="200" HideOnMute="false" Colorize="false"/>
+    <Meter X="20" Y="56" Orientation="HORIZONTAL" Min="0" Max="200" HideOnMute="false" Colorize="false">
+      <Click Grow="6"/>
+    </Meter>
     <MeterMute X="0" Y="0" Orientation="HORIZONTAL" Min="0" Max="0" Colorize="false"/>
-    <MeterEffect Enable="true" Orientation="BitStripBottom" Min="0" Max="3" LayerIndex="0" HideOnMute="true" X="20" Y="15" Colorize="false" FileName=""/>
-    <MeterMuteEffect Enable="true" LayerIndex="0" X="20" Y="15" Colorize="false"/>
+    <MeterEffect Enable="true" Orientation="BitStripBottom" Min="0" Max="3" LayerIndex="0" HideOnMute="true" X="20" Y="15" Colorize="false" FileName="">
+      <Click Action="Mute" Grow="3"/>
+    </MeterEffect>
+    <MeterMuteEffect Enable="true" LayerIndex="0" X="20" Y="15" Colorize="false">
+      <Click Action="Mute" Grow="3"/>
+    </MeterMuteEffect>
     <PeakMeter Enable="false" LayerIndex="0" Colorize="false" Style="MONO" Orientation="HORIZONTAL" Max="100">
       <LeftChannel X="0" Y="0" Inverse="false"/>
       <RightChannel X="0" Y="0" Inverse="false"/>
@@ -46,5 +52,25 @@
       <Font Size="16" Color="#FFE8EDF4" Name="Segoe UI" Bold="false" Italic="false"/>
     </USBFriendlyName>
   </OSD>
-  <Layers/>
+  <Media Enable="true">
+    <Cover Enable="true" X="178" Y="12" Size="48" Radius="8"/>
+    <Title Enable="true" X="58" Y="26" Alignment="0" MaxWidth="170">
+      <Font Size="13" Color="#FFE8EDF4" Name="Segoe UI" Bold="false" Italic="false"/>
+    </Title>
+    <Artist Enable="true" X="58" Y="46" Alignment="0" MaxWidth="170">
+      <Font Size="11" Color="#FF7C8896" Name="Segoe UI" Bold="false" Italic="false"/>
+    </Artist>
+    <PlayPause Enable="true" X="26" Y="25" Image="Media_PlayPause.svg">
+      <Click Grow="5"/>
+    </PlayPause>
+    <Progress Enable="true" X="22" Y="68" Width="196" Height="3" TrackColor="#FF2A3441" FillColor="#FF3FD3A2">
+      <Click Grow="6"/>
+    </Progress>
+    <Time Enable="false" X="306" Y="77" Alignment="2" MaxWidth="0">
+      <Font Size="12" Color="#FF7C8896" Name="Segoe UI" Bold="false" Italic="false"/>
+    </Time>
+  </Media>
+  <Layers>
+    <Layer Enable="true" Image="Meter_Track.svg" X="20" Y="56" LayerIndex="0" Colorize="false"/>
+  </Layers>
 </XMLskinSettings>

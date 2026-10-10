@@ -47,6 +47,24 @@
       <Y>130</Y>
     </DigitalMeterPositionUnits2>
   </OSD>
+  <Media Enable="true">
+    <Cover Enable="true" X="438" Y="24" Size="100" Radius="0"/>
+    <Title Enable="true" X="176" Y="58" Alignment="0" MaxWidth="430">
+      <Font Size="32" Color="#FFFFFFFF" Name="Segoe UI Light" Bold="false" Italic="false"/>
+    </Title>
+    <Artist Enable="true" X="176" Y="96" Alignment="0" MaxWidth="430">
+      <Font Size="20" Color="#CCFFFFFF" Name="Segoe UI Light" Bold="false" Italic="false"/>
+    </Artist>
+    <PlayPause Enable="true" X="40" Y="41" Image="Media_PlayPause.svg">
+      <Click Grow="5"/>
+    </PlayPause>
+    <Progress Enable="true" X="176" Y="132" Width="250" Height="4" TrackColor="#66FFFFFF" FillColor="#FFFFFFFF">
+      <Click Grow="6"/>
+    </Progress>
+    <Time Enable="true" X="538" Y="134" Alignment="2" MaxWidth="0">
+      <Font Size="16" Color="#CCFFFFFF" Name="Segoe UI Light" Bold="false" Italic="false"/>
+    </Time>
+  </Media>
   <MeterEffect>
     <ShowMeterEffect>false</ShowMeterEffect>
     <!--Available values: BitMoveUp, BitMoveRight, BitStripBottom, BitStripRight, Horizontal, Vertical-->
@@ -121,4 +139,7 @@
     <!--Available values: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 4 - plAfterDigits, 5 - plAfterGlass, 6 - plOnMeterEffect-->
     <LayerIndex>0</LayerIndex>
   </NotificationText>
+  <Layers>
+    <Layer Enable="true" Image="Volume_Parts.svg" X="19" Y="35" LayerIndex="0" Colorize="true" HideOnMute="true"/>
+  </Layers>
 </XMLskinSettings>

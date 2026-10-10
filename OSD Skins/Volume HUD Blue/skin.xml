@@ -50,6 +50,24 @@
     <!--Value format: #AARRGGBB. -1 - Use system color-->
     <ColorizationColor>-1</ColorizationColor>
   </OSD>
+  <Media Enable="true">
+    <Cover Enable="true" X="174" Y="24" Size="76" Radius="0"/>
+    <Title Enable="true" X="24" Y="122" Alignment="0" MaxWidth="250">
+      <Font Size="19" Color="#FFFFFFFF" Name="Arial" Bold="true" Italic="false"/>
+    </Title>
+    <Artist Enable="true" X="24" Y="150" Alignment="0" MaxWidth="250">
+      <Font Size="13" Color="#B3FFFFFF" Name="Arial" Bold="false" Italic="false"/>
+    </Artist>
+    <PlayPause Enable="true" X="29" Y="31" Image="Media_PlayPause.svg">
+      <Click Grow="5"/>
+    </PlayPause>
+    <Progress Enable="true" X="84" Y="64" Width="80" Height="3" TrackColor="#33FFFFFF" FillColor="#FFFFFFFF">
+      <Click Grow="6"/>
+    </Progress>
+    <Time Enable="true" X="84" Y="48" Alignment="0" MaxWidth="0">
+      <Font Size="12" Color="#B3FFFFFF" Name="Arial" Bold="false" Italic="false"/>
+    </Time>
+  </Media>
   <MeterEffect>
     <ShowMeterEffect>false</ShowMeterEffect>
     <!--Available values: BitMoveUp, BitMoveRight, BitStripBottom, BitStripRight, Horizontal, Vertical-->
@@ -134,4 +152,7 @@
     <!--Available values: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 4 - plAfterDigits, 5 - plAfterGlass, 6 - plOnMeterEffect-->
     <LayerIndex>0</LayerIndex>
   </NotificationText>
+  <Layers>
+    <Layer Enable="true" Image="Volume_Parts.svg" X="22" Y="16" LayerIndex="0" Colorize="true" HideOnMute="true"/>
+  </Layers>
 </XMLskinSettings>

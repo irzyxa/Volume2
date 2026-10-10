@@ -42,11 +42,35 @@
     <!--Value format: #AARRGGBB. -1 - Use system color-->
     <ColorizationColor>-1</ColorizationColor>
     <Background Colorize="false"/>
-    <Meter X="63" Y="43" Orientation="BitMoveRight" Min="0" Max="228" HideOnMute="false" Colorize="true"/>
+    <Meter X="63" Y="43" Orientation="BitMoveRight" Min="0" Max="228" HideOnMute="false" Colorize="true">
+      <Click Grow="2"/>
+    </Meter>
     <MeterMute X="0" Y="0" Orientation="" Min="0" Max="0" Colorize="true"/>
-    <MeterEffect Enable="true" Orientation="BitStripBottom" Min="0" Max="3" LayerIndex="0" HideOnMute="true" X="16" Y="39" Colorize="false"/>
-    <MeterMuteEffect Enable="true" LayerIndex="0" X="16" Y="38" Colorize="false"/>
+    <MeterEffect Enable="true" Orientation="BitStripBottom" Min="0" Max="3" LayerIndex="0" HideOnMute="true" X="16" Y="39" Colorize="false">
+      <Click Action="Mute" Grow="3"/>
+    </MeterEffect>
+    <MeterMuteEffect Enable="true" LayerIndex="0" X="16" Y="38" Colorize="false">
+      <Click Action="Mute" Grow="3"/>
+    </MeterMuteEffect>
   </OSD>
+  <Media Enable="true">
+    <Cover Enable="true" X="290" Y="10" Size="60" Radius="4"/>
+    <Title Enable="true" X="64" Y="24" Alignment="0" MaxWidth="280">
+      <Font Size="15" Color="#FF6F6F6F" Name="Segoe UI" Bold="true" Italic="false"/>
+    </Title>
+    <Artist Enable="true" X="64" Y="44" Alignment="0" MaxWidth="280">
+      <Font Size="12" Color="#FF8E8E90" Name="Segoe UI" Bold="false" Italic="false"/>
+    </Artist>
+    <PlayPause Enable="true" X="20" Y="25" Image="Media_PlayPause.svg">
+      <Click Grow="5"/>
+    </PlayPause>
+    <Progress Enable="true" X="14" Y="72" Width="262" Height="3" TrackColor="#FFD6D5D7" FillColor="Colorization">
+      <Click Grow="6"/>
+    </Progress>
+    <Time Enable="false" X="346" Y="83" Alignment="2" MaxWidth="0">
+      <Font Size="12" Color="#FF8E8E90" Name="Segoe UI" Bold="false" Italic="false"/>
+    </Time>
+  </Media>
   <PeakMeter>
     <ShowPeakMeter>true</ShowPeakMeter>
     <MeterOrientation>horizontal</MeterOrientation>
@@ -102,5 +126,7 @@
     <FontItalic>false</FontItalic>
     <LayerIndex>0</LayerIndex>
   </NotificationText>
-  <Layers/>
+  <Layers>
+    <Layer Enable="true" Image="Meter_Track.svg" X="64" Y="53" LayerIndex="0" Colorize="false"/>
+  </Layers>
 </XMLskinSettings>

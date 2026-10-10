@@ -10,10 +10,14 @@
     <SkinVersion>2.0</SkinVersion>
   </Info>
   <OSD>
-    <Meter X="27" Y="20" Orientation="Vertical" Min="0" Max="79" HideOnMute="false" Colorize="true"/>
+    <Meter X="27" Y="20" Orientation="Vertical" Min="0" Max="79" HideOnMute="false" Colorize="true">
+      <Click Grow="4"/>
+    </Meter>
     <MeterMute X="27" Y="20" Orientation="Vertical" Min="0" Max="79" Colorize="true"/>
     <MeterEffect Enable="true" Orientation="BitMoveUp" Min="0" Max="69" LayerIndex="5" HideOnMute="false" X="27" Y="88" Colorize="false"/>
-    <MeterMuteEffect Enable="true" LayerIndex="0" X="26" Y="109" Colorize="false"/>
+    <MeterMuteEffect Enable="true" LayerIndex="0" X="26" Y="109" Colorize="false">
+      <Click Action="Mute" Grow="4"/>
+    </MeterMuteEffect>
     <DigitalMeterOrientation>BitStripBottom</DigitalMeterOrientation>
     <DigitalMeterHideZeroUnits>false</DigitalMeterHideZeroUnits>
     <DigitalMeterHideZeroTens>true</DigitalMeterHideZeroTens>
@@ -100,6 +104,6 @@
     <LayerIndex>0</LayerIndex>
   </NotificationText>
   <Layers>
-    <Layer Enable="true" Background="_Gloss.png" X="27" Y="20" LayerIndex="0" Colorize="true"/>
+    <Layer Enable="true" Image="Meter_Back.svg" X="27" Y="20" LayerIndex="0" Colorize="true"/>
   </Layers>
 </XMLskinSettings>

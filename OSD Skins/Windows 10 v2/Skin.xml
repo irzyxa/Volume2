@@ -16,10 +16,16 @@
     <!--Value format: #AARRGGBB. -1 - Use system color-->
     <ColorizationColor>-1</ColorizationColor>
     <Background Colorize="true"/>
-    <Meter X="63" Y="58" Orientation="BitMoveRight" Min="0" Max="225" HideOnMute="false" Colorize="true"/>
+    <Meter X="63" Y="58" Orientation="BitMoveRight" Min="0" Max="225" HideOnMute="false" Colorize="true">
+      <Click Grow="2"/>
+    </Meter>
     <MeterMute X="0" Y="0" Orientation="" Min="0" Max="0" Colorize="true"/>
-    <MeterEffect Enable="true" Orientation="BitStripBottom" Min="0" Max="3" LayerIndex="0" HideOnMute="true" X="16" Y="56" Colorize="false"/>
-    <MeterMuteEffect Enable="true" LayerIndex="0" X="16" Y="55" Colorize="false"/>
+    <MeterEffect Enable="true" Orientation="BitStripBottom" Min="0" Max="3" LayerIndex="0" HideOnMute="true" X="16" Y="56" Colorize="false">
+      <Click Action="Mute" Grow="3" HoverColor="#FFCFE8FF" PressedColor="#FF8FC4F5"/>
+    </MeterEffect>
+    <MeterMuteEffect Enable="true" LayerIndex="0" X="16" Y="55" Colorize="false">
+      <Click Action="Mute" Grow="3" HoverColor="#FFCFE8FF" PressedColor="#FF8FC4F5"/>
+    </MeterMuteEffect>
     <DigitalMeter Orientation="BitStripBottom">
       <Hundreds X="304" Y="62" HideZero="true"/>
       <Tens X="316" Y="62" HideZero="true"/>
@@ -39,5 +45,31 @@
       <Font Size="0" Color="#00000000" Name="" Bold="false" Italic="false"/>
     </NotificationText>
   </OSD>
-  <Layers/>
+  <Media Enable="true">
+    <Cover Enable="true" X="284" Y="10" Size="64" Radius="2"/>
+    <Title Enable="true" X="10" Y="17" Alignment="0" MaxWidth="270">
+      <Font Size="16" Color="#FFFFFFFF" Name="Segoe UI" Bold="false" Italic="false"/>
+    </Title>
+    <Artist Enable="true" X="64" Y="50" Alignment="0" MaxWidth="270">
+      <Font Size="16" Color="#FFFFFFFF" Name="Segoe UI" Bold="false" Italic="false"/>
+    </Artist>
+    <PlayPause Enable="true" X="18" Y="37" Image="Media_PlayPause.svg">
+      <Click Grow="4" HoverColor="#FFCFE8FF" PressedColor="#FF8FC4F5"/>
+    </PlayPause>
+    <Previous Enable="true" X="11" Y="77" Image="Media_Previous.svg">
+      <Click Grow="3" HoverColor="#FFCFE8FF" PressedColor="#FF8FC4F5"/>
+    </Previous>
+    <Next Enable="true" X="31" Y="77" Image="Media_Next.svg">
+      <Click Grow="3" HoverColor="#FFCFE8FF" PressedColor="#FF8FC4F5"/>
+    </Next>
+    <Progress Enable="true" X="54" Y="82" Width="218" Height="3" TrackColor="#4DFFFFFF" FillColor="Colorization">
+      <Click Grow="5"/>
+    </Progress>
+    <Time Enable="true" X="350" Y="83" Alignment="2" MaxWidth="0">
+      <Font Size="12" Color="#CCFFFFFF" Name="Segoe UI" Bold="false" Italic="false"/>
+    </Time>
+  </Media>
+  <Layers>
+    <Layer Enable="true" Image="Meter_Track.svg" X="64" Y="70" LayerIndex="0" Colorize="true"/>
+  </Layers>
 </XMLskinSettings>

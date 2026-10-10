@@ -17,11 +17,17 @@
     <!--Value format: #AARRGGBB. -1 - Use system color. System - accent shade of the Windows 11 flyout (AccentDark1, AccentLight2 in a dark color scheme). AccentLight3..AccentLight1, Accent, AccentDark1..AccentDark3 - Windows accent palette shade-->
     <ColorizationColor>System</ColorizationColor>
     <Background Colorize="false"/>
-    <Meter X="54" Y="34" Orientation="HORIZONTAL" Min="0" Max="110" HideOnMute="false" Colorize="true"/>
+    <Meter X="54" Y="34" Orientation="HORIZONTAL" Min="0" Max="110" HideOnMute="false" Colorize="true">
+      <Click Grow="6"/>
+    </Meter>
     <MeterMute X="0" Y="0" Orientation="HORIZONTAL" Min="0" Max="0" Colorize="true"/>
     <!--101 frames: the frame is the volume percent, with the Windows 11 icon thresholds-->
-    <MeterEffect Enable="true" Orientation="BitStripBottom" Min="0" Max="100" LayerIndex="0" HideOnMute="true" X="25" Y="28" Colorize="false" FileName="" AppIcon="true"/>
-    <MeterMuteEffect Enable="true" LayerIndex="0" X="25" Y="28" Colorize="false"/>
+    <MeterEffect Enable="true" Orientation="BitStripBottom" Min="0" Max="100" LayerIndex="0" HideOnMute="true" X="25" Y="28" Colorize="false" FileName="" AppIcon="true">
+      <Click Action="Mute" Grow="3" HoverColor="System" PressedColor="AccentDark2" HoverColorDark="System" PressedColorDark="AccentLight1"/>
+    </MeterEffect>
+    <MeterMuteEffect Enable="true" LayerIndex="0" X="25" Y="28" Colorize="false">
+      <Click Action="Mute" Grow="3" HoverColor="System" PressedColor="AccentDark2" HoverColorDark="System" PressedColorDark="AccentLight1"/>
+    </MeterMuteEffect>
     <PeakMeter Enable="false" LayerIndex="0" Colorize="false" Style="MONO" Orientation="HORIZONTAL" Max="100">
       <LeftChannel X="0" Y="0" Inverse="false"/>
       <RightChannel X="0" Y="0" Inverse="false"/>
@@ -42,5 +48,31 @@
       <Font Size="16" Color="#FF000000" Name="Tahoma" Bold="false" Italic="false"/>
     </USBFriendlyName>
   </OSD>
-  <Layers/>
+  <Media Enable="true" Image="Media.svg">
+    <Cover Enable="true" X="264" Y="18" Size="36" Radius="4"/>
+    <Title Enable="true" X="54" Y="28" Alignment="0" MaxWidth="256">
+      <Font Size="13" Color="#E4000000" ColorDark="#FFFFFFFF" Name="Segoe UI" Bold="false" Italic="false"/>
+    </Title>
+    <Artist Enable="true" X="54" Y="45" Alignment="0" MaxWidth="256">
+      <Font Size="12" Color="#9B000000" ColorDark="#C5FFFFFF" Name="Segoe UI" Bold="false" Italic="false"/>
+    </Artist>
+    <PlayPause Enable="true" X="28" Y="29" Image="Media_PlayPause.svg">
+      <Click Grow="8" HoverColor="System" PressedColor="AccentDark2" HoverColorDark="System" PressedColorDark="AccentLight1"/>
+    </PlayPause>
+    <Previous Enable="true" X="23" Y="57" Image="Media_Previous.svg">
+      <Click Grow="4" HoverColor="System" PressedColor="AccentDark2" HoverColorDark="System" PressedColorDark="AccentLight1"/>
+    </Previous>
+    <Next Enable="true" X="41" Y="57" Image="Media_Next.svg">
+      <Click Grow="4" HoverColor="System" PressedColor="AccentDark2" HoverColorDark="System" PressedColorDark="AccentLight1"/>
+    </Next>
+    <Progress Enable="true" X="64" Y="62" Width="166" Height="3" TrackColor="#1F000000" FillColor="Colorization" TrackColorDark="#33FFFFFF">
+      <Click Grow="6"/>
+    </Progress>
+    <Time Enable="true" X="296" Y="64" Alignment="2" MaxWidth="0">
+      <Font Size="11" Color="#9B000000" ColorDark="#C5FFFFFF" Name="Segoe UI" Bold="false" Italic="false"/>
+    </Time>
+  </Media>
+  <Layers>
+    <Layer Enable="true" Image="Meter_Track.svg" X="54" Y="34" LayerIndex="0" Colorize="false"/>
+  </Layers>
 </XMLskinSettings>

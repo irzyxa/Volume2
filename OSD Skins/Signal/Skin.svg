@@ -1,0 +1,44 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="774" height="140" viewBox="0 0 774 140">
+<svg id="Back" x="0" y="0" width="240" height="84" viewBox="0 0 240 84">
+<rect width="240" height="84" rx="14" fill="#0A0D11" fill-opacity="0.969"/>
+<rect x="1.5" y="1.5" width="237" height="81" rx="12.5" fill="none" stroke="#0C1014" stroke-opacity="0.97"/>
+<rect x="0.5" y="0.5" width="239" height="83" rx="13.5" fill="none" stroke="#242D38"/>
+</svg>
+<svg id="Media_PlayPause" x="250" y="0" width="36" height="22" viewBox="0 0 36 22">
+<path fill="#3FD3A2" transform="translate(-4,-1)" d="M5,2L5,22L21,12Z"/>
+<path fill="#3FD3A2" transform="translate(14,-1)" d="M5,2L9.5,2L9.5,22L5,22ZM14.5,2L19,2L19,22L14.5,22Z"/>
+</svg>
+<svg id="Meter" x="296" y="0" width="200" height="6" viewBox="0 0 200 6">
+<rect width="200" height="6" rx="3" fill="#3FD3A2"/>
+</svg>
+<svg id="Meter_Effect" x="506" y="0" width="24" height="96" viewBox="0 0 24 96">
+<g transform="translate(0,0)">
+<path fill="#3FD3A2" d="M4,9L8,9L13,4.2L13,19.8L8,15L4,15Z"/>
+</g>
+<g transform="translate(0,24)">
+<path fill="#3FD3A2" d="M4,9L8,9L13,4.2L13,19.8L8,15L4,15Z"/>
+<path fill="none" stroke="#3FD3A2" stroke-width="1.8" stroke-linecap="round" d="M14.83,7.95A6.3,6.3 0 0 1 14.83,16.05"/>
+</g>
+<g transform="translate(0,48)">
+<path fill="#3FD3A2" d="M4,9L8,9L13,4.2L13,19.8L8,15L4,15Z"/>
+<path fill="none" stroke="#3FD3A2" stroke-width="1.8" stroke-linecap="round" d="M14.83,7.95A6.3,6.3 0 0 1 14.83,16.05"/>
+<path fill="none" stroke="#3FD3A2" stroke-width="1.8" stroke-linecap="round" d="M17.12,6.02A9.3,9.3 0 0 1 17.12,17.98"/>
+</g>
+<g transform="translate(0,72)">
+<path fill="#3FD3A2" d="M4,9L8,9L13,4.2L13,19.8L8,15L4,15Z"/>
+<path fill="none" stroke="#3FD3A2" stroke-width="1.8" stroke-linecap="round" d="M14.83,7.95A6.3,6.3 0 0 1 14.83,16.05"/>
+<path fill="none" stroke="#3FD3A2" stroke-width="1.8" stroke-linecap="round" d="M17.12,6.02A9.3,9.3 0 0 1 17.12,17.98"/>
+<path fill="none" stroke="#3FD3A2" stroke-width="1.8" stroke-linecap="round" d="M19.8,3.77A12.8,12.8 0 0 1 19.8,20.23"/>
+</g>
+</svg>
+<svg id="Meter_Track" x="540" y="0" width="200" height="6" viewBox="0 0 200 6">
+<rect width="200" height="6" rx="3" fill="#1E2733"/>
+</svg>
+<svg id="Mute_Effect" x="750" y="0" width="24" height="24" viewBox="0 0 24 24">
+<path fill="#7C8896" d="M4,9L8,9L13,4.2L13,19.8L8,15L4,15Z"/>
+<path fill="none" stroke="#7C8896" stroke-width="1.8" stroke-linecap="round" d="M16.2,9.2L21.2,14.8M21.2,9.2L16.2,14.8"/>
+</svg>
+<svg id="Preview" x="0" y="106" width="96" height="34" viewBox="0 0 96 34">
+<image width="96" height="34" href="data:image/png;base64,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"/>
+</svg>
+</svg>

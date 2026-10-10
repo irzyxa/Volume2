@@ -16,10 +16,16 @@
     <!--Value format: #AARRGGBB. -1 - Use system color-->
     <ColorizationColor>-1</ColorizationColor>
     <Background Colorize="false"/>
-    <Meter X="43" Y="22" Orientation="HORIZONTAL" Min="0" Max="110" HideOnMute="false" Colorize="true"/>
+    <Meter X="43" Y="22" Orientation="HORIZONTAL" Min="0" Max="110" HideOnMute="false" Colorize="true">
+      <Click Grow="6"/>
+    </Meter>
     <MeterMute X="0" Y="0" Orientation="HORIZONTAL" Min="0" Max="0" Colorize="true"/>
-    <MeterEffect Enable="true" Orientation="BitStripBottom" Min="0" Max="3" LayerIndex="0" HideOnMute="true" X="14" Y="14" Colorize="false" FileName="" AppIcon="true"/>
-    <MeterMuteEffect Enable="true" LayerIndex="0" X="14" Y="14" Colorize="false"/>
+    <MeterEffect Enable="true" Orientation="BitStripBottom" Min="0" Max="3" LayerIndex="0" HideOnMute="true" X="14" Y="14" Colorize="false" FileName="" AppIcon="true">
+      <Click Action="Mute" Grow="3" HoverColor="AccentLight2" PressedColor="AccentLight1"/>
+    </MeterEffect>
+    <MeterMuteEffect Enable="true" LayerIndex="0" X="14" Y="14" Colorize="false">
+      <Click Action="Mute" Grow="3" HoverColor="AccentLight2" PressedColor="AccentLight1"/>
+    </MeterMuteEffect>
     <PeakMeter Enable="true" LayerIndex="0" Colorize="false" Style="MONO" Orientation="HORIZONTAL" Max="100">
       <LeftChannel X="64" Y="53" Inverse="false"/>
       <RightChannel X="0" Y="0" Inverse="false"/>
@@ -40,5 +46,31 @@
       <Font Size="16" Color="#FF000000" Name="Tahoma" Bold="false" Italic="false"/>
     </USBFriendlyName>
   </OSD>
-  <Layers/>
+  <Media Enable="true" Image="Media.svg">
+    <Cover Enable="true" X="252" Y="6" Size="36" Radius="4"/>
+    <Title Enable="true" X="43" Y="16" Alignment="0" MaxWidth="244">
+      <Font Size="13" Color="#FFFFFFFF" Name="Segoe UI" Bold="false" Italic="false"/>
+    </Title>
+    <Artist Enable="true" X="43" Y="33" Alignment="0" MaxWidth="244">
+      <Font Size="12" Color="#C5FFFFFF" Name="Segoe UI" Bold="false" Italic="false"/>
+    </Artist>
+    <PlayPause Enable="true" X="17" Y="17" Image="Media_PlayPause.svg">
+      <Click Grow="8" HoverColor="AccentLight2" PressedColor="AccentLight1"/>
+    </PlayPause>
+    <Previous Enable="true" X="11" Y="45" Image="Media_Previous.svg">
+      <Click Grow="4" HoverColor="AccentLight2" PressedColor="AccentLight1"/>
+    </Previous>
+    <Next Enable="true" X="29" Y="45" Image="Media_Next.svg">
+      <Click Grow="4" HoverColor="AccentLight2" PressedColor="AccentLight1"/>
+    </Next>
+    <Progress Enable="true" X="52" Y="50" Width="166" Height="3" TrackColor="#33FFFFFF" FillColor="Colorization">
+      <Click Grow="6"/>
+    </Progress>
+    <Time Enable="true" X="284" Y="52" Alignment="2" MaxWidth="0">
+      <Font Size="11" Color="#C5FFFFFF" Name="Segoe UI" Bold="false" Italic="false"/>
+    </Time>
+  </Media>
+  <Layers>
+    <Layer Enable="true" Image="Meter_Track.svg" X="43" Y="22" LayerIndex="0" Colorize="false"/>
+  </Layers>
 </XMLskinSettings>

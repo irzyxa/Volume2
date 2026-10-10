@@ -11,6 +11,6 @@
       <X>0</X>
       <Y>0</Y>
     </meterPosition>
-    <meterMax>128</meterMax>
+    <meterMax>16</meterMax>
   </osd>
 </XMLskinSettings>

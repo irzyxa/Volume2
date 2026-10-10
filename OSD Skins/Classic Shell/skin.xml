@@ -16,7 +16,9 @@
     <!--Value format: #AARRGGBB. -1 - Use system color-->
     <ColorizationColor>-1</ColorizationColor>
     <Background Colorize="true"/>
-    <Meter X="41" Y="55" Orientation="horizontal" Min="0" Max="100" HideOnMute="false" Colorize="true"/>
+    <Meter X="41" Y="55" Orientation="horizontal" Min="0" Max="100" HideOnMute="false" Colorize="true">
+      <Click Grow="2"/>
+    </Meter>
     <MeterMute X="41" Y="55" Orientation="horizontal" Min="0" Max="100" Colorize="true"/>
     <MeterEffect Enable="false" Orientation="" Min="0" Max="0" LayerIndex="0" HideOnMute="false" X="0" Y="0" Colorize="true"/>
     <MeterMuteEffect Enable="false" LayerIndex="0" X="0" Y="0" Colorize="true"/>
@@ -31,5 +33,23 @@
       <Font Size="0" Color="#00000000" Name="" Bold="false" Italic="false"/>
     </NotificationText>
   </OSD>
-  <Layers/>
+  <Media Enable="true">
+    <Cover Enable="true" X="231" Y="16" Size="58" Radius="0"/>
+    <Title Enable="true" X="56" Y="32" Alignment="0" MaxWidth="221">
+      <Font Size="12" Color="#FF000000" Name="Tahoma" Bold="true" Italic="false"/>
+    </Title>
+    <Artist Enable="true" X="56" Y="56" Alignment="0" MaxWidth="221">
+      <Font Size="11" Color="#FF404040" Name="Tahoma" Bold="false" Italic="false"/>
+    </Artist>
+    <PlayPause Enable="true" X="22" Y="33" Image="Media_PlayPause.svg">
+      <Click Grow="5"/>
+    </PlayPause>
+    <Progress Enable="true" X="56" Y="70" Width="165" Height="3" TrackColor="#FFA8A49C" FillColor="#FF404040">
+      <Click Grow="6"/>
+    </Progress>
+  </Media>
+  <Layers>
+    <Layer Enable="true" Image="Volume_Parts.svg" X="39" Y="21" LayerIndex="0" Colorize="true" HideOnMute="true"/>
+    <Layer Enable="true" Image="Media_Cover_Frame.svg" X="229" Y="14" LayerIndex="0" Colorize="true" Osd="Media"/>
+  </Layers>
 </XMLskinSettings>

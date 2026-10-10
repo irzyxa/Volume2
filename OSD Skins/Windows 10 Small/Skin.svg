@@ -1,0 +1,21 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="236" height="179" viewBox="0 0 236 179">
+<svg id="Back" x="0" y="0" width="65" height="140" viewBox="0 0 65 140">
+<rect x="0" y="0" width="65" height="140" fill="#181818"/>
+<rect x="27" y="20" width="11" height="79" fill="#0076D7"/>
+</svg>
+<svg id="Meter_Mask" x="75" y="0" width="11" height="20" viewBox="0 0 11 20">
+<rect x="0" y="0" width="11" height="20" fill="#181818"/>
+</svg>
+<svg id="Meter" x="150" y="0" width="11" height="79" viewBox="0 0 11 79">
+<rect x="0" y="0" width="11" height="79" fill="#6A6A6A"/>
+<rect x="0" y="68" width="11" height="11" fill="#FFFFFF"/>
+</svg>
+<svg id="Mute" x="171" y="0" width="65" height="140" viewBox="0 0 65 140">
+<rect x="0" y="0" width="65" height="140" fill="#181818"/>
+<rect x="27" y="20" width="11" height="79" fill="#0076D7"/>
+<path fill="#FFFFFF" fill-rule="evenodd" d="M26.74,110.5L26.35,111.5L30.28,115.5L29.97,116.5L26.97,119.5L26.46,120.5L27.35,121.5L27.5,121.65L28.5,121.26L31.5,118.26L32.5,117.78L36.5,121.65L37.5,121.65L38.4,120.5L37.87,119.5L34.87,116.5L34.28,115.5L38.26,111.5L38.03,110.5L37.5,109.97L36.5,109.97L32.5,113.93L31.5,113.13L28.5,110.13L27.5,109.84Z"/>
+</svg>
+<svg id="Preview" x="0" y="150" width="65" height="29" viewBox="0 0 65 29">
+<image width="65" height="29" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAAAdCAIAAAB62ZaeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuNvyMY98AAACQSURBVFhH7c+hFcNAEANRF3FVpoC0mnIcMuhOa5OB+k9QQLqW7fOGnqcfEpbO6Hn6IWHpjJ6nHxKWzuh5+iFh6Yyex/9wv6Hn6YeEpTN6nn5IWDqj5+mHhKUzep5+SFg6o+fph4SlM3oe/8P1/T2Hnqcfkm3xGXqefki2xWfoefoh2Rafoefph2RbfIaeZa0/cErUjB4/LSwAAAAASUVORK5CYII="/>
+</svg>
+</svg>

@@ -92,4 +92,7 @@
     <!--Available values: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 4 - plAfterDigits, 5 - plAfterGlass, 6 - plOnMeterEffect-->
     <LayerIndex>0</LayerIndex>
   </NotificationText>
+  <Layers>
+    <Layer Enable="true" Image="Meter_Mask.svg" X="27" Y="0" LayerIndex="2" Colorize="true"/>
+  </Layers>
 </XMLskinSettings>
