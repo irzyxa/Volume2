@@ -678,6 +678,7 @@ lblSelectColor_Caption=Välj färg
 chbColorization_Caption=Använd färgläggning
 chbUseSystemColorScheme_Caption=Använd systemets färgschema
 CBMotion_Caption=Rörelse
+CBMediaKeysOSD_Caption=Visa spåret som spelas på medieknapparna
 LMotionSlow_Caption=Långsam
 LMotionFast_Caption=Snabb
 

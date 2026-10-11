@@ -678,6 +678,7 @@ lblSelectColor_Caption=Selecionar cor
 chbColorization_Caption=Utilizar coloração
 chbUseSystemColorScheme_Caption=Utilizar o esquema de cores do sistema
 CBMotion_Caption=Movimento
+CBMediaKeysOSD_Caption=Mostrar a faixa em reprodução nas teclas multimédia
 LMotionSlow_Caption=Lento
 LMotionFast_Caption=Rápido
 

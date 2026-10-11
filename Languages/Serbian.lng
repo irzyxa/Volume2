@@ -678,6 +678,7 @@ lblSelectColor_Caption=Izaberi boju
 chbColorization_Caption=Koristi bojenje
 chbUseSystemColorScheme_Caption=Koristi sistemsku šemu boja
 CBMotion_Caption=Pokret
+CBMediaKeysOSD_Caption=Prikaži numeru koja se reprodukuje na medijskim tasterima
 LMotionSlow_Caption=Sporo
 LMotionFast_Caption=Brzo
 

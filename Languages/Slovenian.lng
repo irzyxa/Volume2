@@ -678,6 +678,7 @@ lblSelectColor_Caption=Izberi barvo
 chbColorization_Caption=Uporabi obarvanje
 chbUseSystemColorScheme_Caption=Uporabi sistemsko barvno shemo
 CBMotion_Caption=Gibanje
+CBMediaKeysOSD_Caption=Prikaži predvajano skladbo ob predstavnostnih tipkah
 LMotionSlow_Caption=Počasi
 LMotionFast_Caption=Hitro
 

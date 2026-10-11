@@ -678,6 +678,7 @@ lblSelectColor_Caption=Επιλογή χρώματος
 chbColorization_Caption=Χρήση χρωματισμού
 chbUseSystemColorScheme_Caption=Χρήση συνδυασμού χρωμάτων συστήματος
 CBMotion_Caption=Κίνηση
+CBMediaKeysOSD_Caption=Εμφάνιση του κομματιού που παίζει με τα πλήκτρα πολυμέσων
 LMotionSlow_Caption=Αργά
 LMotionFast_Caption=Γρήγορα
 

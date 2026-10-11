@@ -678,6 +678,7 @@ lblSelectColor_Caption=Seleccionar color
 chbColorization_Caption=Usar coloración
 chbUseSystemColorScheme_Caption=Usar la combinación de colores del sistema
 CBMotion_Caption=Movimiento
+CBMediaKeysOSD_Caption=Mostrar la pista en reproducción con las teclas multimedia
 LMotionSlow_Caption=Lento
 LMotionFast_Caption=Rápido
 

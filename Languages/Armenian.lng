@@ -678,6 +678,7 @@ lblSelectColor_Caption=Ընտրել գույնը
 chbColorization_Caption=Օգտագործել գունավորումը
 chbUseSystemColorScheme_Caption=Օգտագործել համակարգի գունային սխեման
 CBMotion_Caption=Շարժում
+CBMediaKeysOSD_Caption=Ցուցադրել նվագող կատարումը մեդիա ստեղների սեղմման դեպքում
 LMotionSlow_Caption=Դանդաղ
 LMotionFast_Caption=Արագ
 

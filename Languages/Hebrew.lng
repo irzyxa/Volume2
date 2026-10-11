@@ -678,6 +678,7 @@ lblSelectColor_Caption=בחר צבע
 chbColorization_Caption=השתמש בצביעה
 chbUseSystemColorScheme_Caption=השתמש בערכת הצבעים של המערכת
 CBMotion_Caption=תנועה
+CBMediaKeysOSD_Caption=הצג את הרצועה המתנגנת במקשי המדיה
 LMotionSlow_Caption=איטי
 LMotionFast_Caption=מהיר
 

@@ -678,6 +678,7 @@ lblSelectColor_Caption=اختيار اللون
 chbColorization_Caption=استخدام التلوين
 chbUseSystemColorScheme_Caption=استخدام نظام ألوان النظام
 CBMotion_Caption=الحركة
+CBMediaKeysOSD_Caption=عرض المقطع الجاري تشغيله عند استخدام مفاتيح الوسائط
 LMotionSlow_Caption=بطيء
 LMotionFast_Caption=سريع
 

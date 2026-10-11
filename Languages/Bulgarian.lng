@@ -678,6 +678,7 @@ lblSelectColor_Caption=Избор на цвят
 chbColorization_Caption=Използване на оцветяване
 chbUseSystemColorScheme_Caption=Използване на системната цветова схема
 CBMotion_Caption=Движение
+CBMediaKeysOSD_Caption=Показване на изпълнявания трак при натискане на медийните клавиши
 LMotionSlow_Caption=Бавно
 LMotionFast_Caption=Бързо
 

@@ -678,6 +678,7 @@ lblSelectColor_Caption=選取色彩
 chbColorization_Caption=使用著色
 chbUseSystemColorScheme_Caption=使用系統色彩配置
 CBMotion_Caption=動態
+CBMediaKeysOSD_Caption=按下媒體鍵時顯示正在播放的曲目
 LMotionSlow_Caption=慢
 LMotionFast_Caption=快
 

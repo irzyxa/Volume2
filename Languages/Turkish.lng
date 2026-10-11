@@ -678,6 +678,7 @@ lblSelectColor_Caption=Renk seç
 chbColorization_Caption=Renklendirme kullan
 chbUseSystemColorScheme_Caption=Sistem renk şemasını kullan
 CBMotion_Caption=Hareket
+CBMediaKeysOSD_Caption=Medya tuşlarında çalan parçayı göster
 LMotionSlow_Caption=Yavaş
 LMotionFast_Caption=Hızlı
 

@@ -678,6 +678,7 @@ lblSelectColor_Caption=色を選択
 chbColorization_Caption=カラー調整を使用
 chbUseSystemColorScheme_Caption=システムのカラースキームを使用
 CBMotion_Caption=動き
+CBMediaKeysOSD_Caption=メディア キーで再生中のトラックを表示する
 LMotionSlow_Caption=低速
 LMotionFast_Caption=高速
 

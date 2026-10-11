@@ -678,6 +678,7 @@ lblSelectColor_Caption=Выбор цвета
 chbColorization_Caption=Использовать цвет
 chbUseSystemColorScheme_Caption=Использовать системные цвета
 CBMotion_Caption=Движение
+CBMediaKeysOSD_Caption=Показывать играющий трек при нажатии медиа клавиш
 LMotionSlow_Caption=Медлено
 LMotionFast_Caption=Быстро
 

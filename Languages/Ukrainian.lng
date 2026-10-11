@@ -678,6 +678,7 @@ lblSelectColor_Caption=Вибрати колiр
 chbColorization_Caption=Використовувати колiр
 chbUseSystemColorScheme_Caption=Використовувати системный колiр
 CBMotion_Caption=Рух
+CBMediaKeysOSD_Caption=Показувати трек, що грає, при натисканні медіаклавіш
 LMotionSlow_Caption=Повільно
 LMotionFast_Caption=Швидко
 

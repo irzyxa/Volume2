@@ -678,6 +678,7 @@ lblSelectColor_Caption=Selectează culoarea
 chbColorization_Caption=Foloseşte colorarea
 chbUseSystemColorScheme_Caption=Foloseşte schema de culori a sistemului
 CBMotion_Caption=Mişcare
+CBMediaKeysOSD_Caption=Afișează melodia redată la tastele multimedia
 LMotionSlow_Caption=Încet
 LMotionFast_Caption=Rapid
 

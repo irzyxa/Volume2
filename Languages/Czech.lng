@@ -678,6 +678,7 @@ lblSelectColor_Caption=Vybrat barvu
 chbColorization_Caption=Použít obarvení
 chbUseSystemColorScheme_Caption=Použít barevné schéma systému
 CBMotion_Caption=Pohyb
+CBMediaKeysOSD_Caption=Zobrazit přehrávanou skladbu u multimediálních kláves
 LMotionSlow_Caption=Pomalu
 LMotionFast_Caption=Rychle
 

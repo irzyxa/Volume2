@@ -678,6 +678,7 @@ lblSelectColor_Caption=Wybierz kolor
 chbColorization_Caption=Użyj koloryzacji
 chbUseSystemColorScheme_Caption=Użyj systemowego schematu kolorów
 CBMotion_Caption=Ruch
+CBMediaKeysOSD_Caption=Pokaż odtwarzany utwór na klawiszach multimedialnych
 LMotionSlow_Caption=Wolno
 LMotionFast_Caption=Szybko
 

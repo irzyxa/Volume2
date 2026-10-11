@@ -678,6 +678,7 @@ lblSelectColor_Caption=Kleur selecteren
 chbColorization_Caption=Kleuring gebruiken
 chbUseSystemColorScheme_Caption=Kleurenschema van het systeem gebruiken
 CBMotion_Caption=Beweging
+CBMediaKeysOSD_Caption=Toon het huidige nummer bij de mediatoetsen
 LMotionSlow_Caption=Langzaam
 LMotionFast_Caption=Snel
 

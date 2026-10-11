@@ -678,6 +678,7 @@ lblSelectColor_Caption=ფერის არჩევა
 chbColorization_Caption=გაფერადების გამოყენება
 chbUseSystemColorScheme_Caption=სისტემის ფერთა სქემის გამოყენება
 CBMotion_Caption=მოძრაობა
+CBMediaKeysOSD_Caption=მიმდინარე ტრეკის ჩვენება მედია კლავიშებზე
 LMotionSlow_Caption=ნელი
 LMotionFast_Caption=სწრაფი
 

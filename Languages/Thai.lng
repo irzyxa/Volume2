@@ -678,6 +678,7 @@ lblSelectColor_Caption=เลือกสี
 chbColorization_Caption=ใช้การปรับสี
 chbUseSystemColorScheme_Caption=ใช้ชุดสีของระบบ
 CBMotion_Caption=การเคลื่อนไหว
+CBMediaKeysOSD_Caption=แสดงแทร็กที่กำลังเล่นด้วยปุ่มมัลติมีเดีย
 LMotionSlow_Caption=ช้า
 LMotionFast_Caption=เร็ว
 

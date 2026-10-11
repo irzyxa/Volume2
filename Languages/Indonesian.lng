@@ -678,6 +678,7 @@ lblSelectColor_Caption=Pilih warna
 chbColorization_Caption=Gunakan pewarnaan
 chbUseSystemColorScheme_Caption=Gunakan skema warna sistem
 CBMotion_Caption=Gerakan
+CBMediaKeysOSD_Caption=Tampilkan lagu yang diputar pada tombol media
 LMotionSlow_Caption=Lambat
 LMotionFast_Caption=Cepat
 

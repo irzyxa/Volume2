@@ -678,6 +678,7 @@ lblSelectColor_Caption=Szín kiválasztása
 chbColorization_Caption=Színezés használata
 chbUseSystemColorScheme_Caption=A rendszer színsémájának használata
 CBMotion_Caption=Mozgás
+CBMediaKeysOSD_Caption=A lejátszott szám megjelenítése a médiabillentyűknél
 LMotionSlow_Caption=Lassú
 LMotionFast_Caption=Gyors
 

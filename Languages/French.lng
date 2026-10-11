@@ -678,6 +678,7 @@ lblSelectColor_Caption=Sélectionner une couleur
 chbColorization_Caption=Utiliser la colorisation
 chbUseSystemColorScheme_Caption=Utiliser le modèle de couleurs du système
 CBMotion_Caption=Mouvement
+CBMediaKeysOSD_Caption=Afficher le titre en cours de lecture avec les touches multimédias
 LMotionSlow_Caption=Lent
 LMotionFast_Caption=Rapide
 
