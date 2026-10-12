@@ -244,6 +244,7 @@ actnBatteryState_Caption=Akkumulátortöltöttség %-ban
 CBNotifyVolume_Caption=Hangerő
 XiNotify_Caption=Értesítések
 CBNotifyBright_Caption=Fényerő
+CBNotifyAppVolume_Caption=Alkalmazások hangereje
 CBNotifyUSB_Caption=USB csatlakoztatás Be/Ki
 CBNotifyCD_Caption=CD/DVD kiadás
 LSerialNumber_Caption=Szériaszám:

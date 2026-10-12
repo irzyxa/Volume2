@@ -244,6 +244,7 @@ actnBatteryState_Caption=Функсияҳои барқи батарея
 CBNotifyVolume_Caption=Баландии овоз система
 XiNotify_Caption=Огоҳи
 CBNotifyBright_Caption=Дурахш
+CBNotifyAppVolume_Caption=Баландии овози барномаҳо
 CBNotifyUSB_Caption=USB  пайвастшавӣ/хомӯшӣ 
 CBNotifyCD_Caption=Кушодани плеери CD
 LSerialNumber_Caption=Рақами муқаррарӣ:

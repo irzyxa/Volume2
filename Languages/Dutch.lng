@@ -244,6 +244,7 @@ actnBatteryState_Caption=Levensduur van de batterij procent
 CBNotifyVolume_Caption=Volume
 XiNotify_Caption=Berichten
 CBNotifyBright_Caption=Helderheid
+CBNotifyAppVolume_Caption=App-volume
 CBNotifyUSB_Caption=USB aankoppelen/afkoppelen
 CBNotifyCD_Caption=Open CD / DVD
 LSerialNumber_Caption=Serienummer:

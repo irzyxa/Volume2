@@ -244,6 +244,7 @@ actnBatteryState_Caption=אחוז הסוללה
 CBNotifyVolume_Caption=עוצמת קול
 XiNotify_Caption=הודעות
 CBNotifyBright_Caption=בהירות
+CBNotifyAppVolume_Caption=עוצמת קול של יישומים
 CBNotifyUSB_Caption=חיבור/ניתוק USB
 CBNotifyCD_Caption=פתיחת CD/DVD
 LSerialNumber_Caption=מספר סידורי:

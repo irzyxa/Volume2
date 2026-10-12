@@ -244,6 +244,7 @@ actnBatteryState_Caption=เปอร์เซ็นต์แบตเตอร�
 CBNotifyVolume_Caption=ระดับเสียง
 XiNotify_Caption=การแจ้งเตือน
 CBNotifyBright_Caption=ความสว่าง
+CBNotifyAppVolume_Caption=ระดับเสียงของแอปพลิเคชัน
 CBNotifyUSB_Caption=เสียบ/ถอด USB
 CBNotifyCD_Caption=เปิด CD/DVD
 LSerialNumber_Caption=หมายเลขซีเรียล:

@@ -244,6 +244,7 @@ actnBatteryState_Caption=درصد عمر باتری
 CBNotifyVolume_Caption=ولوم
 XiNotify_Caption=اعلانات
 CBNotifyBright_Caption=روشنایی
+CBNotifyAppVolume_Caption=ولوم برنامه‌ها
 CBNotifyUSB_Caption=قطع اتصال/متصل USB اتصال
 CBNotifyCD_Caption=باز کردن CD/DVD
 LSerialNumber_Caption=سریال نامبر:

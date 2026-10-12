@@ -244,6 +244,7 @@ actnBatteryState_Caption=Մարտկոցի սնուցման տոկոսը
 CBNotifyVolume_Caption=Համակարգի ձայնի բարձրություն
 XiNotify_Caption=Ծանուցում
 CBNotifyBright_Caption=Լուսավորություն
+CBNotifyAppVolume_Caption=Ծրագրերի ձայնի բարձրություն
 CBNotifyUSB_Caption=USB միացում/անջատում
 CBNotifyCD_Caption=Բացել CD/DVD
 LSerialNumber_Caption=Սերիական համարը:

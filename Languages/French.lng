@@ -244,6 +244,7 @@ actnBatteryState_Caption=Charge de la batterie
 CBNotifyVolume_Caption=Volume
 XiNotify_Caption=Notifications
 CBNotifyBright_Caption=Luminosité
+CBNotifyAppVolume_Caption=Volume des applications
 CBNotifyUSB_Caption=USB - (Dé)Connexion
 CBNotifyCD_Caption=Ouvrir le tiroir CD/DVD
 LSerialNumber_Caption=Numéro de série :

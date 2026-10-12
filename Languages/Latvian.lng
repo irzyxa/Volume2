@@ -244,6 +244,7 @@ actnBatteryState_Caption=Baterijas resursa procents
 CBNotifyVolume_Caption=Sistēmas skaļums
 XiNotify_Caption=Atgādinājumi
 CBNotifyBright_Caption=Spilgtums
+CBNotifyAppVolume_Caption=Programmu skaļums
 CBNotifyUSB_Caption=USB pievienot/atslēgtg
 CBNotifyCD_Caption=Atvērt CD iekārtu
 LSerialNumber_Caption=Sērijas Nr.:

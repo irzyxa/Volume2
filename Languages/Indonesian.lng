@@ -244,6 +244,7 @@ actnBatteryState_Caption=Persen ketahanan baterai
 CBNotifyVolume_Caption=Volume
 XiNotify_Caption=Notifikasi
 CBNotifyBright_Caption=Kecerahan
+CBNotifyAppVolume_Caption=Volume aplikasi
 CBNotifyUSB_Caption=Colok/cabut USB
 CBNotifyCD_Caption=Buka CD/DVD
 LSerialNumber_Caption=Nomor Seri:

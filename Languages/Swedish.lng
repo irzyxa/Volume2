@@ -244,6 +244,7 @@ actnBatteryState_Caption=Batteritid procent
 CBNotifyVolume_Caption=Volym
 XiNotify_Caption=Notifieringar
 CBNotifyBright_Caption=Ljusstyrka
+CBNotifyAppVolume_Caption=Programvolym
 CBNotifyUSB_Caption=USB plugg in/ut
 CBNotifyCD_Caption=Öppna CD/DVD
 LSerialNumber_Caption=Serienummer:

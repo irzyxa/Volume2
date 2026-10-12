@@ -244,6 +244,7 @@ actnBatteryState_Caption=Відсоток заряду батареї
 CBNotifyVolume_Caption=Системна гучність
 XiNotify_Caption=Повідомлення
 CBNotifyBright_Caption=Яскравість
+CBNotifyAppVolume_Caption=Гучність застосунків
 CBNotifyUSB_Caption=USB підключення/відключення
 CBNotifyCD_Caption=Відкриття CD лотка
 LSerialNumber_Caption=Серійний номер:

@@ -244,6 +244,7 @@ actnBatteryState_Caption=Pil ömrü yüzdesi
 CBNotifyVolume_Caption=Ses
 XiNotify_Caption=Bildirimler
 CBNotifyBright_Caption=Parlaklık
+CBNotifyAppVolume_Caption=Uygulama sesi
 CBNotifyUSB_Caption=USB aygıtı tak/çıkar
 CBNotifyCD_Caption=CD/DVD Çıkar
 LSerialNumber_Caption=Seri Numara:

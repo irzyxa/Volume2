@@ -244,6 +244,7 @@ actnBatteryState_Caption=Phần trăm mức độ pin còn lại
 CBNotifyVolume_Caption=Âm lượng
 XiNotify_Caption=Các thông báo
 CBNotifyBright_Caption=Độ sáng
+CBNotifyAppVolume_Caption=Âm lượng ứng dụng
 CBNotifyUSB_Caption=USB Cắm vào Vào/Ra
 CBNotifyCD_Caption=Mở CD/DVD
 LSerialNumber_Caption=Số sê-ri:

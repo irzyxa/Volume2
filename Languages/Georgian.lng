@@ -244,6 +244,7 @@ actnBatteryState_Caption=ბატარეის მუხტის პრო�
 CBNotifyVolume_Caption=ხმა
 XiNotify_Caption=შეტყობინებები
 CBNotifyBright_Caption=სიკაშკაშე
+CBNotifyAppVolume_Caption=აპლიკაციის ხმა
 CBNotifyUSB_Caption=USB-ის შეერთება/გამოერთება
 CBNotifyCD_Caption=CD/DVD-ის გახსნა
 LSerialNumber_Caption=სერიული ნომერი:

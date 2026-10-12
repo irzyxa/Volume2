@@ -244,6 +244,7 @@ actnBatteryState_Caption=Percentual de energia da bateria
 CBNotifyVolume_Caption=Volume do sistema
 XiNotify_Caption=Aviso prévio
 CBNotifyBright_Caption=Brilho
+CBNotifyAppVolume_Caption=Volume das aplicações
 CBNotifyUSB_Caption=USB conexão / desconexão
 CBNotifyCD_Caption=Abertura da bandeja de CD
 LSerialNumber_Caption=Número de série:

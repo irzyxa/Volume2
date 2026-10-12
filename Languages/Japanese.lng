@@ -244,6 +244,7 @@ actnBatteryState_Caption=バッテリの残量(パーセント)
 CBNotifyVolume_Caption=音量
 XiNotify_Caption=通知
 CBNotifyBright_Caption=明るさ
+CBNotifyAppVolume_Caption=アプリケーションの音量
 CBNotifyUSB_Caption=USB 挿入/取り外し
 CBNotifyCD_Caption=CD/DVD を開く
 LSerialNumber_Caption=シリアル番号:

@@ -244,6 +244,7 @@ actnBatteryState_Caption=Ποσοστό μπαταρίας
 CBNotifyVolume_Caption=Ένταση
 XiNotify_Caption=Ειδοποιήσεις
 CBNotifyBright_Caption=Φωτεινότητα
+CBNotifyAppVolume_Caption=Ένταση εφαρμογών
 CBNotifyUSB_Caption=Σύνδεση/αποσύνδεση USB
 CBNotifyCD_Caption=Άνοιγμα δίσκου CD/DVD
 LSerialNumber_Caption=Σειριακός αριθμός:

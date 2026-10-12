@@ -244,6 +244,7 @@ actnBatteryState_Caption=Porcentaje de bateria restante
 CBNotifyVolume_Caption=Volumen
 XiNotify_Caption=Notificaciones
 CBNotifyBright_Caption=Brillo
+CBNotifyAppVolume_Caption=Volumen de aplicaciones
 CBNotifyUSB_Caption=Conexión/desconexión USB
 CBNotifyCD_Caption=Abrir CD/DVD
 LSerialNumber_Caption=Licencia:

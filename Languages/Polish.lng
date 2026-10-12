@@ -244,6 +244,7 @@ actnBatteryState_Caption=Żywotność baterii w procentach
 CBNotifyVolume_Caption=Głośność
 XiNotify_Caption=Powiadomienia
 CBNotifyBright_Caption=Jasność
+CBNotifyAppVolume_Caption=Głośność aplikacji
 CBNotifyUSB_Caption=Podł./Odł. USB 
 CBNotifyCD_Caption=Wysunięto CD/DVD
 LSerialNumber_Caption=Numer seryjny:

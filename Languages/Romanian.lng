@@ -244,6 +244,7 @@ actnBatteryState_Caption=Baterie viaţă la sută
 CBNotifyVolume_Caption=Volum
 XiNotify_Caption=Notificări
 CBNotifyBright_Caption=Luminozitate
+CBNotifyAppVolume_Caption=Volumul aplicațiilor
 CBNotifyUSB_Caption=USB Conectat/Deconectat
 CBNotifyCD_Caption=Deschide CD/DVD
 LSerialNumber_Caption=Numărul de serie:

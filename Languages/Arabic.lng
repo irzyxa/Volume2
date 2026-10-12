@@ -244,6 +244,7 @@ actnBatteryState_Caption=عمر البطارية في المئة
 CBNotifyVolume_Caption=وحدة التخزين
 XiNotify_Caption=رسائل الإعلام
 CBNotifyBright_Caption=السطوع
+CBNotifyAppVolume_Caption=مستوى صوت التطبيقات
 CBNotifyUSB_Caption=إدخال/إخراج USB
 CBNotifyCD_Caption=فتح CD / DVD
 LSerialNumber_Caption=الرقم التسلسلي:

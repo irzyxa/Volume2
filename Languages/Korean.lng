@@ -244,6 +244,7 @@ actnBatteryState_Caption=배터리 수명 비율
 CBNotifyVolume_Caption=볼륨
 XiNotify_Caption=알림
 CBNotifyBright_Caption=밝기
+CBNotifyAppVolume_Caption=응용 프로그램 볼륨
 CBNotifyUSB_Caption=USB 플러그 인/아웃
 CBNotifyCD_Caption=CD/DVD 열기
 LSerialNumber_Caption=일련 번호:

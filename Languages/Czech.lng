@@ -244,6 +244,7 @@ actnBatteryState_Caption=Nabití baterie v procentech
 CBNotifyVolume_Caption=Hlasitost
 XiNotify_Caption=Oznámení
 CBNotifyBright_Caption=Jas
+CBNotifyAppVolume_Caption=Hlasitost aplikací
 CBNotifyUSB_Caption=Připojení/odpojení USB
 CBNotifyCD_Caption=Otevřít CD/DVD
 LSerialNumber_Caption=Sériové číslo::

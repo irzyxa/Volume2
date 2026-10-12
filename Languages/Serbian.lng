@@ -244,6 +244,7 @@ actnBatteryState_Caption=Procenat trajanja baterije
 CBNotifyVolume_Caption=Sistemska jačina zvuka
 XiNotify_Caption=Obaveštenja
 CBNotifyBright_Caption=Osvetljenost
+CBNotifyAppVolume_Caption=Jačina zvuka aplikacija
 CBNotifyUSB_Caption=Priključivanje/isključivanje USB-a
 CBNotifyCD_Caption=Otvori CD/DVD
 LSerialNumber_Caption=Serijski broj:

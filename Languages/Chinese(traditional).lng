@@ -244,6 +244,7 @@ actnBatteryState_Caption=電池電量百分比
 CBNotifyVolume_Caption=音量
 XiNotify_Caption=通知
 CBNotifyBright_Caption=亮度
+CBNotifyAppVolume_Caption=應用程式音量
 CBNotifyUSB_Caption=USB插入/斷開
 CBNotifyCD_Caption=彈出CD/DVD圖示
 LSerialNumber_Caption=序號：
