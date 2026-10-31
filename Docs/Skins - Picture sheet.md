@@ -31,7 +31,9 @@ pictures of the skin side by side.
   at any display scaling, or hold the PNG it replaces: `<image width="94" height="24" href="data:image/png;base64,..."/>`.
   A `Preview.png` or `Preview.svg` file is used before it. See
   [Skins - Colorization, previews and tray sizes](Skins%20-%20Colorization%2C%20previews%20and%20tray%20sizes.md).
-* PNG pictures stay files; a skin can mix them with a sheet.
+* A PNG can stay a file, which a skin can mix with a sheet, or move into the sheet unchanged: a picture that holds only
+  `<image width="118" height="92" href="data:image/png;base64,..."/>` at the size of the PNG is used exactly as the file
+  would be. All meter skins keep their PNG pictures this way.
 * Volume2 reads a sheet once and keeps its parts until the file changes, so a skin loads as fast as from separate
   files.
 * Only the pictures directly inside the sheet count: an `<svg id>` nested in a picture is part of that picture, not a
