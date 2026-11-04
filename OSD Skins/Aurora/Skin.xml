@@ -30,10 +30,10 @@
       <LeftChannel X="64" Y="49" Inverse="false" />
       <RightChannel X="64" Y="50" Inverse="false" />
     </PeakMeter>
-    <Text Enable="true" X="24" Y="27" Format="%D" FormatMute="%D" Alignment="0" HideOnMute="false" LayerIndex="-1" MaxWidth="252">
+    <Text Enable="true" X="21" Y="27" Format="%D" FormatMute="%D" Alignment="0" HideOnMute="false" LayerIndex="-1" MaxWidth="252">
       <Font Size="16" Color="#FFF5F8FF" ColorMute="#FFF5F8FF" Name="Roboto" Bold="false" Italic="false" />
     </Text>
-    <Text Enable="true" X="276" Y="51" Format="%V%" FormatMute="%V%" Alignment="2" HideOnMute="false" LayerIndex="-1">
+    <Text Enable="true" X="288" Y="51" Format="%V%" FormatMute="%V%" Alignment="2" HideOnMute="false" LayerIndex="-1">
       <Font Size="14" Color="#FFF5F8FF" ColorMute="#FFF5F8FF" Name="Roboto" Bold="false" Italic="false" />
     </Text>
     <NotificationText Enable="false" X="0" Y="0" Width="0" Height="0" Alignment="0" LayerIndex="-1">
