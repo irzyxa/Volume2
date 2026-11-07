@@ -10,7 +10,7 @@
     <!--LayerIndex: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
     <!--Color: #AARRGGBB-->
     <!--Alignment: 0 - taLeft, 1 - taCenter, 2 - taRight-->
-    <!--Panel 240x84. Icon 24x24 at 20,18. Bar 200x6 at 20,56. Value centred at 186,18.-->
+    <!--Panel 240x84. Icon 24x24 at 20,15. Bar 200x6 at 20,56. Value right-aligned at 223.-->
     <!--Format tokens: %V volume, %D device, %DF sound card, %A absolute, %dB decibels, %S on/off, %ChN channel, %NL new line, %C(x,y) position, %% literal percent-->
     <FadeSteps>18</FadeSteps>
     <ShowSteps>36</ShowSteps>
@@ -42,33 +42,33 @@
     <NotificationText Enable="false" X="0" Y="0" Width="0" Height="0" Alignment="0" LayerIndex="-1">
       <Font Size="16" Color="#FFE8EDF4" Name="Segoe UI" Bold="false" Italic="false"/>
     </NotificationText>
-    <CDDriveLetter Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
-      <Font Size="16" Color="#FFE8EDF4" Name="Segoe UI" Bold="false" Italic="false"/>
+    <CDDriveLetter Enable="true" X="50" Y="42" Alignment="0" LayerIndex="-1">
+      <Font Size="20" Color="#FFE8EDF4" Name="Segoe UI" Bold="false" Italic="false"/>
     </CDDriveLetter>
-    <USBDriveLetter Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
+    <USBDriveLetter Enable="true" X="50" Y="28" Alignment="0" LayerIndex="-1">
       <Font Size="16" Color="#FFE8EDF4" Name="Segoe UI" Bold="false" Italic="false"/>
     </USBDriveLetter>
-    <USBFriendlyName Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
-      <Font Size="16" Color="#FFE8EDF4" Name="Segoe UI" Bold="false" Italic="false"/>
+    <USBFriendlyName Enable="true" X="50" Y="59" Alignment="0" LayerIndex="-1">
+      <Font Size="12" Color="#FF7C8896" Name="Segoe UI" Bold="false" Italic="false"/>
     </USBFriendlyName>
   </OSD>
   <Media Enable="true">
     <Cover Enable="true" X="178" Y="12" Size="48" Radius="8"/>
-    <Title Enable="true" X="58" Y="26" Alignment="0" MaxWidth="170">
+    <Text Enable="true" X="53" Y="26" Alignment="0" MaxWidth="175" Format="%t">
       <Font Size="13" Color="#FFE8EDF4" Name="Segoe UI" Bold="false" Italic="false"/>
-    </Title>
-    <Artist Enable="true" X="58" Y="46" Alignment="0" MaxWidth="170">
+    </Text>
+    <Text Enable="true" X="53" Y="46" Alignment="0" MaxWidth="175" Format="%a">
       <Font Size="11" Color="#FF7C8896" Name="Segoe UI" Bold="false" Italic="false"/>
-    </Artist>
-    <PlayPause Enable="true" X="26" Y="25" Image="Media_PlayPause.svg">
+    </Text>
+    <PlayPause Enable="true" X="21" Y="25" Image="Media_PlayPause.svg">
       <Click Grow="5"/>
     </PlayPause>
     <Progress Enable="true" X="22" Y="68" Width="196" Height="3" TrackColor="#FF2A3441" FillColor="#FF3FD3A2">
       <Click Grow="6"/>
     </Progress>
-    <Time Enable="false" X="306" Y="77" Alignment="2" MaxWidth="0">
+    <Text Enable="false" X="306" Y="77" Alignment="2" MaxWidth="0" Format="%e/%d">
       <Font Size="12" Color="#FF7C8896" Name="Segoe UI" Bold="false" Italic="false"/>
-    </Time>
+    </Text>
   </Media>
   <Layers>
     <Layer Enable="true" Image="Meter_Track.svg" X="20" Y="56" LayerIndex="0" Colorize="false"/>
