@@ -15,10 +15,10 @@ The media OSD is one element next to `<OSD>`, with all its parts inside it. A sk
 </OSD>
 <Media Enable="true" Image="Media.svg" Keys="true">
   <Cover Enable="true" X="264" Y="18" Size="36" Radius="4"/>
-  <Title Enable="true" X="54" Y="28" Alignment="0" MaxWidth="256">
+  <Text Enable="true" X="54" Y="28" Alignment="0" MaxWidth="256" Format="%t">
     <Font Size="13" Color="#E4000000" ColorDark="#FFFFFFFF" Name="Segoe UI" Bold="false" Italic="false"/>
-  </Title>
-  <Artist .../>
+  </Text>
+  <Text Enable="true" X="54" Y="45" Alignment="0" MaxWidth="256" Format="%a"> <Font .../> </Text>
   <PlayPause Enable="true" X="28" Y="29" Image="Media_PlayPause.svg">
     <Click Grow="7" HoverColor="System" PressedColor="AccentDark2"/>
   </PlayPause>
@@ -28,7 +28,7 @@ The media OSD is one element next to `<OSD>`, with all its parts inside it. A sk
             TrackColorDark="#33FFFFFF">
     <Click Grow="6"/>
   </Progress>
-  <Time Enable="true" Format="%e/%d" X="296" Y="64" Alignment="2" MaxWidth="0"> <Font .../> </Time>
+  <Text Enable="true" X="296" Y="64" Alignment="2" MaxWidth="0" Format="%e/%d"> <Font .../> </Text>
 </Media>
 <Layers>
   <Layer Enable="true" Image="Media_Glow.svg" X="0" Y="0" LayerIndex="0" Osd="Media"/>
@@ -47,11 +47,14 @@ The media OSD is one element next to `<OSD>`, with all its parts inside it. A sk
 * `Media Keys`: whether the media keys show this skin's media OSD. It is on unless the skin turns it off; the user turns
   it on or off in the Skin Settings of the skin.
 * `Cover`: the album art, a rounded square. `Radius="0"` is a plain square.
-* `Title`, `Artist`, `Time`: text like any text element. `X`, `Y` is the point the text is aligned to (the vertical
-  center); for `Alignment="2"` (right) it is the right edge. A text is cut with an ellipsis at `MaxWidth` (an absolute x
-  in the frame, 0 for none).
-* `Time Format`: `%e` elapsed time, `%d` length of the track, `%r` time left, `%p` percent played, `%%` a percent sign.
-  The default is `%e/%d` (`00:12/02:00`). Nothing is shown for a player that reports no length (a live stream).
+* `Text`: a text of the media OSD, as many as the skin needs, like the texts of the volume OSD. `X`, `Y` is the point the
+  text is aligned to (the vertical center); for `Alignment="2"` (right) it is the right edge. A text is cut with an
+  ellipsis at `MaxWidth` (an absolute x in the frame, 0 for none). The media OSD does not react to mute: its texts look
+  the same while the sound is muted.
+* `Text Format`: what the text shows. `%t` the title, `%a` the artist, `%e` elapsed time, `%d` length of the track, `%r`
+  time left, `%p` percent played, `%%` a percent sign. One text can hold several, such as the track on one line,
+  `%t (%a)`, or the times, `%e/%d` (`00:12/02:00`); the elapsed time and the length can also be two texts of their own.
+  A text with a time is not shown for a player that reports no length (a live stream).
 * `PlayPause`, `Previous`, `Next`: the buttons, each an image at `X`, `Y` (its top left corner). The play/pause image
   holds two frames side by side, play on the left and pause on the right; like a player, it shows what a click does: play
   while the track is paused, pause while it plays. A button
