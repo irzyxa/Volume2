@@ -55,12 +55,12 @@
   <svg id="Media_PlayPause" x="0" y="338" width="80" height="40" viewBox="0 0 80 40">
     <g>
       <rect x="0.5" y="0.5" width="39" height="39" rx="12" fill="#52C8F4" stroke="#B9ECFF" stroke-opacity="0.35" />
-      <path d="M16 12 L28 20 L16 28 Z" fill="#102538" />
+      <path class="glyph" d="M16 12 L28 20 L16 28 Z" fill="#102538" />
     </g>
     <g transform="translate(40,0)">
       <rect x="0.5" y="0.5" width="39" height="39" rx="12" fill="#52C8F4" stroke="#B9ECFF" stroke-opacity="0.35" />
-      <rect x="13" y="12" width="5" height="16" rx="1.5" fill="#102538" />
-      <rect x="22" y="12" width="5" height="16" rx="1.5" fill="#102538" />
+      <rect class="glyph" x="13" y="12" width="5" height="16" rx="1.5" fill="#102538" />
+      <rect class="glyph" x="22" y="12" width="5" height="16" rx="1.5" fill="#102538" />
     </g>
   </svg>
   <svg id="Media_Previous" x="0" y="390" width="24" height="24" viewBox="0 0 24 24">

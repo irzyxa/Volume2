@@ -1,5 +1,8 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1956" height="544" viewBox="0 0 1956 544">
 <svg id="back" x="0" y="0" width="978" height="90" viewBox="0 0 978 90">
+<!-- The OSD is placed by what its back draws; these two near-invisible pixels make it the whole picture, as the bars fill it -->
+<rect x="0" y="0" width="1" height="1" fill="#000000" fill-opacity="0.004"/>
+<rect x="977" y="89" width="1" height="1" fill="#000000" fill-opacity="0.004"/>
 <rect x="950" y="37" width="28" height="15" fill="#00FF00"/>
 <rect x="750" y="37" width="28" height="15" fill="#00FF00"/>
 <rect x="350" y="37" width="28" height="15" fill="#00FF00"/>

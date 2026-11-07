@@ -51,14 +51,14 @@
   </OSD>
   <Media Enable="true" Image="Media.svg">
     <Cover Enable="true" X="16" Y="16" Size="80" Radius="10" />
-    <Title Enable="true" X="112" Y="43" Alignment="0" MaxWidth="392">
+    <Text Enable="true" X="112" Y="43" Alignment="0" MaxWidth="392" Format="%t">
       <Font Size="18" Color="#FFF5F8FF" Name="Roboto" Bold="true" Italic="false" />
-    </Title>
-    <Artist Enable="true" X="112" Y="68" Alignment="0" MaxWidth="280">
+    </Text>
+    <Text Enable="true" X="112" Y="68" Alignment="0" MaxWidth="280" Format="%a">
       <Font Size="13" Color="#FFB5C4D9" Name="Roboto" Bold="false" Italic="false" />
-    </Artist>
+    </Text>
     <PlayPause Enable="true" X="184" Y="130" Image="Media_PlayPause.svg">
-      <Click Grow="8" HoverColor="AccentLight2" PressedColor="AccentLight1" />
+      <Click Grow="8" HoverColor="AccentLight3" PressedColor="AccentLight1" />
     </PlayPause>
     <Previous Enable="true" X="136" Y="138" Image="Media_Previous.svg">
       <Click Grow="4" HoverColor="AccentLight2" PressedColor="AccentLight1" />
@@ -69,9 +69,9 @@
     <Progress Enable="true" X="24" Y="106" Width="278" Height="4" TrackColor="#36FFFFFF" FillColor="#FF52C8F4">
       <Click Grow="6" />
     </Progress>
-    <Time Enable="true" X="384" Y="109" Alignment="2" MaxWidth="0">
+    <Text Enable="true" X="384" Y="109" Alignment="2" MaxWidth="0" Format="%e/%d">
       <Font Size="11" Color="#FFB5C4D9" Name="Roboto" Bold="false" Italic="false" />
-    </Time>
+    </Text>
   </Media>
   <Layers>
     <Layer Enable="true" Image="Meter_Track.svg" X="64" Y="49" LayerIndex="0" Colorize="false" />
