@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="718" height="835" viewBox="0 0 718 835">
+  <svg id="Back" x="0" y="0" width="359" height="71" viewBox="0 0 359 71">
+    <style>.shadow{fill:#000000;fill-opacity:0.094}.border{fill:none;stroke:#555555;stroke-opacity:0.21}.panel{fill:#E4E6F2}</style>
+    <defs>
+      <filter id="Back_soft" x="-5%" y="-25%" width="110%" height="150%">
+        <feGaussianBlur stdDeviation="2.5" />
+      </filter>
+      <linearGradient id="Back_track" gradientUnits="userSpaceOnUse" x1="55" x2="284" y2="0" y1="0">
+        <stop offset="0.0109" stop-color="#94C3F7" />
+        <stop offset="0.2860" stop-color="#B3D1F7" />
+        <stop offset="0.5742" stop-color="#D2A5ED" />
+        <stop offset="0.9891" stop-color="#EBA6B0" />
+      </linearGradient>
+    </defs>
+    <rect class="shadow" x="8.5" y="8.5" width="342" height="54" rx="9.5" filter="url(#Back_soft)" />
+    <rect class="border" x="6.5" y="6.5" width="341" height="53" rx="9" />
+    <rect class="panel" x="7" y="7" width="340" height="52" rx="8.5" />
+    <rect x="55" y="32" width="229" height="4" rx="2" fill="url(#Back_track)" />
+  </svg>
+  <svg id="Media" x="0" y="83" width="718" height="71" viewBox="0 0 718 71">
+    <style>.shadow{fill:#000000;fill-opacity:0.094}.border{fill:none;stroke:#555555;stroke-opacity:0.21}.panel{fill:#E4E6F2}</style>
+    <defs>
+      <filter id="Media_soft" x="-5%" y="-25%" width="110%" height="150%">
+        <feGaussianBlur stdDeviation="2.5" />
+      </filter>
+    </defs>
+    <g>
+      <rect class="shadow" x="8.5" y="8.5" width="342" height="54" rx="9.5" filter="url(#Media_soft)" />
+      <rect class="border" x="6.5" y="6.5" width="341" height="53" rx="9" />
+      <rect class="panel" x="7" y="7" width="340" height="52" rx="8.5" />
+    </g>
+    <g transform="translate(359,0)">
+      <rect class="shadow" x="8.5" y="8.5" width="342" height="54" rx="9.5" filter="url(#Media_soft)" />
+      <rect class="border" x="6.5" y="6.5" width="341" height="53" rx="9" />
+      <rect class="panel" x="7" y="7" width="340" height="52" rx="8.5" />
+    </g>
+  </svg>
+  <svg id="Media_Next" x="0" y="166" width="13" height="13" viewBox="0 0 13 13">
+    <defs>
+      <linearGradient id="Media_Next_arrow" gradientUnits="userSpaceOnUse" x1="1" y1="0" x2="9" y2="0">
+        <stop offset="0" stop-color="#35C1F1" />
+        <stop offset="1" stop-color="#0078D4" />
+      </linearGradient>
+    </defs>
+    <path fill="url(#Media_Next_arrow)" d="M1,1L9,6.5L1,12Z" class="glyph" />
+    <rect x="10" y="1" width="2" height="11" rx="0.5" fill="#5C6369" />
+  </svg>
+  <svg id="Media_PlayPause" x="0" y="191" width="28" height="14" viewBox="0 0 28 14">
+    <g>
+      <defs>
+        <linearGradient id="Media_Play_arrow" gradientUnits="userSpaceOnUse" x1="4" y1="0" x2="12" y2="0">
+          <stop offset="0" stop-color="#35C1F1" />
+          <stop offset="1" stop-color="#0078D4" />
+        </linearGradient>
+      </defs>
+      <path fill="url(#Media_Play_arrow)" d="M4,2L12,7L4,12Z" />
+    </g>
+    <g transform="translate(14,0)">
+      <rect x="3.5" y="2" width="2.5" height="10" rx="0.5" fill="#5C6369" />
+      <rect x="8" y="2" width="2.5" height="10" rx="0.5" fill="#5C6369" />
+    </g>
+  </svg>
+  <svg id="Media_Previous" x="0" y="217" width="13" height="13" viewBox="0 0 13 13">
+    <defs>
+      <linearGradient id="Media_Previous_arrow" gradientUnits="userSpaceOnUse" x1="12" y1="0" x2="4" y2="0">
+        <stop offset="0" stop-color="#35C1F1" />
+        <stop offset="1" stop-color="#0078D4" />
+      </linearGradient>
+    </defs>
+    <rect x="1" y="1" width="2" height="11" rx="0.5" fill="#5C6369" />
+    <path fill="url(#Media_Previous_arrow)" d="M12,1L12,12L4,6.5Z" class="glyph" />
+  </svg>
+  <svg id="Meter" x="0" y="242" width="6" height="24" viewBox="0 0 6 24">
+    <rect x="2" y="6.2" width="2" height="11.6" fill="#000000" />
+  </svg>
+  <svg id="Meter_All" x="0" y="278" width="230" height="4" viewBox="0 0 230 4">
+    <defs>
+      <linearGradient id="Meter_All_fill" gradientUnits="userSpaceOnUse" x1="0" x2="230" y2="0" y1="0">
+        <stop offset="0.0065" stop-color="#027BF2" />
+        <stop offset="0.3152" stop-color="#59ADFF" />
+        <stop offset="0.6500" stop-color="#B032E7" />
+        <stop offset="0.9935" stop-color="#FE7A39" />
+      </linearGradient>
+    </defs>
+    <rect width="230" height="4" rx="2" fill="url(#Meter_All_fill)" />
+  </svg>
+  <svg id="Meter_Effect" x="0" y="294" width="32" height="128" viewBox="0 0 32 128">
+    <g>
+      <defs>
+        <linearGradient id="Meter_Effect_rim0" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#A1AAB3" />
+          <stop offset="1" stop-color="#8E979E" />
+        </linearGradient>
+      </defs>
+      <rect x="4" y="10.75" width="4" height="10.5" rx="0.5" fill="#5C6369" />
+      <path fill="#727D86" d="M8,10.75L14,3.4L14,28.6L8,21.25Z" />
+      <rect x="14" y="3.4" width="1.25" height="25.2" fill="url(#Meter_Effect_rim0)" />
+      <path fill="#35C1F1" d="M15.25,12.95L18.35,9.50A8.75,8.75 0 0 1 18.35,22.50L15.25,19.05Z" class="glyph" />
+      <path fill="#50E6FF" d="M15.25,12.95L15.85,12.28A5.00,5.00 0 0 1 15.85,19.72L15.25,19.05Z" class="glyph" />
+    </g>
+    <g transform="translate(0,32)">
+      <defs>
+        <linearGradient id="Meter_Effect_rim1" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#A1AAB3" />
+          <stop offset="1" stop-color="#8E979E" />
+        </linearGradient>
+      </defs>
+      <rect x="4" y="10.75" width="4" height="10.5" rx="0.5" fill="#5C6369" />
+      <path fill="#727D86" d="M8,10.75L14,3.4L14,28.6L8,21.25Z" />
+      <rect x="14" y="3.4" width="1.25" height="25.2" fill="url(#Meter_Effect_rim1)" />
+      <path fill="#199BE2" d="M15.25,12.95L20.83,6.75A12.45,12.45 0 0 1 20.83,25.25L15.25,19.05Z" class="glyph" />
+      <path fill="#35C1F1" d="M15.25,12.95L18.35,9.50A8.75,8.75 0 0 1 18.35,22.50L15.25,19.05Z" class="glyph" />
+      <path fill="#50E6FF" d="M15.25,12.95L15.85,12.28A5.00,5.00 0 0 1 15.85,19.72L15.25,19.05Z" class="glyph" />
+    </g>
+    <g transform="translate(0,64)">
+      <defs>
+        <linearGradient id="Meter_Effect_rim2" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#A1AAB3" />
+          <stop offset="1" stop-color="#8E979E" />
+        </linearGradient>
+      </defs>
+      <rect x="4" y="10.75" width="4" height="10.5" rx="0.5" fill="#5C6369" />
+      <path fill="#727D86" d="M8,10.75L14,3.4L14,28.6L8,21.25Z" />
+      <rect x="14" y="3.4" width="1.25" height="25.2" fill="url(#Meter_Effect_rim2)" />
+      <path fill="#50E6FF" d="M15.25,12.95L23.17,4.15A15.95,15.95 0 0 1 23.17,27.85L15.25,19.05Z" class="glyph" />
+      <path fill="#35C1F1" d="M15.25,12.95L20.83,6.75A12.45,12.45 0 0 1 20.83,25.25L15.25,19.05Z" class="glyph" />
+      <path fill="#1B9DE2" d="M15.25,12.95L18.35,9.50A8.75,8.75 0 0 1 18.35,22.50L15.25,19.05Z" class="glyph" />
+      <path fill="#0078D4" d="M15.25,12.95L15.85,12.28A5.00,5.00 0 0 1 15.85,19.72L15.25,19.05Z" class="glyph" />
+    </g>
+    <g transform="translate(0,96)">
+      <defs>
+        <linearGradient id="Meter_Effect_rim3" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#A1AAB3" />
+          <stop offset="1" stop-color="#8E979E" />
+        </linearGradient>
+      </defs>
+      <rect x="4" y="10.75" width="4" height="10.5" rx="0.5" fill="#5C6369" />
+      <path fill="#727D86" d="M8,10.75L14,3.4L14,28.6L8,21.25Z" />
+      <rect x="14" y="3.4" width="1.25" height="25.2" fill="url(#Meter_Effect_rim3)" />
+      <path fill="#0078D4" d="M15.25,12.95L23.17,4.15A15.95,15.95 0 0 1 23.17,27.85L15.25,19.05Z" class="glyph" />
+      <path fill="#199BE2" d="M15.25,12.95L20.83,6.75A12.45,12.45 0 0 1 20.83,25.25L15.25,19.05Z" class="glyph" />
+      <path fill="#35C1F1" d="M15.25,12.95L18.35,9.50A8.75,8.75 0 0 1 18.35,22.50L15.25,19.05Z" class="glyph" />
+      <path fill="#50E6FF" d="M15.25,12.95L15.85,12.28A5.00,5.00 0 0 1 15.85,19.72L15.25,19.05Z" class="glyph" />
+    </g>
+  </svg>
+  <svg id="Mute_Effect" x="0" y="434" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+      <linearGradient id="Mute_Effect_rim" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#A1AAB3" />
+        <stop offset="1" stop-color="#8E979E" />
+      </linearGradient>
+      <linearGradient id="Mute_Effect_cross" gradientUnits="userSpaceOnUse" x1="19.5" y1="11.5" x2="27.5" y2="19.5">
+        <stop offset="0" stop-color="#F34D58" />
+        <stop offset="0.5" stop-color="#E72938" />
+        <stop offset="0.62" stop-color="#C21A31" />
+        <stop offset="1" stop-color="#C21734" />
+      </linearGradient>
+    </defs>
+    <rect x="4" y="10.75" width="4" height="10.5" rx="0.5" fill="#5C6369" />
+    <path fill="#727D86" d="M8,10.75L14,3.4L14,28.6L8,21.25Z" />
+    <rect x="14" y="3.4" width="1.25" height="25.2" fill="url(#Mute_Effect_rim)" />
+    <path d="M27.5,11.5L19.5,19.5" stroke="#E72938" stroke-width="2.5" stroke-linecap="round" fill="none" class="glyph" />
+    <path d="M19.5,11.5L27.5,19.5" stroke="url(#Mute_Effect_cross)" stroke-width="2.5" stroke-linecap="round" fill="none" class="glyph" />
+  </svg>
+  <svg id="Bright" x="0" y="478" width="359" height="71" viewBox="0 0 359 71">
+    <g>
+      <style>.shadow{fill:#000000;fill-opacity:0.094}.border{fill:none;stroke:#555555;stroke-opacity:0.21}.panel{fill:#E4E6F2}</style>
+      <defs>
+        <filter id="Bright_soft" x="-5%" y="-25%" width="110%" height="150%">
+          <feGaussianBlur stdDeviation="2.5" />
+        </filter>
+        <linearGradient id="Bright_track" gradientUnits="userSpaceOnUse" x1="55" x2="284" y2="0" y1="0">
+          <stop offset="0.0109" stop-color="#94C3F7" />
+          <stop offset="0.2860" stop-color="#B3D1F7" />
+          <stop offset="0.5742" stop-color="#D2A5ED" />
+          <stop offset="0.9891" stop-color="#EBA6B0" />
+        </linearGradient>
+        <linearGradient id="Bright_disc" x2="1" x1="0" y1="0" y2="1">
+          <stop offset="0" stop-color="#FFCD0F" />
+          <stop offset="1" stop-color="#FE8401" />
+        </linearGradient>
+        <linearGradient id="Bright_rays" gradientUnits="userSpaceOnUse" y1="2.5" y2="29.5" x1="0" x2="0">
+          <stop offset="0" stop-color="#FFCD0F" />
+          <stop offset="1" stop-color="#FCA01A" />
+        </linearGradient>
+      </defs>
+      <rect class="shadow" x="8.5" y="8.5" width="342" height="54" rx="9.5" filter="url(#Bright_soft)" />
+      <rect class="border" x="6.5" y="6.5" width="341" height="53" rx="9" />
+      <rect class="panel" x="7" y="7" width="340" height="52" rx="8.5" />
+      <rect x="55" y="32" width="229" height="4" rx="2" fill="url(#Bright_track)" />
+      <g transform="translate(15,18)">
+        <path d="M26.00,16.00L29.50,16.00M23.07,23.07L25.55,25.55M16.00,26.00L16.00,29.50M8.93,23.07L6.45,25.55M6.00,16.00L2.50,16.00M8.93,8.93L6.45,6.45M16.00,6.00L16.00,2.50M23.07,8.93L25.55,6.45" stroke="url(#Bright_rays)" stroke-width="2.4" stroke-linecap="round" fill="none" />
+        <circle cx="16" cy="16" r="6.75" fill="url(#Bright_disc)" />
+      </g>
+    </g>
+  </svg>
+  <svg id="Battery" x="0" y="561" width="359" height="71" viewBox="0 0 359 71">
+    <g>
+      <style>.shadow{fill:#000000;fill-opacity:0.094}.border{fill:none;stroke:#555555;stroke-opacity:0.21}.panel{fill:#E4E6F2}</style>
+      <defs>
+        <filter id="Battery_soft" x="-5%" y="-25%" width="110%" height="150%">
+          <feGaussianBlur stdDeviation="2.5" />
+        </filter>
+        <linearGradient id="Battery_track" gradientUnits="userSpaceOnUse" x1="55" x2="284" y2="0" y1="0">
+          <stop offset="0.0109" stop-color="#94C3F7" />
+          <stop offset="0.2860" stop-color="#B3D1F7" />
+          <stop offset="0.5742" stop-color="#D2A5ED" />
+          <stop offset="0.9891" stop-color="#EBA6B0" />
+        </linearGradient>
+        <linearGradient id="Battery_rim" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#A1AAB3" />
+          <stop offset="1" stop-color="#8E979E" />
+        </linearGradient>
+        <linearGradient id="Battery_charge" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#5ECB6B" />
+          <stop offset="1" stop-color="#14873D" />
+        </linearGradient>
+      </defs>
+      <rect class="shadow" x="8.5" y="8.5" width="342" height="54" rx="9.5" filter="url(#Battery_soft)" />
+      <rect class="border" x="6.5" y="6.5" width="341" height="53" rx="9" />
+      <rect class="panel" x="7" y="7" width="340" height="52" rx="8.5" />
+      <rect x="55" y="32" width="229" height="4" rx="2" fill="url(#Battery_track)" />
+      <g transform="translate(15,18)">
+        <rect x="3" y="9" width="23" height="14" rx="3" fill="none" stroke="#727D86" stroke-width="2" />
+        <rect x="26.5" y="13" width="2.5" height="6" rx="1" fill="#5C6369" />
+        <rect x="6" y="12" width="12" height="8" rx="1" fill="url(#Battery_charge)" />
+      </g>
+    </g>
+  </svg>
+  <svg id="Eject" x="0" y="644" width="359" height="71" viewBox="0 0 359 71">
+    <g>
+      <style>.shadow{fill:#000000;fill-opacity:0.094}.border{fill:none;stroke:#555555;stroke-opacity:0.21}.panel{fill:#E4E6F2}</style>
+      <defs>
+        <filter id="Eject_soft" x="-5%" y="-25%" width="110%" height="150%">
+          <feGaussianBlur stdDeviation="2.5" />
+        </filter>
+        <linearGradient id="Eject_arrow" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#35C1F1" />
+          <stop offset="1" stop-color="#0078D4" />
+        </linearGradient>
+      </defs>
+      <rect class="shadow" x="8.5" y="8.5" width="342" height="54" rx="9.5" filter="url(#Eject_soft)" />
+      <rect class="border" x="6.5" y="6.5" width="341" height="53" rx="9" />
+      <rect class="panel" x="7" y="7" width="340" height="52" rx="8.5" />
+      <g transform="translate(15,18)">
+        <path fill="url(#Eject_arrow)" d="M16,5L27,18.5L5,18.5Z" />
+        <rect x="5" y="22" width="22" height="4" rx="1" fill="#5C6369" />
+      </g>
+    </g>
+  </svg>
+  <svg id="Usb" x="0" y="727" width="718" height="71" viewBox="0 0 718 71">
+    <g>
+      <style>.shadow{fill:#000000;fill-opacity:0.094}.border{fill:none;stroke:#555555;stroke-opacity:0.21}.panel{fill:#E4E6F2}</style>
+      <defs>
+        <filter id="Usb0_soft" x="-5%" y="-25%" width="110%" height="150%">
+          <feGaussianBlur stdDeviation="2.5" />
+        </filter>
+        <linearGradient id="Usb0_rim" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#A1AAB3" />
+          <stop offset="1" stop-color="#8E979E" />
+        </linearGradient>
+        <linearGradient id="Usb0_rim_label" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#35C1F1" />
+          <stop offset="1" stop-color="#0078D4" />
+        </linearGradient>
+        <linearGradient id="Usb0_ok" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#5ECB6B" />
+          <stop offset="1" stop-color="#14873D" />
+        </linearGradient>
+      </defs>
+      <rect class="shadow" x="8.5" y="8.5" width="342" height="54" rx="9.5" filter="url(#Usb0_soft)" />
+      <rect class="border" x="6.5" y="6.5" width="341" height="53" rx="9" />
+      <rect class="panel" x="7" y="7" width="340" height="52" rx="8.5" />
+      <g transform="translate(15,18)">
+        <rect x="11.5" y="2.5" width="9" height="8" rx="1" fill="url(#Usb0_rim)" />
+        <rect x="13.5" y="5" width="2" height="2" fill="#5C6369" />
+        <rect x="16.5" y="5" width="2" height="2" fill="#5C6369" />
+        <rect x="9" y="10" width="14" height="19" rx="2.5" fill="#727D86" />
+        <rect x="12" y="14" width="8" height="4" rx="1" fill="url(#Usb0_rim_label)" />
+        <circle cx="24" cy="24" r="7.5" fill="#E4E6F2" />
+        <circle cx="24" cy="24" r="6" fill="url(#Usb0_ok)" />
+        <path d="M21.2,24.2L23.2,26.2L27,22.2" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+      </g>
+    </g>
+    <g transform="translate(359,0)">
+      <defs>
+        <filter id="Usb1_soft" x="-5%" y="-25%" width="110%" height="150%">
+          <feGaussianBlur stdDeviation="2.5" />
+        </filter>
+        <linearGradient id="Usb1_rim" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#A1AAB3" />
+          <stop offset="1" stop-color="#8E979E" />
+        </linearGradient>
+        <linearGradient id="Usb1_rim_label" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#35C1F1" />
+          <stop offset="1" stop-color="#0078D4" />
+        </linearGradient>
+        <linearGradient id="Usb1_cross" gradientUnits="userSpaceOnUse" x1="21" y1="21" x2="27" y2="27">
+          <stop offset="0" stop-color="#F34D58" />
+          <stop offset="0.5" stop-color="#E72938" />
+          <stop offset="0.62" stop-color="#C21A31" />
+          <stop offset="1" stop-color="#C21734" />
+        </linearGradient>
+      </defs>
+      <rect class="shadow" x="8.5" y="8.5" width="342" height="54" rx="9.5" filter="url(#Usb1_soft)" />
+      <rect class="border" x="6.5" y="6.5" width="341" height="53" rx="9" />
+      <rect class="panel" x="7" y="7" width="340" height="52" rx="8.5" />
+      <g transform="translate(15,18)">
+        <rect x="11.5" y="2.5" width="9" height="8" rx="1" fill="url(#Usb1_rim)" />
+        <rect x="13.5" y="5" width="2" height="2" fill="#5C6369" />
+        <rect x="16.5" y="5" width="2" height="2" fill="#5C6369" />
+        <rect x="9" y="10" width="14" height="19" rx="2.5" fill="#727D86" />
+        <rect x="12" y="14" width="8" height="4" rx="1" fill="url(#Usb1_rim_label)" />
+        <circle cx="24" cy="24" r="7.5" fill="#E4E6F2" />
+        <path d="M27,21L21,27" stroke="#E72938" stroke-width="2.5" stroke-linecap="round" fill="none" class="glyph" />
+        <path d="M21,21L27,27" stroke="url(#Usb1_cross)" stroke-width="2.5" stroke-linecap="round" fill="none" class="glyph" />
+      </g>
+    </g>
+  </svg>
+  <svg id="Preview" x="0" y="810" width="100" height="25" viewBox="0 0 100 25">
+    <style>.shadow{fill:#000000;fill-opacity:0.094}.border{fill:none;stroke:#555555;stroke-opacity:0.21}.panel{fill:#E4E6F2}</style>
+    <defs>
+      <linearGradient id="Preview_rim" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#A1AAB3" />
+        <stop offset="1" stop-color="#8E979E" />
+      </linearGradient>
+      <linearGradient id="Preview_track" gradientUnits="userSpaceOnUse" x1="55" x2="284" y2="0" y1="0">
+        <stop offset="0.0109" stop-color="#94C3F7" />
+        <stop offset="0.2860" stop-color="#B3D1F7" />
+        <stop offset="0.5742" stop-color="#D2A5ED" />
+        <stop offset="0.9891" stop-color="#EBA6B0" />
+      </linearGradient>
+    </defs>
+    <g transform="translate(1.3509,3.3509) scale(0.2749)">
+      <rect class="shadow" x="8.5" y="8.5" width="342" height="54" rx="9.5" display="none" />
+      <rect class="border" x="6.5" y="6.5" width="341" height="53" rx="9" />
+      <rect class="panel" x="7" y="7" width="340" height="52" rx="8.5" />
+      <rect x="55" y="32" width="229" height="4" rx="2" fill="url(#Preview_track)" />
+      <g transform="translate(15,18)">
+        <rect x="4" y="10.75" width="4" height="10.5" rx="0.5" fill="#5C6369" />
+        <path fill="#727D86" d="M8,10.75L14,3.4L14,28.6L8,21.25Z" />
+        <rect x="14" y="3.4" width="1.25" height="25.2" fill="url(#Preview_rim)" />
+        <path fill="#35C1F1" d="M15.25,12.95L18.35,9.50A8.75,8.75 0 0 1 18.35,22.50L15.25,19.05Z" class="glyph" />
+        <path fill="#50E6FF" d="M15.25,12.95L15.85,12.28A5.00,5.00 0 0 1 15.85,19.72L15.25,19.05Z" class="glyph" />
+      </g>
+      <rect x="86" y="28.2" width="2" height="11.6" fill="#000000" />
+      <text x="301" y="42" font-family="Segoe UI" font-size="26" fill="#000000">14</text>
+    </g>
+  </svg>
+</svg>
