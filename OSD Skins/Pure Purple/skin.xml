@@ -3,106 +3,45 @@
   <Info>
     <Author>braindefender</Author>
     <WebSite>braindefender.deviantart.com</WebSite>
-    <SkinVersion>1</SkinVersion>
+    <SkinVersion>3.0</SkinVersion>
   </Info>
   <OSD>
-    <!--Available values: BitMoveUp, BitMoveRight, BitStripBottom, BitStripRight, Horizontal, Vertical-->
-    <MeterOrientation>bitstrip</MeterOrientation>
-    <MeterMin>0</MeterMin>
-    <MeterMax>24</MeterMax>
-    <MeterPosition>
-      <X>4</X>
-      <Y>42</Y>
-    </MeterPosition>
+    <!--Orientation: BitMoveUp, BitMoveRight, BitStripBottom, BitStripRight, Horizontal, Vertical-->
+    <!--LayerIndex: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
+    <!--Color: #AARRGGBB-->
+    <!--Alignment: 0 - taLeft, 1 - taCenter, 2 - taRight-->
     <FadeSteps>25</FadeSteps>
     <ShowSteps>53</ShowSteps>
-    <HideMeterOnMute>true</HideMeterOnMute>
+    <MotionSteps>-1</MotionSteps>
+    <!--MotionDirection: Auto (nearest screen edge), Bottom, Top, Left, Right-->
+    <MotionDirection>Auto</MotionDirection>
     <Colorization>false</Colorization>
     <!--Value format: #AARRGGBB. -1 - Use system color-->
     <ColorizationColor>-1</ColorizationColor>
+    <Background Colorize="true"/>
+    <Meter X="4" Y="42" Orientation="BITSTRIPBOTTOM" Min="0" Max="24" HideOnMute="true" Colorize="true"/>
+    <MeterMute X="4" Y="42" Orientation="BITSTRIPBOTTOM" Min="0" Max="24" Colorize="true"/>
+    <MeterEffect Enable="false" Orientation="HORIZONTAL" Min="0" Max="0" LayerIndex="0" HideOnMute="false" X="0" Y="0" Colorize="false" FileName="" AppIcon="false"/>
+    <MeterMuteEffect Enable="false" LayerIndex="0" X="0" Y="0" Colorize="true"/>
+    <AppIcon Enable="false" LayerIndex="0" X="0" Y="0" Size="0" HideOnMute="false"/>
+    <PeakMeter Enable="true" LayerIndex="0" Colorize="false" Style="STEREO" Orientation="BITSTRIPBOTTOM" Max="7">
+      <LeftChannel X="23" Y="19" Inverse="false"/>
+      <RightChannel X="43" Y="19" Inverse="false"/>
+    </PeakMeter>
+    <Text Enable="false" X="0" Y="0" Format="%d%%" FormatMute="%d%%" Alignment="1" HideOnMute="false" LayerIndex="-1">
+      <Font Size="0" Color="#FFFFFFFF" ColorMute="#FFFFFFFF" Name="" Bold="false" Italic="false"/>
+    </Text>
+    <NotificationText Enable="false" X="0" Y="0" Width="0" Height="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </NotificationText>
+    <CDDriveLetter Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </CDDriveLetter>
+    <USBDriveLetter Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </USBDriveLetter>
+    <USBFriendlyName Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </USBFriendlyName>
   </OSD>
-  <MeterEffect>
-    <ShowMeterEffect>false</ShowMeterEffect>
-    <!--Available values: BitMoveUp, BitMoveRight, BitStripBottom, BitStripRight, Horizontal, Vertical-->
-    <MeterOrientation></MeterOrientation>
-    <MeterMin>0</MeterMin>
-    <MeterMax>0</MeterMax>
-    <!--Available values: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
-    <LayerIndex>0</LayerIndex>
-    <HideMeterEffectOnMute>false</HideMeterEffectOnMute>
-    <MeterPosition>
-      <X>0</X>
-      <Y>0</Y>
-    </MeterPosition>
-  </MeterEffect>
-  <MuteEffect>
-    <ShowMuteEffect>false</ShowMuteEffect>
-    <!--Available values: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
-    <LayerIndex>0</LayerIndex>
-    <MutePosition>
-      <X>0</X>
-      <Y>0</Y>
-    </MutePosition>
-    <HideOnUnMute>true</HideOnUnMute>
-  </MuteEffect>
-  <PeakMeter>
-    <ShowPeakMeter>true</ShowPeakMeter>
-    <!--Available values: BitStripBottom, BitStripRight, Horizontal-->
-    <MeterOrientation>BitStripBottom</MeterOrientation>
-    <MeterMax>7</MeterMax>
-    <MeterStyle>stereo</MeterStyle>
-    <!--Available values: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
-    <LayerIndex>0</LayerIndex>
-    <MeterLeftInvert>false</MeterLeftInvert>
-    <MeterRightInvert>false</MeterRightInvert>
-    <MeterLeftPosition>
-      <X>23</X>
-      <Y>19</Y>
-    </MeterLeftPosition>
-    <MeterRightPosition>
-      <X>43</X>
-      <Y>19</Y>
-    </MeterRightPosition>
-  </PeakMeter>
-  <Text>
-    <ShowText>false</ShowText>
-    <TextPosition>
-      <X>0</X>
-      <Y>0</Y>
-    </TextPosition>
-    <Size>0</Size>
-    <!--Value format: #AARRGGBB-->
-    <Color>#FFFFFFFF</Color>
-    <Format>%d%%</Format>
-    <!--Value format: #AARRGGBB-->
-    <ColorMute>#FFFFFFFF</ColorMute>
-    <FormatMute>%d%%</FormatMute>
-    <!--Available values: 0 - taLeft, 1 - taCenter, 2 - taRight-->
-    <Alignment>1</Alignment>
-    <FontName></FontName>
-    <FontBold>false</FontBold>
-    <FontItalic>false</FontItalic>
-    <HideTextOnMute>false</HideTextOnMute>
-    <!--Available values: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 4 - plAfterDigits, 5 - plAfterGlass, 6 - plOnMeterEffect-->
-    <LayerIndex>-1</LayerIndex>
-  </Text>
-  <NotificationText>
-    <Show>false</Show>
-    <Position>
-      <X>0</X>
-      <Y>0</Y>
-      <Width>0</Width>
-      <Height>0</Height>
-    </Position>
-    <Size>0</Size>
-    <!--Value format: #AARRGGBB-->
-    <Color>#00000000</Color>
-    <!--Available values: 0 - taLeft, 1 - taCenter, 2 - taRight-->
-    <Alignment>0</Alignment>
-    <FontName></FontName>
-    <FontBold>false</FontBold>
-    <FontItalic>false</FontItalic>
-    <!--Available values: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 4 - plAfterDigits, 5 - plAfterGlass, 6 - plOnMeterEffect-->
-    <LayerIndex>0</LayerIndex>
-  </NotificationText>
 </XMLskinSettings>

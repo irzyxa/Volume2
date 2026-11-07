@@ -1,108 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <XMLskinSettings>
-  <!--Orientation: BitMoveUp, BitMoveRight, BitStripBottom, BitStripRight, Horizontal, Vertical-->
-  <!--LayerIndex: -1 - plNone, 0 - plAfterBack, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
-  <!--Alignment: 0 - taLeft, 1 - taCenter, 2 - taRight-->
-  <!--Color: #AARRGGBB-->
   <Info>
     <Author>Windows</Author>
     <WebSite>http://www.microsoft.com/</WebSite>
-    <SkinVersion>2.0</SkinVersion>
+    <SkinVersion>3.0</SkinVersion>
   </Info>
   <OSD>
-    <Meter X="27" Y="20" Orientation="Vertical" Min="0" Max="79" HideOnMute="false" Colorize="true">
-      <Click Grow="4"/>
-    </Meter>
-    <MeterMute X="27" Y="20" Orientation="Vertical" Min="0" Max="79" Colorize="true"/>
-    <MeterEffect Enable="true" Orientation="BitMoveUp" Min="0" Max="69" LayerIndex="5" HideOnMute="false" X="27" Y="88" Colorize="false"/>
-    <MeterMuteEffect Enable="true" LayerIndex="0" X="26" Y="109" Colorize="false">
-      <Click Action="Mute" Grow="4"/>
-    </MeterMuteEffect>
-    <DigitalMeterOrientation>BitStripBottom</DigitalMeterOrientation>
-    <DigitalMeterHideZeroUnits>false</DigitalMeterHideZeroUnits>
-    <DigitalMeterHideZeroTens>true</DigitalMeterHideZeroTens>
-    <DigitalMeterHideZeroHundreds>true</DigitalMeterHideZeroHundreds>
-    <DigitalMeterPositionHundreds>
-      <X>304</X>
-      <Y>46</Y>
-    </DigitalMeterPositionHundreds>
-    <DigitalMeterPositionTens>
-      <X>316</X>
-      <Y>46</Y>
-    </DigitalMeterPositionTens>
-    <DigitalMeterPositionUnits>
-      <X>330</X>
-      <Y>46</Y>
-    </DigitalMeterPositionUnits>
-    <DigitalMeterPositionTens1>
-      <X>-1</X>
-      <Y>-1</Y>
-    </DigitalMeterPositionTens1>
-    <DigitalMeterPositionUnits1>
-      <X>-1</X>
-      <Y>-1</Y>
-    </DigitalMeterPositionUnits1>
-    <DigitalMeterPositionUnits2>
-      <X>-1</X>
-      <Y>-1</Y>
-    </DigitalMeterPositionUnits2>
+    <!--Orientation: BitMoveUp, BitMoveRight, BitStripBottom, BitStripRight, Horizontal, Vertical-->
+    <!--LayerIndex: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
+    <!--Color: #AARRGGBB-->
+    <!--Alignment: 0 - taLeft, 1 - taCenter, 2 - taRight-->
     <FadeSteps>0</FadeSteps>
     <ShowSteps>0</ShowSteps>
+    <MotionSteps>-1</MotionSteps>
+    <!--MotionDirection: Auto (nearest screen edge), Bottom, Top, Left, Right-->
+    <MotionDirection>Auto</MotionDirection>
     <Colorization>true</Colorization>
     <!--Value format: #AARRGGBB. -1 - Use system color-->
     <ColorizationColor>-1</ColorizationColor>
+    <Background Colorize="true"/>
+    <Meter X="27" Y="20" Orientation="VERTICAL" Min="0" Max="79" HideOnMute="false" Colorize="true">
+      <Click Grow="4"/>
+    </Meter>
+    <MeterMute X="27" Y="20" Orientation="VERTICAL" Min="0" Max="79" Colorize="true"/>
+    <MeterEffect Enable="true" Orientation="BITMOVEUP" Min="0" Max="69" LayerIndex="5" HideOnMute="false" X="27" Y="88" Colorize="false" FileName="" AppIcon="false"/>
+    <MeterMuteEffect Enable="true" LayerIndex="0" X="26" Y="109" Colorize="false">
+      <Click Action="Mute" Grow="4"/>
+    </MeterMuteEffect>
+    <AppIcon Enable="false" LayerIndex="0" X="0" Y="0" Size="0" HideOnMute="false"/>
+    <DigitalMeter Orientation="BITSTRIPBOTTOM">
+      <Hundreds X="304" Y="46" HideZero="true"/>
+      <Tens X="316" Y="46" HideZero="true"/>
+      <Tens1 X="-1" Y="-1"/>
+      <Units X="330" Y="46" HideZero="false"/>
+      <Units1 X="-1" Y="-1"/>
+      <Units2 X="-1" Y="-1"/>
+    </DigitalMeter>
+    <PeakMeter Enable="true" LayerIndex="0" Colorize="false" Style="MONO" Orientation="HORIZONTAL" Max="100">
+      <LeftChannel X="64" Y="53" Inverse="false"/>
+      <RightChannel X="0" Y="0" Inverse="false"/>
+    </PeakMeter>
+    <Text Enable="true" X="32" Y="116" Format="%V" FormatMute="%V" Alignment="1" HideOnMute="true" LayerIndex="-1">
+      <Font Size="13" Color="#FFFFFFFF" ColorMute="#FFFFFFFF" Name="Segoe UI" Bold="false" Italic="false"/>
+    </Text>
+    <NotificationText Enable="false" X="0" Y="0" Width="0" Height="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </NotificationText>
+    <CDDriveLetter Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </CDDriveLetter>
+    <USBDriveLetter Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </USBDriveLetter>
+    <USBFriendlyName Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </USBFriendlyName>
   </OSD>
-  <PeakMeter>
-    <ShowPeakMeter>true</ShowPeakMeter>
-    <MeterOrientation>horizontal</MeterOrientation>
-    <MeterMax>100</MeterMax>
-    <MeterStyle>mono</MeterStyle>
-    <LayerIndex>0</LayerIndex>
-    <MeterLeftInvert>false</MeterLeftInvert>
-    <MeterRightInvert>false</MeterRightInvert>
-    <MeterLeftPosition>
-      <X>64</X>
-      <Y>53</Y>
-    </MeterLeftPosition>
-    <MeterRightPosition>
-      <X>0</X>
-      <Y>0</Y>
-    </MeterRightPosition>
-  </PeakMeter>
-  <Text>
-    <ShowText>true</ShowText>
-    <TextPosition>
-      <X>32</X>
-      <Y>116</Y>
-    </TextPosition>
-    <Size>13</Size>
-    <Color>#FFFFFFFF</Color>
-    <Format>%V</Format>
-    <ColorMute>#FFFFFFFF</ColorMute>
-    <FormatMute>%V</FormatMute>
-    <Alignment>1</Alignment>
-    <FontName>Segoe UI</FontName>
-    <FontBold>false</FontBold>
-    <FontItalic>false</FontItalic>
-    <HideTextOnMute>true</HideTextOnMute>
-    <LayerIndex>-1</LayerIndex>
-  </Text>
-  <NotificationText>
-    <Show>false</Show>
-    <Position>
-      <X>0</X>
-      <Y>0</Y>
-      <Width>0</Width>
-      <Height>0</Height>
-    </Position>
-    <Size>0</Size>
-    <Color>#00000000</Color>
-    <Alignment>0</Alignment>
-    <FontName></FontName>
-    <FontBold>false</FontBold>
-    <FontItalic>false</FontItalic>
-    <LayerIndex>0</LayerIndex>
-  </NotificationText>
   <Layers>
     <Layer Enable="true" Image="Meter_Back.svg" X="27" Y="20" LayerIndex="0" Colorize="true"/>
   </Layers>

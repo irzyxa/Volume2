@@ -3,130 +3,82 @@
   <Info>
     <Author>mgonzales71</Author>
     <WebSite>http://www.github.com/mgonzales71</WebSite>
-    <SkinVersion>2.0</SkinVersion>
+    <SkinVersion>3.0</SkinVersion>
   </Info>
   <OSD>
     <!--Orientation: BitMoveUp, BitMoveRight, BitStripBottom, BitStripRight, Horizontal, Vertical-->
-    <!--LayerIndex: -1 - plNone, 0 - plAfterBack, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
-    <DigitalMeterOrientation>BitStripBottom</DigitalMeterOrientation>
-    <DigitalMeterHideZeroUnits>false</DigitalMeterHideZeroUnits>
-    <DigitalMeterHideZeroTens>true</DigitalMeterHideZeroTens>
-    <DigitalMeterHideZeroHundreds>true</DigitalMeterHideZeroHundreds>
-    <DigitalMeterPositionHundreds>
-      <X>304</X>
-      <Y>46</Y>
-    </DigitalMeterPositionHundreds>
-    <DigitalMeterPositionTens>
-      <X>316</X>
-      <Y>46</Y>
-    </DigitalMeterPositionTens>
-    <DigitalMeterPositionUnits>
-      <X>330</X>
-      <Y>46</Y>
-    </DigitalMeterPositionUnits>
-    <DigitalMeterPositionTens1>
-      <X>-1</X>
-      <Y>-1</Y>
-    </DigitalMeterPositionTens1>
-    <DigitalMeterPositionUnits1>
-      <X>-1</X>
-      <Y>-1</Y>
-    </DigitalMeterPositionUnits1>
-    <DigitalMeterPositionUnits2>
-      <X>-1</X>
-      <Y>-1</Y>
-    </DigitalMeterPositionUnits2>
+    <!--LayerIndex: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
+    <!--Color: #AARRGGBB-->
+    <!--Alignment: 0 - taLeft, 1 - taCenter, 2 - taRight-->
     <FadeSteps>18</FadeSteps>
     <ShowSteps>36</ShowSteps>
+    <MotionSteps>-1</MotionSteps>
+    <!--MotionDirection: Auto (nearest screen edge), Bottom, Top, Left, Right-->
+    <MotionDirection>Auto</MotionDirection>
     <Colorization>true</Colorization>
     <!--Value format: #AARRGGBB. -1 - Use system color-->
     <ColorizationColor>-1</ColorizationColor>
     <Background Colorize="false"/>
-    <Meter X="63" Y="43" Orientation="BitMoveRight" Min="0" Max="228" HideOnMute="false" Colorize="true">
+    <Meter X="63" Y="43" Orientation="BITMOVERIGHT" Min="0" Max="228" HideOnMute="false" Colorize="true">
       <Click Grow="2"/>
     </Meter>
-    <MeterMute X="0" Y="0" Orientation="" Min="0" Max="0" Colorize="true"/>
-    <MeterEffect Enable="true" Orientation="BitStripBottom" Min="0" Max="3" LayerIndex="0" HideOnMute="true" X="16" Y="39" Colorize="false">
+    <MeterMute X="0" Y="0" Orientation="HORIZONTAL" Min="0" Max="0" Colorize="true"/>
+    <MeterEffect Enable="true" Orientation="BITSTRIPBOTTOM" Min="0" Max="3" LayerIndex="0" HideOnMute="true" X="16" Y="39" Colorize="false" FileName="" AppIcon="false">
       <Click Action="Mute" Grow="3"/>
     </MeterEffect>
     <MeterMuteEffect Enable="true" LayerIndex="0" X="16" Y="38" Colorize="false">
       <Click Action="Mute" Grow="3"/>
     </MeterMuteEffect>
+    <AppIcon Enable="false" LayerIndex="0" X="0" Y="0" Size="0" HideOnMute="false"/>
+    <DigitalMeter Orientation="BITSTRIPBOTTOM">
+      <Hundreds X="304" Y="46" HideZero="true"/>
+      <Tens X="316" Y="46" HideZero="true"/>
+      <Tens1 X="-1" Y="-1"/>
+      <Units X="330" Y="46" HideZero="false"/>
+      <Units1 X="-1" Y="-1"/>
+      <Units2 X="-1" Y="-1"/>
+    </DigitalMeter>
+    <PeakMeter Enable="true" LayerIndex="0" Colorize="false" Style="MONO" Orientation="HORIZONTAL" Max="100">
+      <LeftChannel X="64" Y="53" Inverse="false"/>
+      <RightChannel X="0" Y="0" Inverse="false"/>
+    </PeakMeter>
+    <Text Enable="true" X="10" Y="23" Format="%D" FormatMute="%D" Alignment="0" HideOnMute="false" LayerIndex="-1">
+      <Font Size="16" Color="#FF6F6F6F" ColorMute="#FF6F6F6F" Name="Segoe UI" Bold="false" Italic="false"/>
+    </Text>
+    <NotificationText Enable="false" X="0" Y="0" Width="0" Height="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </NotificationText>
+    <CDDriveLetter Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </CDDriveLetter>
+    <USBDriveLetter Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </USBDriveLetter>
+    <USBFriendlyName Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </USBFriendlyName>
   </OSD>
-  <Media Enable="true">
-    <Cover Enable="true" X="290" Y="10" Size="60" Radius="4"/>
-    <Title Enable="true" X="64" Y="24" Alignment="0" MaxWidth="280">
-      <Font Size="15" Color="#FF6F6F6F" Name="Segoe UI" Bold="true" Italic="false"/>
-    </Title>
-    <Artist Enable="true" X="64" Y="44" Alignment="0" MaxWidth="280">
-      <Font Size="12" Color="#FF8E8E90" Name="Segoe UI" Bold="false" Italic="false"/>
-    </Artist>
-    <PlayPause Enable="true" X="20" Y="25" Image="Media_PlayPause.svg">
-      <Click Grow="5"/>
-    </PlayPause>
-    <Progress Enable="true" X="14" Y="72" Width="262" Height="3" TrackColor="#FFD6D5D7" FillColor="Colorization">
-      <Click Grow="6"/>
-    </Progress>
-    <Time Enable="false" X="346" Y="83" Alignment="2" MaxWidth="0">
-      <Font Size="12" Color="#FF8E8E90" Name="Segoe UI" Bold="false" Italic="false"/>
-    </Time>
-  </Media>
-  <PeakMeter>
-    <ShowPeakMeter>true</ShowPeakMeter>
-    <MeterOrientation>horizontal</MeterOrientation>
-    <MeterMax>100</MeterMax>
-    <MeterStyle>mono</MeterStyle>
-    <LayerIndex>0</LayerIndex>
-    <MeterLeftInvert>false</MeterLeftInvert>
-    <MeterRightInvert>false</MeterRightInvert>
-    <MeterLeftPosition>
-      <X>64</X>
-      <Y>53</Y>
-    </MeterLeftPosition>
-    <MeterRightPosition>
-      <X>0</X>
-      <Y>0</Y>
-    </MeterRightPosition>
-  </PeakMeter>
-  <Text>
-    <ShowText>true</ShowText>
-    <TextPosition>
-      <X>10</X>
-      <Y>23</Y>
-    </TextPosition>
-    <Size>16</Size>
-    <!--Value format: #AARRGGBB-->
-    <Color>#FF6F6F6F</Color>
-    <Format>%D</Format>
-    <!--Value format: #AARRGGBB-->
-    <ColorMute>#FF6F6F6F</ColorMute>
-    <FormatMute>%D</FormatMute>
-    <!--Alignment: 0 - taLeft, 1 - taCenter, 2 - taRight-->
-    <Alignment>0</Alignment>
-    <FontName>Segoe UI</FontName>
-    <FontBold>false</FontBold>
-    <FontItalic>false</FontItalic>
-    <HideTextOnMute>false</HideTextOnMute>
-    <LayerIndex>-1</LayerIndex>
-  </Text>
-  <NotificationText>
-    <Show>false</Show>
-    <Position>
-      <X>0</X>
-      <Y>0</Y>
-      <Width>0</Width>
-      <Height>0</Height>
-    </Position>
-    <Size>0</Size>
-    <!--Value format: #AARRGGBB-->
-    <Color>#00000000</Color>
-    <Alignment>0</Alignment>
-    <FontName></FontName>
-    <FontBold>false</FontBold>
-    <FontItalic>false</FontItalic>
-    <LayerIndex>0</LayerIndex>
-  </NotificationText>
   <Layers>
     <Layer Enable="true" Image="Meter_Track.svg" X="64" Y="53" LayerIndex="0" Colorize="false"/>
   </Layers>
+  <Media Enable="true" Keys="true">
+    <Cover Enable="true" X="290" Y="10" Size="60" Radius="4"/>
+    <Text Enable="true" X="64" Y="24" Alignment="0" MaxWidth="280" Format="%t">
+      <Font Size="15" Color="#FF6F6F6F" Name="Segoe UI" Bold="true" Italic="false"/>
+    </Text>
+    <Text Enable="true" X="64" Y="44" Alignment="0" MaxWidth="280" Format="%a">
+      <Font Size="12" Color="#FF8E8E90" Name="Segoe UI" Bold="false" Italic="false"/>
+    </Text>
+    <Text Enable="false" X="346" Y="83" Alignment="2" MaxWidth="0" Format="%e/%d">
+      <Font Size="12" Color="#FF8E8E90" Name="Segoe UI" Bold="false" Italic="false"/>
+    </Text>
+    <Progress Enable="true" X="14" Y="72" Width="262" Height="3" TrackColor="#FFD6D5D7" FillColor="-1">
+      <Click Grow="6"/>
+    </Progress>
+    <PlayPause Enable="true" X="20" Y="25" Image="Media_PlayPause.svg">
+      <Click Grow="5"/>
+    </PlayPause>
+    <Previous Enable="false" X="0" Y="0" Image=""/>
+    <Next Enable="false" X="0" Y="0" Image=""/>
+  </Media>
 </XMLskinSettings>

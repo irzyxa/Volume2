@@ -3,66 +3,45 @@
   <Info>
     <Author>Lazar Daniel</Author>
     <WebSite>http://blaezer.deviantart.com/</WebSite>
-    <SkinVersion>1</SkinVersion>
+    <SkinVersion>3.0</SkinVersion>
   </Info>
   <OSD>
-    <!--Available values: BitMoveUp, BitMoveRight, BitStripBottom, BitStripRight, Horizontal, Vertical-->
-    <MeterOrientation>Horizontal</MeterOrientation>
-    <MeterMax>97</MeterMax>
-    <MeterPosition>
-      <X>46</X>
-      <Y>19</Y>
-    </MeterPosition>
+    <!--Orientation: BitMoveUp, BitMoveRight, BitStripBottom, BitStripRight, Horizontal, Vertical-->
+    <!--LayerIndex: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
+    <!--Color: #AARRGGBB-->
+    <!--Alignment: 0 - taLeft, 1 - taCenter, 2 - taRight-->
     <FadeSteps>0</FadeSteps>
     <ShowSteps>0</ShowSteps>
-    <HideMeterOnMute>false</HideMeterOnMute>
+    <MotionSteps>-1</MotionSteps>
+    <!--MotionDirection: Auto (nearest screen edge), Bottom, Top, Left, Right-->
+    <MotionDirection>Auto</MotionDirection>
+    <Colorization>false</Colorization>
+    <!--Value format: #AARRGGBB. -1 - Use system color-->
+    <ColorizationColor>-1</ColorizationColor>
+    <Background Colorize="true"/>
+    <Meter X="46" Y="19" Orientation="HORIZONTAL" Min="0" Max="97" HideOnMute="false" Colorize="true"/>
+    <MeterMute X="46" Y="19" Orientation="HORIZONTAL" Min="0" Max="97" Colorize="true"/>
+    <MeterEffect Enable="true" Orientation="BITMOVERIGHT" Min="1" Max="254" LayerIndex="2" HideOnMute="false" X="44" Y="9" Colorize="false" FileName="" AppIcon="false"/>
+    <MeterMuteEffect Enable="false" LayerIndex="0" X="0" Y="0" Colorize="true"/>
+    <AppIcon Enable="false" LayerIndex="0" X="0" Y="0" Size="0" HideOnMute="false"/>
+    <PeakMeter Enable="false" LayerIndex="-1" Colorize="false" Style="MONO" Orientation="HORIZONTAL" Max="-1">
+      <LeftChannel X="0" Y="0" Inverse="false"/>
+      <RightChannel X="0" Y="0" Inverse="false"/>
+    </PeakMeter>
+    <Text Enable="false" X="281" Y="56" Format="" FormatMute="" Alignment="0" HideOnMute="false" LayerIndex="5">
+      <Font Size="18" Color="#00FFFFFF" ColorMute="#665306FF" Name="Tahoma" Bold="false" Italic="false"/>
+    </Text>
+    <NotificationText Enable="false" X="0" Y="0" Width="0" Height="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </NotificationText>
+    <CDDriveLetter Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </CDDriveLetter>
+    <USBDriveLetter Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </USBDriveLetter>
+    <USBFriendlyName Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </USBFriendlyName>
   </OSD>
-  <MeterEffect>
-    <ShowMeterEffect>true</ShowMeterEffect>
-    <!--Available values: BitMoveUp, BitMoveRight, BitStripBottom, BitStripRight, Horizontal, Vertical-->
-    <MeterOrientation>bitmoveright</MeterOrientation>
-    <MeterMax>254</MeterMax>
-    <!--Available values: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
-    <LayerIndex>2</LayerIndex>
-    <HideMeterEffectOnMute>false</HideMeterEffectOnMute>
-    <MeterPosition>
-      <X>44</X>
-      <Y>9</Y>
-    </MeterPosition>
-  </MeterEffect>
-  <PeakMeter>
-    <ShowPeakMeter>false</ShowPeakMeter>
-    <!--Available values: BitStripBottom, BitStripRight, Horizontal-->
-    <MeterOrientation>horizontal</MeterOrientation>
-    <MeterMax>-1</MeterMax>
-    <MeterStyle>mono</MeterStyle>
-    <!--Available values: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
-    <LayerIndex>-1</LayerIndex>
-    <MeterLeftInvert>false</MeterLeftInvert>
-    <MeterRightInvert>false</MeterRightInvert>
-    <MeterLeftPosition>
-      <X>0</X>
-      <Y>0</Y>
-    </MeterLeftPosition>
-    <MeterRightPosition>
-      <X>0</X>
-      <Y>0</Y>
-    </MeterRightPosition>
-  </PeakMeter>
-  <Text>
-    <ShowText>false</ShowText>
-    <TextPosition>
-      <X>281</X>
-      <Y>56</Y>
-    </TextPosition>
-    <Size>18</Size>
-    <Color>-1</Color>
-    <ColorMute>-65536</ColorMute>
-    <FontName>Tahoma</FontName>
-    <FontBold>false</FontBold>
-    <FontItalic>false</FontItalic>
-    <HideTextOnMute>false</HideTextOnMute>
-    <!--Available values: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 4 - plAfterDigits, 5 - plAfterGlass-->
-    <LayerIndex>5</LayerIndex>
-  </Text>
 </XMLskinSettings>

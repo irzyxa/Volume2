@@ -3,31 +3,45 @@
   <Info>
     <Author>Caynax</Author>
     <WebSite>http://www.caynax.com</WebSite>
-    <SkinVersion>1</SkinVersion>
+    <SkinVersion>3.0</SkinVersion>
   </Info>
   <OSD>
-    <MeterOrientation>bitstrip</MeterOrientation>
-    <MeterMax>12</MeterMax>
-    <MeterPosition>
-      <X>0</X>
-      <Y>0</Y>
-    </MeterPosition>
+    <!--Orientation: BitMoveUp, BitMoveRight, BitStripBottom, BitStripRight, Horizontal, Vertical-->
+    <!--LayerIndex: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
+    <!--Color: #AARRGGBB-->
+    <!--Alignment: 0 - taLeft, 1 - taCenter, 2 - taRight-->
     <FadeSteps>16</FadeSteps>
     <ShowSteps>20</ShowSteps>
-    <HideMeterOnMute>false</HideMeterOnMute>
+    <MotionSteps>-1</MotionSteps>
+    <!--MotionDirection: Auto (nearest screen edge), Bottom, Top, Left, Right-->
+    <MotionDirection>Auto</MotionDirection>
+    <Colorization>false</Colorization>
+    <!--Value format: #AARRGGBB. -1 - Use system color-->
+    <ColorizationColor>-1</ColorizationColor>
+    <Background Colorize="true"/>
+    <Meter X="0" Y="0" Orientation="BITSTRIPBOTTOM" Min="0" Max="12" HideOnMute="false" Colorize="true"/>
+    <MeterMute X="0" Y="0" Orientation="BITSTRIPBOTTOM" Min="0" Max="12" Colorize="true"/>
+    <MeterEffect Enable="false" Orientation="" Min="0" Max="0" LayerIndex="0" HideOnMute="false" X="0" Y="0" Colorize="true" FileName="" AppIcon="false"/>
+    <MeterMuteEffect Enable="false" LayerIndex="0" X="0" Y="0" Colorize="true"/>
+    <AppIcon Enable="false" LayerIndex="0" X="0" Y="0" Size="0" HideOnMute="false"/>
+    <PeakMeter Enable="false" LayerIndex="-1" Colorize="false" Style="MONO" Orientation="HORIZONTAL" Max="-1">
+      <LeftChannel X="0" Y="0" Inverse="false"/>
+      <RightChannel X="0" Y="0" Inverse="false"/>
+    </PeakMeter>
+    <Text Enable="true" X="125" Y="132" Format="" FormatMute="" Alignment="0" HideOnMute="true" LayerIndex="-1">
+      <Font Size="22" Color="#99478104" ColorMute="#427952FF" Name="Tahoma" Bold="false" Italic="false"/>
+    </Text>
+    <NotificationText Enable="false" X="0" Y="0" Width="0" Height="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </NotificationText>
+    <CDDriveLetter Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </CDDriveLetter>
+    <USBDriveLetter Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </USBDriveLetter>
+    <USBFriendlyName Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </USBFriendlyName>
   </OSD>
- <text>
-  <showtext>true</showtext> 
-  <textposition>
-  <X>125</X> 
-  <Y>132</Y> 
-  </textposition>
-  <size>22</size> 
-  <color>-9847814</color> 
-  <colormute>-437952</colormute> 
-  <FONTNAME>Tahoma</FONTNAME> 
-  <FONTBOLD>0</FONTBOLD> 
-  <FONTITALIC>0</FONTITALIC> 
- </text>
-
 </XMLskinSettings>

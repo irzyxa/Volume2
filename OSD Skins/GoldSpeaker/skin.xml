@@ -3,74 +3,53 @@
   <Info>
     <Author>mitraleks</Author>
     <WebSite>-</WebSite>
-    <SkinVersion>1</SkinVersion>
+    <SkinVersion>3.0</SkinVersion>
   </Info>
   <OSD>
-    <MeterOrientation></MeterOrientation>
-    <MeterMax>0</MeterMax>
-    <MeterPosition>
-      <X>0</X>
-      <Y>0</Y>
-    </MeterPosition>
+    <!--Orientation: BitMoveUp, BitMoveRight, BitStripBottom, BitStripRight, Horizontal, Vertical-->
+    <!--LayerIndex: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
+    <!--Color: #AARRGGBB-->
+    <!--Alignment: 0 - taLeft, 1 - taCenter, 2 - taRight-->
     <FadeSteps>53</FadeSteps>
     <ShowSteps>53</ShowSteps>
-    <HideMeterOnMute>false</HideMeterOnMute>
-    <DigitalMeterOrientation>bitstripbottom</DigitalMeterOrientation>
-    <DigitalMeterHideZeroUnits>false</DigitalMeterHideZeroUnits>
-    <DigitalMeterHideZeroTens>true</DigitalMeterHideZeroTens>
-    <DigitalMeterHideZeroHundreds>true</DigitalMeterHideZeroHundreds>
-    <DigitalMeterPositionHundreds>
-      <X>700</X>
-      <Y>26</Y>
-    </DigitalMeterPositionHundreds>
-    <DigitalMeterPositionTens>
-      <X>766</X>
-      <Y>26</Y>
-    </DigitalMeterPositionTens>
-    <DigitalMeterPositionUnits>
-      <X>832</X>
-      <Y>26</Y>
-    </DigitalMeterPositionUnits>
-    <DigitalMeterPositionTens1>
-      <X>726</X>
-      <Y>26</Y>
-    </DigitalMeterPositionTens1>
-    <DigitalMeterPositionUnits1>
-      <X>792</X>
-      <Y>25</Y>
-    </DigitalMeterPositionUnits1>
-    <DigitalMeterPositionUnits2>
-      <X>756</X>
-      <Y>26</Y>
-    </DigitalMeterPositionUnits2>
+    <MotionSteps>-1</MotionSteps>
+    <!--MotionDirection: Auto (nearest screen edge), Bottom, Top, Left, Right-->
+    <MotionDirection>Auto</MotionDirection>
+    <Colorization>false</Colorization>
+    <!--Value format: #AARRGGBB. -1 - Use system color-->
+    <ColorizationColor>-1</ColorizationColor>
+    <Background Colorize="true"/>
+    <Meter X="0" Y="0" Orientation="HORIZONTAL" Min="0" Max="0" HideOnMute="false" Colorize="true"/>
+    <MeterMute X="0" Y="0" Orientation="HORIZONTAL" Min="0" Max="0" Colorize="true"/>
+    <MeterEffect Enable="false" Orientation="" Min="0" Max="0" LayerIndex="0" HideOnMute="false" X="0" Y="0" Colorize="true" FileName="" AppIcon="false"/>
+    <MeterMuteEffect Enable="false" LayerIndex="0" X="0" Y="0" Colorize="true"/>
+    <AppIcon Enable="false" LayerIndex="0" X="0" Y="0" Size="0" HideOnMute="false"/>
+    <DigitalMeter Orientation="BITSTRIPBOTTOM">
+      <Hundreds X="700" Y="26" HideZero="true"/>
+      <Tens X="766" Y="26" HideZero="true"/>
+      <Tens1 X="726" Y="26"/>
+      <Units X="832" Y="26" HideZero="false"/>
+      <Units1 X="792" Y="25"/>
+      <Units2 X="756" Y="26"/>
+    </DigitalMeter>
+    <PeakMeter Enable="false" LayerIndex="-1" Colorize="false" Style="MONO" Orientation="HORIZONTAL" Max="-1">
+      <LeftChannel X="0" Y="0" Inverse="false"/>
+      <RightChannel X="0" Y="0" Inverse="false"/>
+    </PeakMeter>
+    <Text Enable="false" X="0" Y="0" Format="" FormatMute="" Alignment="0" HideOnMute="false" LayerIndex="-1">
+      <Font Size="0" Color="#00FFFFFF" ColorMute="#00FFFFFF" Name="" Bold="false" Italic="false"/>
+    </Text>
+    <NotificationText Enable="false" X="0" Y="0" Width="0" Height="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </NotificationText>
+    <CDDriveLetter Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </CDDriveLetter>
+    <USBDriveLetter Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </USBDriveLetter>
+    <USBFriendlyName Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </USBFriendlyName>
   </OSD>
-  <PeakMeter>
-    <ShowPeakMeter>false</ShowPeakMeter>
-    <MeterOrientation>horizontal</MeterOrientation>
-    <MeterMax>-1</MeterMax>
-    <MeterStyle>mono</MeterStyle>
-    <LayerIndex>-1</LayerIndex>
-    <MeterLeftPosition>
-      <X>0</X>
-      <Y>0</Y>
-    </MeterLeftPosition>
-    <MeterRightPosition>
-      <X>0</X>
-      <Y>0</Y>
-    </MeterRightPosition>
-  </PeakMeter>
-  <Text>
-    <ShowText>false</ShowText>
-    <TextPosition>
-      <X>0</X>
-      <Y>0</Y>
-    </TextPosition>
-    <Size>0</Size>
-    <Color>-1</Color>
-    <ColorMute>-1</ColorMute>
-    <FontName></FontName>
-    <FontBold>false</FontBold>
-    <FontItalic>false</FontItalic>
-    <HideTextOnMute>false</HideTextOnMute>
-  </Text>
 </XMLskinSettings>

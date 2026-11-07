@@ -1,22 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<XMLskinSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-
-  <info>
-    <author>Irza Alexandr</author>
-    <website>http://my.opera.com/irzyxa/blog/</website>
-
-    <skinVersion>1</skinVersion>
-    <formatVersion>1</formatVersion>
-  </info>
-
-  <osd>
-    <meterOrientation>bitstripright</meterOrientation>
-
-    <meterPosition>
-      <X>7</X>
-      <Y>4</Y>
-    </meterPosition>
-
-    <meterMax>27</meterMax>
-  </osd>
+<XMLskinSettings>
+  <Info>
+    <Author>Irza Alexandr</Author>
+    <WebSite>http://my.opera.com/irzyxa/blog/</WebSite>
+    <SkinVersion>3.0</SkinVersion>
+  </Info>
+  <OSD>
+    <!--Orientation: BitMoveUp, BitMoveRight, BitStripBottom, BitStripRight, Horizontal, Vertical-->
+    <!--LayerIndex: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
+    <!--Color: #AARRGGBB-->
+    <!--Alignment: 0 - taLeft, 1 - taCenter, 2 - taRight-->
+    <FadeSteps>-1</FadeSteps>
+    <ShowSteps>-1</ShowSteps>
+    <MotionSteps>-1</MotionSteps>
+    <!--MotionDirection: Auto (nearest screen edge), Bottom, Top, Left, Right-->
+    <MotionDirection>Auto</MotionDirection>
+    <Colorization>false</Colorization>
+    <!--Value format: #AARRGGBB. -1 - Use system color-->
+    <ColorizationColor>-1</ColorizationColor>
+    <Background Colorize="true"/>
+    <Meter X="7" Y="4" Orientation="BITSTRIPRIGHT" Min="0" Max="27" HideOnMute="false" Colorize="true"/>
+    <MeterMute X="7" Y="4" Orientation="BITSTRIPRIGHT" Min="0" Max="27" Colorize="true"/>
+    <MeterEffect Enable="false" Orientation="" Min="0" Max="0" LayerIndex="0" HideOnMute="false" X="0" Y="0" Colorize="true" FileName="" AppIcon="false"/>
+    <MeterMuteEffect Enable="false" LayerIndex="0" X="0" Y="0" Colorize="true"/>
+    <AppIcon Enable="false" LayerIndex="0" X="0" Y="0" Size="0" HideOnMute="false"/>
+    <PeakMeter Enable="false" LayerIndex="-1" Colorize="false" Style="MONO" Orientation="HORIZONTAL" Max="-1">
+      <LeftChannel X="0" Y="0" Inverse="false"/>
+      <RightChannel X="0" Y="0" Inverse="false"/>
+    </PeakMeter>
+    <Text Enable="false" X="0" Y="0" Format="" FormatMute="" Alignment="0" HideOnMute="false" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" ColorMute="#00000000" Name="Tahoma" Bold="false" Italic="false"/>
+    </Text>
+    <NotificationText Enable="false" X="0" Y="0" Width="0" Height="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </NotificationText>
+    <CDDriveLetter Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </CDDriveLetter>
+    <USBDriveLetter Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </USBDriveLetter>
+    <USBFriendlyName Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </USBFriendlyName>
+  </OSD>
 </XMLskinSettings>

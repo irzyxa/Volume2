@@ -3,26 +3,30 @@
   <Info>
     <Author>Matthew Jones</Author>
     <WebSite>about:blank</WebSite>
-    <SkinVersion>2.1</SkinVersion>
+    <SkinVersion>3.0</SkinVersion>
   </Info>
   <OSD>
     <!--Orientation: BitMoveUp, BitMoveRight, BitStripBottom, BitStripRight, Horizontal, Vertical-->
-    <!--LayerIndex: -1 - plNone, 0 - plAfterBack, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
+    <!--LayerIndex: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
     <!--Color: #AARRGGBB-->
     <!--Alignment: 0 - taLeft, 1 - taCenter, 2 - taRight-->
     <FadeSteps>0</FadeSteps>
     <ShowSteps>0</ShowSteps>
+    <MotionSteps>-1</MotionSteps>
+    <!--MotionDirection: Auto (nearest screen edge), Bottom, Top, Left, Right-->
+    <MotionDirection>Auto</MotionDirection>
     <Colorization>false</Colorization>
     <!--Value format: #AARRGGBB. -1 - Use system color-->
     <ColorizationColor>-1</ColorizationColor>
     <Background Colorize="true"/>
-    <Meter X="41" Y="55" Orientation="horizontal" Min="0" Max="100" HideOnMute="false" Colorize="true">
+    <Meter X="41" Y="55" Orientation="HORIZONTAL" Min="0" Max="100" HideOnMute="false" Colorize="true">
       <Click Grow="2"/>
     </Meter>
-    <MeterMute X="41" Y="55" Orientation="horizontal" Min="0" Max="100" Colorize="true"/>
-    <MeterEffect Enable="false" Orientation="" Min="0" Max="0" LayerIndex="0" HideOnMute="false" X="0" Y="0" Colorize="true"/>
+    <MeterMute X="41" Y="55" Orientation="HORIZONTAL" Min="0" Max="100" Colorize="true"/>
+    <MeterEffect Enable="false" Orientation="HORIZONTAL" Min="0" Max="0" LayerIndex="0" HideOnMute="false" X="0" Y="0" Colorize="true" FileName="" AppIcon="false"/>
     <MeterMuteEffect Enable="false" LayerIndex="0" X="0" Y="0" Colorize="true"/>
-    <PeakMeter Enable="false" LayerIndex="-1" Colorize="false" Style="mono" Orientation="horizontal" Max="-1">
+    <AppIcon Enable="false" LayerIndex="0" X="0" Y="0" Size="0" HideOnMute="false"/>
+    <PeakMeter Enable="false" LayerIndex="-1" Colorize="false" Style="MONO" Orientation="HORIZONTAL" Max="-1">
       <LeftChannel X="0" Y="0" Inverse="false"/>
       <RightChannel X="0" Y="0" Inverse="false"/>
     </PeakMeter>
@@ -32,24 +36,35 @@
     <NotificationText Enable="false" X="0" Y="0" Width="0" Height="0" Alignment="0" LayerIndex="-1">
       <Font Size="0" Color="#00000000" Name="" Bold="false" Italic="false"/>
     </NotificationText>
+    <CDDriveLetter Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </CDDriveLetter>
+    <USBDriveLetter Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </USBDriveLetter>
+    <USBFriendlyName Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </USBFriendlyName>
   </OSD>
-  <Media Enable="true">
-    <Cover Enable="true" X="231" Y="16" Size="58" Radius="0"/>
-    <Title Enable="true" X="56" Y="32" Alignment="0" MaxWidth="221">
-      <Font Size="12" Color="#FF000000" Name="Tahoma" Bold="true" Italic="false"/>
-    </Title>
-    <Artist Enable="true" X="56" Y="56" Alignment="0" MaxWidth="221">
-      <Font Size="11" Color="#FF404040" Name="Tahoma" Bold="false" Italic="false"/>
-    </Artist>
-    <PlayPause Enable="true" X="22" Y="33" Image="Media_PlayPause.svg">
-      <Click Grow="5"/>
-    </PlayPause>
-    <Progress Enable="true" X="56" Y="70" Width="165" Height="3" TrackColor="#FFA8A49C" FillColor="#FF404040">
-      <Click Grow="6"/>
-    </Progress>
-  </Media>
   <Layers>
     <Layer Enable="true" Image="Volume_Parts.svg" X="39" Y="21" LayerIndex="0" Colorize="true" HideOnMute="true"/>
     <Layer Enable="true" Image="Media_Cover_Frame.svg" X="229" Y="14" LayerIndex="0" Colorize="true" Osd="Media"/>
   </Layers>
+  <Media Enable="true" Keys="true">
+    <Cover Enable="true" X="231" Y="16" Size="58" Radius="0"/>
+    <Text Enable="true" X="56" Y="32" Alignment="0" MaxWidth="221" Format="%t">
+      <Font Size="12" Color="#FF000000" Name="Tahoma" Bold="true" Italic="false"/>
+    </Text>
+    <Text Enable="true" X="56" Y="56" Alignment="0" MaxWidth="221" Format="%a">
+      <Font Size="11" Color="#FF404040" Name="Tahoma" Bold="false" Italic="false"/>
+    </Text>
+    <Progress Enable="true" X="56" Y="70" Width="165" Height="3" TrackColor="#FFA8A49C" FillColor="#FF404040">
+      <Click Grow="6"/>
+    </Progress>
+    <PlayPause Enable="true" X="22" Y="33" Image="Media_PlayPause.svg">
+      <Click Grow="5"/>
+    </PlayPause>
+    <Previous Enable="false" X="0" Y="0" Image=""/>
+    <Next Enable="false" X="0" Y="0" Image=""/>
+  </Media>
 </XMLskinSettings>

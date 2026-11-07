@@ -3,124 +3,53 @@
   <Info>
     <Author></Author>
     <WebSite></WebSite>
-    <SkinVersion>1</SkinVersion>
+    <SkinVersion>3.0</SkinVersion>
   </Info>
   <OSD>
-    <!--Available values: BitMoveUp, BitMoveRight, BitStripBottom, BitStripRight, Horizontal, Vertical-->
-    <MeterOrientation>bitstrip</MeterOrientation>
-    <MeterMin>0</MeterMin>
-    <MeterMax>16</MeterMax>
-    <MeterPosition>
-      <X>0</X>
-      <Y>0</Y>
-    </MeterPosition>
+    <!--Orientation: BitMoveUp, BitMoveRight, BitStripBottom, BitStripRight, Horizontal, Vertical-->
+    <!--LayerIndex: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
+    <!--Color: #AARRGGBB-->
+    <!--Alignment: 0 - taLeft, 1 - taCenter, 2 - taRight-->
     <FadeSteps>28</FadeSteps>
     <ShowSteps>0</ShowSteps>
-    <HideMeterOnMute>false</HideMeterOnMute>
-    <!--Available values: BitStripBottom-->
-    <DigitalMeterOrientation>bitstripbottom</DigitalMeterOrientation>
-    <DigitalMeterHideZeroUnits>false</DigitalMeterHideZeroUnits>
-    <DigitalMeterHideZeroTens>false</DigitalMeterHideZeroTens>
-    <DigitalMeterHideZeroHundreds>true</DigitalMeterHideZeroHundreds>
-    <DigitalMeterPositionHundreds>
-      <X>19</X>
-      <Y>62</Y>
-    </DigitalMeterPositionHundreds>
-    <DigitalMeterPositionTens>
-      <X>62</X>
-      <Y>62</Y>
-    </DigitalMeterPositionTens>
-    <DigitalMeterPositionUnits>
-      <X>105</X>
-      <Y>62</Y>
-    </DigitalMeterPositionUnits>
-    <DigitalMeterPositionTens1>
-      <X>52</X>
-      <Y>62</Y>
-    </DigitalMeterPositionTens1>
-    <DigitalMeterPositionUnits1>
-      <X>95</X>
-      <Y>62</Y>
-    </DigitalMeterPositionUnits1>
-    <DigitalMeterPositionUnits2>
-      <X>95</X>
-      <Y>62</Y>
-    </DigitalMeterPositionUnits2>
+    <MotionSteps>-1</MotionSteps>
+    <!--MotionDirection: Auto (nearest screen edge), Bottom, Top, Left, Right-->
+    <MotionDirection>Auto</MotionDirection>
+    <Colorization>false</Colorization>
+    <!--Value format: #AARRGGBB. -1 - Use system color-->
+    <ColorizationColor>-1</ColorizationColor>
+    <Background Colorize="true"/>
+    <Meter X="0" Y="0" Orientation="BITSTRIPBOTTOM" Min="0" Max="16" HideOnMute="false" Colorize="true"/>
+    <MeterMute X="0" Y="0" Orientation="BITSTRIPBOTTOM" Min="0" Max="16" Colorize="true"/>
+    <MeterEffect Enable="false" Orientation="HORIZONTAL" Min="0" Max="0" LayerIndex="0" HideOnMute="false" X="0" Y="0" Colorize="false" FileName="" AppIcon="false"/>
+    <MeterMuteEffect Enable="false" LayerIndex="0" X="0" Y="0" Colorize="true"/>
+    <AppIcon Enable="false" LayerIndex="0" X="0" Y="0" Size="0" HideOnMute="false"/>
+    <DigitalMeter Orientation="BITSTRIPBOTTOM">
+      <Hundreds X="19" Y="62" HideZero="true"/>
+      <Tens X="62" Y="62" HideZero="false"/>
+      <Tens1 X="52" Y="62"/>
+      <Units X="105" Y="62" HideZero="false"/>
+      <Units1 X="95" Y="62"/>
+      <Units2 X="95" Y="62"/>
+    </DigitalMeter>
+    <PeakMeter Enable="true" LayerIndex="2" Colorize="false" Style="MONO" Orientation="BITSTRIPBOTTOM" Max="16">
+      <LeftChannel X="0" Y="0" Inverse="false"/>
+      <RightChannel X="0" Y="0" Inverse="false"/>
+    </PeakMeter>
+    <Text Enable="false" X="0" Y="0" Format="%d%%" FormatMute="%d%%" Alignment="1" HideOnMute="false" LayerIndex="-1">
+      <Font Size="0" Color="#FFFFFFFF" ColorMute="#FFFFFFFF" Name="" Bold="false" Italic="false"/>
+    </Text>
+    <NotificationText Enable="false" X="0" Y="0" Width="0" Height="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </NotificationText>
+    <CDDriveLetter Enable="true" X="99" Y="87" Alignment="1" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </CDDriveLetter>
+    <USBDriveLetter Enable="true" X="82" Y="77" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </USBDriveLetter>
+    <USBFriendlyName Enable="false" X="0" Y="0" Alignment="0" LayerIndex="-1">
+      <Font Size="16" Color="#FF000000" Name="" Bold="false" Italic="false"/>
+    </USBFriendlyName>
   </OSD>
-  <MeterEffect>
-    <ShowMeterEffect>false</ShowMeterEffect>
-    <!--Available values: BitMoveUp, BitMoveRight, BitStripBottom, BitStripRight, Horizontal, Vertical-->
-    <MeterOrientation></MeterOrientation>
-    <MeterMin>0</MeterMin>
-    <MeterMax>0</MeterMax>
-    <!--Available values: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
-    <LayerIndex>0</LayerIndex>
-    <HideMeterEffectOnMute>false</HideMeterEffectOnMute>
-    <MeterPosition>
-      <X>0</X>
-      <Y>0</Y>
-    </MeterPosition>
-  </MeterEffect>
-  <PeakMeter>
-    <ShowPeakMeter>true</ShowPeakMeter>
-    <!--Available values: BitStripBottom, BitStripRight, Horizontal-->
-    <MeterOrientation>bitstripbottom</MeterOrientation>
-    <MeterMax>16</MeterMax>
-    <MeterStyle>Mono</MeterStyle>
-    <!--Available values: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
-    <LayerIndex>2</LayerIndex>
-    <MeterLeftInvert>false</MeterLeftInvert>
-    <MeterRightInvert>false</MeterRightInvert>
-    <MeterLeftPosition>
-      <X>0</X>
-      <Y>0</Y>
-    </MeterLeftPosition>
-    <MeterRightPosition>
-      <X>0</X>
-      <Y>0</Y>
-    </MeterRightPosition>
-  </PeakMeter>
-  <Text>
-    <ShowText>false</ShowText>
-    <TextPosition>
-      <X>0</X>
-      <Y>0</Y>
-    </TextPosition>
-    <Size>0</Size>
-    <!--Value format: #AARRGGBB-->
-    <Color>#FFFFFFFF</Color>
-    <Format>%d%%</Format>
-    <!--Value format: #AARRGGBB-->
-    <ColorMute>#FFFFFFFF</ColorMute>
-    <FormatMute>%d%%</FormatMute>
-    <!--Available values: 0 - taLeft, 1 - taCenter, 2 - taRight-->
-    <Alignment>1</Alignment>
-    <FontName></FontName>
-    <FontBold>false</FontBold>
-    <FontItalic>false</FontItalic>
-    <HideTextOnMute>false</HideTextOnMute>
-    <!--Available values: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 4 - plAfterDigits, 5 - plAfterGlass, 6 - plOnMeterEffect-->
-    <LayerIndex>-1</LayerIndex>
-    <CDDriveLetter Enable="true" X="99" Y="87" FontName="Segoe UI" Size="28" Color="#EE000000" Bold="true" Italic="true" Alignment="1"/>
-    <USBDriveLetter Enable="true" X="82" Y="77" FontName="Segoe UI" Size="32" Color="#FFFFFFFF" Bold="true" Italic="true" Alignment="0"/>
-  </Text>
-  <NotificationText>
-    <Show>false</Show>
-    <Position>
-      <X>0</X>
-      <Y>0</Y>
-      <Width>0</Width>
-      <Height>0</Height>
-    </Position>
-    <Size>0</Size>
-    <!--Value format: #AARRGGBB-->
-    <Color>#00000000</Color>
-    <!--Available values: 0 - taLeft, 1 - taCenter, 2 - taRight-->
-    <Alignment>0</Alignment>
-    <FontName></FontName>
-    <FontBold>false</FontBold>
-    <FontItalic>false</FontItalic>
-    <!--Available values: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 4 - plAfterDigits, 5 - plAfterGlass, 6 - plOnMeterEffect-->
-    <LayerIndex>0</LayerIndex>
-  </NotificationText>
 </XMLskinSettings>
