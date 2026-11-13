@@ -7,13 +7,13 @@ OSD stretches them with its size setting.
 ## The Media element
 
 The media OSD is one element next to `<OSD>`, with all its parts inside it. A skin has a media OSD when it has an enabled
-`<Media>`; only then do its Skin Settings have the media option.
+`<Media>`; the media keys show it unless the user turns off Media keys in Settings, System, Notifications.
 
 ```xml
 <OSD>
   ...the volume OSD...
 </OSD>
-<Media Enable="true" Image="Media.svg" Keys="true">
+<Media Enable="true" Image="Media.svg">
   <Cover Enable="true" X="264" Y="18" Size="36" Radius="4"/>
   <Text Enable="true" X="54" Y="28" Alignment="0" MaxWidth="256" Format="%t">
     <Font Size="13" Color="#E4000000" ColorDark="#FFFFFFFF" Name="Segoe UI" Bold="false" Italic="false"/>
@@ -44,8 +44,6 @@ The media OSD is one element next to `<OSD>`, with all its parts inside it. A sk
   shows its own version of it, such as a crossed-out speaker. Give the layer with the empty track the `X`, `Y` and size of
   the `Meter`: every picture is placed on whole pixels on its own, so a track in the background or at another place can be
   a pixel off the bar at sizes such as 125%.
-* `Media Keys`: whether the media keys show this skin's media OSD. It is on unless the skin turns it off; the user turns
-  it on or off in the Skin Settings of the skin.
 * `Cover`: the album art, a rounded square. `Radius="0"` is a plain square.
 * `Text`: a text of the media OSD, as many as the skin needs, like the texts of the volume OSD. `X`, `Y` is the point the
   text is aligned to (the vertical center); for `Alignment="2"` (right) it is the right edge. A text is cut with an
@@ -66,6 +64,25 @@ The media OSD is one element next to `<OSD>`, with all its parts inside it. A sk
   `TrackColorDark` and `FillColorDark` are used in a dark Windows color scheme. With a `Click` inside it, a click on
   the bar goes to that part of the track, and a drag along it shows the place and goes there on release (a player that
   does not allow seeking ignores it). The bar grows under the pointer.
+* `Levels`: the sound playing now, as `Count` thin bars with round ends across the box `X`, `Y`, `Width`, `Height`,
+  each `BarWidth` wide and centred on the middle of the box. Every 100 ms the loudest peak of the output device in that
+  time comes in on the right and the bars move left; a bar is as tall as its peak against the loudest of the last
+  3 seconds (on a decibel scale), so a quiet song moves them as a loud one does, and silence is a row of dots. While
+  the track is paused every bar is a dot in `ColorPaused`. `Color` and `ColorPaused` take the same forms as the colors
+  of `Progress`, with `ColorDark` and `ColorPausedDark` for a dark Windows color scheme. Defaults: `Count="6"`,
+  `BarWidth="2"`.
+
+  With `Orientation="Horizontal"` or `Orientation="Vertical"`, `Levels` is a peak meter instead: one bar `BarWidth`
+  thick with round ends, as long as the peak of the output device now (on a linear scale, as the peak meter of the
+  volume OSD), growing from the left edge of the box across its middle, or up from its bottom across its centre.
+  `Count` is not used, silence and pause show a dot.
+
+  ```xml
+  <Levels Enable="true" X="333" Y="31" Width="20" Height="14" Count="6" BarWidth="2" Color="#8CFFFFFF"
+          ColorPaused="#59FFFFFF"/>
+  <Levels Enable="true" X="300" Y="40" Width="60" Height="4" BarWidth="4" Orientation="Horizontal"/>
+  ```
+
 * Layers of the media OSD are in the skin's `<Layers>` (next to `<OSD>`) with `Osd="Media"` on the `Layer`: only the
   media OSD draws them, and it draws no layer without `Osd`. `LayerIndex="0"` is drawn on the picture under the other
   elements, any other value over them.
@@ -120,9 +137,25 @@ of the media OSD), and on the volume OSD `Meter`, `MeterEffect` and `MeterMuteEf
   takes that color while the pointer is over it and while it is pressed (through the image's own transparency, so its
   soft edge is kept). They take the forms of the skin's colorization: `#AARRGGBB`, `System`, an accent shade name or a
   number. `HoverColorDark`, `PressedColorDark` are used in a dark Windows color scheme; without them the light ones are.
+* `HoverImage`, `PressedImage`: a picture drawn behind the element while the pointer is over it and while it is
+  pressed, such as the glass circle iOS shows behind a pressed button. It is centred on the element itself (not on the
+  area `Grow` adds) and drawn on the background, under every element of the OSD. A pressed element without a
+  `PressedImage` keeps its `HoverImage`. Any element that takes a `Click` can have them, alone or with the colors:
+
+  ```xml
+  <PlayPause Enable="true" X="175" Y="110" Image="Media_PlayPause.svg">
+    <Click Grow="6" HoverImage="Button_Hover.svg" PressedImage="Button_Pressed.svg"/>
+  </PlayPause>
+  ```
+
+* `class="glyph"`: in an SVG button image, the parts marked with this class (any shape or group) stay as they are
+  drawn while the rest takes the hover or pressed color, so a button with a face of its own, a filled circle with a symbol
+  on it, keeps its symbol, and a colored icon keeps its colors where they matter, such as the waves of a speaker. Without
+  such parts the whole image takes the color. It works for every button image: the media buttons, the layers and the
+  speaker icons (each frame of a strip).
 * When buttons overlap, the media buttons come first, then the progress bar, the cover, and the layers from the top down.
   On the volume OSD the bar comes first, then the speaker icons, then the layers.
 * Make a button at least about 24 x 24 pixels to hit, with `Grow` if its image is smaller.
 
 Everything here is read from the skin's own `Skin.xml`; the copy the Skin Settings save in the user's profile only gives
-the user's settings (speeds, motion, colorization, media keys).
+the user's settings (speeds, motion, colorization).
