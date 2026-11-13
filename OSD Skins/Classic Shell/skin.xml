@@ -50,7 +50,7 @@
     <Layer Enable="true" Image="Volume_Parts.svg" X="39" Y="21" LayerIndex="0" Colorize="true" HideOnMute="true"/>
     <Layer Enable="true" Image="Media_Cover_Frame.svg" X="229" Y="14" LayerIndex="0" Colorize="true" Osd="Media"/>
   </Layers>
-  <Media Enable="true" Keys="true">
+  <Media Enable="true">
     <Cover Enable="true" X="231" Y="16" Size="58" Radius="0"/>
     <Text Enable="true" X="56" Y="32" Alignment="0" MaxWidth="221" Format="%t">
       <Font Size="12" Color="#FF000000" Name="Tahoma" Bold="true" Italic="false"/>

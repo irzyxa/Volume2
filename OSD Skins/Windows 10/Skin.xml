@@ -61,7 +61,7 @@
   <Layers>
     <Layer Enable="true" Image="Meter_Track.svg" X="64" Y="54" LayerIndex="0" Colorize="true" HideOnMute="true"/>
   </Layers>
-  <Media Enable="true" Keys="true">
+  <Media Enable="true">
     <Cover Enable="true" X="290" Y="10" Size="60" Radius="2"/>
     <Text Enable="true" X="10" Y="20" Alignment="0" MaxWidth="280" Format="%t">
       <Font Size="14" Color="#FFFFFFFF" Name="Segoe UI" Bold="false" Italic="false"/>

@@ -55,7 +55,7 @@
   <Layers>
     <Layer Enable="true" Image="Volume_Parts.svg" X="19" Y="35" LayerIndex="0" Colorize="true" HideOnMute="true"/>
   </Layers>
-  <Media Enable="true" Keys="true">
+  <Media Enable="true">
     <Cover Enable="true" X="438" Y="24" Size="100" Radius="0"/>
     <Text Enable="true" X="176" Y="58" Alignment="0" MaxWidth="430" Format="%t">
       <Font Size="32" Color="#FFFFFFFF" Name="Segoe UI Light" Bold="false" Italic="false"/>
