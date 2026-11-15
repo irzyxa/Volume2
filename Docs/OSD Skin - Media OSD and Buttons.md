@@ -70,7 +70,9 @@ The media OSD is one element next to `<OSD>`, with all its parts inside it. A sk
   3 seconds (on a decibel scale), so a quiet song moves them as a loud one does, and silence is a row of dots. While
   the track is paused every bar is a dot in `ColorPaused`. `Color` and `ColorPaused` take the same forms as the colors
   of `Progress`, with `ColorDark` and `ColorPausedDark` for a dark Windows color scheme. Defaults: `Count="6"`,
-  `BarWidth="2"`.
+  `BarWidth="2"`. `Align="Bottom"` grows the bars up from the bottom of the box and `Align="Top"` down from its top,
+  like an equalizer; without it (or `Align="Center"`) they grow both ways from the middle, and the dots of silence and
+  pause sit on that line.
 
   With `Orientation="Horizontal"` or `Orientation="Vertical"`, `Levels` is a peak meter instead: one bar `BarWidth`
   thick with round ends, as long as the peak of the output device now (on a linear scale, as the peak meter of the
