@@ -14,6 +14,8 @@ The media OSD is one element next to `<OSD>`, with all its parts inside it. A sk
   ...the volume OSD...
 </OSD>
 <Media Enable="true" Image="Media.svg">
+  <AppIcon Enable="true" X="42" Y="29" Size="16"/>
+  <Text Enable="true" X="64" Y="36" Alignment="0" MaxWidth="352" Format="%n"> <Font .../> </Text>
   <Cover Enable="true" X="264" Y="18" Size="36" Radius="4"/>
   <Text Enable="true" X="54" Y="28" Alignment="0" MaxWidth="256" Format="%t">
     <Font Size="13" Color="#E4000000" ColorDark="#FFFFFFFF" Name="Segoe UI" Bold="false" Italic="false"/>
@@ -45,12 +47,17 @@ The media OSD is one element next to `<OSD>`, with all its parts inside it. A sk
   the `Meter`: every picture is placed on whole pixels on its own, so a track in the background or at another place can be
   a pixel off the bar at sizes such as 125%.
 * `Cover`: the album art, a rounded square. `Radius="0"` is a plain square.
+* `AppIcon`: the icon of the player, such as Chrome or Media Player, in a square of `Size` at `X`, `Y`. Its name is the
+  `%n` of a text.
 * `Text`: a text of the media OSD, as many as the skin needs, like the texts of the volume OSD. `X`, `Y` is the point the
   text is aligned to (the vertical center); for `Alignment="2"` (right) it is the right edge. A text is cut with an
   ellipsis at `MaxWidth` (an absolute x in the frame, 0 for none). The media OSD does not react to mute: its texts look
   the same while the sound is muted.
-* `Text Format`: what the text shows. `%t` the title, `%a` the artist, `%e` elapsed time, `%d` length of the track, `%r`
-  time left, `%p` percent played, `%%` a percent sign. One text can hold several, such as the track on one line,
+* `Text Format`: what the text shows. `%t` the title, `%a` the artist, `%n` the player, `%e` elapsed time, `%d` length of
+  the track, `%r` time left, `%p` percent played, `%%` a percent sign. The codes of the volume OSD's texts work too: `%V`
+  the volume, `%A` the volume from 0 to 65535, `%S` on or off, `%D` the device (or the apps whose volume changed), `%DF`
+  the device's full name, `%NL` a new line. On the media OSD the codes are case-sensitive: `%a` is the artist and `%A`
+  the volume, `%d` the length and `%D` the device. One text can hold several, such as the track on one line,
   `%t (%a)`, or the times, `%e/%d` (`00:12/02:00`); the elapsed time and the length can also be two texts of their own.
   A text with a time is not shown for a player that reports no length (a live stream).
 * `Text WordWrap`: with `WordWrap="true"` a long text, such as the title of a podcast episode or an audiobook, goes on
