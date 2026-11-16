@@ -53,6 +53,20 @@ The media OSD is one element next to `<OSD>`, with all its parts inside it. A sk
   time left, `%p` percent played, `%%` a percent sign. One text can hold several, such as the track on one line,
   `%t (%a)`, or the times, `%e/%d` (`00:12/02:00`); the elapsed time and the length can also be two texts of their own.
   A text with a time is not shown for a player that reports no length (a live stream).
+* `Text WordWrap`: with `WordWrap="true"` a long text, such as the title of a podcast episode or an audiobook, goes on
+  over more lines instead of being cut. It breaks between words at `MaxWidth` (at the right edge of the frame without
+  it). The first line stays where the text is without `WordWrap`, centered on `Y`; the next lines go down to
+  `MaxHeight` (an absolute y in the frame, like `MaxWidth`; 0 for the bottom of the frame), and the last line that fits
+  ends with an ellipsis. The OSD does not grow and the elements under the text stay where they are, so leave room for
+  the lines below it. A right-aligned text wraps between the left edge of the frame and its `X`, a centered one as wide
+  on both sides of `X` as `MaxWidth` and the frame allow. Any text of a skin takes `WordWrap`, not only the media OSD's.
+
+  ```xml
+  <Text Enable="true" X="54" Y="24" Alignment="0" MaxWidth="256" WordWrap="true" MaxHeight="50" Format="%t">
+    <Font Size="13" Color="#E4000000" ColorDark="#FFFFFFFF" Name="Segoe UI"/>
+  </Text>
+  ```
+
 * `PlayPause`, `Previous`, `Next`: the buttons, each an image at `X`, `Y` (its top left corner). The play/pause image
   holds two frames side by side, play on the left and pause on the right; like a player, it shows what a click does: play
   while the track is paused, pause while it plays. A button
