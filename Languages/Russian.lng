@@ -303,6 +303,7 @@ LEMail_Caption=Электронная почта:
 actnSetDefaultAudioDevice_Caption=Устройство по умолчанию
 actnAudioEnhancementsToggle_Caption=Улучшения звука вкл./выкл.
 actnScreenEdgeOnOff_Caption=Управление у края вкл./выкл.
+actnShowMediaOsd_Caption=Показать медиа OSD
 actnRunApplication_Caption=Запустить файл
 actnStayOnTop_Caption=Поверх всех окон
 actnMuteAllExceptActiveApp_Caption=Выкл. звук всех, кроме актив. приложения

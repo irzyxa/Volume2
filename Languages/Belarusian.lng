@@ -303,6 +303,7 @@ LEMail_Caption=Пошта:
 actnSetDefaultAudioDevice_Caption=Дапомная прылада
 actnAudioEnhancementsToggle_Caption=Паляпшэньні гуку ўкл./выкл.
 actnScreenEdgeOnOff_Caption=Бок экрану ўкл./выкл.
+actnShowMediaOsd_Caption=Паказаць медыя OSD
 actnRunApplication_Caption=Чын аплікачыі
 actnStayOnTop_Caption=Паўзьверх
 actnMuteAllExceptActiveApp_Caption=Адлучыць гук усіх аплікацыяў, апроч актыўнае

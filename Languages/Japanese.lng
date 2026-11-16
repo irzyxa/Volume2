@@ -303,6 +303,7 @@ LEMail_Caption=E-メール:
 actnSetDefaultAudioDevice_Caption=デフォルト音声デバイス
 actnAudioEnhancementsToggle_Caption=オーディオの機能強化 オン/オフ
 actnScreenEdgeOnOff_Caption=画面端での挙動 オン/オフ
+actnShowMediaOsd_Caption=メディア OSD を表示
 actnRunApplication_Caption=アプリケーションを起動
 actnStayOnTop_Caption=常に手前表示
 actnMuteAllExceptActiveApp_Caption=アクティブなアプリケーション以外をすべてミュート

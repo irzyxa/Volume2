@@ -303,6 +303,7 @@ LEMail_Caption=E-pošta:
 actnSetDefaultAudioDevice_Caption=Nastavi privzeto zvočno napravo
 actnAudioEnhancementsToggle_Caption=Izboljšave zvoka Vklop/Izklop
 actnScreenEdgeOnOff_Caption=Kot ekrana Vklop/Izklop
+actnShowMediaOsd_Caption=Prikaži predstavnostni OSD
 actnRunApplication_Caption=Zaženi aplikacijo
 actnStayOnTop_Caption=Vedno na vrhu
 actnMuteAllExceptActiveApp_Caption=Utišaj vse razen aktivne aplikacije

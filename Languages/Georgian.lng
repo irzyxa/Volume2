@@ -303,6 +303,7 @@ LEMail_Caption=ელფოსტა:
 actnSetDefaultAudioDevice_Caption=ნაგულისხმევი აუდიო მოწყობილობის დაყენება
 actnAudioEnhancementsToggle_Caption=აუდიოს გაუმჯობესება ჩართ./გამორთ.
 actnScreenEdgeOnOff_Caption=ეკრანის კიდე ჩართ./გამორთ.
+actnShowMediaOsd_Caption=მედია OSD-ის ჩვენება
 actnRunApplication_Caption=აპლიკაციის გაშვება
 actnStayOnTop_Caption=ყოველთვის ზემოთ
 actnMuteAllExceptActiveApp_Caption=ყველას დადუმება აქტიური აპლიკაციის გარდა

@@ -303,6 +303,7 @@ LEMail_Caption=Почтаи электронӣ:
 actnSetDefaultAudioDevice_Caption=Дастгоҳи аслӣ
 actnAudioEnhancementsToggle_Caption=Беҳбудиҳои садо фаъол/ғайрифаъол
 actnScreenEdgeOnOff_Caption=Канори экран фаъол/ғайрифаъол
+actnShowMediaOsd_Caption=Нишон додани OSD-и медиа
 actnRunApplication_Caption=Файлро иҷро кунед
 actnStayOnTop_Caption=Ҳамеша болои (окон)
 actnMuteAllExceptActiveApp_Caption=Хомӯши садои ҳамаи барномаҳо ғайр аз фаъол 

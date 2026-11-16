@@ -303,6 +303,7 @@ LEMail_Caption=Email:
 actnSetDefaultAudioDevice_Caption=Mengatur Perangkat Audio bawaan
 actnAudioEnhancementsToggle_Caption=Penyempurnaan audio Aktif/Nonaktif
 actnScreenEdgeOnOff_Caption=Tepi layar Aktif/Nonaktif
+actnShowMediaOsd_Caption=Tampilkan OSD media
 actnRunApplication_Caption=Jalankan aplikasi
 actnStayOnTop_Caption=Tetap diatas
 actnMuteAllExceptActiveApp_Caption=Bisukan semua kecuali aplikasi yang aktif

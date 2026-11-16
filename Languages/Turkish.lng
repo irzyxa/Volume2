@@ -303,6 +303,7 @@ LEMail_Caption=EPosta:
 actnSetDefaultAudioDevice_Caption=Varsayılan ses aygıtı seç
 actnAudioEnhancementsToggle_Caption=Ses geliştirmeleri Açık/Kapalı
 actnScreenEdgeOnOff_Caption=Ekran kenarı Açık/Kapalı
+actnShowMediaOsd_Caption=Medya göstergesini göster
 actnRunApplication_Caption=Uygulama çalıştır
 actnStayOnTop_Caption=Üstte Kal
 actnMuteAllExceptActiveApp_Caption=Aktif uygulama haricindekileri sessize al

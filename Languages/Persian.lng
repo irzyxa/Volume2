@@ -303,6 +303,7 @@ LEMail_Caption=ایمیل:
 actnSetDefaultAudioDevice_Caption=تنظیم دستگاه صوتی پیش فرض
 actnAudioEnhancementsToggle_Caption=بهبودهای صوتی روشن/خاموش
 actnScreenEdgeOnOff_Caption=کناره اسکرین روشن/خاموش
+actnShowMediaOsd_Caption=نمایش OSD مدیا
 actnRunApplication_Caption=اجرای برنامه
 actnStayOnTop_Caption=ماندن در بالا
 actnMuteAllExceptActiveApp_Caption=بیصدا  کردن همه به جز برنامه فعال

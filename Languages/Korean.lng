@@ -303,6 +303,7 @@ LEMail_Caption=이메일:
 actnSetDefaultAudioDevice_Caption=기본 오디오 장치로 설정
 actnAudioEnhancementsToggle_Caption=오디오 향상 켜기/끄기
 actnScreenEdgeOnOff_Caption=화면 가장자리 켜기/끄기
+actnShowMediaOsd_Caption=미디어 OSD 표시
 actnRunApplication_Caption=응용 프로그램 실행
 actnStayOnTop_Caption=맨 위에 유지
 actnMuteAllExceptActiveApp_Caption=활성 응용 프로그램을 제외하고 모두 음소거

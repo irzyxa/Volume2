@@ -303,6 +303,7 @@ LEMail_Caption=E-pasts:
 actnSetDefaultAudioDevice_Caption=Iestatīt noklusējuma audio iekārtu
 actnAudioEnhancementsToggle_Caption=Audio uzlabojumi Iesl./Izsl.
 actnScreenEdgeOnOff_Caption=Aktivizēšana ekrāna malā Iesl./Izsl.
+actnShowMediaOsd_Caption=Rādīt multivides OSD
 actnRunApplication_Caption=Palaist programmu
 actnStayOnTop_Caption=Vienmēr virspusē
 actnMuteAllExceptActiveApp_Caption=Izslēgt skaņu visām, izņemot aktīvo programmu

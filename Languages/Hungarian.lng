@@ -303,6 +303,7 @@ LEMail_Caption=E-mail:
 actnSetDefaultAudioDevice_Caption=Alapértelmezett hangeszköz beállítása
 actnAudioEnhancementsToggle_Caption=Hangjavítások Be/Ki
 actnScreenEdgeOnOff_Caption=Aktív képernyő szélek Be/Ki
+actnShowMediaOsd_Caption=Média OSD megjelenítése
 actnRunApplication_Caption=Alkalmazás futtatása
 actnStayOnTop_Caption=Mindig felül
 actnMuteAllExceptActiveApp_Caption=Minden némítása az aktív alkalmazás kivételével

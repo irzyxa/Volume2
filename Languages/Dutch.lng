@@ -303,6 +303,7 @@ LEMail_Caption=E-mail:
 actnSetDefaultAudioDevice_Caption=Instellen standaard audio apparaat
 actnAudioEnhancementsToggle_Caption=Audioverbeteringen Aan/Uit
 actnScreenEdgeOnOff_Caption=Schermrand Aan/Uit
+actnShowMediaOsd_Caption=Media-OSD tonen
 actnRunApplication_Caption=Programma uitvoeren
 actnStayOnTop_Caption=Altijd op voorgrond
 actnMuteAllExceptActiveApp_Caption=Alle dempen behalve actieve toepassing

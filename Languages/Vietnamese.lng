@@ -303,6 +303,7 @@ LEMail_Caption=Thư điện tử:
 actnSetDefaultAudioDevice_Caption=Thiết lập thiết bị âm thanh mặc định
 actnAudioEnhancementsToggle_Caption=Cải thiện âm thanh Bật/Tắt
 actnScreenEdgeOnOff_Caption=Cạnh màn hình Bật/Tắt
+actnShowMediaOsd_Caption=Hiển thị OSD phương tiện
 actnRunApplication_Caption=Chạy chương trình
 actnStayOnTop_Caption=Luôn ở trên cùng
 actnMuteAllExceptActiveApp_Caption=Làm câm tất cả trừ ứng dụng hoạt động

@@ -303,6 +303,7 @@ LEMail_Caption=דואר אלקטרוני:
 actnSetDefaultAudioDevice_Caption=הגדר התקן שמע ברירת מחדל
 actnAudioEnhancementsToggle_Caption=שיפורי שמע הפעלה/כיבוי
 actnScreenEdgeOnOff_Caption=קצה המסך הפעלה/כיבוי
+actnShowMediaOsd_Caption=הצג OSD מדיה
 actnRunApplication_Caption=הפעל יישום
 actnStayOnTop_Caption=תמיד למעלה
 actnMuteAllExceptActiveApp_Caption=השתק הכל פרט ליישום הפעיל
