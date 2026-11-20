@@ -82,7 +82,7 @@ actnExit_Caption=退出
 SBClose_Caption=关闭
 SBApply_Caption=应用
 actnNone_Caption=无
-actnStandard_Caption=标准音量滑块
+actnStandard_Caption=音量滑块
 actnSettingsAudio_Caption=配置音频属性
 actnSoundOff_Caption=静音 开/关
 LOSDColorFontOn_Caption=文字颜色：
@@ -284,6 +284,7 @@ LDonate_Caption=如果你喜欢, 请捐赠！
 actnShowOsdSettings_Caption=OSD 设置
 SBSendMail_Hint=给作者发送邮件
 actnShowWindowsStandard_Caption=系统音量滑块
+actnVolumeMixer_Caption=音量合成器
 actnDeleteOsdSkin_Caption=删除所选皮肤
 CBRestoreSystemVolume_Caption=打开程序时，重置系统音量
 CBScrollObject_Items[5]=屏幕任意位置
@@ -469,6 +470,13 @@ Label_FullScreenListInverted=禁用音量控制的程序
 Label_SizeAuto=自动
 Label_AudioEnhancementsOn=音频增强：开
 Label_AudioEnhancementsOff=音频增强：关
+Label_MixerAllDevices=所有设备
+Label_MixerSoundSettings=声音设置
+Label_MixerWindowsMixer=系统音量合成器
+Label_MixerSetFull=设为 100%
+Label_MixerMuteOthers=将其他所有应用静音
+Label_MixerSystemSounds=系统声音
+Label_MixerTitle=音量合成器
 
 [FmFullScreenAppList]
 FmFullScreenAppList_Caption=应用程序列表
@@ -731,7 +739,9 @@ actnSetDefaultDevice_Caption=默认设备
 actnRenameDevice_Caption=重命名
 actnShowInactiveDevices_Caption=显示未激活的设备
 actnSetFavorite_Caption=收藏
-actnShowOnlyFavorites_Caption=仅显示收藏
+actnShowOnlyFavorites_Caption=仅收藏
+lblOutput_Caption=输出
+lblInput_Caption=输入
 
 [FmChangeVolumeForAppList]
 FmChangeVolumeForAppList_Caption=应用程序列表
