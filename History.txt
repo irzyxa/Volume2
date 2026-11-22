@@ -1,4 +1,60 @@
-﻿#RU Версия 26.1.0.471 (31.10.2026)
+﻿#RU Версия 26.2.0.476 (22.11.2026)
++Новый микшер громкости в стиле Windows 11 вместо классического: ползунки устройств и приложений с живыми уровнями, светлая и темная тема, микшер Windows можно выбрать в настройках (#448)
++Новое действие для Горячих клавиш - показать медиа экранный индикатор без нажатия медиа клавиши (#449)
++Один запрос UAC при нажатии Применить для всех опций, требующих прав администратора, рядом с такими опциями показан щит (#460)
++Страница удаленного управления показывает играющий трек с кнопками воспроизведения/паузы, предыдущего и следующего трека, полосой перемотки и громкостью плеера
++Медиа экранный индикатор показывает иконку и имя плеера, а его тексты принимают те же коды, что и экранный индикатор громкости
++Медиа экранный индикатор показывает звук, который играет сейчас: полосы уровня или индикатор пикового уровня, и не пропадает между двумя треками
++Длинные названия треков переносятся на несколько строк: параметры WordWrap и MaxHeight у текста скина (#450)
++Скины экранного индикатора: картинка под элементом при наведении и нажатии
+*Исправлено: Volume² больше не снижает частоту опроса быстрых мышей - перехват мыши снимается, когда все действия мыши выключены, а с опцией "Отключать управление громкостью в полноэкранных приложениях" - пока курсор над полноэкранным приложением (#464)
+*На Windows 11 медиа клавиши передаются плееру, на Windows 10 одно нажатие Воспроизведение/Пауза больше не срабатывает дважды (#458)
+*Медиа клавиши перехватываются только скином с медиа экранным индикатором, со стилем Текст или Ползунок их обрабатывает Windows (#458)
+*Опция медиа клавиш перенесена из Настроек скина в Система - Уведомления, у каждой иконки уведомлений есть подсказка
+*Исправлено: режимы приложений больше не меняют системную громкость, если у приложения нет звука (#456)
+*Исправлено: горячая клавиша управляет основным устройством, даже если в ней есть клавиша переключения колеса мыши на альтернативное устройство (#457)
+*Исправлено: горячие клавиши Win + колесо мыши успевают за быстрой прокруткой (#455)
+*Исправлено: колесо мыши над кнопкой на панели задач меняет громкость приложения на том устройстве, где оно играет (#442)
+*Экранный индикатор, перетащенный в угол экрана, сохраняет угловую позицию (#463)
+*Экранный индикатор, показанный Всегда на всех мониторах, остается на каждом мониторе (#462)
+*Постоянно показанный экранный индикатор переключается на медиа индикатор, пока в плеере есть трек, в том числе на паузе (#444)
+*Исправлено: Координаты экранного индикатора работают как до версии 26.1, тень скина больше не оставляет зазор в углах (#439)
+*Опция экранного индикатора "Без Панели задач" учитывает автоматически скрываемую панель задач у любого края экрана (#438)
+*Экранный индикатор громкости приложения больше не появляется, когда плеер устанавливает громкость, которая уже есть (#459)
+*Индикатор экранов яркости и батареи окрашивается по настройкам скина, как у экранного индикатора громкости
+*Исправлено: экранный индикатор и уведомление в трее больше не показывают значок выключенного звука после увеличения громкости с 0 (#443)
+*Уведомление в трее остается над иконкой в трее, а не следует за курсором, если Windows не сообщает положение иконки (#446)
+*Микшер громкости, открытый из Volume², закрывается при переходе в другое окно и открывается на том экране, откуда был вызван (#440)
+
+#US Version 26.2.0.476 (22.11.2026)
++A Windows 11 style volume mixer replaces the classic one: device and application sliders with live levels, light and dark, Windows' own mixer can be chosen in the options (#448)
++New hotkey action - show the media OSD without pressing a media key (#449)
++One UAC prompt on Apply for all options that need administrator rights, with a shield next to them (#460)
++Remote control page shows the playing track with play/pause, previous, next, a seek bar and the player's volume
++Media OSD shows the player's icon and name, and its texts take the same codes as the volume OSD
++Media OSD shows the sound playing now as level bars or a peak meter, and stays between two tracks
++Long track titles wrap onto more lines: WordWrap and MaxHeight of a skin text (#450)
++OSD skins: a picture behind a hovered or pressed element
+*Fixed: Volume² no longer lowers the polling rate of fast mice - the mouse hook is removed when all mouse actions are off, and with "Disable volume control in full-screen mode" while the cursor is over a full-screen application (#464)
+*On Windows 11 the media keys go on to the player, on Windows 10 one Play/Pause press no longer toggles twice (#458)
+*Only a skin with a media OSD takes the media keys, with the Text or TrackBar style Windows keeps them (#458)
+*The media keys option moved from Skin Settings to System - Notifications, every notification icon has a hint
+*Fixed: application modes no longer change the system volume when the application has no sound (#456)
+*Fixed: a hotkey acts on the principal device even when it contains the key that switches the mouse wheel to the alternative device (#457)
+*Fixed: Win + wheel hotkeys keep up with a fast wheel (#455)
+*Fixed: the wheel over a taskbar button changes the application's volume on whichever device it plays (#442)
+*An OSD dragged into a screen corner keeps a corner position (#463)
+*An OSD shown Always on all displays stays on every display (#462)
+*The always-shown OSD switches to the media OSD while a player has a track, paused too (#444)
+*Fixed: OSD Coordinates work as before 26.1, a skin's shadow no longer leaves a gap in the corners (#439)
+*OSD "Exclude Taskbar" keeps clear of an auto-hide taskbar on any screen edge (#438)
+*The application volume OSD no longer shows when a player sets the volume it already has (#459)
+*The meter of the brightness and battery OSDs takes the skin's colorization, as on the volume OSD
+*Fixed: the OSD and the tray balloon no longer show the mute icon after the volume is raised from 0 (#443)
+*The tray balloon stays over the tray icon instead of following the cursor when Windows does not report the icon's place (#446)
+*The volume mixer opened from Volume² closes when another window takes the focus and opens on the screen it was called from (#440)
+
+#RU Версия 26.1.0.471 (31.10.2026)
 +Добавлена опция отключить контекстное меню экранного индикатора (Пользовательские переменные - DisableOSDContextMenu) (#106)
 +Новое действие для Горячих клавиш - включить/выключить управление у края экрана (#51)
 +Добавлена страница удаленного управления: громкость устройств и каждого приложения можно менять с телефона или из браузера, значения обновляются сразу, подключение по QR-коду и токену (#430)
