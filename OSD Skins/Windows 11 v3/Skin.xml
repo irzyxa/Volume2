@@ -55,10 +55,11 @@
       <Font Size="12" Color="#E4000000" ColorDark="#FFFFFFFF" Name="Segoe UI" Bold="false" Italic="false"/>
     </Text>
     <Cover Enable="true" X="294" Y="57" Size="58" Radius="4"/>
-    <Text Enable="true" X="39" Y="79" Alignment="0" MaxWidth="278" Format="%t">
+    <Levels Enable="true" X="288" Y="57" Width="6" Height="58" BarWidth="2" Orientation="Vertical" Color="Colorization" ColorPaused="#9B000000" ColorPausedDark="#C5FFFFFF"/>
+    <Text Enable="true" X="39" Y="79" Alignment="0" MaxWidth="276" Format="%t">
       <Font Size="14" Color="#E4000000" ColorDark="#FFFFFFFF" Name="Segoe UI Semibold" Bold="false" Italic="false"/>
     </Text>
-    <Text Enable="true" X="40" Y="96" Alignment="0" MaxWidth="278" Format="%a">
+    <Text Enable="true" X="40" Y="96" Alignment="0" MaxWidth="276" Format="%a">
       <Font Size="12" Color="#E4000000" ColorDark="#FFFFFFFF" Name="Segoe UI" Bold="false" Italic="false"/>
     </Text>
     <Progress Enable="true" X="42" Y="125" Width="310" Height="3" TrackColor="#1F000000" FillColor="Colorization" TrackColorDark="#33FFFFFF">
